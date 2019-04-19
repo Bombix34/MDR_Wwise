@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\MDR_WU\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="173647080" Name="ENV_amb_beach_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_beach_play" MaxAttenuation="0.000000"/>
+				<Event Id="1275933152" Name="ENV_amb_ext_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_ext_play" MaxAttenuation="0.000000"/>
+				<Event Id="2306680942" Name="ENV_amb_int_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_int_play" MaxAttenuation="0.000000"/>
+				<Event Id="96362093" Name="ENV_door_close_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_close_play"/>
+				<Event Id="1881369153" Name="ENV_door_open_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_open_play"/>
+				<Event Id="2989807018" Name="ENV_fire_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_play" MaxAttenuation="0.000000"/>
+				<Event Id="99041748" Name="ENV_fire_stop" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_stop" MaxAttenuation="0.000000"/>
+				<Event Id="2141874203" Name="ENV_pot_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_break_play"/>
+				<Event Id="2732978883" Name="GAME_launch" ObjectPath="\Events\MDR_WU\GAME\GAME_launch" MaxAttenuation="0.000000"/>
+				<Event Id="1432716332" Name="GAME_over" ObjectPath="\Events\MDR_WU\GAME\GAME_over" MaxAttenuation="0.000000"/>
+				<Event Id="733168346" Name="GAME_start" ObjectPath="\Events\MDR_WU\GAME\GAME_start" MaxAttenuation="0.000000"/>
+				<Event Id="538908709" Name="MC_attack_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_attack_play"/>
+				<Event Id="87855283" Name="MC_idle_anim_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_idle_anim_play" MaxAttenuation="0.000000"/>
+				<Event Id="2287292191" Name="MC_pick_big_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play"/>
+				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
+				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play" MaxAttenuation="0.000000"/>
+				<Event Id="1956601529" Name="MC_talk_stop" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="112690910" Name="MC_walk_end_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_end_play"/>
+				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
+				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play" MaxAttenuation="0.000000"/>
+				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play"/>
+				<Event Id="1357639289" Name="NPC_walk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="3157003241" Name="TEST" ObjectPath="\Events\MDR_WU\TEST"/>
+				<Event Id="4008763347" Name="UI_camera_dezoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_dezoom_play" MaxAttenuation="0.000000"/>
+				<Event Id="2038710544" Name="UI_camera_zoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_zoom_play" MaxAttenuation="0.000000"/>
+				<Event Id="658987741" Name="UI_cancel_play" ObjectPath="\Events\MDR_WU\UI\UI_cancel_play"/>
+				<Event Id="2578355359" Name="UI_pause_menu_play" ObjectPath="\Events\MDR_WU\UI\UI_pause_menu_play" MaxAttenuation="0.000000"/>
+				<Event Id="401277688" Name="UI_select_confirm_play" ObjectPath="\Events\MDR_WU\UI\UI_select_confirm_play"/>
+				<Event Id="4033886834" Name="UI_select_hover_play" ObjectPath="\Events\MDR_WU\UI\UI_select_hover_play"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="108842407" Language="SFX">
+					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>
+					<Path>SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem</Path>
+				</File>
+				<File Id="133297003" Language="SFX">
+					<ShortName>SFX_-_M_Select_-_V0.1_-_19-01-19.wav</ShortName>
+					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_10C4C929.wem</Path>
+				</File>
+				<File Id="264616280" Language="SFX">
+					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_10C4C929.wem</Path>
+				</File>
+				<File Id="283028802" Language="SFX">
+					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_10C4C929.wem</Path>
+				</File>
+				<File Id="313480055" Language="SFX">
+					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
+					<Path>SFX\SFX_Door_Close_-_190206_2312-01_10C4C929.wem</Path>
+				</File>
+				<File Id="321100139" Language="SFX">
+					<ShortName>canette.wav</ShortName>
+					<Path>SFX\canette_8B54D3EE.wem</Path>
+				</File>
+				<File Id="335846067" Language="SFX">
+					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-002.wav</ShortName>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_10C4C929.wem</Path>
+				</File>
+				<File Id="507283049" Language="SFX">
+					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
+					<Path>SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_10C4C929.wem</Path>
+				</File>
+				<File Id="555624764" Language="SFX">
+					<ShortName>SFX_Door_Open_-_190206_2312.wav</ShortName>
+					<Path>SFX\SFX_Door_Open_-_190206_2312_10C4C929.wem</Path>
+				</File>
+				<File Id="622402654" Language="SFX">
+					<ShortName>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</ShortName>
+					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_10C4C929.wem</Path>
+				</File>
+				<File Id="788950076" Language="SFX">
+					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
+					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_1D4C6D9B.wem</Path>
+				</File>
+				<File Id="873565356" Language="SFX">
+					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_10C4C929.wem</Path>
+				</File>
+				<File Id="954959066" Language="SFX">
+					<ShortName>SFX_-_E2_Destroy_-_V0.3_-_24-01-20.wav</ShortName>
+					<Path>SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_10C4C929.wem</Path>
+				</File>
+				<File Id="988829914" Language="SFX">
+					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_10C4C929.wem</Path>
+				</File>
+				<File Id="1028895247" Language="SFX">
+					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-005.wav</ShortName>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
