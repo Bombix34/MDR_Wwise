@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4F3F2B45-C2BB-44A0-B868-FE9A48E061A4}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="MDR_WU" ID="{4F3F2B45-C2BB-44A0-B868-FE9A48E061A4}" PersistMode="Standalone"/>
+	</States>
+</WwiseDocument>

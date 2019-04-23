@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29DEA16E-4029-465F-AC84-6B56C5DE8119}" SchemaVersion="94">
+	<Triggers>
+		<WorkUnit Name="MDR_WU" ID="{29DEA16E-4029-465F-AC84-6B56C5DE8119}" PersistMode="Standalone"/>
+	</Triggers>
+</WwiseDocument>
