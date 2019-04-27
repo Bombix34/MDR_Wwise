@@ -4,15 +4,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	99041748	ENV_fire_stop			\MDR_WU\ENVIRONMENT\ENV_fire_stop	
 	112690910	MC_walk_end_play			\MDR_WU\MAIN CHARACTER\MC_walk_end_play	
 	173647080	ENV_amb_beach_play			\MDR_WU\ENVIRONMENT\ENV_amb_beach_play	
+	287668871	MC_walk_PH_play			\MDR_WU\MAIN CHARACTER\MC_walk_PH_play	
 	401277688	UI_select_confirm_play			\MDR_WU\UI\UI_select_confirm_play	
 	538908709	MC_attack_play			\MDR_WU\MAIN CHARACTER\MC_attack_play	
 	658987741	UI_cancel_play			\MDR_WU\UI\UI_cancel_play	
 	733168346	GAME_start			\MDR_WU\GAME\GAME_start	
 	787023996	NPC_talk_play			\MDR_WU\NPC\GENERIC NPC\NPC_talk_play	
 	1011903932	MC_walk_play			\MDR_WU\MAIN CHARACTER\MC_walk_play	
+	1030438041	MC_walk_end_PH_play			\MDR_WU\MAIN CHARACTER\MC_walk_end_PH_play	
 	1275933152	ENV_amb_ext_play			\MDR_WU\ENVIRONMENT\ENV_amb_ext_play	
+	1277176383	UI_item_highlight_play			\MDR_WU\UI\UI_item_highlight_play	
 	1357639289	NPC_walk_stop			\MDR_WU\NPC\GENERIC NPC\NPC_walk_stop	
 	1432716332	GAME_over			\MDR_WU\GAME\GAME_over	
+	1796000097	MC_throw_play			\MDR_WU\ENVIRONMENT\MC_throw_play	
 	1881369153	ENV_door_open_play			\MDR_WU\ENVIRONMENT\ENV_door_open_play	
 	1956601529	MC_talk_stop			\MDR_WU\MAIN CHARACTER\MC_talk_stop	
 	2038710544	UI_camera_zoom_play			\MDR_WU\UI\UI_camera_zoom_play	
@@ -23,6 +27,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2306680942	ENV_amb_int_play			\MDR_WU\ENVIRONMENT\ENV_amb_int_play	
 	2578355359	UI_pause_menu_play			\MDR_WU\UI\UI_pause_menu_play	
 	2732978883	GAME_launch			\MDR_WU\GAME\GAME_launch	
+	2760972584	ENV_pot_put_down_play			\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play	
 	2826582739	MC_talk_play			\MDR_WU\MAIN CHARACTER\MC_talk_play	
 	2989807018	ENV_fire_play			\MDR_WU\ENVIRONMENT\ENV_fire_play	
 	3157003241	TEST			\MDR_WU\TEST	
@@ -31,19 +36,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	4033886834	UI_select_hover_play			\MDR_WU\UI\UI_select_hover_play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	108842407	[PH]_-_UI_confirm	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_UI_confirm		634164
-	133297003	[PH]_-_UI_Select	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_UI_Select		241728
-	264616280	SFX_Player_Footsteps_-_v2_190126_2144-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-006		109376
-	283028802	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-003		116020
-	313480055	[PH]_-_ENV_Door_Close	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_Door_Close		477992
-	321100139	[PH]_-_canette	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\canette_8B54D3EE.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_canette		212300
-	335846067	SFX_Player_Footsteps_-_v2_190126_2144-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-002		112676
-	507283049	[PH]_-_MC_pick_item	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_pick_item		305216
-	555624764	[PH]_-_ENV_Door_Open	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Door_Open_-_190206_2312_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_Door_Open		483636
-	622402654	[PH]_-_UI_cancel	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_UI_cancel		60480
-	788950076	[PH]_-_MC_attack	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_1D4C6D9B.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_attack		171964
-	873565356	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-001		110156
-	954959066	[PH]_-_ENV_pot_break	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_pot_break		225480
-	988829914	SFX_Player_Footsteps_-_v2_190126_2144-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-004		109520
-	1028895247	SFX_Player_Footsteps_-_v2_190126_2144-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_mdr_Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-005		107048
+	108842407	[PH]_-_UI_confirm	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_UI_confirm		634164
+	119927025	[PH]_-_ENV_pot_put_down	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_AE006FC7.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_pot_put_down		30472
+	133297003	[PH]_-_UI_Select	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_5F06EDF5.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_UI_Select		96060
+	264616280	SFX_Player_Footsteps_-_v2_190126_2144-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_DDA497AA.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-006		53016
+	283028802	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_F56F43D9.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-003		52304
+	313480055	[PH]_-_ENV_Door_Close	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_Door_Close		477992
+	321100139	[PH]_-_canette	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\canette_8B54D3EE.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_canette		212300
+	335846067	SFX_Player_Footsteps_-_v2_190126_2144-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_FEEB5C9D.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-002		52824
+	507283049	[PH]_-_MC_pick_item	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_pick_item		305216
+	555624764	[PH]_-_ENV_Door_Open	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Door_Open_-_190206_2312_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_Door_Open		483636
+	622402654	[PH]_-_UI_cancel	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_UI_cancel		60480
+	788950076	[PH]_-_MC_attack	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_38C670A2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_attack		185268
+	873565356	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_D99C6D33.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-001		52940
+	954959066	[PH]_-_ENV_pot_break	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_ENV_pot_break		225480
+	988829914	SFX_Player_Footsteps_-_v2_190126_2144-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_F6A7D407.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-004		52404
+	1028895247	SFX_Player_Footsteps_-_v2_190126_2144-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_E09DDDBF.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\PLACEHOLDER\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-005		53224
 

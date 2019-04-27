@@ -29,6 +29,7 @@
 				<Event Id="2989807018" Name="ENV_fire_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_play" MaxAttenuation="0.000000"/>
 				<Event Id="99041748" Name="ENV_fire_stop" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_stop" MaxAttenuation="0.000000"/>
 				<Event Id="2141874203" Name="ENV_pot_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_break_play"/>
+				<Event Id="2760972584" Name="ENV_pot_put_down_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play"/>
 				<Event Id="2732978883" Name="GAME_launch" ObjectPath="\Events\MDR_WU\GAME\GAME_launch" MaxAttenuation="0.000000"/>
 				<Event Id="1432716332" Name="GAME_over" ObjectPath="\Events\MDR_WU\GAME\GAME_over" MaxAttenuation="0.000000"/>
 				<Event Id="733168346" Name="GAME_start" ObjectPath="\Events\MDR_WU\GAME\GAME_start" MaxAttenuation="0.000000"/>
@@ -38,7 +39,10 @@
 				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
 				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play" MaxAttenuation="0.000000"/>
 				<Event Id="1956601529" Name="MC_talk_stop" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\MC_throw_play"/>
+				<Event Id="1030438041" Name="MC_walk_end_PH_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_end_PH_play" MaxAttenuation="0.000000"/>
 				<Event Id="112690910" Name="MC_walk_end_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_end_play"/>
+				<Event Id="287668871" Name="MC_walk_PH_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_PH_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
 				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play" MaxAttenuation="0.000000"/>
 				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
@@ -48,6 +52,7 @@
 				<Event Id="4008763347" Name="UI_camera_dezoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_dezoom_play" MaxAttenuation="0.000000"/>
 				<Event Id="2038710544" Name="UI_camera_zoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_zoom_play" MaxAttenuation="0.000000"/>
 				<Event Id="658987741" Name="UI_cancel_play" ObjectPath="\Events\MDR_WU\UI\UI_cancel_play"/>
+				<Event Id="1277176383" Name="UI_item_highlight_play" ObjectPath="\Events\MDR_WU\UI\UI_item_highlight_play"/>
 				<Event Id="2578355359" Name="UI_pause_menu_play" ObjectPath="\Events\MDR_WU\UI\UI_pause_menu_play" MaxAttenuation="0.000000"/>
 				<Event Id="401277688" Name="UI_select_confirm_play" ObjectPath="\Events\MDR_WU\UI\UI_select_confirm_play"/>
 				<Event Id="4033886834" Name="UI_select_hover_play" ObjectPath="\Events\MDR_WU\UI\UI_select_hover_play"/>
@@ -57,17 +62,21 @@
 					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>
 					<Path>SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem</Path>
 				</File>
+				<File Id="119927025" Language="SFX">
+					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
+					<Path>SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_AE006FC7.wem</Path>
+				</File>
 				<File Id="133297003" Language="SFX">
 					<ShortName>SFX_-_M_Select_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_10C4C929.wem</Path>
+					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_5F06EDF5.wem</Path>
 				</File>
 				<File Id="264616280" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_10C4C929.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_DDA497AA.wem</Path>
 				</File>
 				<File Id="283028802" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_10C4C929.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_F56F43D9.wem</Path>
 				</File>
 				<File Id="313480055" Language="SFX">
 					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
@@ -79,7 +88,7 @@
 				</File>
 				<File Id="335846067" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-002.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_10C4C929.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_FEEB5C9D.wem</Path>
 				</File>
 				<File Id="507283049" Language="SFX">
 					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
@@ -95,11 +104,11 @@
 				</File>
 				<File Id="788950076" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
-					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_1D4C6D9B.wem</Path>
+					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_38C670A2.wem</Path>
 				</File>
 				<File Id="873565356" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_10C4C929.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_D99C6D33.wem</Path>
 				</File>
 				<File Id="954959066" Language="SFX">
 					<ShortName>SFX_-_E2_Destroy_-_V0.3_-_24-01-20.wav</ShortName>
@@ -107,11 +116,11 @@
 				</File>
 				<File Id="988829914" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_10C4C929.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_F6A7D407.wem</Path>
 				</File>
 				<File Id="1028895247" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-005.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_10C4C929.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_E09DDDBF.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

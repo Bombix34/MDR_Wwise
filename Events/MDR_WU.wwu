@@ -70,6 +70,34 @@
 						</Event>
 						<Event Name="MC_talk_play" ID="{09F9C246-18B3-4A59-9629-07E5DF7D5342}"/>
 						<Event Name="MC_talk_stop" ID="{F8E1612A-CD4B-4367-AB15-942D1C8CB83B}"/>
+						<Event Name="MC_walk_PH_play" ID="{03B728CA-7497-4339-A212-E14A2948C1D9}">
+							<ChildrenList>
+								<Action Name="" ID="{330CEAA5-BD5F-43BE-B1D0-9607AEACCEBA}" ShortID="234769720">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.034"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_walk_end_PH_play" ID="{19A2A472-38AE-4F1E-B011-4E2501499AF5}">
+							<ChildrenList>
+								<Action Name="" ID="{F869BE8E-3D13-4597-9A3A-59228EC23B9F}" ShortID="227484003">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ENVIRONMENT" ID="{340E7459-6B46-418C-8EF7-4C6C7299F154}" ShortID="924562410">
@@ -132,6 +160,28 @@
 						</Event>
 						<Event Name="ENV_fire_play" ID="{01BBBBDF-D35C-4E05-898F-8108D429E4FC}"/>
 						<Event Name="ENV_fire_stop" ID="{DCE67EF8-1E38-464C-81B2-671335509F91}"/>
+						<Event Name="ENV_pot_put_down_play" ID="{9B4E9C16-81C3-4FE7-B2B1-AB670DE143A2}">
+							<ChildrenList>
+								<Action Name="" ID="{63969C27-25E6-4C15-B9B9-EE3E2C7A676A}" ShortID="104186820">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_throw_play" ID="{FCF9ED28-C1A5-45F9-B6CE-FEB65C569485}">
+							<ChildrenList>
+								<Action Name="" ID="{910DBEDF-1290-4C21-9A69-D7E7D7771963}" ShortID="701663111">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_MC_attack" ID="{B67AB3E1-0BF9-4C5B-81CF-1BC04FF56AC5}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="NPC" ID="{7429C964-49CE-4ED2-BC87-EB5E229DE8CD}" ShortID="900010652">
@@ -207,6 +257,17 @@
 						<Event Name="UI_pause_menu_play" ID="{C93431B9-A12E-4BA4-9038-0A213015E826}"/>
 						<Event Name="UI_camera_zoom_play" ID="{D0194909-4DBB-45E8-8563-C67EA773F051}"/>
 						<Event Name="UI_camera_dezoom_play" ID="{42DA8E4D-EB6E-42C9-A44E-EFE920FA23B3}"/>
+						<Event Name="UI_item_highlight_play" ID="{B49851B9-BE2A-4548-AEBB-D265E074BFA0}">
+							<ChildrenList>
+								<Action Name="" ID="{644A53EC-14BC-49AB-A6D5-263DB9C5F07A}" ShortID="631350339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_UI_Select" ID="{400A0FD7-99EB-4AF0-8015-3BC94685F852}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="TEST" ID="{1C0837C2-8DA1-4ADF-872A-0929E431C6CE}">
