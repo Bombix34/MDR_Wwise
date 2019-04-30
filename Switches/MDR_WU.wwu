@@ -14,6 +14,97 @@
 						<Switch Name="wood" ID="{31C4C771-950C-403D-959A-9D8B16302746}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="music_switch" ID="{D629360F-D48A-4DE7-8AE9-73743830880E}">
+					<ChildrenList>
+						<Switch Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
+						<Switch Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="morning" ID="{1EE6E405-A0C1-48B5-AF5D-7AF09FD5CA0A}"/>
+						<Switch Name="noon" ID="{CF2FC638-AA63-4DDA-9CD4-FA950CD5605C}"/>
+						<Switch Name="evening" ID="{DCF21C54-B4DE-4FCC-930F-3D4935883FAD}"/>
+						<Switch Name="night" ID="{113BF0F0-0AF8-4538-9072-81AFF33ADE68}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}"/>
+						<Curve Name="" ID="{DD879755-FC14-46E1-8F14-0E97E7DF28DA}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>4</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>7</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>17</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>21</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>4</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
+						<Switch Name="bad" ID="{250C1D68-A12E-4E98-B311-F7906BC3628D}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}"/>
+						<Curve Name="" ID="{D35DADE9-02A0-4EDC-B48E-D0428DEB58D4}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

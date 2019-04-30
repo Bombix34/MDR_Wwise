@@ -13,7 +13,7 @@
 					<PropertyList>
 						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
 						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
-						<Property Name="InitialValue" Type="Real64" Value="500"/>
+						<Property Name="InitialValue" Type="Real64" Value="400"/>
 						<Property Name="Max" Type="Real64" Value="500"/>
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
@@ -61,6 +61,17 @@
 						<Property Name="InitialValue" Type="Real64" Value="500"/>
 						<Property Name="Max" Type="Real64" Value="500"/>
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="40"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

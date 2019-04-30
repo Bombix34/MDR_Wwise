@@ -6,8 +6,83 @@
 				<Folder Name="GAME" ID="{E04646C6-ADAA-4CA6-BEF8-C48C310FD3C0}" ShortID="224433350">
 					<ChildrenList>
 						<Event Name="GAME_launch" ID="{607BDAE5-1FFD-42DD-8E7B-2DED3040D700}"/>
-						<Event Name="GAME_start" ID="{A6D8D0F8-2538-47EC-A95F-7476CA16EC0E}"/>
+						<Event Name="GAME_start" ID="{A6D8D0F8-2538-47EC-A95F-7476CA16EC0E}">
+							<ChildrenList>
+								<Action Name="" ID="{EB9DF320-99EE-43DB-8958-4C713A7E67E3}" ShortID="152840282">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MDR_zik" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A311444B-1517-4DC0-9A5E-3D4297AC7ABD}" ShortID="496821332">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9F178D5E-C111-4085-9504-E4B43429805F}" ShortID="405344431">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4B868B67-95D6-4531-95E8-BD7D613B61AF}" ShortID="185014881">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A9901972-1F07-4087-A5D4-65F83D03941F}" ShortID="570381989">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{77325344-AE56-4726-B5AB-0DE9A015B46F}" ShortID="398494997">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MDR_zik" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="GAME_over" ID="{25D05C53-274A-4D74-B492-28A5AA702897}"/>
+						<Event Name="GAME_fake_fight" ID="{E3EB4B9A-A078-4542-9EF4-6A7D191DA27E}">
+							<ChildrenList>
+								<Action Name="" ID="{12BD3130-BD78-4898-94A4-6A1FF125EC66}" ShortID="582540468">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MAIN CHARACTER" ID="{CAC61A7F-DE8B-45F0-A76B-AA2FC6FC3F28}" ShortID="238987790">
@@ -270,17 +345,36 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="TEST" ID="{1C0837C2-8DA1-4ADF-872A-0929E431C6CE}">
+				<Folder Name="_Testing" ID="{DDA909FE-1C64-43E4-9D5D-568EA57E672C}" ShortID="50033162">
 					<ChildrenList>
-						<Action Name="" ID="{085656AA-195D-4ECF-8F8A-3BB3EC84F8C9}" ShortID="316896282">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="[PH]_-_canette" ID="{D9067B45-5891-4E4C-9FDD-12EA87009B90}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="TEST" ID="{1C0837C2-8DA1-4ADF-872A-0929E431C6CE}">
+							<ChildrenList>
+								<Action Name="" ID="{085656AA-195D-4ECF-8F8A-3BB3EC84F8C9}" ShortID="316896282">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_canette" ID="{D9067B45-5891-4E4C-9FDD-12EA87009B90}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Change_Morbid" ID="{F444256F-D9DC-4186-AC63-2C947554A7C2}">
+							<ChildrenList>
+								<Action Name="" ID="{FA4D1912-3E46-4965-B200-12FDC26BC18C}" ShortID="324273521">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

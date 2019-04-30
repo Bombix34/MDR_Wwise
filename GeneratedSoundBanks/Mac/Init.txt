@@ -1,3 +1,15 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3887908721	village_karma_switch			\MDR_WU\village_karma_switch	
+	4021126918	day_cycle			\MDR_WU\day_cycle	
+
+Switch	ID	Name	Switch Group			Notes
+	513390134	bad	village_karma_switch			
+	668632890	good	village_karma_switch			
+	765672767	noon	day_cycle			
+	1011622525	night	day_cycle			
+	1924633667	morning	day_cycle			
+	2905060079	evening	day_cycle			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
