@@ -6,10 +6,10 @@
 				<SwitchGroup Name="floor_type" ID="{55019D31-4EF7-4D31-B29A-16359EDE7948}">
 					<ChildrenList>
 						<Switch Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}"/>
-						<Switch Name="gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
+						<Switch Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<Switch Name="sand" ID="{C5A5B4C8-A83E-46EE-A302-81B25D4D53F0}"/>
 						<Switch Name="rock" ID="{AE1C6DF7-EB58-4736-9403-4A96ED69EA36}"/>
-						<Switch Name="mud" ID="{A2C20404-7653-423E-9ABA-FA2A86592C88}"/>
+						<Switch Name="_mud" ID="{A2C20404-7653-423E-9ABA-FA2A86592C88}"/>
 						<Switch Name="water" ID="{D3DC44FA-309A-4B66-92C6-177134D570DB}"/>
 						<Switch Name="wood" ID="{31C4C771-950C-403D-959A-9D8B16302746}"/>
 					</ChildrenList>

@@ -51,7 +51,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
-						<CurrentSwitchRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}"/>
+						<CurrentSwitchRef Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
 						<CurrentSwitchRef Name="evening" ID="{DCF21C54-B4DE-4FCC-930F-3D4935883FAD}"/>
 					</CurrentSwitchList>
