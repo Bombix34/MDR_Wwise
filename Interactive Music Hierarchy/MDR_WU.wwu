@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="MDR_zik" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" ShortID="645971268">
 					<PropertyList>
-						<Property Name="GridFrequencyPreset" Type="int16" Value="51"/>
+						<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
 						<Property Name="PlaybackSpeed" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{CE744BF3-C712-407A-98DB-40E3930E96B5}" ShortID="549599604">
@@ -35,6 +35,11 @@
 							</RTPCList>
 						</Property>
 						<Property Name="Tempo" Type="Real64" Value="105"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -719,7 +724,7 @@
 										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
@@ -758,7 +763,7 @@
 										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>

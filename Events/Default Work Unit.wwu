@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{479BD07C-167F-4286-A36A-6844479C282A}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{479BD07C-167F-4286-A36A-6844479C282A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{479BD07C-167F-4286-A36A-6844479C282A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MC_walk_end_PH_play" ID="{19A2A472-38AE-4F1E-B011-4E2501499AF5}">
+					<ChildrenList>
+						<Action Name="" ID="{F869BE8E-3D13-4597-9A3A-59228EC23B9F}" ShortID="227484003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_walk_PH_play" ID="{03B728CA-7497-4339-A212-E14A2948C1D9}">
+					<ChildrenList>
+						<Action Name="" ID="{330CEAA5-BD5F-43BE-B1D0-9607AEACCEBA}" ShortID="234769720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_walk_end_play" ID="{EEAEA93D-C7A2-4363-8A3F-913069836E49}">
+					<ChildrenList>
+						<Action Name="" ID="{9B8C1443-925F-4DC5-8331-5B001992F1B4}" ShortID="879725500">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -11,7 +11,11 @@ Switch	ID	Name	Switch Group			Notes
 	2905060079	evening	day_cycle			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	2981377429	AMBIANCE			\Default Work Unit\Master Audio Bus\AMBIANCE	
+	3313685232	VOICES			\Default Work Unit\Master Audio Bus\VOICES	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

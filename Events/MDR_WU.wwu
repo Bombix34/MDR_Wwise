@@ -92,18 +92,7 @@
 								<Action Name="" ID="{98137136-D756-4CD9-AF58-8529E5D9C55D}" ShortID="27342159">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="MC_walk_end_play" ID="{EEAEA93D-C7A2-4363-8A3F-913069836E49}">
-							<ChildrenList>
-								<Action Name="" ID="{9B8C1443-925F-4DC5-8331-5B001992F1B4}" ShortID="879725500">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="Footstep" ID="{6BF95D20-459B-4796-9D57-EBFEAAD87F32}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -145,29 +134,12 @@
 						</Event>
 						<Event Name="MC_talk_play" ID="{09F9C246-18B3-4A59-9629-07E5DF7D5342}"/>
 						<Event Name="MC_talk_stop" ID="{F8E1612A-CD4B-4367-AB15-942D1C8CB83B}"/>
-						<Event Name="MC_walk_PH_play" ID="{03B728CA-7497-4339-A212-E14A2948C1D9}">
+						<Event Name="MC_throw_play" ID="{FCF9ED28-C1A5-45F9-B6CE-FEB65C569485}">
 							<ChildrenList>
-								<Action Name="" ID="{330CEAA5-BD5F-43BE-B1D0-9607AEACCEBA}" ShortID="234769720">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.034"/>
-									</PropertyList>
+								<Action Name="" ID="{910DBEDF-1290-4C21-9A69-D7E7D7771963}" ShortID="701663111">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="MC_walk_end_PH_play" ID="{19A2A472-38AE-4F1E-B011-4E2501499AF5}">
-							<ChildrenList>
-								<Action Name="" ID="{F869BE8E-3D13-4597-9A3A-59228EC23B9F}" ShortID="227484003">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="[PH]_-_MC_attack" ID="{B67AB3E1-0BF9-4C5B-81CF-1BC04FF56AC5}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -241,17 +213,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="[PH]_-_ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="MC_throw_play" ID="{FCF9ED28-C1A5-45F9-B6CE-FEB65C569485}">
-							<ChildrenList>
-								<Action Name="" ID="{910DBEDF-1290-4C21-9A69-D7E7D7771963}" ShortID="701663111">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_attack" ID="{B67AB3E1-0BF9-4C5B-81CF-1BC04FF56AC5}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -352,7 +313,7 @@
 								<Action Name="" ID="{085656AA-195D-4ECF-8F8A-3BB3EC84F8C9}" ShortID="316896282">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_canette" ID="{D9067B45-5891-4E4C-9FDD-12EA87009B90}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="[PH]_-_canette" ID="{D9067B45-5891-4E4C-9FDD-12EA87009B90}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

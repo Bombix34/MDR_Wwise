@@ -40,10 +40,7 @@
 				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
 				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play" MaxAttenuation="0.000000"/>
 				<Event Id="1956601529" Name="MC_talk_stop" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_stop" MaxAttenuation="0.000000"/>
-				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\MC_throw_play"/>
-				<Event Id="1030438041" Name="MC_walk_end_PH_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_end_PH_play" MaxAttenuation="0.000000"/>
-				<Event Id="112690910" Name="MC_walk_end_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_end_play"/>
-				<Event Id="287668871" Name="MC_walk_PH_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_PH_play"/>
+				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
 				<Event Id="1416541639" Name="Music_Change_Morbid" ObjectPath="\Events\MDR_WU\_Testing\Music_Change_Morbid" MaxAttenuation="0.000000"/>
 				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play" MaxAttenuation="0.000000"/>
@@ -78,11 +75,11 @@
 				</File>
 				<File Id="264616280" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_9BD452EC.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_734C0A08.wem</Path>
 				</File>
 				<File Id="283028802" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_F56F43D9.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_02C85D13.wem</Path>
 				</File>
 				<File Id="313480055" Language="SFX">
 					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
@@ -94,7 +91,7 @@
 				</File>
 				<File Id="335846067" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-002.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_D5C48B1D.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_F5874730.wem</Path>
 				</File>
 				<File Id="507283049" Language="SFX">
 					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
@@ -118,7 +115,7 @@
 				</File>
 				<File Id="873565356" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_5AEAECD1.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_AAF372C5.wem</Path>
 				</File>
 				<File Id="954959066" Language="SFX">
 					<ShortName>SFX_-_E2_Destroy_-_V0.3_-_24-01-20.wav</ShortName>
@@ -130,11 +127,11 @@
 				</File>
 				<File Id="988829914" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_FADEFEED.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_77AC2D0B.wem</Path>
 				</File>
 				<File Id="1028895247" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-005.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_41CC3652.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_60C88D32.wem</Path>
 				</File>
 				<File Id="1058520418" Language="SFX">
 					<ShortName>battlemusic_fake_v0.1.wav</ShortName>
