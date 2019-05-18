@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F3F2B45-C2BB-44A0-B868-FE9A48E061A4}" SchemaVersion="94">
 	<States>
-		<WorkUnit Name="MDR_WU" ID="{4F3F2B45-C2BB-44A0-B868-FE9A48E061A4}" PersistMode="Standalone"/>
+		<WorkUnit Name="MDR_WU" ID="{4F3F2B45-C2BB-44A0-B868-FE9A48E061A4}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Music_states" ID="{708D0AE7-F89D-4EAA-B4AA-AA2F4F72D1DC}" ShortID="499833504">
+					<ChildrenList>
+						<StateGroup Name="Ww_Status_Ocarina_01" ID="{D2EF680A-2F7B-46D6-9814-4E78DC240003}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{D0149A92-70F3-4555-A22A-138D660CB293}"/>
+								<State Name="Intact" ID="{DA737A4A-AEF7-46D9-B18E-2391BEB2C07D}"/>
+								<State Name="Destroyed" ID="{3FAA109F-AEBD-40D3-9E16-160981DC4393}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_02" ID="{426692E6-6DF6-4C30-95B3-E5490476CE2C}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{1FD7C1B3-F33D-42E3-8CAF-3A47D7FCD81D}"/>
+								<State Name="Intact" ID="{A326A8C2-9009-48CD-86B4-A100FB22EDBE}"/>
+								<State Name="Destroyed" ID="{9B0E887C-4D33-4DEF-AED7-C347B642AD5C}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_03" ID="{8CF3F2F4-E850-4A89-AF31-431AC2D421AB}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{6D9608C9-6DBF-4993-AFED-1461D91E76EF}"/>
+								<State Name="Intact" ID="{9B572416-6718-4B1E-BAF4-58EEF60A52B3}"/>
+								<State Name="Destroyed" ID="{3AD4797B-D8C1-4473-9B3F-B8534649B33D}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_04" ID="{4274C3B7-BBAF-4E53-BE76-DAE7364CB78B}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{A3398C17-60CE-4EA2-8983-ADB7CBD02DE4}"/>
+								<State Name="Intact" ID="{32EED343-C301-43F0-9FEA-F5ED780DC6C7}"/>
+								<State Name="Destroyed" ID="{F3BBC8FE-BE3E-45B2-BF29-F64BEF0E68F9}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_05" ID="{4138D3A1-6012-48F5-B762-36D72F9D9027}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{F5ADC64C-FCB6-4611-8C73-DD8AF280DA4E}"/>
+								<State Name="Intact" ID="{2BDF835F-0CC3-42B0-BCE7-C5CF4202B809}"/>
+								<State Name="Destroyed" ID="{67E6878E-F379-479D-81BF-94DEFB3AD15C}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_06" ID="{07BDCDA9-5EBE-4368-9551-D6118520500A}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{F3B957B5-093F-4C32-8533-9C1709BC1F76}"/>
+								<State Name="Intact" ID="{EDAB68AB-13B5-4AA1-8C2D-5ED35BF4AFB6}"/>
+								<State Name="Destroyed" ID="{A1E78E62-C1DA-4CA1-9D1D-A61C112AF58C}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_07" ID="{08232A7F-59EE-488F-BD0C-28945E865643}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{8C7E727A-2CF8-4489-9A86-40A020D1F61B}"/>
+								<State Name="Intact" ID="{74B6429E-6633-4218-872F-1983A8CA28A8}"/>
+								<State Name="Destroyed" ID="{6C907B7B-6B6B-450F-9039-C006E561E673}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Ww_Status_Ocarina_08" ID="{E529ED44-4A3D-4B68-B69C-3100E576D830}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{1A0F5898-7198-4F49-B848-81C4D36F9A15}"/>
+								<State Name="Intact" ID="{5953059D-E6FA-44D6-9183-61F634583B96}"/>
+								<State Name="Destroyed" ID="{7E97D3B5-D923-43D9-BD31-7FB9E1ADCB2E}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

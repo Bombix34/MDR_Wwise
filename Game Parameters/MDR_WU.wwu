@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}" SchemaVersion="94">
 	<GameParameters>
 		<WorkUnit Name="MDR_WU" ID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<GameParameter Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}">
 					<PropertyList>
@@ -9,7 +13,7 @@
 						<Property Name="Max" Type="Real64" Value="24"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}">
+				<GameParameter Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}">
 					<PropertyList>
 						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
 						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
@@ -54,7 +58,7 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
-				<GameParameter Name="water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}">
+				<GameParameter Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}">
 					<PropertyList>
 						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
 						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
@@ -68,12 +72,91 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}">
+				<GameParameter Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="40"/>
 					</PropertyList>
 				</GameParameter>
+				<Folder Name="Music_rtpc" ID="{0780BF5C-EE44-4750-8BB7-AFD43305E731}" ShortID="1048639852">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<GameParameter Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_06" ID="{169644DE-AFA1-40DF-BDBF-948EA142241B}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_07" ID="{C9A5C07E-3BF2-4B5A-8511-D1690E8F1E83}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Ww_Trem_Ocarina_08" ID="{D537A067-33E6-4F60-8DC7-B4BC6671CC82}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

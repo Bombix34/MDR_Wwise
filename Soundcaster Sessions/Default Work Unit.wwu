@@ -9,15 +9,19 @@
 							<ObjectRef Name="GAME_start" ID="{A6D8D0F8-2538-47EC-A95F-7476CA16EC0E}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Ocarina_01_Damaged_MAIN" ID="{DE58FAE9-25A6-455D-913F-5F17F06098A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
+							<GameParameterRef Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
 							<Value>500</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}"/>
-							<Value>14</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="volume_voices" ID="{672292FC-2E33-41B0-A3B3-5D0C05DD2E8B}"/>
@@ -32,11 +36,15 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
+							<GameParameterRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
 							<Value>400</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
+							<GameParameterRef Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -48,18 +56,20 @@
 							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{D0149A92-70F3-4555-A22A-138D660CB293}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
 						<CurrentSwitchRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}"/>
-						<CurrentSwitchRef Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
+						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
 						<CurrentSwitchRef Name="evening" ID="{DCF21C54-B4DE-4FCC-930F-3D4935883FAD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="SFX_testing" ID="{51A59C9B-F21F-4095-9BF9-6CE7615B8172}">
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
+							<GameParameterRef Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
 							<Value>500</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -79,11 +89,11 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
+							<GameParameterRef Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
 							<Value>500</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
+							<GameParameterRef Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>

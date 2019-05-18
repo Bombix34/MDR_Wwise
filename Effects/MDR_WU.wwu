@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}" SchemaVersion="94">
+	<Effects>
+		<WorkUnit Name="MDR_WU" ID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="8"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Effect Name="Music_alteration" ID="{965AC69F-18E0-4723-9CA2-025E839EF0E0}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{9B7D3D7A-0F9B-450D-9653-7352021B77ED}" ShortID="323284649">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DEB7D825-4CF7-4907-A448-571C550D4136}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>70</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>8.5</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="20">
+							<RTPCList>
+								<RTPC Name="" ID="{4B9A5C74-0B4A-41F6-A57B-9F887060449B}" ShortID="25495048">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0C68A6D3-68D1-4517-8828-B20DA56C3581}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>400</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>20</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="4"/>
+						<Property Name="ProcessCenter" Type="bool" Value="False"/>
+						<Property Name="ProcessLFE" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

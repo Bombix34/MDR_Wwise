@@ -4,13 +4,96 @@
 		<WorkUnit Name="Default Work Unit" ID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{3331D25D-2999-4D9D-AE51-D83A961DFAC3}" WorkUnitID="{12663951-894C-4635-928F-CA9814ED5BEA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}"/>
+						<Bus Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Music_track_01_main" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{62EFA705-8C77-4EF4-AE0F-7FF48D086F48}" ShortID="422928945">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{328E97D8-29DE-4E57-9D38-EA5B048CDA77}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>9.0019</XPos>
+																<YPos>1</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Music_alteration" ID="{965AC69F-18E0-4723-9CA2-025E839EF0E0}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Ww_Status_Ocarina_01" ID="{D2EF680A-2F7B-46D6-9814-4E78DC240003}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{3FAA109F-AEBD-40D3-9E16-160981DC4393}"/>
+												<CustomState Name="" ID="{CE0AE315-5406-478D-9E24-F6DA7D230F9B}" ShortID="275451651">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Pitch" Type="int32" Value="-400"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Intact" ID="{DA737A4A-AEF7-46D9-B18E-2391BEB2C07D}"/>
+												<CustomState Name="" ID="{EDDD8F2C-7AD7-4FA6-90E1-49785978741C}" ShortID="237779230"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Music_track_02_rythmic" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}"/>
+								<Bus Name="Music_track_03_percus" ID="{789115FF-B239-4072-AD7C-8544070511F7}"/>
+								<Bus Name="Music_track_04_wind_1" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}"/>
+								<Bus Name="Music_track_05_wind_2" ID="{4925AF94-7248-4F62-87A1-8DEF63C73781}"/>
+								<Bus Name="Music_track_06_brass_1" ID="{BF6CE8A8-7E59-41D6-9AE8-7596AE1C3020}"/>
+								<Bus Name="Music_track_07_brass_2" ID="{D13A2C9A-3B06-4A03-B068-047344AB3D6C}"/>
+								<Bus Name="Music_track_08" ID="{CF0E2344-DBA5-4157-9525-2F100EEAB855}"/>
+							</ChildrenList>
+						</Bus>
 						<Bus Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}"/>
 						<Bus Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}"/>
 						<Bus Name="AMBIANCE" ID="{6427CEA5-EFD4-4B13-BE28-FCFA57146138}"/>

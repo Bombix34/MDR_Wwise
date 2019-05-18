@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}" SchemaVersion="94">
 	<Switches>
 		<WorkUnit Name="MDR_WU" ID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<SwitchGroup Name="floor_type" ID="{55019D31-4EF7-4D31-B29A-16359EDE7948}">
 					<ChildrenList>
@@ -20,7 +24,7 @@
 						<Switch Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}">
+				<SwitchGroup Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}">
 					<PropertyList>
 						<Property Name="UseGameParameter" Type="bool" Value="True"/>
 					</PropertyList>
@@ -71,7 +75,7 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
-				<SwitchGroup Name="village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}">
+				<SwitchGroup Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}">
 					<PropertyList>
 						<Property Name="UseGameParameter" Type="bool" Value="True"/>
 					</PropertyList>
