@@ -47,6 +47,14 @@
 				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
 				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play"/>
 				<Event Id="1357639289" Name="NPC_walk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="3679492542" Name="Ocarina_01_Damaged_MAIN" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Damaged_MAIN" MaxAttenuation="0.000000"/>
+				<Event Id="3084605388" Name="Ocarina_02_Damaged_RYTHMIC" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_02_Damaged_RYTHMIC" MaxAttenuation="0.000000"/>
+				<Event Id="1090803883" Name="Ocarina_03_Damaged_PERCUS" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_03_Damaged_PERCUS" MaxAttenuation="0.000000"/>
+				<Event Id="877487337" Name="Ocarina_04_Damaged_WIND1" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_04_Damaged_WIND1" MaxAttenuation="0.000000"/>
+				<Event Id="3191795435" Name="Ocarina_05_Damaged_WIND2" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_05_Damaged_WIND2" MaxAttenuation="0.000000"/>
+				<Event Id="2776317848" Name="Ocarina_06_Damaged_BRASS1" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_06_Damaged_BRASS1" MaxAttenuation="0.000000"/>
+				<Event Id="4117983340" Name="Ocarina_07_Damaged_BRASS2" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_07_Damaged_BRASS2" MaxAttenuation="0.000000"/>
+				<Event Id="2170904855" Name="Ocarina_08_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_08_Damaged" MaxAttenuation="0.000000"/>
 				<Event Id="3157003241" Name="TEST" ObjectPath="\Events\MDR_WU\_Testing\TEST"/>
 				<Event Id="4008763347" Name="UI_camera_dezoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_dezoom_play" MaxAttenuation="0.000000"/>
 				<Event Id="2038710544" Name="UI_camera_zoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_zoom_play" MaxAttenuation="0.000000"/>
@@ -57,6 +65,10 @@
 				<Event Id="4033886834" Name="UI_select_hover_play" ObjectPath="\Events\MDR_WU\UI\UI_select_hover_play"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="44934473" Language="SFX">
+					<ShortName>Nuit_v1\villlagenightflutes_v1.wav</ShortName>
+					<Path>SFX\Nuit_v1\villlagenightflutes_v1_D79FB2B7.wem</Path>
+				</File>
 				<File Id="108842407" Language="SFX">
 					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>
 					<Path>SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem</Path>
@@ -69,17 +81,17 @@
 					<ShortName>SFX_-_M_Select_-_V0.1_-_19-01-19.wav</ShortName>
 					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_0AE3C92B.wem</Path>
 				</File>
-				<File Id="146525755" Language="SFX">
-					<ShortName>village_nuit_v0.1.wav</ShortName>
-					<Path>SFX\village_nuit_v0.1_D79FB2B7.wem</Path>
+				<File Id="159705370" Language="SFX">
+					<ShortName>villlagenightkalimb_v1.1.wav</ShortName>
+					<Path>SFX\villlagenightkalimb_v1.1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="264616280" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_734C0A08.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_682D3076.wem</Path>
 				</File>
 				<File Id="283028802" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_02C85D13.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_5708ED6A.wem</Path>
 				</File>
 				<File Id="313480055" Language="SFX">
 					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
@@ -91,7 +103,7 @@
 				</File>
 				<File Id="335846067" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-002.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_F5874730.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_EA9434E1.wem</Path>
 				</File>
 				<File Id="507283049" Language="SFX">
 					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
@@ -109,13 +121,21 @@
 					<ShortName>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</ShortName>
 					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_10C4C929.wem</Path>
 				</File>
+				<File Id="751077039" Language="SFX">
+					<ShortName>Nuit_v1\villlagenightcordes_v1.wav</ShortName>
+					<Path>SFX\Nuit_v1\villlagenightcordes_v1_D79FB2B7.wem</Path>
+				</File>
 				<File Id="788950076" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
 					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_727FF12E.wem</Path>
 				</File>
 				<File Id="873565356" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_AAF372C5.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_CF2BC08D.wem</Path>
+				</File>
+				<File Id="945266762" Language="SFX">
+					<ShortName>Nuit_v1\villlagenightdrums_v1.wav</ShortName>
+					<Path>SFX\Nuit_v1\villlagenightdrums_v1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="954959066" Language="SFX">
 					<ShortName>SFX_-_E2_Destroy_-_V0.3_-_24-01-20.wav</ShortName>
@@ -127,11 +147,15 @@
 				</File>
 				<File Id="988829914" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_77AC2D0B.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_BC217A82.wem</Path>
 				</File>
 				<File Id="1028895247" Language="SFX">
 					<ShortName>SFX_Player_Footsteps_-_v2_190126_2144-005.wav</ShortName>
-					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_60C88D32.wem</Path>
+					<Path>SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_226B3A90.wem</Path>
+				</File>
+				<File Id="1055570632" Language="SFX">
+					<ShortName>Nuit_v1\villlagenighttuba_v1.wav</ShortName>
+					<Path>SFX\Nuit_v1\villlagenighttuba_v1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1058520418" Language="SFX">
 					<ShortName>battlemusic_fake_v0.1.wav</ShortName>

@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="MC_walk_play" ID="{B29F2A53-2F9C-4287-BFB2-15B5112C97E0}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Ocarina_01_Damaged_MAIN" ID="{DE58FAE9-25A6-455D-913F-5F17F06098A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -18,6 +22,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
 							<Value>500</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_06" ID="{169644DE-AFA1-40DF-BDBF-948EA142241B}"/>
+							<Value>9.15902009308827E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}"/>
@@ -32,6 +40,10 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}"/>
+							<Value>9.15902005656694E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="volume_SFX" ID="{5A6FDF7E-45A2-445A-9147-54D3AE8243D9}"/>
 							<Value>100</Value>
 						</RTPCValue>
@@ -40,12 +52,32 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}"/>
+							<Value>9.15902007648767E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
 							<Value>400</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}"/>
+							<Value>9.159020058227E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
 							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_07" ID="{C9A5C07E-3BF2-4B5A-8511-D1690E8F1E83}"/>
+							<Value>9.1590200665273E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}"/>
+							<Value>9.15902007814773E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_Ocarina_08" ID="{D537A067-33E6-4F60-8DC7-B4BC6671CC82}"/>
+							<Value>9.15902007150748E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}"/>

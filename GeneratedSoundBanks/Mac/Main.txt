@@ -8,7 +8,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	658987741	UI_cancel_play			\MDR_WU\UI\UI_cancel_play	
 	733168346	GAME_start			\MDR_WU\GAME\GAME_start	
 	787023996	NPC_talk_play			\MDR_WU\NPC\GENERIC NPC\NPC_talk_play	
+	877487337	Ocarina_04_Damaged_WIND1			\MDR_WU\MUSIC\Ocarina_04_Damaged_WIND1	
 	1011903932	MC_walk_play			\MDR_WU\MAIN CHARACTER\MC_walk_play	
+	1090803883	Ocarina_03_Damaged_PERCUS			\MDR_WU\MUSIC\Ocarina_03_Damaged_PERCUS	
 	1100552122	GAME_fake_fight			\MDR_WU\GAME\GAME_fake_fight	
 	1275933152	ENV_amb_ext_play			\MDR_WU\ENVIRONMENT\ENV_amb_ext_play	
 	1277176383	UI_item_highlight_play			\MDR_WU\UI\UI_item_highlight_play	
@@ -20,6 +22,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1956601529	MC_talk_stop			\MDR_WU\MAIN CHARACTER\MC_talk_stop	
 	2038710544	UI_camera_zoom_play			\MDR_WU\UI\UI_camera_zoom_play	
 	2141874203	ENV_pot_break_play			\MDR_WU\ENVIRONMENT\ENV_pot_break_play	
+	2170904855	Ocarina_08_Damaged			\MDR_WU\MUSIC\Ocarina_08_Damaged	
 	2227517075	NPC_walk_play			\MDR_WU\NPC\GENERIC NPC\NPC_walk_play	
 	2246829044	MC_pick_item_play			\MDR_WU\MAIN CHARACTER\MC_pick_item_play	
 	2287292191	MC_pick_big_item_play			\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play	
@@ -27,28 +30,33 @@ Event	ID	Name			Wwise Object Path	Notes
 	2578355359	UI_pause_menu_play			\MDR_WU\UI\UI_pause_menu_play	
 	2732978883	GAME_launch			\MDR_WU\GAME\GAME_launch	
 	2760972584	ENV_pot_put_down_play			\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play	
+	2776317848	Ocarina_06_Damaged_BRASS1			\MDR_WU\MUSIC\Ocarina_06_Damaged_BRASS1	
 	2826582739	MC_talk_play			\MDR_WU\MAIN CHARACTER\MC_talk_play	
 	2989807018	ENV_fire_play			\MDR_WU\ENVIRONMENT\ENV_fire_play	
+	3084605388	Ocarina_02_Damaged_RYTHMIC			\MDR_WU\MUSIC\Ocarina_02_Damaged_RYTHMIC	
 	3157003241	TEST			\MDR_WU\_Testing\TEST	
+	3191795435	Ocarina_05_Damaged_WIND2			\MDR_WU\MUSIC\Ocarina_05_Damaged_WIND2	
+	3679492542	Ocarina_01_Damaged_MAIN			\MDR_WU\MUSIC\Ocarina_01_Damaged_MAIN	
 	3835799014	NPC_talk_stop			\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop	
 	4008763347	UI_camera_dezoom_play			\MDR_WU\UI\UI_camera_dezoom_play	
 	4033886834	UI_select_hover_play			\MDR_WU\UI\UI_select_hover_play	
+	4117983340	Ocarina_07_Damaged_BRASS2			\MDR_WU\MUSIC\Ocarina_07_Damaged_BRASS2	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
+	53185091	RTPC_CTRL_village_karma_switch			\MDR_WU\RTPC_CTRL_village_karma_switch	
+	1655898020	RTPC_CTRL_day_cycle			\MDR_WU\RTPC_CTRL_day_cycle	
 	2724869341	music_switch			\MDR_WU\music_switch	
-	3887908721	village_karma_switch			\MDR_WU\village_karma_switch	
-	4021126918	day_cycle			\MDR_WU\day_cycle	
 	4168292868	floor_type			\MDR_WU\floor_type	
 
 Switch	ID	Name	Switch Group			Notes
+	513390134	bad	RTPC_CTRL_village_karma_switch			
+	668632890	good	RTPC_CTRL_village_karma_switch			
+	765672767	noon	RTPC_CTRL_day_cycle			
+	1011622525	night	RTPC_CTRL_day_cycle			
+	1924633667	morning	RTPC_CTRL_day_cycle			
+	2905060079	evening	RTPC_CTRL_day_cycle			
 	2937832959	battle	music_switch			
 	3945572659	village	music_switch			
-	513390134	bad	village_karma_switch			
-	668632890	good	village_karma_switch			
-	765672767	noon	day_cycle			
-	1011622525	night	day_cycle			
-	1924633667	morning	day_cycle			
-	2905060079	evening	day_cycle			
 	712897245	mud	floor_type			
 	803837735	sand	floor_type			
 	2058049674	wood	floor_type			
@@ -58,34 +66,36 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	grass	floor_type			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	501502913	DEBUG_zik_speed			\MDR_WU\DEBUG_zik_speed	
+	82641640	Ww_DEBUG_zik_speed			\MDR_WU\Ww_DEBUG_zik_speed	
 	1870090125	game_time			\MDR_WU\game_time	
 	3200455562	village_karma			\MDR_WU\village_karma	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	91573009	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Silence\Wwise Silence	
-	239930185	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps_sand\synth\Wwise Tone Generator	
-	433263362	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps_mud\synth\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	108842407	[PH]_-_UI_confirm	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_UI_confirm		634164
-	119927025	[PH]_-_ENV_pot_put_down	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_4D1CEE5B.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_ENV_pot_put_down		30472
-	133297003	[PH]_-_UI_Select	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_0AE3C92B.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_UI_Select		96060
-	146525755	village_nuit_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\village_nuit_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\MDR_zik\village_nuit\village_nuit_v0_1\village_nuit_v0_1		10532636
-	264616280	SFX_Player_Footsteps_-_v2_190126_2144-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_734C0A08.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-006		43732
-	283028802	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_02C85D13.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-003		44180
-	313480055	[PH]_-_ENV_Door_Close	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Door_Close_-_190206_2312-01_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_ENV_Door_Close		477992
-	321100139	[PH]_-_canette	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\canette_8B54D3EE.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_canette		212300
-	335846067	SFX_Player_Footsteps_-_v2_190126_2144-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_F5874730.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-002		44244
-	507283049	[PH]_-_MC_pick_item	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_MC_pick_item		305216
-	549665116	village_morbide_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\village_morbide_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\MDR_zik\village_morbide\village_morbide_v0_1\village_morbide_v0_1		7460636
-	555624764	[PH]_-_ENV_Door_Open	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Door_Open_-_190206_2312_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_ENV_Door_Open		483636
-	622402654	[PH]_-_UI_cancel	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_UI_cancel		60480
-	788950076	[PH]_-_MC_attack	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_727FF12E.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_MC_attack		185268
-	873565356	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_AAF372C5.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-001		43684
-	954959066	[PH]_-_ENV_pot_break	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_10C4C929.wem		\Actor-Mixer Hierarchy\MDR_WU\_-PLACEHOLDER-_\[PH]_-_ENV_pot_break		225480
-	987360984	villlage_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\villlage_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\MDR_zik\village\villlage_v0_1\villlage_v0_1		13607344
-	988829914	SFX_Player_Footsteps_-_v2_190126_2144-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_77AC2D0B.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-004		44164
-	1028895247	SFX_Player_Footsteps_-_v2_190126_2144-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_60C88D32.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-005		44136
-	1058520418	battlemusic_fake_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\battlemusic_fake_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\MDR_zik\battle\battlemusic_fake_v0_1\battlemusic_fake_v0_1		4739720
+	44934473	villlagenightflutes_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\Nuit_v1\villlagenightflutes_v1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT\Nuit_v1\villlagenightflutes_v1		9679028
+	108842407	[PH]_-_UI_confirm	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Comfort_Create_-_190126_21h17_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_UI_confirm		634164
+	119927025	[PH]_-_ENV_pot_put_down	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_4D1CEE5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_ENV_pot_put_down		30472
+	133297003	[PH]_-_UI_Select	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_0AE3C92B.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_UI_Select		96060
+	159705370	villlagenightkalimb_v1_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\villlagenightkalimb_v1.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT\Nuit_v1\villlagenightkalimb_v1_1		10484376
+	264616280	SFX_Player_Footsteps_-_v2_190126_2144-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-006_682D3076.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-006		43732
+	283028802	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-003_5708ED6A.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-003		44180
+	313480055	[PH]_-_ENV_Door_Close	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Door_Close_-_190206_2312-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_ENV_Door_Close		477992
+	321100139	[PH]_-_canette	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\canette_8B54D3EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\[PH]_-_canette		212300
+	335846067	SFX_Player_Footsteps_-_v2_190126_2144-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-002_EA9434E1.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-002		44244
+	507283049	[PH]_-_MC_pick_item	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_MC_pick_item		305216
+	549665116	village_morbide_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\village_morbide_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\village_morbide_v0_1		7460636
+	555624764	[PH]_-_ENV_Door_Open	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Door_Open_-_190206_2312_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_ENV_Door_Open		483636
+	622402654	[PH]_-_UI_cancel	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_UI_cancel		60480
+	751077039	villlagenightcordes_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\Nuit_v1\villlagenightcordes_v1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT\Nuit_v1\villlagenightcordes_v1		9679028
+	788950076	[PH]_-_MC_attack	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_727FF12E.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_MC_attack		185268
+	873565356	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-001_CF2BC08D.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-001		43684
+	945266762	villlagenightdrums_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\Nuit_v1\villlagenightdrums_v1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT\Nuit_v1\villlagenightdrums_v1		9679028
+	954959066	[PH]_-_ENV_pot_break	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_ENV_pot_break		225480
+	987360984	villlage_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\villlage_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\villlage_v0_1\villlage_v0_1		13607344
+	988829914	SFX_Player_Footsteps_-_v2_190126_2144-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-004_BC217A82.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-004		44164
+	1028895247	SFX_Player_Footsteps_-_v2_190126_2144-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\SFX_Player_Footsteps_-_v2_190126_2144-005_226B3A90.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footstep\Surfaces\[PH]_-_MC_footsteps\SFX_Player_Footsteps_-_v2_190126_2144-005		44136
+	1055570632	villlagenighttuba_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\Nuit_v1\villlagenighttuba_v1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT\Nuit_v1\villlagenighttuba_v1		9679028
+	1058520418	battlemusic_fake_v0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\battlemusic_fake_v0.1_D79FB2B7.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Battle\battlemusic_fake_v0_1\battlemusic_fake_v0_1		4739720
 
