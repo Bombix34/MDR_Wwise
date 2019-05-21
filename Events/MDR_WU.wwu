@@ -180,7 +180,7 @@
 								<Action Name="" ID="{98137136-D756-4CD9-AF58-8529E5D9C55D}" ShortID="27342159">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footstep" ID="{6BF95D20-459B-4796-9D57-EBFEAAD87F32}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="Surfaces" ID="{8C969575-6FA7-4E63-BF81-3B8862F1D9C0}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -319,7 +319,7 @@
 										<Action Name="" ID="{33586C90-833C-4747-B014-1ABEBA0EFE3C}" ShortID="1014563442">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+													<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -333,7 +333,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+													<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

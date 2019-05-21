@@ -1,6 +1,7 @@
 Switch Group	ID	Name			Wwise Object Path	Notes
 	53185091	RTPC_CTRL_village_karma_switch			\MDR_WU\RTPC_CTRL_village_karma_switch	
 	1655898020	RTPC_CTRL_day_cycle			\MDR_WU\RTPC_CTRL_day_cycle	
+	1669145510	RTPC_CTRL_grass_type			\MDR_WU\RTPC_CTRL_grass_type	
 
 Switch	ID	Name	Switch Group			Notes
 	513390134	bad	RTPC_CTRL_village_karma_switch			
@@ -9,6 +10,9 @@ Switch	ID	Name	Switch Group			Notes
 	1011622525	night	RTPC_CTRL_day_cycle			
 	1924633667	morning	RTPC_CTRL_day_cycle			
 	2905060079	evening	RTPC_CTRL_day_cycle			
+	674228435	long	RTPC_CTRL_grass_type			
+	1427625975	bush	RTPC_CTRL_grass_type			
+	2585211341	short	RTPC_CTRL_grass_type			
 
 State Group	ID	Name			Wwise Object Path	Notes
 	2641104181	Ww_Status_Ocarina_08			\MDR_WU\Music_states\Ww_Status_Ocarina_08	

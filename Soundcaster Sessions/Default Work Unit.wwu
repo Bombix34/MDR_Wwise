@@ -68,6 +68,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}"/>
+							<Value>2.99524262607041</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_07" ID="{C9A5C07E-3BF2-4B5A-8511-D1690E8F1E83}"/>
 							<Value>9.1590200665273E-312</Value>
 						</RTPCValue>
@@ -93,7 +97,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
-						<CurrentSwitchRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}"/>
+						<CurrentSwitchRef Name="wood" ID="{31C4C771-950C-403D-959A-9D8B16302746}"/>
 						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
 						<CurrentSwitchRef Name="evening" ID="{DCF21C54-B4DE-4FCC-930F-3D4935883FAD}"/>
 					</CurrentSwitchList>

@@ -14,29 +14,16 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Footstep" ID="{6BF95D20-459B-4796-9D57-EBFEAAD87F32}" ShortID="890531153">
+						<RandomSequenceContainer Name="Footsteps" ID="{014B1FC1-1CAB-45E8-9DAC-638AF207F006}" ShortID="908999436">
 							<PropertyList>
-								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-								<Property Name="MaxSoundPerInstance" Type="int16">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -47,7 +34,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<SwitchContainer Name="Surfaces" ID="{41313191-626A-4AE5-916A-2F97441D0161}" ShortID="578660069">
+								<SwitchContainer Name="Surfaces" ID="{8C969575-6FA7-4E63-BF81-3B8862F1D9C0}" ShortID="362092888">
 									<PropertyList>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
@@ -55,15 +42,15 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
+										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>True</Value>
+												<Value>-7.5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 										</Reference>
 										<Reference Name="DefaultSwitchOrState">
 											<ObjectRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
@@ -76,41 +63,1574 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" ShortID="808129721">
+										<BlendContainer Name="dirt" ID="{9DE985F3-89FA-41C3-92AF-B7BAFEB1CA82}" ShortID="903794031">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="base" ID="{E496E18A-C8F6-4EB2-8FF1-0067A401369B}" ShortID="621272778">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Foosteps_dirt_BASE-001" ID="{8B21BA38-8927-4882-937C-6DAB658287E4}" ShortID="166022249">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Foosteps_dirt_BASE-001" ID="{C29E5479-F3D6-483D-803B-BC20612426D5}" ShortID="1059872549">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\base\Foosteps_dirt_BASE-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="374833631"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Foosteps_dirt_BASE-001" ID="{C29E5479-F3D6-483D-803B-BC20612426D5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Foosteps_dirt_BASE-002" ID="{29E22E02-1223-4A29-8FB0-F47C1345BFB6}" ShortID="457460321">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Foosteps_dirt_BASE-002" ID="{763CC00A-A4EC-49DE-9E94-7EBEA9977DBB}" ShortID="917547667">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\base\Foosteps_dirt_BASE-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="421006589"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Foosteps_dirt_BASE-002" ID="{763CC00A-A4EC-49DE-9E94-7EBEA9977DBB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="low" ID="{ECF1B134-D986-4645-A55F-39832FDBA73D}" ShortID="868579336">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Footsteps_dirt_low-001" ID="{43922E61-2930-4227-8710-37620254E65F}" ShortID="815319251">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-001" ID="{717E572E-573A-46D2-9D2F-5FC55020EDAF}" ShortID="26673958">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="616179448"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-001" ID="{717E572E-573A-46D2-9D2F-5FC55020EDAF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_dirt_low-002" ID="{D56F25A9-701F-4206-B768-E3316B314BB4}" ShortID="553784275">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-002" ID="{0168DF77-3DC5-4F38-BCA3-1EFE8120D7A1}" ShortID="127242951">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="470893024"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-002" ID="{0168DF77-3DC5-4F38-BCA3-1EFE8120D7A1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_dirt_low-003" ID="{6B8F1E8E-46EA-4625-A3FA-6FD0A845A322}" ShortID="1041324251">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-003" ID="{75DE9F5A-3BDF-46D6-8E3D-DE09EE9AF762}" ShortID="540099111">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="700743731"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-003" ID="{75DE9F5A-3BDF-46D6-8E3D-DE09EE9AF762}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_dirt_low-004" ID="{8BFAD150-4837-4571-B044-97F8E8B74D5D}" ShortID="1057034394">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-004" ID="{0D4C750B-A3A6-4798-8730-D47FBC8033A5}" ShortID="640107156">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="93936643"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-004" ID="{0D4C750B-A3A6-4798-8730-D47FBC8033A5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_dirt_low-005" ID="{5BB03DEB-0A6A-4F41-9ECA-5C2D71215EC0}" ShortID="1026806522">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-005" ID="{4B066832-7CC4-470C-84A3-920B19C59131}" ShortID="1030349882">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="687645138"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-005" ID="{4B066832-7CC4-470C-84A3-920B19C59131}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_dirt_low-006" ID="{D4C2C445-9A25-4899-9DA5-1E8C6D5FD972}" ShortID="790014075">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-006" ID="{32E0DBF7-A196-4DD7-B3C8-EF472F462A10}" ShortID="490598061">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="23475721"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-006" ID="{32E0DBF7-A196-4DD7-B3C8-EF472F462A10}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_dirt_low-007" ID="{B7599ABA-EE7F-4B4B-B4FA-7412774233DC}" ShortID="506834309">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_dirt_low-007" ID="{518B34BD-4CD1-4891-9BB7-2C93B9461580}" ShortID="212827834">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\low\Footsteps_dirt_low-007.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="516241765"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_dirt_low-007" ID="{518B34BD-4CD1-4891-9BB7-2C93B9461580}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="moist" ID="{CEBF7DB3-C846-45A9-8D61-43795D68C8B3}" ShortID="704829522">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Footsteps_Dirt_moist-001" ID="{5DD03221-7B5A-46FA-947B-C62323A7F098}" ShortID="697055734">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-001" ID="{6C0FB060-5319-444D-8874-632BD4F215CB}" ShortID="328973575">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="685880964"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-001" ID="{6C0FB060-5319-444D-8874-632BD4F215CB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_Dirt_moist-002" ID="{C85AA9FA-685D-4764-AC94-EBE918985445}" ShortID="347833550">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-002" ID="{5DF12656-1498-43E9-9158-470B0A02362E}" ShortID="73369285">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="136985139"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-002" ID="{5DF12656-1498-43E9-9158-470B0A02362E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_Dirt_moist-003" ID="{29C7E4E0-8EFD-4C41-9CF5-1993188F9BDF}" ShortID="351251648">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-003" ID="{652CA756-EB67-4B23-A225-5EF5F6915CC0}" ShortID="528406038">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="178051527"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-003" ID="{652CA756-EB67-4B23-A225-5EF5F6915CC0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_Dirt_moist-004" ID="{3FD791B8-AFAF-4E0C-AEE9-1D2591EFAA9E}" ShortID="1002635559">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-004" ID="{F20699B5-254D-45C0-AF44-B174CC6DFD33}" ShortID="7924625">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="682606857"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-004" ID="{F20699B5-254D-45C0-AF44-B174CC6DFD33}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_Dirt_moist-005" ID="{79804D32-D1F0-4561-BCA6-C29C63683D24}" ShortID="808202212">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-005" ID="{CE689501-F314-46C0-A588-F7B6A490160E}" ShortID="1030654744">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="406048703"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-005" ID="{CE689501-F314-46C0-A588-F7B6A490160E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_Dirt_moist-006" ID="{2787F577-12E1-433B-9400-B1E990FEEBA2}" ShortID="873717481">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-006" ID="{2E61C0DE-E25F-4A02-A83D-6351A63201D0}" ShortID="746347867">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="752214485"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-006" ID="{2E61C0DE-E25F-4A02-A83D-6351A63201D0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Footsteps_Dirt_moist-007" ID="{AA8C0D3E-7BF4-4C95-85A5-A6F11A29FC80}" ShortID="912212970">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Footsteps_Dirt_moist-007" ID="{C20400B7-2802-49C8-96D2-A021F4E5FCD5}" ShortID="149394735">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\moist\Footsteps_Dirt_moist-007.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="930995499"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Footsteps_Dirt_moist-007" ID="{C20400B7-2802-49C8-96D2-A021F4E5FCD5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="grass" ID="{F1AF1E5C-48C7-4C29-9BA9-702511213610}" ShortID="370246691">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="base" ID="{3401B11F-6629-4CCF-966E-C14924B4E48F}" ShortID="202494550">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="footsteps_grass-001" ID="{2DE1864B-48AC-4EAD-893D-213C09EE7A5F}" ShortID="890391338">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-001" ID="{D3847CDE-58D4-45C0-A7C6-CB08C851A75D}" ShortID="1045350234">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="756655636"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-001" ID="{D3847CDE-58D4-45C0-A7C6-CB08C851A75D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-002" ID="{0E023E15-38E3-4AF3-A166-AE4F1213215D}" ShortID="512324096">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-002" ID="{7474AAA1-2AB9-4EFB-8B40-1316FF2E1E64}" ShortID="665949563">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="632974870"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-002" ID="{7474AAA1-2AB9-4EFB-8B40-1316FF2E1E64}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-003" ID="{C72F1ACF-8AE3-47AB-B6C6-854ACA2943FC}" ShortID="333945755">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-003" ID="{0BA34F19-7980-45E1-9F13-4B0B7179409F}" ShortID="739794074">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="524695818"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-003" ID="{0BA34F19-7980-45E1-9F13-4B0B7179409F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-004" ID="{F7C791D2-ABBE-4CF8-B18D-F687E35D4A8B}" ShortID="621606320">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-004" ID="{5B2DD0C6-ABC6-4B75-B52C-61EA528DD00F}" ShortID="565067063">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="1021894829"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-004" ID="{5B2DD0C6-ABC6-4B75-B52C-61EA528DD00F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-005" ID="{5916C875-3854-4DE5-A68A-DAE8BFD51906}" ShortID="526388714">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-005" ID="{1B297AA1-2C20-4E18-9EF8-F90F4B389B02}" ShortID="720316142">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="330623046"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-005" ID="{1B297AA1-2C20-4E18-9EF8-F90F4B389B02}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-006" ID="{FD2811E3-25BC-4B54-8C84-D3E657310527}" ShortID="855524181">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-006" ID="{0FB25AC6-A081-4BD1-8A20-83A80D6E5700}" ShortID="417057050">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="836367673"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-006" ID="{0FB25AC6-A081-4BD1-8A20-83A80D6E5700}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-007" ID="{532E433A-109D-4E9C-8221-B394AACAF4DA}" ShortID="939429531">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-007" ID="{9E7AD6BF-7738-48B7-80E9-2B14E638C805}" ShortID="700208751">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-007.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="228559592"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-007" ID="{9E7AD6BF-7738-48B7-80E9-2B14E638C805}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-008" ID="{B74EA1B2-3434-4C06-9FDA-8DFB6F2DD392}" ShortID="902597149">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-008" ID="{7CBA1F89-9EF6-4FA2-B0D9-BC4AB651DAD6}" ShortID="871843007">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-008.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="628319451"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-008" ID="{7CBA1F89-9EF6-4FA2-B0D9-BC4AB651DAD6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_grass-009" ID="{EFA5C233-5344-4714-8091-52359AA5ABEF}" ShortID="106320969">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_grass-009" ID="{AF7416C1-0ECD-42B8-B0CA-2557693FE4A0}" ShortID="131086604">
+																	<Language>SFX</Language>
+																	<AudioFile>grass\base\footsteps_grass-009.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="361393499"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_grass-009" ID="{AF7416C1-0ECD-42B8-B0CA-2557693FE4A0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<SwitchContainer Name="long_grass_sw" ID="{59949854-19F5-423D-AB0B-85A4CDB2FABF}" ShortID="30775223">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{9EFEE22D-6EAD-4C05-96BB-3688BA99C54E}" ShortID="917809214">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E6ED5854-A745-4228-AE30-584387A746BC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Constant</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>2</XPos>
+																				<YPos>-9</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+														<Reference Name="SwitchGroupOrStateGroup">
+															<ObjectRef Name="RTPC_CTRL_grass_type" ID="{570F4962-7550-4DBB-917C-CB6707CEC9B0}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="long" ID="{823A79E6-7792-4EE5-B3FC-41B2FE305219}" ShortID="268262698">
+															<PropertyList>
+																<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="footsteps_long_grass-001" ID="{01544CFB-D53F-4BB5-8DDB-77B28E76C7D9}" ShortID="111255255">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-001" ID="{54DCE986-C42E-4C5E-989F-A544D85D9170}" ShortID="88794303">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-001.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="851304383"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-001" ID="{54DCE986-C42E-4C5E-989F-A544D85D9170}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-002" ID="{F2621710-EC92-4797-B41F-3AF1F2D2F9AC}" ShortID="384698009">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-002" ID="{988E10C9-3D69-426B-9FD7-797721DC879E}" ShortID="672958016">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-002.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="577666406"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-002" ID="{988E10C9-3D69-426B-9FD7-797721DC879E}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-003" ID="{B949DDD1-17D3-428E-998B-A5C900D82178}" ShortID="767122772">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-003" ID="{D2ABB69B-D4CC-433B-8609-9112E32F59AD}" ShortID="925257674">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-003.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="696665378"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-003" ID="{D2ABB69B-D4CC-433B-8609-9112E32F59AD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-004" ID="{EFB11B3C-E88E-4719-B16A-D68DF3F18C9A}" ShortID="722584204">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-004" ID="{93D1A989-B309-4EC6-BF82-92D0BC5C4DF0}" ShortID="944652431">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-004.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="893192217"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-004" ID="{93D1A989-B309-4EC6-BF82-92D0BC5C4DF0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-005" ID="{467665BB-4BD6-4580-9AAD-B3E48917BC19}" ShortID="1036705204">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-005" ID="{70D4F736-32F5-424D-956F-C7F0737DA871}" ShortID="618994102">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-005.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="445714238"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-005" ID="{70D4F736-32F5-424D-956F-C7F0737DA871}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-006" ID="{50B67DB0-148D-41AF-9184-535E4D0DA630}" ShortID="506756808">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-006" ID="{2E6D64BE-9415-4126-B122-5F6B8164D8B9}" ShortID="880180729">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-006.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="506380188"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-006" ID="{2E6D64BE-9415-4126-B122-5F6B8164D8B9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-007" ID="{BEA97EF0-EC62-495E-BB45-A42FB0DD9494}" ShortID="252333650">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-007" ID="{8B1FE8F5-6B2D-4802-B54E-743B3B84763A}" ShortID="859347199">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-007.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="689418557"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-007" ID="{8B1FE8F5-6B2D-4802-B54E-743B3B84763A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-008" ID="{B3076651-FAB4-4798-B799-01ADCE41D327}" ShortID="557023297">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-008" ID="{E3E851ED-ECD9-4744-933E-03B7251582AF}" ShortID="475698549">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-008.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="334379372"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-008" ID="{E3E851ED-ECD9-4744-933E-03B7251582AF}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="footsteps_long_grass-009" ID="{BD7E80D4-7788-492B-BA95-FD58D073B6C0}" ShortID="440302730">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="footsteps_long_grass-009" ID="{CC14397F-2180-494F-8A29-BCA41CE48B48}" ShortID="315727839">
+																			<Language>SFX</Language>
+																			<AudioFile>grass\long\footsteps_long_grass-009.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="648806118"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="footsteps_long_grass-009" ID="{CC14397F-2180-494F-8A29-BCA41CE48B48}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<GroupingInfo>
+														<GroupingBehaviorList>
+															<GroupingBehavior>
+																<ItemRef Name="long" ID="{823A79E6-7792-4EE5-B3FC-41B2FE305219}"/>
+															</GroupingBehavior>
+														</GroupingBehaviorList>
+														<GroupingList>
+															<Grouping>
+																<SwitchRef Name="long" ID="{31D1A518-1B21-41B5-9CC7-EDFFD975CAFF}"/>
+																<ItemList>
+																	<ItemRef Name="long" ID="{823A79E6-7792-4EE5-B3FC-41B2FE305219}"/>
+																</ItemList>
+															</Grouping>
+														</GroupingList>
+													</GroupingInfo>
+												</SwitchContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<RandomSequenceContainer Name="sand" ID="{8870945B-496E-4E7A-A9CB-55F223B9A72A}" ShortID="616498110">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16">
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-001" ID="{EC5A633A-0005-4E5C-80E7-FAAB67EBA0F9}" ShortID="786415833">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-001" ID="{E0D738BE-AE1A-44E4-B961-E45DD6051DDF}" ShortID="45927851">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-001.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="666251668"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-001" ID="{E0D738BE-AE1A-44E4-B961-E45DD6051DDF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-002" ID="{5AF5CBBF-AC2E-41B1-B8DE-FE3D9B401C5A}" ShortID="291579267">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-002" ID="{F33DE412-E9B9-4B6C-97E0-DC734C199FFB}" ShortID="909561981">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-002.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="88723217"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-002" ID="{F33DE412-E9B9-4B6C-97E0-DC734C199FFB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-003" ID="{9184F29A-803B-4CF7-8BBA-89F3293BFFA8}" ShortID="729773955">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-003" ID="{5C024E2F-78E4-4569-A093-1F8AD8AE0024}" ShortID="517209522">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-003.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="561703191"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-003" ID="{5C024E2F-78E4-4569-A093-1F8AD8AE0024}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-004" ID="{EB536804-1271-47D8-8D3E-3424B7B7CC4A}" ShortID="242908007">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-004" ID="{0C40403B-1282-44D2-9FC6-C3BBDE64A795}" ShortID="1049861386">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-004.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="995221764"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-004" ID="{0C40403B-1282-44D2-9FC6-C3BBDE64A795}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-005" ID="{1F7F4210-4736-4071-941B-AE8ACD6F9CB6}" ShortID="705390239">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-005" ID="{DDFC0821-D45D-4862-937D-42ED36416559}" ShortID="186908473">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-005.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="768357117"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-005" ID="{DDFC0821-D45D-4862-937D-42ED36416559}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-006" ID="{B4FFBB12-82ED-48CD-A985-BCADDFC9DEEC}" ShortID="993933022">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-006" ID="{FC5A72CD-0AC4-4DDA-A9EA-D6BAE6D53319}" ShortID="964625196">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-006.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="371585331"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-006" ID="{FC5A72CD-0AC4-4DDA-A9EA-D6BAE6D53319}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-007" ID="{F51ECBD2-84A0-41C2-A1CD-4D354F1FC7F4}" ShortID="258102721">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-007" ID="{27EEF613-17A0-4179-A890-C166A97BF7D5}" ShortID="190594869">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-007.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="898240631"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-007" ID="{27EEF613-17A0-4179-A890-C166A97BF7D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="455062__audioninja001__footsteps-wet-sand-008" ID="{32FC1ABF-F204-4C99-A610-30E6C01C00CA}" ShortID="785723999">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-008" ID="{42DB5E19-5B43-43B3-983C-329779ED5945}" ShortID="600676951">
+															<Language>SFX</Language>
+															<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-008.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="441295371"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-008" ID="{42DB5E19-5B43-43B3-983C-329779ED5945}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<BlendContainer Name="wet_sand" ID="{4A5638E5-7F59-42F6-A0AF-F76599082B5E}" ShortID="860579222">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="sand" ID="{4F235DC0-5FF3-44A4-AD6A-607A271DB1AD}" ShortID="569190344">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>47</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-001" ID="{0472CFE7-AD78-48F2-A698-8761C2DCE8E6}" ShortID="765992041">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-001" ID="{B0662293-5F91-4265-8A56-08B37F5DDB7D}" ShortID="125499957">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="666251668"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-001" ID="{B0662293-5F91-4265-8A56-08B37F5DDB7D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-002" ID="{B1CFFC83-BAD3-41D3-B48E-8AA44FD97685}" ShortID="31157663">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-002" ID="{DFE0CCF0-FCD1-4253-B8BA-892114DC48BD}" ShortID="836563075">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="88723217"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-002" ID="{DFE0CCF0-FCD1-4253-B8BA-892114DC48BD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-003" ID="{0BA74FDB-2F07-4D19-A79C-EE4A817A2AC4}" ShortID="875289587">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-003" ID="{5A072632-6F25-4462-97BE-A75672FEBC70}" ShortID="342420930">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="561703191"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-003" ID="{5A072632-6F25-4462-97BE-A75672FEBC70}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-004" ID="{E5CD6D78-8FA8-456E-BED5-E5B130ADAE1A}" ShortID="208114950">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-004" ID="{52CE3E28-4C1B-4534-99C5-E2537CE408D1}" ShortID="936155107">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="995221764"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-004" ID="{52CE3E28-4C1B-4534-99C5-E2537CE408D1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-005" ID="{A36F76B7-3F6B-4B93-B8C4-68E81A7F5563}" ShortID="976832889">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-005" ID="{92F88A55-86E8-4B3D-9C8A-9092E507674D}" ShortID="177892208">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="768357117"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-005" ID="{92F88A55-86E8-4B3D-9C8A-9092E507674D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-006" ID="{48DFF4D3-1E1E-404B-A5FC-B900187713B7}" ShortID="685315378">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-006" ID="{B3639F89-79E2-4105-93EA-45804A506A6C}" ShortID="110898377">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="371585331"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-006" ID="{B3639F89-79E2-4105-93EA-45804A506A6C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-007" ID="{5F39B230-524F-4E35-A075-5FBC645A4BFB}" ShortID="806513373">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-007" ID="{3D9B648B-4DAA-428C-973D-F68A233FA5ED}" ShortID="722059536">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-007.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="898240631"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-007" ID="{3D9B648B-4DAA-428C-973D-F68A233FA5ED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="455062__audioninja001__footsteps-wet-sand-008" ID="{131D0502-E1EF-4713-8425-420A7E65DC78}" ShortID="825006215">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="455062__audioninja001__footsteps-wet-sand-008" ID="{4EE9296C-C748-4E39-84C8-9F8AAF6240C2}" ShortID="562437145">
+																	<Language>SFX</Language>
+																	<AudioFile>sand\455062__audioninja001__footsteps-wet-sand-008.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="441295371"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="455062__audioninja001__footsteps-wet-sand-008" ID="{4EE9296C-C748-4E39-84C8-9F8AAF6240C2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="water" ID="{494E008F-25C9-47A0-AD1A-BDC623135CE9}" ShortID="1005519802">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="footsteps_water-001" ID="{8DCEE305-CEE6-4BD4-AB9A-579DA4DB1465}" ShortID="1013743845">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-001" ID="{31F67F5A-63F5-4A4A-8A9C-253210B1BA58}" ShortID="387207105">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="966298174"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-001" ID="{31F67F5A-63F5-4A4A-8A9C-253210B1BA58}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-002" ID="{7C396496-192B-4AD7-B09C-A67CA55D5CC3}" ShortID="755308867">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-002" ID="{100A332E-F33F-41F2-B0A4-E17DB0527889}" ShortID="616475848">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="625453817"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-002" ID="{100A332E-F33F-41F2-B0A4-E17DB0527889}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-003" ID="{B76C61CE-7AC1-493B-9978-F4E84E30ECE2}" ShortID="252327145">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-003" ID="{6C2E9437-C897-4051-9B3D-9DDE4D7FCB16}" ShortID="166651446">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="532901103"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-003" ID="{6C2E9437-C897-4051-9B3D-9DDE4D7FCB16}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-004" ID="{FE6C27CA-2AEE-4048-8846-11344F1097A2}" ShortID="1040782416">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-004" ID="{4C5C55FC-083D-4B06-859A-3648CD59ABE7}" ShortID="301455201">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="306457144"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-004" ID="{4C5C55FC-083D-4B06-859A-3648CD59ABE7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-005" ID="{BBD5DD62-5DC5-44FC-AB03-96AD1180831E}" ShortID="348612983">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-005" ID="{733CB351-55AA-4BF8-9BD7-3A6E5B552EA0}" ShortID="663424441">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="668890117"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-005" ID="{733CB351-55AA-4BF8-9BD7-3A6E5B552EA0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-006" ID="{742F002A-8B4D-4DC8-8F99-53B5C5760DAE}" ShortID="512920315">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-006" ID="{9DC337EF-015E-4A19-B85A-D1088A72405D}" ShortID="732364946">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="210116956"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-006" ID="{9DC337EF-015E-4A19-B85A-D1088A72405D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-007" ID="{670E4C57-14D6-46FB-9019-A9047D70F706}" ShortID="957672401">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-007" ID="{DE4DA705-7EDB-4EED-A42A-1FC3A807F247}" ShortID="864419384">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-007.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="277362574"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-007" ID="{DE4DA705-7EDB-4EED-A42A-1FC3A807F247}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-008" ID="{B8E582FD-ED57-435F-AE55-4745DBF1646A}" ShortID="280845466">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-008" ID="{09694DAC-9000-459E-8E60-0A598C26DA9B}" ShortID="713560560">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-008.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="50034875"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-008" ID="{09694DAC-9000-459E-8E60-0A598C26DA9B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_water-009" ID="{0C999C2A-1129-4591-A246-0D500B05577C}" ShortID="893337973">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_water-009" ID="{E6B91E67-E5FF-4ED4-90D0-FCD073ED2FD8}" ShortID="438684645">
+																	<Language>SFX</Language>
+																	<AudioFile>wet_sand\water\footsteps_water-009.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="66083942"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_water-009" ID="{E6B91E67-E5FF-4ED4-90D0-FCD073ED2FD8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Wood" ID="{B61DEBC1-02CA-4934-BD21-E3649C36E41C}" ShortID="643471860">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>40</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>25</Value>
-													</ValueList>
-												</Property>
-												<Property Name="MaxSoundPerInstance" Type="int16">
-													<ValueList>
-														<Value>2</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{9969A234-31BE-4454-BF7A-B5AFA609ED5F}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="300"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.4"/>
-												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
+														<Value>-4.5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -123,7 +1643,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SFX_Player_Footsteps_-_v2_190126_2144-001" ID="{8CDDBEF1-4EB8-4A05-9E83-CB12C521B303}" ShortID="257090824">
+												<RandomSequenceContainer Name="peak" ID="{E300FACE-6FE5-438A-874B-FD564D4E3E06}" ShortID="1041108508">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -133,22 +1661,864 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Player_Footsteps_-_v2_190126_2144-001" ID="{33BE6626-1EAE-415B-B2E5-CE220918BD12}" ShortID="873565356">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.159547700224281"/>
-																<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.247278720478268"/>
-															</PropertyList>
+														<Sound Name="Wood_peak-001" ID="{A03D2105-B22E-4660-9FF1-19CB6B5A7468}" ShortID="723649968">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_peak-001" ID="{B5BDB306-F522-4F95-839F-89C14DB4BD1B}" ShortID="297780142">
+																	<Language>SFX</Language>
+																	<AudioFile>peak\Wood_peak-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="244678200"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_peak-001" ID="{B5BDB306-F522-4F95-839F-89C14DB4BD1B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_peak-002" ID="{93078DDD-6B53-4E4F-B59A-A45AE2ABC8FA}" ShortID="504525461">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_peak-002" ID="{4508B7B9-1A04-4E3B-9D51-6FAA2A948CEB}" ShortID="744068017">
+																	<Language>SFX</Language>
+																	<AudioFile>peak\Wood_peak-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="173125545"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_peak-002" ID="{4508B7B9-1A04-4E3B-9D51-6FAA2A948CEB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_peak-003" ID="{D259B26C-378C-4918-BA23-2DB288C3C0E2}" ShortID="234563175">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_peak-003" ID="{8E3164EA-E9F9-41B7-A9B2-30E81E0D197C}" ShortID="272729055">
+																	<Language>SFX</Language>
+																	<AudioFile>peak\Wood_peak-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="609025640"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_peak-003" ID="{8E3164EA-E9F9-41B7-A9B2-30E81E0D197C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_peak-004" ID="{139BB17F-5D29-452E-8F23-BC33BF544715}" ShortID="797395033">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_peak-004" ID="{E985744F-3502-4EF0-AD5F-ACAABC557657}" ShortID="720318468">
+																	<Language>SFX</Language>
+																	<AudioFile>peak\Wood_peak-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="162769574"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_peak-004" ID="{E985744F-3502-4EF0-AD5F-ACAABC557657}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_peak-005" ID="{D273CD1C-AEDA-4957-A2F5-FB7499B29E51}" ShortID="3097012">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_peak-005" ID="{AD000C46-B9DF-48E1-8185-A9D5448268A0}" ShortID="1048125941">
+																	<Language>SFX</Language>
+																	<AudioFile>peak\Wood_peak-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="512845283"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_peak-005" ID="{AD000C46-B9DF-48E1-8185-A9D5448268A0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_peak-006" ID="{5AD88A47-4AC2-48DD-95E4-C46D516F80B2}" ShortID="918992242">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_peak-006" ID="{376E340B-FDE5-4E10-A490-FC28F4E2F303}" ShortID="372779532">
+																	<Language>SFX</Language>
+																	<AudioFile>peak\Wood_peak-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="972712054"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_peak-006" ID="{376E340B-FDE5-4E10-A490-FC28F4E2F303}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="slide" ID="{AA235D87-F060-44B2-A6E4-1787A6538C1B}" ShortID="92896313">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Wood_slide-001" ID="{7DD4F993-0CBD-48CD-A0A1-2853AA38389F}" ShortID="688101632">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_slide-001" ID="{C8D8C134-AE05-4566-B68E-1F382CDFC992}" ShortID="348286247">
+																	<Language>SFX</Language>
+																	<AudioFile>slide\Wood_slide-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="100095999"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_slide-001" ID="{C8D8C134-AE05-4566-B68E-1F382CDFC992}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_slide-002" ID="{D972C0C5-F0F0-492F-96B7-48BC929CE9A9}" ShortID="281715207">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_slide-002" ID="{62BF4A9D-48E8-4DD5-A033-C4F584A83DC3}" ShortID="541741515">
+																	<Language>SFX</Language>
+																	<AudioFile>slide\Wood_slide-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="332561117"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_slide-002" ID="{62BF4A9D-48E8-4DD5-A033-C4F584A83DC3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_slide-003" ID="{A78E25F1-188D-4C53-AB45-173081E3D287}" ShortID="242463187">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_slide-003" ID="{5CC40E9C-4034-4253-8445-1B16231A3234}" ShortID="8873235">
+																	<Language>SFX</Language>
+																	<AudioFile>slide\Wood_slide-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="72006230"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_slide-003" ID="{5CC40E9C-4034-4253-8445-1B16231A3234}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_slide-004" ID="{71D215D0-2358-4C1A-9406-72A82EC00428}" ShortID="11668493">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_slide-004" ID="{BBE6AA8A-2ED2-46FA-85A0-CE2119C9E1B4}" ShortID="707054347">
+																	<Language>SFX</Language>
+																	<AudioFile>slide\Wood_slide-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="1060347423"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_slide-004" ID="{BBE6AA8A-2ED2-46FA-85A0-CE2119C9E1B4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_slide-005" ID="{AE196D20-AC82-4C17-9096-96CCD070B4F0}" ShortID="208048064">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_slide-005" ID="{ACC3BB03-DBFD-4611-8FFE-D8FE49F133D7}" ShortID="756242487">
+																	<Language>SFX</Language>
+																	<AudioFile>slide\Wood_slide-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="973542936"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_slide-005" ID="{ACC3BB03-DBFD-4611-8FFE-D8FE49F133D7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_slide-006" ID="{A1B7D784-E746-46DD-93C2-A31F63A653C7}" ShortID="303967629">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_slide-006" ID="{C617FAA9-C1A4-42E2-858E-EEDA55F4D1A1}" ShortID="997848435">
+																	<Language>SFX</Language>
+																	<AudioFile>slide\Wood_slide-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="753629261"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_slide-006" ID="{C617FAA9-C1A4-42E2-858E-EEDA55F4D1A1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="soft" ID="{F2C5C9BA-1C92-4581-9303-C2209CA7939F}" ShortID="571211513">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Wood_soft-001" ID="{F15E7D4B-A027-442E-8F8A-5DC2B3DFACF8}" ShortID="400896599">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_soft-001" ID="{324BE878-422A-4581-AB2E-AD08767E5CBF}" ShortID="423941239">
+																	<Language>SFX</Language>
+																	<AudioFile>soft\Wood_soft-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="1041195826"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_soft-001" ID="{324BE878-422A-4581-AB2E-AD08767E5CBF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_soft-002" ID="{AD29D7C2-4C36-45D6-8B21-1F5546DD78E0}" ShortID="993285893">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_soft-002" ID="{552E5F8A-A5CB-4B97-881B-0912D843A202}" ShortID="747706628">
+																	<Language>SFX</Language>
+																	<AudioFile>soft\Wood_soft-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="666145547"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_soft-002" ID="{552E5F8A-A5CB-4B97-881B-0912D843A202}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_soft-003" ID="{AEAF0FD7-F742-4A3B-B0CA-CE34FC6D63D4}" ShortID="320033847">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_soft-003" ID="{72908813-7D44-48FA-B438-CC90C0756D4A}" ShortID="236870806">
+																	<Language>SFX</Language>
+																	<AudioFile>soft\Wood_soft-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="890998793"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_soft-003" ID="{72908813-7D44-48FA-B438-CC90C0756D4A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_soft-004" ID="{0CE44CC5-1E3A-414A-B3DE-FF6CB84C3532}" ShortID="857124214">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_soft-004" ID="{A36226E2-737D-49B3-8E4F-A2F52321CBED}" ShortID="896317635">
+																	<Language>SFX</Language>
+																	<AudioFile>soft\Wood_soft-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="280874668"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_soft-004" ID="{A36226E2-737D-49B3-8E4F-A2F52321CBED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_soft-005" ID="{05D71CB2-8A08-4F65-933B-B2107523D842}" ShortID="773758752">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_soft-005" ID="{2DAECCBC-E894-4361-BFC9-114A1F8EC072}" ShortID="818901671">
+																	<Language>SFX</Language>
+																	<AudioFile>soft\Wood_soft-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="344884605"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_soft-005" ID="{2DAECCBC-E894-4361-BFC9-114A1F8EC072}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Wood_soft-006" ID="{686146CD-BD30-4350-93B3-90255F1C543D}" ShortID="562471004">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Wood_soft-006" ID="{3988036E-F16D-426C-9B1A-4B27AD7D4EDA}" ShortID="483832412">
+																	<Language>SFX</Language>
+																	<AudioFile>soft\Wood_soft-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="807481473"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wood_soft-006" ID="{3988036E-F16D-426C-9B1A-4B27AD7D4EDA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Stone" ID="{493718CE-E854-4923-AEDD-6022489D3796}" ShortID="150475299">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="stone" ID="{E5841125-F367-4B2E-A923-2EE80FB3CF9E}" ShortID="63560660">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="footsteps_Stone-001" ID="{1C79B9CA-63C6-40A1-A622-6BA7C9069C27}" ShortID="272431191">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-001" ID="{7E844226-F05F-4E29-AA57-D79D9F113FDF}" ShortID="97737029">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.00263852242744E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="185020888"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-001" ID="{7E844226-F05F-4E29-AA57-D79D9F113FDF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_Stone-002" ID="{AC51313A-E19B-48D9-BB20-3712DB9FBC38}" ShortID="869289860">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-002" ID="{F91F795B-58B5-4B6F-AE58-5D2DE5E66D02}" ShortID="93497428">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="9.73321606566988E-03"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="1047168550"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-002" ID="{F91F795B-58B5-4B6F-AE58-5D2DE5E66D02}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_Stone-003" ID="{0576FD38-18EE-438C-8E3F-5EC3346C5F97}" ShortID="44817208">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-003" ID="{40D09B06-668B-45AE-B697-F53CC899422B}" ShortID="640626525">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.04368220463207E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-003.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="499704075"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-003" ID="{40D09B06-668B-45AE-B697-F53CC899422B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_Stone-004" ID="{4A34E83A-D22E-4B67-8FB6-9E16385B8E16}" ShortID="519284859">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-004" ID="{F218BDDC-6EA9-4D87-8723-F8BDB164C1A8}" ShortID="360671465">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.09938434476693E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-004.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="516162670"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-004" ID="{F218BDDC-6EA9-4D87-8723-F8BDB164C1A8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_Stone-005" ID="{E6AD1C99-82AD-482C-B3E2-93AF9FA9E7F8}" ShortID="195518385">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-005" ID="{50A93902-1ABE-49D1-9540-75EA067BC244}" ShortID="810080239">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.019349164467898"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-005.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="1062571956"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-005" ID="{50A93902-1ABE-49D1-9540-75EA067BC244}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_Stone-006" ID="{D4472FCD-E429-450C-9B5D-F107C7B1489C}" ShortID="622017009">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-006" ID="{54D753B7-B8FF-4A7B-9CE6-CE2733F31E12}" ShortID="983181973">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.010260920551158"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-006.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="152354924"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-006" ID="{54D753B7-B8FF-4A7B-9CE6-CE2733F31E12}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="footsteps_Stone-007" ID="{00370F51-C02D-4830-8E50-26E87F525EDD}" ShortID="3983322">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footsteps_Stone-007" ID="{0F821CFF-C73D-4046-945D-53C861DBB110}" ShortID="378928922">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.38375842861331E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>stone\footsteps_Stone-007.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="548488606"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footsteps_Stone-007" ID="{0F821CFF-C73D-4046-945D-53C861DBB110}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="base" ID="{1A4D7D49-38DC-47EB-B8C7-2886ACBED779}" ShortID="348376743">
+													<PropertyList>
+														<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Foosteps_dirt_BASE-001" ID="{152C5F46-A3EE-47A7-A5FB-9AFA82E23EB7}" ShortID="886477847">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Foosteps_dirt_BASE-001" ID="{43900287-6486-4574-BE67-387C8C49CEFA}" ShortID="654839276">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\base\Foosteps_dirt_BASE-001.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="374833631"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Foosteps_dirt_BASE-001" ID="{43900287-6486-4574-BE67-387C8C49CEFA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Foosteps_dirt_BASE-002" ID="{0E7073CE-23DF-4E04-ADC9-CA485A25B590}" ShortID="831846320">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Foosteps_dirt_BASE-002" ID="{53E85F05-3A61-4948-8E28-1DC7B6EBEA97}" ShortID="237043443">
+																	<Language>SFX</Language>
+																	<AudioFile>dirt\base\Foosteps_dirt_BASE-002.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="421006589"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Foosteps_dirt_BASE-002" ID="{53E85F05-3A61-4948-8E28-1DC7B6EBEA97}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="sand" ID="{8870945B-496E-4E7A-A9CB-55F223B9A72A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="grass" ID="{F1AF1E5C-48C7-4C29-9BA9-702511213610}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Wood" ID="{B61DEBC1-02CA-4934-BD21-E3649C36E41C}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Stone" ID="{493718CE-E854-4923-AEDD-6022489D3796}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="wet_sand" ID="{4A5638E5-7F59-42F6-A0AF-F76599082B5E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="dirt" ID="{9DE985F3-89FA-41C3-92AF-B7BAFEB1CA82}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="mud" ID="{A2C20404-7653-423E-9ABA-FA2A86592C88}"/>
+												<ItemList>
+													<ItemRef Name="dirt" ID="{9DE985F3-89FA-41C3-92AF-B7BAFEB1CA82}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}"/>
+												<ItemList>
+													<ItemRef Name="grass" ID="{F1AF1E5C-48C7-4C29-9BA9-702511213610}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="wood" ID="{31C4C771-950C-403D-959A-9D8B16302746}"/>
+												<ItemList>
+													<ItemRef Name="Wood" ID="{B61DEBC1-02CA-4934-BD21-E3649C36E41C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="sand" ID="{C5A5B4C8-A83E-46EE-A302-81B25D4D53F0}"/>
+												<ItemList>
+													<ItemRef Name="sand" ID="{8870945B-496E-4E7A-A9CB-55F223B9A72A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="rock" ID="{AE1C6DF7-EB58-4736-9403-4A96ED69EA36}"/>
+												<ItemList>
+													<ItemRef Name="Stone" ID="{493718CE-E854-4923-AEDD-6022489D3796}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="water" ID="{D3DC44FA-309A-4B66-92C6-177134D570DB}"/>
+												<ItemList>
+													<ItemRef Name="wet_sand" ID="{4A5638E5-7F59-42F6-A0AF-F76599082B5E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="bushes_sw" ID="{E29FA5A1-0F13-464A-99BC-A68E2FC02BB0}" ShortID="439007302">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7.5</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{D03583EB-5DBA-47F3-A321-13D11B112B4F}" ShortID="453446988">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{92F6992E-F689-41B9-ACDD-5019B49D83B2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Constant</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>3</XPos>
+																<YPos>-6</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>4</XPos>
+																<YPos>-0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="RTPC_CTRL_grass_type" ID="{570F4962-7550-4DBB-917C-CB6707CEC9B0}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="bushes" ID="{CAA08BC3-3CA8-4C65-A006-C097498B7C08}" ShortID="1069928355">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="bushes-001" ID="{A9D25E68-006E-4D7E-A495-996B54082819}" ShortID="360801851">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="bushes-001" ID="{1C436DA1-7481-471D-B2F5-55EBDAD1CA2C}" ShortID="605943526">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Player_Footsteps_-_v2_190126_2144-001.wav</AudioFile>
+															<AudioFile>grass\bushes\bushes-001.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="730619784"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Player_Footsteps_-_v2_190126_2144-001" ID="{33BE6626-1EAE-415B-B2E5-CE220918BD12}" Platform="Linked"/>
+														<ActiveSource Name="bushes-001" ID="{1C436DA1-7481-471D-B2F5-55EBDAD1CA2C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Player_Footsteps_-_v2_190126_2144-002" ID="{EDBA62BC-37D0-49D8-AA0D-28262550757C}" ShortID="903386441">
+												<Sound Name="bushes-002" ID="{3A1DB85B-D709-408A-9C3D-322EF459714F}" ShortID="967114291">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -158,22 +2528,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Player_Footsteps_-_v2_190126_2144-002" ID="{55E6FB4F-47E7-4CB4-90B9-9838A974AF91}" ShortID="335846067">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.135303372363677"/>
-																<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.250459541077514"/>
-															</PropertyList>
+														<AudioFileSource Name="bushes-002" ID="{44C02FFF-290D-45DD-A660-7447519455A4}" ShortID="723984392">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Player_Footsteps_-_v2_190126_2144-002.wav</AudioFile>
+															<AudioFile>grass\bushes\bushes-002.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="153747542"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Player_Footsteps_-_v2_190126_2144-002" ID="{55E6FB4F-47E7-4CB4-90B9-9838A974AF91}" Platform="Linked"/>
+														<ActiveSource Name="bushes-002" ID="{44C02FFF-290D-45DD-A660-7447519455A4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Player_Footsteps_-_v2_190126_2144-003" ID="{5070C1B5-4FD1-4F81-AE21-8A147B06E396}" ShortID="634947086">
+												<Sound Name="bushes-003" ID="{462C4E50-44F2-4E3E-AC17-0A537047673B}" ShortID="988707748">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -183,22 +2550,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Player_Footsteps_-_v2_190126_2144-003" ID="{7C89F843-4224-4159-A315-1AAD516550D0}" ShortID="283028802">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.127493494193804"/>
-																<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.250098483650182"/>
-															</PropertyList>
+														<AudioFileSource Name="bushes-003" ID="{55EA210E-FDF7-451C-8264-1107D1F71172}" ShortID="182813135">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Player_Footsteps_-_v2_190126_2144-003.wav</AudioFile>
+															<AudioFile>grass\bushes\bushes-003.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="682974282"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Player_Footsteps_-_v2_190126_2144-003" ID="{7C89F843-4224-4159-A315-1AAD516550D0}" Platform="Linked"/>
+														<ActiveSource Name="bushes-003" ID="{55EA210E-FDF7-451C-8264-1107D1F71172}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Player_Footsteps_-_v2_190126_2144-004" ID="{0D60BFB9-4F29-4302-9F4F-8814771FB847}" ShortID="172241367">
+												<Sound Name="bushes-004" ID="{22652E57-E14D-4302-9C5A-7496BFE7A90C}" ShortID="637254868">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -208,22 +2572,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Player_Footsteps_-_v2_190126_2144-004" ID="{DB8F7E9A-6001-4F03-9077-78E90658A372}" ShortID="988829914">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="9.94014975723471E-02"/>
-																<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.249995401862541"/>
-															</PropertyList>
+														<AudioFileSource Name="bushes-004" ID="{556B512C-663F-40E9-B879-B80F42C19DB5}" ShortID="238514595">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Player_Footsteps_-_v2_190126_2144-004.wav</AudioFile>
+															<AudioFile>grass\bushes\bushes-004.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="490523639"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Player_Footsteps_-_v2_190126_2144-004" ID="{DB8F7E9A-6001-4F03-9077-78E90658A372}" Platform="Linked"/>
+														<ActiveSource Name="bushes-004" ID="{556B512C-663F-40E9-B879-B80F42C19DB5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Player_Footsteps_-_v2_190126_2144-005" ID="{F69E1446-9403-487E-B8F9-FE973D55695F}" ShortID="55940351">
+												<Sound Name="bushes-005" ID="{2A6F2041-1846-4BFD-9BA8-DE61B2E26F43}" ShortID="930767841">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -233,22 +2594,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Player_Footsteps_-_v2_190126_2144-005" ID="{3904F4DE-3D3E-4F4B-9118-038217145562}" ShortID="1028895247">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="9.26253630465614E-02"/>
-																<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.249839849898958"/>
-															</PropertyList>
+														<AudioFileSource Name="bushes-005" ID="{80819908-D975-4F3F-98AF-EC68C355E950}" ShortID="196234446">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Player_Footsteps_-_v2_190126_2144-005.wav</AudioFile>
+															<AudioFile>grass\bushes\bushes-005.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="250066383"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Player_Footsteps_-_v2_190126_2144-005" ID="{3904F4DE-3D3E-4F4B-9118-038217145562}" Platform="Linked"/>
+														<ActiveSource Name="bushes-005" ID="{80819908-D975-4F3F-98AF-EC68C355E950}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Player_Footsteps_-_v2_190126_2144-006" ID="{C22D2DAD-9395-4C72-B985-252B3FFC9C8D}" ShortID="744739924">
+												<Sound Name="bushes-006" ID="{A5C2AEEF-A0F0-4988-A47B-C064613CFEA8}" ShortID="652168896">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -258,19 +2616,38 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Player_Footsteps_-_v2_190126_2144-006" ID="{69DA40E3-3F2C-457F-B964-8C8C10AB736D}" ShortID="264616280">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.106167561080268"/>
-																<Property Name="FadeOutShape" Type="int16" Value="2"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.247557201926821"/>
-															</PropertyList>
+														<AudioFileSource Name="bushes-006" ID="{73805189-035D-4C2F-840A-BE3EBA579EF7}" ShortID="882480530">
 															<Language>SFX</Language>
-															<AudioFile>SFX_Player_Footsteps_-_v2_190126_2144-006.wav</AudioFile>
+															<AudioFile>grass\bushes\bushes-006.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="670798494"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Player_Footsteps_-_v2_190126_2144-006" ID="{69DA40E3-3F2C-457F-B964-8C8C10AB736D}" Platform="Linked"/>
+														<ActiveSource Name="bushes-006" ID="{73805189-035D-4C2F-840A-BE3EBA579EF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="bushes-007" ID="{6D5CCE65-EA98-492E-9898-713F5AEC01BB}" ShortID="332394063">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="bushes-007" ID="{C37B2DC5-DBAD-43E7-87EF-3530DC31E8B1}" ShortID="853187873">
+															<Language>SFX</Language>
+															<AudioFile>grass\bushes\bushes-007.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="732420796"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="bushes-007" ID="{C37B2DC5-DBAD-43E7-87EF-3530DC31E8B1}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -279,45 +2656,20 @@
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}"/>
+												<ItemRef Name="bushes" ID="{CAA08BC3-3CA8-4C65-A006-C097498B7C08}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
-												<SwitchRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}"/>
+												<SwitchRef Name="bush" ID="{D881B1D0-8743-4861-AEBB-85F3F94E3B22}"/>
 												<ItemList>
-													<ItemRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}"/>
+													<ItemRef Name="bushes" ID="{CAA08BC3-3CA8-4C65-A006-C097498B7C08}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
-								<Sound Name="Silence" ID="{89A50970-CC17-434C-80B5-7B4AF7CF7D52}" ShortID="817575365">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{D712173C-B1FA-4429-88A7-1613C00B2F57}" ShortID="91573009" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="0.04"/>
-											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{D712173C-B1FA-4429-88A7-1613C00B2F57}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="Surfaces" ID="{41313191-626A-4AE5-916A-2F97441D0161}"/>
-								<ItemRef Name="Silence" ID="{89A50970-CC17-434C-80B5-7B4AF7CF7D52}"/>
-							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>

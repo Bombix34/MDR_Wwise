@@ -109,6 +109,46 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
+				<SwitchGroup Name="RTPC_CTRL_grass_type" ID="{570F4962-7550-4DBB-917C-CB6707CEC9B0}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="short" ID="{1A317DA5-96EA-4082-AF0C-25BDC3B46AC7}"/>
+						<Switch Name="long" ID="{31D1A518-1B21-41B5-9CC7-EDFFD975CAFF}"/>
+						<Switch Name="bush" ID="{D881B1D0-8743-4861-AEBB-85F3F94E3B22}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}"/>
+						<Curve Name="" ID="{EFCCD4B8-0DE9-4AF7-A8CE-E65E1B5E3387}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
