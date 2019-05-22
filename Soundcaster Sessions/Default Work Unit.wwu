@@ -53,15 +53,23 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}"/>
-							<Value>0.46284224250326</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}"/>
 							<Value>9.15902007648767E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}"/>
+							<Value>13</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
 							<Value>400</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}"/>
+							<Value>13</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}"/>

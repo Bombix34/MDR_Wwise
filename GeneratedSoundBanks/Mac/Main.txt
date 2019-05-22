@@ -69,7 +69,7 @@ Switch	ID	Name	Switch Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	82641640	Ww_DEBUG_zik_speed			\MDR_WU\Ww_DEBUG_zik_speed	
 	1870090125	game_time			\MDR_WU\game_time	
-	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\Music_rtpc\Ww_Trem_Ocarina_01	
+	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_01	
 	2882100565	grass_height			\MDR_WU\grass_height	
 	3200455562	village_karma			\MDR_WU\village_karma	
 

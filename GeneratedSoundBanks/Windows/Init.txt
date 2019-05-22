@@ -54,7 +54,9 @@ Custom State	ID	Name	State Group	Owner		Notes
 	275451651	Destroyed	Ww_Status_Ocarina_01	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_MAIN		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\Music_rtpc\Ww_Trem_Ocarina_01	
+	1432175679	Distance_MS_01			\MDR_WU\MUSIC\Distance\Distance_MS_01	
+	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_01	
+	3692238424	Distance_MS_Gen			\MDR_WU\MUSIC\Distance\Distance_MS_Gen	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	306302681	Music_track_08			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_08	
