@@ -2,20 +2,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	87855283	MC_idle_anim_play			\MDR_WU\MAIN CHARACTER\MC_idle_anim_play	
 	96362093	ENV_door_close_play			\MDR_WU\ENVIRONMENT\ENV_door_close_play	
 	99041748	ENV_fire_stop			\MDR_WU\ENVIRONMENT\ENV_fire_stop	
-	173647080	ENV_amb_beach_play			\MDR_WU\ENVIRONMENT\ENV_amb_beach_play	
+	357745826	Ocarina_01_Damaged			\MDR_WU\MUSIC\Ocarina_01_Damaged	
 	401277688	UI_select_confirm_play			\MDR_WU\UI\UI_select_confirm_play	
 	538908709	MC_attack_play			\MDR_WU\MAIN CHARACTER\MC_attack_play	
 	658987741	UI_cancel_play			\MDR_WU\UI\UI_cancel_play	
 	733168346	GAME_start			\MDR_WU\GAME\GAME_start	
 	787023996	NPC_talk_play			\MDR_WU\NPC\GENERIC NPC\NPC_talk_play	
 	877487337	Ocarina_04_Damaged_WIND1			\MDR_WU\MUSIC\Ocarina_04_Damaged_WIND1	
+	885771810	Ocarina_01_Destroyed			\MDR_WU\MUSIC\Ocarina_01_Destroyed	
 	1011903932	MC_walk_play			\MDR_WU\MAIN CHARACTER\MC_walk_play	
 	1090803883	Ocarina_03_Damaged_PERCUS			\MDR_WU\MUSIC\Ocarina_03_Damaged_PERCUS	
 	1100552122	GAME_fake_fight			\MDR_WU\GAME\GAME_fake_fight	
 	1275933152	ENV_amb_ext_play			\MDR_WU\ENVIRONMENT\ENV_amb_ext_play	
 	1277176383	UI_item_highlight_play			\MDR_WU\UI\UI_item_highlight_play	
 	1357639289	NPC_walk_stop			\MDR_WU\NPC\GENERIC NPC\NPC_walk_stop	
-	1416541639	Music_Change_Morbid			\MDR_WU\_Testing\Music_Change_Morbid	
 	1432716332	GAME_over			\MDR_WU\GAME\GAME_over	
 	1796000097	MC_throw_play			\MDR_WU\MAIN CHARACTER\MC_throw_play	
 	1881369153	ENV_door_open_play			\MDR_WU\ENVIRONMENT\ENV_door_open_play	
@@ -26,7 +26,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2227517075	NPC_walk_play			\MDR_WU\NPC\GENERIC NPC\NPC_walk_play	
 	2246829044	MC_pick_item_play			\MDR_WU\MAIN CHARACTER\MC_pick_item_play	
 	2287292191	MC_pick_big_item_play			\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play	
-	2306680942	ENV_amb_int_play			\MDR_WU\ENVIRONMENT\ENV_amb_int_play	
 	2578355359	UI_pause_menu_play			\MDR_WU\UI\UI_pause_menu_play	
 	2732978883	GAME_launch			\MDR_WU\GAME\GAME_launch	
 	2760972584	ENV_pot_put_down_play			\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play	
@@ -34,9 +33,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2826582739	MC_talk_play			\MDR_WU\MAIN CHARACTER\MC_talk_play	
 	2989807018	ENV_fire_play			\MDR_WU\ENVIRONMENT\ENV_fire_play	
 	3084605388	Ocarina_02_Damaged_RYTHMIC			\MDR_WU\MUSIC\Ocarina_02_Damaged_RYTHMIC	
-	3157003241	TEST			\MDR_WU\_Testing\TEST	
 	3191795435	Ocarina_05_Damaged_WIND2			\MDR_WU\MUSIC\Ocarina_05_Damaged_WIND2	
-	3679492542	Ocarina_01_Damaged_MAIN			\MDR_WU\MUSIC\Ocarina_01_Damaged_MAIN	
 	3835799014	NPC_talk_stop			\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop	
 	4008763347	UI_camera_dezoom_play			\MDR_WU\UI\UI_camera_dezoom_play	
 	4033886834	UI_select_hover_play			\MDR_WU\UI\UI_select_hover_play	
@@ -72,8 +69,13 @@ Switch	ID	Name	Switch Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	82641640	Ww_DEBUG_zik_speed			\MDR_WU\Ww_DEBUG_zik_speed	
 	1870090125	game_time			\MDR_WU\game_time	
+	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\Music_rtpc\Ww_Trem_Ocarina_01	
 	2882100565	grass_height			\MDR_WU\grass_height	
 	3200455562	village_karma			\MDR_WU\village_karma	
+
+Effect plug-ins	ID	Name	Type				Notes
+	178973410	Music_alteration	Wwise Tremolo			
+	997855773	Music_Alteration_pitch	Wwise Pitch Shifter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23475721	Footsteps_dirt_low-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Mac\SFX\dirt\low\Footsteps_dirt_low-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Surfaces\dirt\low\Footsteps_dirt_low-006		8119

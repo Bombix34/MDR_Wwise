@@ -21,9 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="173647080" Name="ENV_amb_beach_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_beach_play" MaxAttenuation="0.000000"/>
 				<Event Id="1275933152" Name="ENV_amb_ext_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_ext_play" MaxAttenuation="0.000000"/>
-				<Event Id="2306680942" Name="ENV_amb_int_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_int_play" MaxAttenuation="0.000000"/>
 				<Event Id="96362093" Name="ENV_door_close_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_close_play"/>
 				<Event Id="1881369153" Name="ENV_door_open_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_open_play"/>
 				<Event Id="2989807018" Name="ENV_fire_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_play" MaxAttenuation="0.000000"/>
@@ -42,12 +40,12 @@
 				<Event Id="1956601529" Name="MC_talk_stop" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_stop" MaxAttenuation="0.000000"/>
 				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
-				<Event Id="1416541639" Name="Music_Change_Morbid" ObjectPath="\Events\MDR_WU\_Testing\Music_Change_Morbid" MaxAttenuation="0.000000"/>
 				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play" MaxAttenuation="0.000000"/>
 				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
 				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play"/>
 				<Event Id="1357639289" Name="NPC_walk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_stop" MaxAttenuation="0.000000"/>
-				<Event Id="3679492542" Name="Ocarina_01_Damaged_MAIN" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Damaged_MAIN" MaxAttenuation="0.000000"/>
+				<Event Id="357745826" Name="Ocarina_01_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Damaged" MaxAttenuation="0.000000"/>
+				<Event Id="885771810" Name="Ocarina_01_Destroyed" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Destroyed" MaxAttenuation="0.000000"/>
 				<Event Id="3084605388" Name="Ocarina_02_Damaged_RYTHMIC" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_02_Damaged_RYTHMIC" MaxAttenuation="0.000000"/>
 				<Event Id="1090803883" Name="Ocarina_03_Damaged_PERCUS" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_03_Damaged_PERCUS" MaxAttenuation="0.000000"/>
 				<Event Id="877487337" Name="Ocarina_04_Damaged_WIND1" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_04_Damaged_WIND1" MaxAttenuation="0.000000"/>
@@ -55,7 +53,6 @@
 				<Event Id="2776317848" Name="Ocarina_06_Damaged_BRASS1" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_06_Damaged_BRASS1" MaxAttenuation="0.000000"/>
 				<Event Id="4117983340" Name="Ocarina_07_Damaged_BRASS2" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_07_Damaged_BRASS2" MaxAttenuation="0.000000"/>
 				<Event Id="2170904855" Name="Ocarina_08_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_08_Damaged" MaxAttenuation="0.000000"/>
-				<Event Id="3157003241" Name="TEST" ObjectPath="\Events\MDR_WU\_Testing\TEST"/>
 				<Event Id="4008763347" Name="UI_camera_dezoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_dezoom_play" MaxAttenuation="0.000000"/>
 				<Event Id="2038710544" Name="UI_camera_zoom_play" ObjectPath="\Events\MDR_WU\UI\UI_camera_zoom_play" MaxAttenuation="0.000000"/>
 				<Event Id="658987741" Name="UI_cancel_play" ObjectPath="\Events\MDR_WU\UI\UI_cancel_play"/>

@@ -36,6 +36,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<ActorMixer Name="_-PLACEHOLDER-_" ID="{36AC9563-2077-4676-A7F3-7767462B9A3A}" ShortID="133884927">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>

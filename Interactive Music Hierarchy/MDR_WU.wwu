@@ -41,7 +41,7 @@
 						<Property Name="Tempo" Type="Real64" Value="105"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-4.5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -50,7 +50,7 @@
 							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+							<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -325,6 +325,11 @@
 						<MusicPlaylistContainer Name="NUIT" ID="{02392E31-DF5C-4F81-B431-40CF4EF7D090}" ShortID="622001185">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="105"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -420,7 +425,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_02_rythmic" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -458,7 +463,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_03_percus" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -556,7 +561,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_04_wind_1" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND_1" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -701,7 +706,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_06_brass_1" ID="{BF6CE8A8-7E59-41D6-9AE8-7596AE1C3020}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_06_BRASS_1" ID="{BF6CE8A8-7E59-41D6-9AE8-7596AE1C3020}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -799,7 +804,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_01_main" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>

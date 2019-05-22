@@ -17,7 +17,7 @@
 							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+							<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -988,6 +988,11 @@
 										</BlendContainer>
 										<RandomSequenceContainer Name="sand" ID="{8870945B-496E-4E7A-A9CB-55F223B9A72A}" ShortID="616498110">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 											</PropertyList>
 											<ReferenceList>
@@ -2462,7 +2467,7 @@
 															</Point>
 															<Point>
 																<XPos>4</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -2679,7 +2684,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+							<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 						</Reference>
 					</ReferenceList>
 				</ActorMixer>

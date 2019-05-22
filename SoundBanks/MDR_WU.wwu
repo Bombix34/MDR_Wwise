@@ -6,6 +6,8 @@
 				<SoundBank Name="Main" ID="{603797AE-5D4A-44E0-9DF0-0235E12D5976}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MDR_WU" ID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_Alteration_pitch" ID="{6B607746-7628-450A-ADB9-D89A2D3E2D38}" WorkUnitID="{C4F9A93F-2F8F-4FCB-A0BE-315AAA791701}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_alteration" ID="{965AC69F-18E0-4723-9CA2-025E839EF0E0}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

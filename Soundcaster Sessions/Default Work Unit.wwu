@@ -14,8 +14,12 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Ocarina_01_Damaged_MAIN" ID="{DE58FAE9-25A6-455D-913F-5F17F06098A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<ObjectRef Name="Ocarina_01_Damaged" ID="{DE58FAE9-25A6-455D-913F-5F17F06098A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ocarina_01_Destroyed" ID="{A7E50EE1-C4F9-4C1C-87F1-DCFE46118476}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -49,7 +53,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}"/>
-							<Value>0</Value>
+							<Value>0.46284224250326</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}"/>
@@ -69,7 +73,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}"/>
-							<Value>2.99524262607041</Value>
+							<Value>2.79257849666984</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_07" ID="{C9A5C07E-3BF2-4B5A-8511-D1690E8F1E83}"/>
@@ -97,7 +101,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
-						<CurrentSwitchRef Name="wood" ID="{31C4C771-950C-403D-959A-9D8B16302746}"/>
+						<CurrentSwitchRef Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
 						<CurrentSwitchRef Name="evening" ID="{DCF21C54-B4DE-4FCC-930F-3D4935883FAD}"/>
 					</CurrentSwitchList>

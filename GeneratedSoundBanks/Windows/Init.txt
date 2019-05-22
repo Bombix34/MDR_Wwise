@@ -51,7 +51,7 @@ State	ID	Name	State Group			Notes
 	3094168564	Intact	Ww_Status_Ocarina_02			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	275451651	Destroyed	Ww_Status_Ocarina_01	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_main		
+	275451651	Destroyed	Ww_Status_Ocarina_01	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_MAIN		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\Music_rtpc\Ww_Trem_Ocarina_01	
@@ -59,17 +59,17 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	306302681	Music_track_08			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_08	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
-	470304688	Music_track_01_main			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_main	
-	1905708082	Music_track_04_wind_1			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_04_wind_1	
-	2052289070	Music_track_02_rythmic			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_02_rythmic	
-	2645850543	Music_track_07_brass_2			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_07_brass_2	
+	470304688	Music_track_01_MAIN			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_MAIN	
+	891825369	Music_track_03_PERC			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_03_PERC	
+	1905708082	Music_track_04_WIND_1			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_04_WIND_1	
+	2052289070	Music_track_02_RYTHMIC			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_02_RYTHMIC	
+	2645850543	Music_track_07_BRASS_2			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_07_BRASS_2	
 	2981377429	AMBIANCE			\Default Work Unit\Master Audio Bus\AMBIANCE	
-	3059150873	Music_track_06_brass_1			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_06_brass_1	
+	3059150873	Music_track_06_BRASS_1			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_06_BRASS_1	
 	3313685232	VOICES			\Default Work Unit\Master Audio Bus\VOICES	
-	3582743001	Music_track_03_percus			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_03_percus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
-	4185999270	Music_track_05_wind_2			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_05_wind_2	
+	4185999270	Music_track_05_WIND_2			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_05_WIND_2	
 
 Effect plug-ins	ID	Name	Type				Notes
 	178973410	Music_alteration	Wwise Tremolo			

@@ -39,6 +39,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ENV_amb_int_play" ID="{83B61F7A-24F7-4DC3-AF18-C77CA496505B}"/>
+				<Event Name="ENV_amb_beach_play" ID="{6C83AC3B-2595-425C-BB1F-3D578B0C37DE}"/>
+				<Folder Name="_Testing" ID="{DDA909FE-1C64-43E4-9D5D-568EA57E672C}" ShortID="50033162">
+					<ChildrenList>
+						<Event Name="TEST" ID="{1C0837C2-8DA1-4ADF-872A-0929E431C6CE}">
+							<ChildrenList>
+								<Action Name="" ID="{085656AA-195D-4ECF-8F8A-3BB3EC84F8C9}" ShortID="316896282">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="[PH]_-_canette" ID="{D9067B45-5891-4E4C-9FDD-12EA87009B90}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Change_Morbid" ID="{F444256F-D9DC-4186-AC63-2C947554A7C2}">
+							<ChildrenList>
+								<Action Name="" ID="{FA4D1912-3E46-4965-B200-12FDC26BC18C}" ShortID="324273521">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
