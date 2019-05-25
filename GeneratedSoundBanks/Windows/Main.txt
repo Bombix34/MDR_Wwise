@@ -18,7 +18,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1432716332	GAME_over			\MDR_WU\GAME\GAME_over	
 	1796000097	MC_throw_play			\MDR_WU\MAIN CHARACTER\MC_throw_play	
 	1881369153	ENV_door_open_play			\MDR_WU\ENVIRONMENT\ENV_door_open_play	
-	1956601529	MC_talk_stop			\MDR_WU\MAIN CHARACTER\MC_talk_stop	
 	2038710544	UI_camera_zoom_play			\MDR_WU\UI\UI_camera_zoom_play	
 	2141874203	ENV_pot_break_play			\MDR_WU\ENVIRONMENT\ENV_pot_break_play	
 	2170904855	Ocarina_08_Damaged			\MDR_WU\MUSIC\Ocarina_08_Damaged	
@@ -33,6 +32,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2989807018	ENV_fire_play			\MDR_WU\ENVIRONMENT\ENV_fire_play	
 	3084605388	Ocarina_02_Damaged_RYTHMIC			\MDR_WU\MUSIC\Ocarina_02_Damaged_RYTHMIC	
 	3191795435	Ocarina_05_Damaged_WIND2			\MDR_WU\MUSIC\Ocarina_05_Damaged_WIND2	
+	3835799014	NPC_talk_stop			\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop	
 	4008763347	UI_camera_dezoom_play			\MDR_WU\UI\UI_camera_dezoom_play	
 	4033886834	UI_select_hover_play			\MDR_WU\UI\UI_select_hover_play	
 	4117983340	Ocarina_07_Damaged_BRASS2			\MDR_WU\MUSIC\Ocarina_07_Damaged_BRASS2	
@@ -69,6 +69,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1870090125	game_time			\MDR_WU\game_time	
 	2882100565	grass_height			\MDR_WU\grass_height	
 	3200455562	village_karma			\MDR_WU\village_karma	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	795834203	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopees\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23475721	Footsteps_dirt_low-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\dirt\low\Footsteps_dirt_low-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Surfaces\dirt\low\Footsteps_dirt_low-006		8119

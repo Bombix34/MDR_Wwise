@@ -71,7 +71,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="NPC_talk_stop" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}"/>
 				<Event Name="NPC_walk_stop" ID="{8A652B48-51DF-4751-97A1-3F83F13A9334}">
 					<ChildrenList>
 						<Action Name="" ID="{C352BD19-66C7-4861-B516-8EAB039BF22C}" ShortID="235410977">
@@ -86,6 +85,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MC_talk_stop" ID="{F8E1612A-CD4B-4367-AB15-942D1C8CB83B}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

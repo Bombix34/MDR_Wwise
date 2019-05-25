@@ -230,8 +230,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="MC_talk_play" ID="{09F9C246-18B3-4A59-9629-07E5DF7D5342}"/>
-						<Event Name="MC_talk_stop" ID="{F8E1612A-CD4B-4367-AB15-942D1C8CB83B}"/>
+						<Event Name="MC_talk_play" ID="{09F9C246-18B3-4A59-9629-07E5DF7D5342}">
+							<ChildrenList>
+								<Action Name="" ID="{61129C72-C613-4907-A9FE-529EF93A2E49}" ShortID="318051240">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="MC_throw_play" ID="{FCF9ED28-C1A5-45F9-B6CE-FEB65C569485}">
 							<ChildrenList>
 								<Action Name="" ID="{910DBEDF-1290-4C21-9A69-D7E7D7771963}" ShortID="701663111">
@@ -320,13 +329,37 @@
 					<ChildrenList>
 						<Folder Name="GENERIC NPC" ID="{5C348AD8-2901-4356-8C60-34A483D66EE7}" ShortID="790846843">
 							<ChildrenList>
-								<Event Name="NPC_talk_play" ID="{D4C2A917-41F7-434A-8309-7828574DA083}"/>
+								<Event Name="NPC_talk_play" ID="{D4C2A917-41F7-434A-8309-7828574DA083}">
+									<ChildrenList>
+										<Action Name="" ID="{D64B6AA1-42D6-4880-8007-0E0AC46FD49E}" ShortID="421946086">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="NPC_walk_play" ID="{8499C163-7460-4C70-B334-EAA1EAE89A36}">
 									<ChildrenList>
 										<Action Name="" ID="{DE3DCD41-0700-4C37-9DA6-857B0C215F28}" ShortID="877375266">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Footsteps_NPC" ID="{3AA27083-EFE9-4A53-B2A5-2FCD9ED47C65}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="NPC_talk_stop" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}">
+									<ChildrenList>
+										<Action Name="" ID="{F0F03533-B650-43D6-A466-B497F29DFECF}" ShortID="344659602">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

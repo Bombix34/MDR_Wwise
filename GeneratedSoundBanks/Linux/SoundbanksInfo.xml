@@ -36,11 +36,11 @@
 				<Event Id="87855283" Name="MC_idle_anim_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_idle_anim_play" MaxAttenuation="0.000000"/>
 				<Event Id="2287292191" Name="MC_pick_big_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play"/>
 				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
-				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play" MaxAttenuation="0.000000"/>
-				<Event Id="1956601529" Name="MC_talk_stop" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play"/>
 				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
-				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play" MaxAttenuation="0.000000"/>
+				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play"/>
+				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
 				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play" MaxAttenuation="40.000000"/>
 				<Event Id="357745826" Name="Ocarina_01_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Damaged" MaxAttenuation="0.000000"/>
 				<Event Id="885771810" Name="Ocarina_01_Destroyed" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Destroyed" MaxAttenuation="0.000000"/>
