@@ -190,7 +190,7 @@
 								<Action Name="" ID="{98137136-D756-4CD9-AF58-8529E5D9C55D}" ShortID="27342159">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Surfaces" ID="{8C969575-6FA7-4E63-BF81-3B8862F1D9C0}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="Footsteps" ID="{89AED83C-CB70-4884-A25F-4C0300DBC549}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -321,27 +321,12 @@
 						<Folder Name="GENERIC NPC" ID="{5C348AD8-2901-4356-8C60-34A483D66EE7}" ShortID="790846843">
 							<ChildrenList>
 								<Event Name="NPC_talk_play" ID="{D4C2A917-41F7-434A-8309-7828574DA083}"/>
-								<Event Name="NPC_talk_stop" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}"/>
 								<Event Name="NPC_walk_play" ID="{8499C163-7460-4C70-B334-EAA1EAE89A36}">
 									<ChildrenList>
-										<Action Name="" ID="{33586C90-833C-4747-B014-1ABEBA0EFE3C}" ShortID="1014563442">
+										<Action Name="" ID="{DE3DCD41-0700-4C37-9DA6-857B0C215F28}" ShortID="877375266">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="NPC_walk_stop" ID="{8A652B48-51DF-4751-97A1-3F83F13A9334}">
-									<ChildrenList>
-										<Action Name="" ID="{C352BD19-66C7-4861-B516-8EAB039BF22C}" ShortID="235410977">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+													<ObjectRef Name="Footsteps_NPC" ID="{3AA27083-EFE9-4A53-B2A5-2FCD9ED47C65}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

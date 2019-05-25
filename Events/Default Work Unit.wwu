@@ -71,6 +71,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="NPC_talk_stop" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}"/>
+				<Event Name="NPC_walk_stop" ID="{8A652B48-51DF-4751-97A1-3F83F13A9334}">
+					<ChildrenList>
+						<Action Name="" ID="{C352BD19-66C7-4861-B516-8EAB039BF22C}" ShortID="235410977">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="[PH]_-_MC_footsteps" ID="{04D2D8A9-66D4-4186-9F43-7CABAA58CD5C}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

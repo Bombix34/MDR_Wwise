@@ -41,9 +41,7 @@
 				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
 				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play" MaxAttenuation="0.000000"/>
-				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
-				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play"/>
-				<Event Id="1357639289" Name="NPC_walk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_stop" MaxAttenuation="0.000000"/>
+				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play" MaxAttenuation="40.000000"/>
 				<Event Id="357745826" Name="Ocarina_01_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Damaged" MaxAttenuation="0.000000"/>
 				<Event Id="885771810" Name="Ocarina_01_Destroyed" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Destroyed" MaxAttenuation="0.000000"/>
 				<Event Id="3084605388" Name="Ocarina_02_Damaged_RYTHMIC" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_02_Damaged_RYTHMIC" MaxAttenuation="0.000000"/>
@@ -106,6 +104,10 @@
 					<ShortName>stone\footsteps_Stone-006.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-006_FB1B2EA5.wem</Path>
 				</File>
+				<File Id="153747542" Language="SFX">
+					<ShortName>grass\bushes\bushes-002.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-002_34D806F2.wem</Path>
+				</File>
 				<File Id="159705370" Language="SFX">
 					<ShortName>villlagenightkalimb_v1.1.wav</ShortName>
 					<Path>SFX\villlagenightkalimb_v1.1_78072B9C.wem</Path>
@@ -113,6 +115,10 @@
 				<File Id="162769574" Language="SFX">
 					<ShortName>peak\Wood_peak-004.wav</ShortName>
 					<Path>SFX\peak\Wood_peak-004_34D806F2.wem</Path>
+				</File>
+				<File Id="168181000" Language="SFX">
+					<ShortName>dirt\base\Foosteps_dirt_BASE-001.wav</ShortName>
+					<Path>SFX\dirt\base\Foosteps_dirt_BASE-001_34D806F2.wem</Path>
 				</File>
 				<File Id="173125545" Language="SFX">
 					<ShortName>peak\Wood_peak-002.wav</ShortName>
@@ -138,6 +144,10 @@
 					<ShortName>peak\Wood_peak-001.wav</ShortName>
 					<Path>SFX\peak\Wood_peak-001_34D806F2.wem</Path>
 				</File>
+				<File Id="250066383" Language="SFX">
+					<ShortName>grass\bushes\bushes-005.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-005_34D806F2.wem</Path>
+				</File>
 				<File Id="280874668" Language="SFX">
 					<ShortName>soft\Wood_soft-004.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-004_34D806F2.wem</Path>
@@ -145,6 +155,10 @@
 				<File Id="306457144" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-004.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-004_34D806F2.wem</Path>
+				</File>
+				<File Id="311049527" Language="SFX">
+					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-007.wav</ShortName>
+					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-007_34D806F2.wem</Path>
 				</File>
 				<File Id="313480055" Language="SFX">
 					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
@@ -174,10 +188,6 @@
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-006.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-006_34D806F2.wem</Path>
 				</File>
-				<File Id="374833631" Language="SFX">
-					<ShortName>dirt\base\Foosteps_dirt_BASE-001.wav</ShortName>
-					<Path>SFX\dirt\base\Foosteps_dirt_BASE-001_34D806F2.wem</Path>
-				</File>
 				<File Id="406048703" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-005.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-005_34D806F2.wem</Path>
@@ -197,6 +207,14 @@
 				<File Id="470893024" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-002.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-002_34D806F2.wem</Path>
+				</File>
+				<File Id="478720960" Language="SFX">
+					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-001.wav</ShortName>
+					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-001_34D806F2.wem</Path>
+				</File>
+				<File Id="490523639" Language="SFX">
+					<ShortName>grass\bushes\bushes-004.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-004_34D806F2.wem</Path>
 				</File>
 				<File Id="499704075" Language="SFX">
 					<ShortName>stone\footsteps_Stone-003.wav</ShortName>
@@ -229,6 +247,10 @@
 				<File Id="532901103" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-003.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-003_34D806F2.wem</Path>
+				</File>
+				<File Id="548151664" Language="SFX">
+					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-004.wav</ShortName>
+					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-004_34D806F2.wem</Path>
 				</File>
 				<File Id="548488606" Language="SFX">
 					<ShortName>stone\footsteps_Stone-007.wav</ShortName>
@@ -282,17 +304,25 @@
 					<ShortName>soft\Wood_soft-002.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-002_34D806F2.wem</Path>
 				</File>
-				<File Id="666251668" Language="SFX">
-					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-001.wav</ShortName>
-					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-001_34D806F2.wem</Path>
-				</File>
 				<File Id="668890117" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-005.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-005_34D806F2.wem</Path>
 				</File>
+				<File Id="670798494" Language="SFX">
+					<ShortName>grass\bushes\bushes-006.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-006_34D806F2.wem</Path>
+				</File>
+				<File Id="679674946" Language="SFX">
+					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-005.wav</ShortName>
+					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-005_34D806F2.wem</Path>
+				</File>
 				<File Id="682606857" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-004.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-004_34D806F2.wem</Path>
+				</File>
+				<File Id="682974282" Language="SFX">
+					<ShortName>grass\bushes\bushes-003.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-003_34D806F2.wem</Path>
 				</File>
 				<File Id="685880964" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-001.wav</ShortName>
@@ -314,6 +344,14 @@
 					<ShortName>dirt\low\Footsteps_dirt_low-003.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-003_34D806F2.wem</Path>
 				</File>
+				<File Id="730619784" Language="SFX">
+					<ShortName>grass\bushes\bushes-001.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-001_34D806F2.wem</Path>
+				</File>
+				<File Id="732420796" Language="SFX">
+					<ShortName>grass\bushes\bushes-007.wav</ShortName>
+					<Path>SFX\grass\bushes\bushes-007_34D806F2.wem</Path>
+				</File>
 				<File Id="751077039" Language="SFX">
 					<ShortName>Nuit_v1\villlagenightcordes_v1.wav</ShortName>
 					<Path>SFX\Nuit_v1\villlagenightcordes_v1_78072B9C.wem</Path>
@@ -329,10 +367,6 @@
 				<File Id="756655636" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-001.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-001_34D806F2.wem</Path>
-				</File>
-				<File Id="768357117" Language="SFX">
-					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-005.wav</ShortName>
-					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-005_34D806F2.wem</Path>
 				</File>
 				<File Id="788950076" Language="SFX">
 					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
@@ -358,10 +392,6 @@
 					<ShortName>grass\long\footsteps_long_grass-004.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-004_34D806F2.wem</Path>
 				</File>
-				<File Id="898240631" Language="SFX">
-					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-007.wav</ShortName>
-					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-007_34D806F2.wem</Path>
-				</File>
 				<File Id="930995499" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-007.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-007_34D806F2.wem</Path>
@@ -385,10 +415,6 @@
 				<File Id="987360984" Language="SFX">
 					<ShortName>villlage_v0.1.wav</ShortName>
 					<Path>SFX\villlage_v0.1_78072B9C.wem</Path>
-				</File>
-				<File Id="995221764" Language="SFX">
-					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-004.wav</ShortName>
-					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-004_34D806F2.wem</Path>
 				</File>
 				<File Id="1021894829" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-004.wav</ShortName>

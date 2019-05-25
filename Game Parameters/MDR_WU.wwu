@@ -156,14 +156,14 @@
 							<ChildrenList>
 								<GameParameter Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}">
 									<PropertyList>
-										<Property Name="InitialValue" Type="Real64" Value="13"/>
-										<Property Name="Max" Type="Real64" Value="13"/>
+										<Property Name="InitialValue" Type="Real64" Value="18"/>
+										<Property Name="Max" Type="Real64" Value="18"/>
 									</PropertyList>
 								</GameParameter>
 								<GameParameter Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}">
 									<PropertyList>
-										<Property Name="InitialValue" Type="Real64" Value="13"/>
-										<Property Name="Max" Type="Real64" Value="13"/>
+										<Property Name="InitialValue" Type="Real64" Value="18"/>
+										<Property Name="Max" Type="Real64" Value="18"/>
 									</PropertyList>
 								</GameParameter>
 							</ChildrenList>
