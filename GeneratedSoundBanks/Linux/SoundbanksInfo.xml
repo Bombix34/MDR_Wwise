@@ -132,6 +132,10 @@
 					<ShortName>stone\footsteps_Stone-001.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-001_B48D4A9E.wem</Path>
 				</File>
+				<File Id="204528687" Language="SFX">
+					<ShortName>villlagenightflutes_v1-glued.wav</ShortName>
+					<Path>SFX\villlagenightflutes_v1-glued_78072B9C.wem</Path>
+				</File>
 				<File Id="210116956" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-006.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-006_34D806F2.wem</Path>
@@ -151,6 +155,10 @@
 				<File Id="280874668" Language="SFX">
 					<ShortName>soft\Wood_soft-004.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-004_34D806F2.wem</Path>
+				</File>
+				<File Id="295253982" Language="SFX">
+					<ShortName>villlagenightcordes_v1-glued.wav</ShortName>
+					<Path>SFX\villlagenightcordes_v1-glued_78072B9C.wem</Path>
 				</File>
 				<File Id="306457144" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-004.wav</ShortName>
@@ -215,6 +223,10 @@
 				<File Id="490523639" Language="SFX">
 					<ShortName>grass\bushes\bushes-004.wav</ShortName>
 					<Path>SFX\grass\bushes\bushes-004_34D806F2.wem</Path>
+				</File>
+				<File Id="495327061" Language="SFX">
+					<ShortName>villlagenightdrums_v1-glued.wav</ShortName>
+					<Path>SFX\villlagenightdrums_v1-glued_78072B9C.wem</Path>
 				</File>
 				<File Id="499704075" Language="SFX">
 					<ShortName>stone\footsteps_Stone-003.wav</ShortName>
@@ -383,6 +395,14 @@
 				<File Id="851304383" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-001.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-001_34D806F2.wem</Path>
+				</File>
+				<File Id="884900909" Language="SFX">
+					<ShortName>villlagenighttuba_v1-glued.wav</ShortName>
+					<Path>SFX\villlagenighttuba_v1-glued_78072B9C.wem</Path>
+				</File>
+				<File Id="889427946" Language="SFX">
+					<ShortName>villlagenightkalimb_v1.1-glued.wav</ShortName>
+					<Path>SFX\villlagenightkalimb_v1.1-glued_78072B9C.wem</Path>
 				</File>
 				<File Id="890998793" Language="SFX">
 					<ShortName>soft\Wood_soft-003.wav</ShortName>
