@@ -877,11 +877,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="footsteps_long_grass-002" ID="{988E10C9-3D69-426B-9FD7-797721DC879E}" ShortID="672958016">
+																					<PropertyList>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="0.034740545294635"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="0.278803869832894"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>grass\long\footsteps_long_grass-002.wav</AudioFile>
-																					<ConvertedFileIDList>
-																						<File ID="577666406"/>
-																					</ConvertedFileIDList>
 																				</AudioFileSource>
 																			</ChildrenList>
 																			<ActiveSourceList>
@@ -921,11 +923,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<AudioFileSource Name="footsteps_long_grass-004" ID="{93D1A989-B309-4EC6-BF82-92D0BC5C4DF0}" ShortID="944652431">
+																					<PropertyList>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="4.70536499560246E-02"/>
+																						<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																						<Property Name="TrimEnd" Type="Real64" Value="0.301231310466139"/>
+																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>grass\long\footsteps_long_grass-004.wav</AudioFile>
-																					<ConvertedFileIDList>
-																						<File ID="893192217"/>
-																					</ConvertedFileIDList>
 																				</AudioFileSource>
 																			</ChildrenList>
 																			<ActiveSourceList>
@@ -7449,6 +7453,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -7531,7 +7540,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-9</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{5F80D930-6E6C-4CBE-9945-7246787E771F}" ShortID="560203139">

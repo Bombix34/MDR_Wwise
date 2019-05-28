@@ -53,7 +53,7 @@
 				<Event Id="2518024811" Name="ENV_crate_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_crate_break_play"/>
 				<Event Id="96362093" Name="ENV_door_close_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_close_play"/>
 				<Event Id="1881369153" Name="ENV_door_open_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_open_play"/>
-				<Event Id="1221486157" Name="ENV_lake_water_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_lake_water_play" MaxAttenuation="90.000000"/>
+				<Event Id="1221486157" Name="ENV_lake_water_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_lake_water_play" MaxAttenuation="120.000000"/>
 				<Event Id="2141874203" Name="ENV_pot_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_break_play"/>
 				<Event Id="2760972584" Name="ENV_pot_put_down_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play"/>
 				<Event Id="1616179565" Name="ENV_tree_leaf_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_tree_leaf_play"/>
@@ -489,6 +489,10 @@
 					<ShortName>villagemortpiste4.wav</ShortName>
 					<Path>SFX\villagemortpiste4_78072B9C.wem</Path>
 				</File>
+				<File Id="672958016" Language="SFX">
+					<ShortName>grass\long\footsteps_long_grass-002.wav</ShortName>
+					<Path>SFX\grass\long\footsteps_long_grass-002_22CF2DC5.wem</Path>
+				</File>
 				<File Id="679674946" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-005.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-005_34D806F2.wem</Path>
@@ -628,6 +632,10 @@
 				<File Id="930995499" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-007.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-007_34D806F2.wem</Path>
+				</File>
+				<File Id="944652431" Language="SFX">
+					<ShortName>grass\long\footsteps_long_grass-004.wav</ShortName>
+					<Path>SFX\grass\long\footsteps_long_grass-004_D4685784.wem</Path>
 				</File>
 				<File Id="945266762" Language="SFX">
 					<ShortName>Nuit_v1\villlagenightdrums_v1.wav</ShortName>
