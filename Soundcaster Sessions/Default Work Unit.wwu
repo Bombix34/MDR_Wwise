@@ -24,8 +24,8 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
-							<Value>500</Value>
+							<GameParameterRef Name="Distance_lake" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
+							<Value>15</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_06" ID="{169644DE-AFA1-40DF-BDBF-948EA142241B}"/>
@@ -64,8 +64,8 @@
 							<Value>18</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
-							<Value>400</Value>
+							<GameParameterRef Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}"/>
@@ -118,7 +118,7 @@
 				<SoundcasterSession Name="SFX_testing" ID="{51A59C9B-F21F-4095-9BF9-6CE7615B8172}">
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
+							<GameParameterRef Name="Distance_lake" ID="{7897C5C4-1235-4093-82AF-85914075E39E}"/>
 							<Value>500</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -158,7 +158,7 @@
 							<Value>10</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
+							<GameParameterRef Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
 							<Value>500</Value>
 						</RTPCValue>
 						<RTPCValue>

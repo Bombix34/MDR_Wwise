@@ -10,6 +10,11 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>400</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -22,10 +27,10 @@
 					<ChildrenList>
 						<AudioFileSource Name="canette" ID="{4C4CD22D-B9E5-4B89-9BFD-CAC4E1C60C35}" ShortID="321100139">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.317245674740485"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.092398245914167"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="1.87373226643599"/>
-								<Property Name="TrimEnd" Type="Real64" Value="2.97913516435986"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.9427306083592"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.63180986779888"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>canette.wav</AudioFile>
@@ -184,6 +189,11 @@
 										<Value>29</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -220,49 +230,6 @@
 								<ActiveSource Name="SFX_-_S_Dash_-_V0_2_-_19-01-16" ID="{EDEF4C05-5D2C-41F8-B722-E971347855DE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="[PH]_-_ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" ShortID="969164085">
-							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>70</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-400</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_-_E3_ShieldGrab_-_V0_1_-_19-01-19" ID="{1F66CC69-C5F6-4672-B163-CB5D635F38B2}" ShortID="119927025">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="3.84959630911188E-02"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.126486735870819"/>
-										<Property Name="FadeOutShape" Type="int16" Value="2"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.15838339100346"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_-_E3_ShieldGrab_-_V0_1_-_19-01-19" ID="{1F66CC69-C5F6-4672-B163-CB5D635F38B2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="[PH]_-_ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" ShortID="508721492">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -284,6 +251,11 @@
 						</Sound>
 						<Sound Name="[PH]_-_ENV_pot_break" ID="{CCDD0DF8-CE6E-4EAF-8F80-D10EF9905E32}" ShortID="578689647">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>

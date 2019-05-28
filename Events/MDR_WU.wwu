@@ -153,6 +153,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{F1455EF8-3674-41CA-AC28-A1E117FDDBFC}" ShortID="814396919">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB" ID="{12FEFD51-0D2B-4376-B25D-DE8EE5029769}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{77325344-AE56-4726-B5AB-0DE9A015B46F}" ShortID="398494997">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -190,13 +197,12 @@
 								<Action Name="" ID="{98137136-D756-4CD9-AF58-8529E5D9C55D}" ShortID="27342159">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{89AED83C-CB70-4884-A25F-4C0300DBC549}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="Footsteps_MC" ID="{89AED83C-CB70-4884-A25F-4C0300DBC549}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="MC_idle_anim_play" ID="{38C91668-F368-4234-95FE-0468E5E23ED7}"/>
 						<Event Name="MC_pick_item_play" ID="{FBCE5DF5-7F44-49D3-BCD9-7132AC1F5944}">
 							<ChildrenList>
 								<Action Name="" ID="{5CAA0A59-054E-432D-B7B8-209D476F7FEE}" ShortID="802860794">
@@ -224,7 +230,7 @@
 								<Action Name="" ID="{094CDAD0-C0D5-443B-8F64-3C379A7E8D42}" ShortID="109677869">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_attack" ID="{B67AB3E1-0BF9-4C5B-81CF-1BC04FF56AC5}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="Item_use" ID="{8DB25A26-E90A-4D23-A103-A2BD89358A4B}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -246,7 +252,7 @@
 								<Action Name="" ID="{910DBEDF-1290-4C21-9A69-D7E7D7771963}" ShortID="701663111">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_attack" ID="{B67AB3E1-0BF9-4C5B-81CF-1BC04FF56AC5}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="Item_throw" ID="{7F4A1DC5-94DB-47D7-95D5-C9090016DE63}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -256,7 +262,6 @@
 				</Folder>
 				<Folder Name="ENVIRONMENT" ID="{340E7459-6B46-418C-8EF7-4C6C7299F154}" ShortID="924562410">
 					<ChildrenList>
-						<Event Name="ENV_amb_ext_play" ID="{F9E1535D-3E6E-4974-A229-E9E5952E892F}"/>
 						<Event Name="ENV_door_open_play" ID="{DF2AE871-CF77-4B2D-9E54-A2E2E70DAA9D}">
 							<ChildrenList>
 								<Action Name="" ID="{59EE0B6D-CB7F-45A4-BED9-BAF48189FFB1}" ShortID="958509383">
@@ -304,20 +309,51 @@
 								<Action Name="" ID="{21656615-BCA5-4D0D-8336-08B4C08ECEF6}" ShortID="354770346">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_pot_break" ID="{CCDD0DF8-CE6E-4EAF-8F80-D10EF9905E32}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="Pot_Destroy" ID="{09FF29E6-A4B7-4DB8-8AC4-4B3ADECAD159}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="ENV_fire_play" ID="{01BBBBDF-D35C-4E05-898F-8108D429E4FC}"/>
-						<Event Name="ENV_fire_stop" ID="{DCE67EF8-1E38-464C-81B2-671335509F91}"/>
 						<Event Name="ENV_pot_put_down_play" ID="{9B4E9C16-81C3-4FE7-B2B1-AB670DE143A2}">
 							<ChildrenList>
 								<Action Name="" ID="{63969C27-25E6-4C15-B9B9-EE3E2C7A676A}" ShortID="104186820">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_crate_break_play" ID="{3963D196-BA61-456C-861D-BB0987A967E7}">
+							<ChildrenList>
+								<Action Name="" ID="{DC1E8592-AAF6-450C-A383-A3C2F1C60D6F}" ShortID="385029080">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Box_Destroy" ID="{BF5B4A77-042D-4446-9F2C-ECCDB053C610}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_tree_leaf_play" ID="{FD68CAF2-AE91-47F9-8A85-C222256638A1}">
+							<ChildrenList>
+								<Action Name="" ID="{CB8077FC-8618-406F-B404-6B2821CA2B71}" ShortID="745701632">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trees" ID="{9A7FAEE6-8CA2-4A10-99CB-E7E14675FF79}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_lake_water_play" ID="{630DE425-6920-43D8-88F7-F1F28AD28592}">
+							<ChildrenList>
+								<Action Name="" ID="{6A2ADF9A-AB3C-4300-99F1-8E9A8AB460C0}" ShortID="200864490">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_lake_base_v1" ID="{3502AD73-A247-4CAB-A4EA-1AD016BF2A58}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -351,20 +387,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="NPC_talk_stop" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}">
-									<ChildrenList>
-										<Action Name="" ID="{F0F03533-B650-43D6-A466-B497F29DFECF}" ShortID="344659602">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								<Event Name="NPC_Discussion_start" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -376,7 +399,7 @@
 								<Action Name="" ID="{45A4EA7C-A588-4721-BADC-CC9497D6C436}" ShortID="247040756">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_UI_Select" ID="{400A0FD7-99EB-4AF0-8015-3BC94685F852}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="UI_Interact" ID="{88B25D16-0FA2-44A2-A7CB-A9D48CFDD66F}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -387,7 +410,7 @@
 								<Action Name="" ID="{179A29A6-9A27-4585-B62F-36FEF894F8CB}" ShortID="217720810">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_UI_confirm" ID="{5D76826C-E893-46DA-8107-B1261C2F3939}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="UI_select" ID="{04597148-A26D-4A16-B7A3-5E433350DF01}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -412,7 +435,7 @@
 								<Action Name="" ID="{644A53EC-14BC-49AB-A6D5-263DB9C5F07A}" ShortID="631350339">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_UI_Select" ID="{400A0FD7-99EB-4AF0-8015-3BC94685F852}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="UI_Interact" ID="{88B25D16-0FA2-44A2-A7CB-A9D48CFDD66F}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

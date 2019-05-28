@@ -13,13 +13,15 @@
 						<Property Name="Max" Type="Real64" Value="24"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="___water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}">
+				<GameParameter Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}">
 					<PropertyList>
 						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
 						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
-						<Property Name="InitialValue" Type="Real64" Value="400"/>
-						<Property Name="Max" Type="Real64" Value="500"/>
-						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="30"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="7"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="7"/>
 					</PropertyList>
 				</GameParameter>
 				<Folder Name="Volume control" ID="{68B1044B-70E6-4040-9108-040BD28DDCC5}" ShortID="633830986">
@@ -58,12 +60,12 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
-				<GameParameter Name="___water_far_distance" ID="{7897C5C4-1235-4093-82AF-85914075E39E}">
+				<GameParameter Name="Distance_lake" ID="{7897C5C4-1235-4093-82AF-85914075E39E}">
 					<PropertyList>
 						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
 						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
-						<Property Name="InitialValue" Type="Real64" Value="500"/>
-						<Property Name="Max" Type="Real64" Value="500"/>
+						<Property Name="InitialValue" Type="Real64" Value="15"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>

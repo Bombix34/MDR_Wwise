@@ -8,7 +8,36 @@
 		<ExternalSourcesOutputRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="86216309" Language="SFX">
+			<ShortName>AMB_lake_base_v1.wav</ShortName>
+			<Path>SFX\AMB_lake_base_v1_2EFB17B0.wem</Path>
+		</File>
+		<File Id="141410568" Language="SFX">
+			<ShortName>AMB_base_v1.wav</ShortName>
+			<Path>SFX\AMB_base_v1_964DA37F.wem</Path>
+		</File>
+		<File Id="223449179" Language="SFX">
+			<ShortName>AMB_base_layer_nature_v1.wav</ShortName>
+			<Path>SFX\AMB_base_layer_nature_v1_964DA37F.wem</Path>
+		</File>
+		<File Id="316460121" Language="SFX">
+			<ShortName>AMB_trees_v1-003.wav</ShortName>
+			<Path>SFX\AMB_trees_v1-003_E1E0F617.wem</Path>
+		</File>
+		<File Id="522917517" Language="SFX">
+			<ShortName>AMB_sea_v1.wav</ShortName>
+			<Path>SFX\AMB_sea_v1_964DA37F.wem</Path>
+		</File>
+		<File Id="658530951" Language="SFX">
+			<ShortName>AMB_trees_v1-002.wav</ShortName>
+			<Path>SFX\AMB_trees_v1-002_444AE2E3.wem</Path>
+		</File>
+		<File Id="813631278" Language="SFX">
+			<ShortName>AMB_trees_v1-001.wav</ShortName>
+			<Path>SFX\AMB_trees_v1-001_601D4177.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -21,26 +50,25 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1275933152" Name="ENV_amb_ext_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_amb_ext_play" MaxAttenuation="0.000000"/>
+				<Event Id="2518024811" Name="ENV_crate_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_crate_break_play"/>
 				<Event Id="96362093" Name="ENV_door_close_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_close_play"/>
 				<Event Id="1881369153" Name="ENV_door_open_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_open_play"/>
-				<Event Id="2989807018" Name="ENV_fire_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_play" MaxAttenuation="0.000000"/>
-				<Event Id="99041748" Name="ENV_fire_stop" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_fire_stop" MaxAttenuation="0.000000"/>
+				<Event Id="1221486157" Name="ENV_lake_water_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_lake_water_play" MaxAttenuation="90.000000"/>
 				<Event Id="2141874203" Name="ENV_pot_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_break_play"/>
 				<Event Id="2760972584" Name="ENV_pot_put_down_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play"/>
+				<Event Id="1616179565" Name="ENV_tree_leaf_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_tree_leaf_play"/>
 				<Event Id="1100552122" Name="GAME_fake_fight" ObjectPath="\Events\MDR_WU\GAME\GAME_fake_fight" MaxAttenuation="0.000000"/>
 				<Event Id="2732978883" Name="GAME_launch" ObjectPath="\Events\MDR_WU\GAME\GAME_launch" MaxAttenuation="0.000000"/>
 				<Event Id="1432716332" Name="GAME_over" ObjectPath="\Events\MDR_WU\GAME\GAME_over" MaxAttenuation="0.000000"/>
 				<Event Id="733168346" Name="GAME_start" ObjectPath="\Events\MDR_WU\GAME\GAME_start"/>
 				<Event Id="538908709" Name="MC_attack_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_attack_play"/>
-				<Event Id="87855283" Name="MC_idle_anim_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_idle_anim_play" MaxAttenuation="0.000000"/>
 				<Event Id="2287292191" Name="MC_pick_big_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play"/>
 				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
 				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play"/>
 				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
+				<Event Id="2021786508" Name="NPC_Discussion_start" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_Discussion_start" MaxAttenuation="0.000000"/>
 				<Event Id="787023996" Name="NPC_talk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_play"/>
-				<Event Id="3835799014" Name="NPC_talk_stop" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_talk_stop" MaxAttenuation="0.000000"/>
 				<Event Id="2227517075" Name="NPC_walk_play" ObjectPath="\Events\MDR_WU\NPC\GENERIC NPC\NPC_walk_play" MaxAttenuation="40.000000"/>
 				<Event Id="357745826" Name="Ocarina_01_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Damaged" MaxAttenuation="0.000000"/>
 				<Event Id="885771810" Name="Ocarina_01_Destroyed" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_01_Destroyed" MaxAttenuation="0.000000"/>
@@ -59,6 +87,15 @@
 				<Event Id="401277688" Name="UI_select_confirm_play" ObjectPath="\Events\MDR_WU\UI\UI_select_confirm_play"/>
 				<Event Id="4033886834" Name="UI_select_hover_play" ObjectPath="\Events\MDR_WU\UI\UI_select_hover_play"/>
 			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="86216309"/>
+				<File Id="141410568"/>
+				<File Id="223449179"/>
+				<File Id="316460121"/>
+				<File Id="522917517"/>
+				<File Id="658530951"/>
+				<File Id="813631278"/>
+			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="23475721" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-006.wav</ShortName>
@@ -84,17 +121,25 @@
 					<ShortName>slide\Wood_slide-001.wav</ShortName>
 					<Path>SFX\slide\Wood_slide-001_34D806F2.wem</Path>
 				</File>
-				<File Id="108842407" Language="SFX">
-					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>
-					<Path>SFX\SFX_Player_Comfort_Create_-_190126_21h17_34D806F2.wem</Path>
+				<File Id="109965199" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-002.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-002_34D806F2.wem</Path>
+				</File>
+				<File Id="114844203" Language="SFX">
+					<ShortName>Pot_Destroy\Shards\POT_Destroy_shards-003.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Shards\POT_Destroy_shards-003_34D806F2.wem</Path>
+				</File>
+				<File Id="116571814" Language="SFX">
+					<ShortName>Crate_Destroy\CRATE_Destroy.wav</ShortName>
+					<Path>SFX\Crate_Destroy\CRATE_Destroy_34D806F2.wem</Path>
 				</File>
 				<File Id="119927025" Language="SFX">
 					<ShortName>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</ShortName>
 					<Path>SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_772B6534.wem</Path>
 				</File>
-				<File Id="133297003" Language="SFX">
-					<ShortName>SFX_-_M_Select_-_V0.1_-_19-01-19.wav</ShortName>
-					<Path>SFX\SFX_-_M_Select_-_V0.1_-_19-01-19_FE2AB018.wem</Path>
+				<File Id="133245509" Language="SFX">
+					<ShortName>musvillagepiste1.wav</ShortName>
+					<Path>SFX\musvillagepiste1_78072B9C.wem</Path>
 				</File>
 				<File Id="136985139" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-002.wav</ShortName>
@@ -124,6 +169,10 @@
 					<ShortName>peak\Wood_peak-002.wav</ShortName>
 					<Path>SFX\peak\Wood_peak-002_34D806F2.wem</Path>
 				</File>
+				<File Id="177111508" Language="SFX">
+					<ShortName>UI_select.wav</ShortName>
+					<Path>SFX\UI_select_F8869D31.wem</Path>
+				</File>
 				<File Id="178051527" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-003.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-003_34D806F2.wem</Path>
@@ -132,13 +181,29 @@
 					<ShortName>stone\footsteps_Stone-001.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-001_B48D4A9E.wem</Path>
 				</File>
+				<File Id="190918005" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-010.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-010_34D806F2.wem</Path>
+				</File>
+				<File Id="204334837" Language="SFX">
+					<ShortName>Pot_Destroy\POT_Destroy_BASE.wav</ShortName>
+					<Path>SFX\Pot_Destroy\POT_Destroy_BASE_34D806F2.wem</Path>
+				</File>
 				<File Id="204528687" Language="SFX">
 					<ShortName>villlagenightflutes_v1-glued.wav</ShortName>
 					<Path>SFX\villlagenightflutes_v1-glued_78072B9C.wem</Path>
 				</File>
+				<File Id="209081928" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-001.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-001_94CDF21F.wem</Path>
+				</File>
 				<File Id="210116956" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-006.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-006_34D806F2.wem</Path>
+				</File>
+				<File Id="221162511" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-018.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-018_34D806F2.wem</Path>
 				</File>
 				<File Id="228559592" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-007.wav</ShortName>
@@ -151,6 +216,10 @@
 				<File Id="250066383" Language="SFX">
 					<ShortName>grass\bushes\bushes-005.wav</ShortName>
 					<Path>SFX\grass\bushes\bushes-005_34D806F2.wem</Path>
+				</File>
+				<File Id="264192908" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-002.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-002_530070DC.wem</Path>
 				</File>
 				<File Id="280874668" Language="SFX">
 					<ShortName>soft\Wood_soft-004.wav</ShortName>
@@ -172,6 +241,10 @@
 					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
 					<Path>SFX\SFX_Door_Close_-_190206_2312-01_34D806F2.wem</Path>
 				</File>
+				<File Id="323117386" Language="SFX">
+					<ShortName>musvillagepiste4.wav</ShortName>
+					<Path>SFX\musvillagepiste4_78072B9C.wem</Path>
+				</File>
 				<File Id="330623046" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-005.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-005_34D806F2.wem</Path>
@@ -188,6 +261,14 @@
 					<ShortName>soft\Wood_soft-005.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-005_34D806F2.wem</Path>
 				</File>
+				<File Id="350530100" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-016.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-016_34D806F2.wem</Path>
+				</File>
+				<File Id="359294714" Language="SFX">
+					<ShortName>Pot_Destroy\Shards\POT_Destroy_shards-001.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Shards\POT_Destroy_shards-001_34D806F2.wem</Path>
+				</File>
 				<File Id="361393499" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-009.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-009_34D806F2.wem</Path>
@@ -196,29 +277,65 @@
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-006.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-006_34D806F2.wem</Path>
 				</File>
+				<File Id="401915125" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-006.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-006_34D806F2.wem</Path>
+				</File>
 				<File Id="406048703" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-005.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-005_34D806F2.wem</Path>
+				</File>
+				<File Id="414079670" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-013.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-013_34D806F2.wem</Path>
 				</File>
 				<File Id="421006589" Language="SFX">
 					<ShortName>dirt\base\Foosteps_dirt_BASE-002.wav</ShortName>
 					<Path>SFX\dirt\base\Foosteps_dirt_BASE-002_34D806F2.wem</Path>
 				</File>
+				<File Id="427894164" Language="SFX">
+					<ShortName>Item_throw.wav</ShortName>
+					<Path>SFX\Item_throw_34D806F2.wem</Path>
+				</File>
+				<File Id="437672389" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-001.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-001_38FD1448.wem</Path>
+				</File>
 				<File Id="441295371" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-008.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-008_34D806F2.wem</Path>
+				</File>
+				<File Id="442396826" Language="SFX">
+					<ShortName>Pot_Destroy\Shards\POT_Destroy_shards-004.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Shards\POT_Destroy_shards-004_34D806F2.wem</Path>
 				</File>
 				<File Id="445714238" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-005.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-005_34D806F2.wem</Path>
 				</File>
+				<File Id="466126796" Language="SFX">
+					<ShortName>musvillagepiste5.wav</ShortName>
+					<Path>SFX\musvillagepiste5_78072B9C.wem</Path>
+				</File>
+				<File Id="468290503" Language="SFX">
+					<ShortName>villagemortpiste1.wav</ShortName>
+					<Path>SFX\villagemortpiste1_78072B9C.wem</Path>
+				</File>
 				<File Id="470893024" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-002.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-002_34D806F2.wem</Path>
 				</File>
+				<File Id="477235133" Language="SFX">
+					<ShortName>musvillagepiste3.wav</ShortName>
+					<Path>SFX\musvillagepiste3_78072B9C.wem</Path>
+				</File>
 				<File Id="478720960" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-001.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-001_34D806F2.wem</Path>
+				</File>
+				<File Id="484375454" Language="SFX">
+					<ShortName>villagemortpiste5.wav</ShortName>
+					<Path>SFX\villagemortpiste5_78072B9C.wem</Path>
 				</File>
 				<File Id="490523639" Language="SFX">
 					<ShortName>grass\bushes\bushes-004.wav</ShortName>
@@ -231,6 +348,14 @@
 				<File Id="499704075" Language="SFX">
 					<ShortName>stone\footsteps_Stone-003.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-003_855EA042.wem</Path>
+				</File>
+				<File Id="503034905" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-005.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-005_34D806F2.wem</Path>
+				</File>
+				<File Id="503234270" Language="SFX">
+					<ShortName>musvillagepiste2.wav</ShortName>
+					<Path>SFX\musvillagepiste2_78072B9C.wem</Path>
 				</File>
 				<File Id="506380188" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-006.wav</ShortName>
@@ -252,6 +377,10 @@
 					<ShortName>dirt\low\Footsteps_dirt_low-007.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-007_34D806F2.wem</Path>
 				</File>
+				<File Id="523902337" Language="SFX">
+					<ShortName>villagemortpiste2.wav</ShortName>
+					<Path>SFX\villagemortpiste2_78072B9C.wem</Path>
+				</File>
 				<File Id="524695818" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-003.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-003_34D806F2.wem</Path>
@@ -259,6 +388,10 @@
 				<File Id="532901103" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-003.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-003_34D806F2.wem</Path>
+				</File>
+				<File Id="546107066" Language="SFX">
+					<ShortName>AMB_lake_sea_base_v1.wav</ShortName>
+					<Path>SFX\AMB_lake_sea_base_v1_964DA37F.wem</Path>
 				</File>
 				<File Id="548151664" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-004.wav</ShortName>
@@ -268,21 +401,37 @@
 					<ShortName>stone\footsteps_Stone-007.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-007_82FCBF1C.wem</Path>
 				</File>
-				<File Id="549665116" Language="SFX">
-					<ShortName>village_morbide_v0.1.wav</ShortName>
-					<Path>SFX\village_morbide_v0.1_78072B9C.wem</Path>
+				<File Id="553383512" Language="SFX">
+					<ShortName>Pot_Destroy\Shards\POT_Destroy_shards-002.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Shards\POT_Destroy_shards-002_34D806F2.wem</Path>
 				</File>
 				<File Id="555624764" Language="SFX">
 					<ShortName>SFX_Door_Open_-_190206_2312.wav</ShortName>
 					<Path>SFX\SFX_Door_Open_-_190206_2312_34D806F2.wem</Path>
 				</File>
+				<File Id="556660881" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-007.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-007_34D806F2.wem</Path>
+				</File>
 				<File Id="561703191" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-003.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-003_34D806F2.wem</Path>
 				</File>
+				<File Id="566632568" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-009.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-009_34D806F2.wem</Path>
+				</File>
 				<File Id="577666406" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-002.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-002_34D806F2.wem</Path>
+				</File>
+				<File Id="579242598" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-005.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-005_DFDE2435.wem</Path>
+				</File>
+				<File Id="604589010" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-003.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-003_34D806F2.wem</Path>
 				</File>
 				<File Id="609025640" Language="SFX">
 					<ShortName>peak\Wood_peak-003.wav</ShortName>
@@ -312,6 +461,14 @@
 					<ShortName>grass\long\footsteps_long_grass-009.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-009_34D806F2.wem</Path>
 				</File>
+				<File Id="653085335" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-012.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-012_34D806F2.wem</Path>
+				</File>
+				<File Id="664197647" Language="SFX">
+					<ShortName>Pot_Destroy\Shards\POT_Destroy_shards-005.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Shards\POT_Destroy_shards-005_34D806F2.wem</Path>
+				</File>
 				<File Id="666145547" Language="SFX">
 					<ShortName>soft\Wood_soft-002.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-002_34D806F2.wem</Path>
@@ -320,9 +477,17 @@
 					<ShortName>wet_sand\water\footsteps_water-005.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-005_34D806F2.wem</Path>
 				</File>
+				<File Id="670593209" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-004.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-004_34D806F2.wem</Path>
+				</File>
 				<File Id="670798494" Language="SFX">
 					<ShortName>grass\bushes\bushes-006.wav</ShortName>
 					<Path>SFX\grass\bushes\bushes-006_34D806F2.wem</Path>
+				</File>
+				<File Id="672502621" Language="SFX">
+					<ShortName>villagemortpiste4.wav</ShortName>
+					<Path>SFX\villagemortpiste4_78072B9C.wem</Path>
 				</File>
 				<File Id="679674946" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-005.wav</ShortName>
@@ -368,6 +533,10 @@
 					<ShortName>Nuit_v1\villlagenightcordes_v1.wav</ShortName>
 					<Path>SFX\Nuit_v1\villlagenightcordes_v1_78072B9C.wem</Path>
 				</File>
+				<File Id="751474565" Language="SFX">
+					<ShortName>villagemortpiste3.wav</ShortName>
+					<Path>SFX\villagemortpiste3_78072B9C.wem</Path>
+				</File>
 				<File Id="752214485" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-006.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-006_34D806F2.wem</Path>
@@ -380,13 +549,25 @@
 					<ShortName>grass\base\footsteps_grass-001.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-001_34D806F2.wem</Path>
 				</File>
-				<File Id="788950076" Language="SFX">
-					<ShortName>SFX_-_S_Dash_-_V0.2_-_19-01-16.wav</ShortName>
-					<Path>SFX\SFX_-_S_Dash_-_V0.2_-_19-01-16_BB5582D9.wem</Path>
+				<File Id="758969145" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-017.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-017_34D806F2.wem</Path>
+				</File>
+				<File Id="771111333" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-015.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-015_34D806F2.wem</Path>
 				</File>
 				<File Id="807481473" Language="SFX">
 					<ShortName>soft\Wood_soft-006.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-006_34D806F2.wem</Path>
+				</File>
+				<File Id="821277346" Language="SFX">
+					<ShortName>Pot_Destroy\Shards\POT_Destroy_shards-006.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Shards\POT_Destroy_shards-006_34D806F2.wem</Path>
+				</File>
+				<File Id="833869800" Language="SFX">
+					<ShortName>Item_use.wav</ShortName>
+					<Path>SFX\Item_use_34D806F2.wem</Path>
 				</File>
 				<File Id="836367673" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-006.wav</ShortName>
@@ -395,6 +576,22 @@
 				<File Id="851304383" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-001.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-001_34D806F2.wem</Path>
+				</File>
+				<File Id="855119377" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-014.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-014_34D806F2.wem</Path>
+				</File>
+				<File Id="873930017" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-008.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-008_34D806F2.wem</Path>
+				</File>
+				<File Id="880349303" Language="SFX">
+					<ShortName>Pot_Destroy\Add\POT_Destroy_Add-002.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Add\POT_Destroy_Add-002_34D806F2.wem</Path>
+				</File>
+				<File Id="882872756" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-005.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-005_E29067CB.wem</Path>
 				</File>
 				<File Id="884900909" Language="SFX">
 					<ShortName>villlagenighttuba_v1-glued.wav</ShortName>
@@ -412,6 +609,22 @@
 					<ShortName>grass\long\footsteps_long_grass-004.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-004_34D806F2.wem</Path>
 				</File>
+				<File Id="897958807" Language="SFX">
+					<ShortName>UI_Interact.wav</ShortName>
+					<Path>SFX\UI_Interact_850FB396.wem</Path>
+				</File>
+				<File Id="898553283" Language="SFX">
+					<ShortName>Pot_Destroy\Add\POT_Destroy_Add-001.wav</ShortName>
+					<Path>SFX\Pot_Destroy\Add\POT_Destroy_Add-001_34D806F2.wem</Path>
+				</File>
+				<File Id="913037368" Language="SFX">
+					<ShortName>POT_Destroy_Add-003.wav</ShortName>
+					<Path>SFX\POT_Destroy_Add-003_6E1019F3.wem</Path>
+				</File>
+				<File Id="924019741" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-005.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-005_9BCCDFFE.wem</Path>
+				</File>
 				<File Id="930995499" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-007.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-007_34D806F2.wem</Path>
@@ -419,10 +632,6 @@
 				<File Id="945266762" Language="SFX">
 					<ShortName>Nuit_v1\villlagenightdrums_v1.wav</ShortName>
 					<Path>SFX\Nuit_v1\villlagenightdrums_v1_78072B9C.wem</Path>
-				</File>
-				<File Id="954959066" Language="SFX">
-					<ShortName>SFX_-_E2_Destroy_-_V0.3_-_24-01-20.wav</ShortName>
-					<Path>SFX\SFX_-_E2_Destroy_-_V0.3_-_24-01-20_34D806F2.wem</Path>
 				</File>
 				<File Id="972712054" Language="SFX">
 					<ShortName>peak\Wood_peak-006.wav</ShortName>
@@ -432,13 +641,21 @@
 					<ShortName>slide\Wood_slide-005.wav</ShortName>
 					<Path>SFX\slide\Wood_slide-005_34D806F2.wem</Path>
 				</File>
-				<File Id="987360984" Language="SFX">
-					<ShortName>villlage_v0.1.wav</ShortName>
-					<Path>SFX\villlage_v0.1_78072B9C.wem</Path>
+				<File Id="986934884" Language="SFX">
+					<ShortName>musvillagepiste6.wav</ShortName>
+					<Path>SFX\musvillagepiste6_78072B9C.wem</Path>
 				</File>
 				<File Id="1021894829" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-004.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-004_34D806F2.wem</Path>
+				</File>
+				<File Id="1027998380" Language="SFX">
+					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-004.wav</ShortName>
+					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-004_43BA40DB.wem</Path>
+				</File>
+				<File Id="1036551968" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-003.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-003_34D806F2.wem</Path>
 				</File>
 				<File Id="1041195826" Language="SFX">
 					<ShortName>soft\Wood_soft-001.wav</ShortName>
@@ -459,6 +676,10 @@
 				<File Id="1060347423" Language="SFX">
 					<ShortName>slide\Wood_slide-004.wav</ShortName>
 					<Path>SFX\slide\Wood_slide-004_34D806F2.wem</Path>
+				</File>
+				<File Id="1061824038" Language="SFX">
+					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-011.wav</ShortName>
+					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-011_34D806F2.wem</Path>
 				</File>
 				<File Id="1062571956" Language="SFX">
 					<ShortName>stone\footsteps_Stone-005.wav</ShortName>

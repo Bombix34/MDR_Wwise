@@ -4,6 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{3C4FFDE6-FC53-4D11-B80F-082CB2A85B9C}" PersistMode="Standalone">
 			<ChildrenList>
 				<ModulatorLfo Name="fgbnfgnfswbgv" ID="{7C3E6010-DB01-493E-8EC0-62B8E9058242}" ShortID="829405606"/>
+				<ModulatorLfo Name="AMB_LFO" ID="{455DB2DE-39AF-4837-B5F2-7342568A538B}" ShortID="716382555">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="75"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.002"/>
+						<Property Name="LfoSmoothing" Type="Real64" Value="33"/>
+						<Property Name="ModulatorScope" Type="int32" Value="2"/>
+					</PropertyList>
+				</ModulatorLfo>
 			</ChildrenList>
 		</WorkUnit>
 	</Modulators>

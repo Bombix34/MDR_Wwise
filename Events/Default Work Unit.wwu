@@ -86,6 +86,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="MC_talk_stop" ID="{F8E1612A-CD4B-4367-AB15-942D1C8CB83B}"/>
+				<Event Name="ENV_amb_ext_play" ID="{F9E1535D-3E6E-4974-A229-E9E5952E892F}"/>
+				<Event Name="ENV_fire_stop" ID="{DCE67EF8-1E38-464C-81B2-671335509F91}"/>
+				<Event Name="ENV_fire_play" ID="{01BBBBDF-D35C-4E05-898F-8108D429E4FC}"/>
+				<Event Name="MC_idle_anim_play" ID="{38C91668-F368-4234-95FE-0468E5E23ED7}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

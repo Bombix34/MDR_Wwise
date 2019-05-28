@@ -232,9 +232,24 @@
 								<Bus Name="Music_track_08" ID="{CF0E2344-DBA5-4157-9525-2F100EEAB855}"/>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}"/>
-						<Bus Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}"/>
-						<Bus Name="AMBIANCE" ID="{6427CEA5-EFD4-4B13-BE28-FCFA57146138}"/>
+						<Bus Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="AMBIANCE" ID="{6427CEA5-EFD4-4B13-BE28-FCFA57146138}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
