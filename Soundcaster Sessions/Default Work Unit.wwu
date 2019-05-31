@@ -14,12 +14,28 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Ocarina_01_Damaged" ID="{DE58FAE9-25A6-455D-913F-5F17F06098A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<ObjectRef Name="Ocarina_02_Damaged" ID="{F33F8E62-3299-44EA-91AF-82A6998520A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Ocarina_01_Destroyed" ID="{A7E50EE1-C4F9-4C1C-87F1-DCFE46118476}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<ObjectRef Name="Ocarina_03_Damaged" ID="{5D56CDDD-5DAF-4E2F-B122-2A525A74785A}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ocarina_04_Damaged" ID="{86F6DFEC-BD9F-4E25-BEF2-FA3A8CAE8196}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ocarina_02_Destroyed" ID="{32B45085-BD99-4DC9-AACD-BB70DE54AA7B}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ocarina_03_Destroyed" ID="{718A3B24-4FBE-4C5A-A424-EA69AB4F609F}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ocarina_04_Destroyed" ID="{162E5A19-10D3-4803-B4B1-622616D925FB}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -40,6 +56,10 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}"/>
+							<Value>18</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="volume_music" ID="{3D14F4EB-AB42-43F5-BBE6-B0C007F55745}"/>
 							<Value>100</Value>
 						</RTPCValue>
@@ -54,6 +74,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}"/>
 							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}"/>
+							<Value>18</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}"/>
@@ -72,12 +96,20 @@
 							<Value>18</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}"/>
+							<Value>18</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}"/>
+							<Value>18</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}"/>
 							<Value>9.159020058227E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
-							<Value>0</Value>
+							<Value>1.33256379737279E-311</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}"/>

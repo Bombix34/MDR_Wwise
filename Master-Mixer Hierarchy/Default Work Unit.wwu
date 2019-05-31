@@ -102,12 +102,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>10.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>1.38461538461538</XPos>
-																<YPos>10.5</YPos>
+																<XPos>1.38462</XPos>
+																<YPos>7.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -192,11 +192,11 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-											<ObjectRef Name="Music_alteration" ID="{965AC69F-18E0-4723-9CA2-025E839EF0E0}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_alteration_01" ID="{10B33DA1-B284-4B60-A93C-0BC3AEB7AABB}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
 										</Reference>
 										<Reference Name="Effect1" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
-											<ObjectRef Name="Music_Alteration_pitch" ID="{6B607746-7628-450A-ADB9-D89A2D3E2D38}" WorkUnitID="{C4F9A93F-2F8F-4FCB-A0BE-315AAA791701}"/>
+											<ObjectRef Name="Music_Alteration_pitch_01" ID="{6B607746-7628-450A-ADB9-D89A2D3E2D38}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
 										</Reference>
 									</ReferenceList>
 									<StateInfo>
@@ -223,13 +223,654 @@
 										</CustomStateList>
 									</StateInfo>
 								</Bus>
-								<Bus Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}"/>
-								<Bus Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}"/>
-								<Bus Name="Music_track_04_WIND_1" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}"/>
-								<Bus Name="Music_track_05_WIND_2" ID="{4925AF94-7248-4F62-87A1-8DEF63C73781}"/>
-								<Bus Name="Music_track_06_BRASS_1" ID="{BF6CE8A8-7E59-41D6-9AE8-7596AE1C3020}"/>
-								<Bus Name="Music_track_07_BRASS_2" ID="{D13A2C9A-3B06-4A03-B068-047344AB3D6C}"/>
-								<Bus Name="Music_track_08" ID="{CF0E2344-DBA5-4157-9525-2F100EEAB855}"/>
+								<Bus Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{CA6A9019-526E-4193-B940-92E1BDE9CDB1}" ShortID="37672865">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E949C8B0-CCDC-4B4C-A7F4-9054C5D6460C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>2.99999999999997</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{A406AED2-684C-4F83-BEC1-8835A9C0202D}" ShortID="974575592">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C49879E4-AF6C-474E-902F-13622B7EEFF3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>7.5</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1.38462</XPos>
+																<YPos>7.5</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.30407846153846</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="BypassEffect0" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{3F830C89-4694-4B1F-8934-EEE3313C6C34}" ShortID="818650292">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D5E89FF9-9E2E-4B4B-B495-31224B32BFCA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{BEE46D88-A989-4D96-80B0-AFC9CBB93CF1}" ShortID="233044827">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{646827E9-4AA5-4C85-8E25-5EC11A723F8A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>45</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_alteration_02" ID="{4D39AAB9-A5A7-40DA-8B7A-500BE925F973}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_Alteration_pitch_02" ID="{015651BA-1165-4DCA-93A6-B5717981EDB6}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Ww_Status_Ocarina_02" ID="{426692E6-6DF6-4C30-95B3-E5490476CE2C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Intact" ID="{A326A8C2-9009-48CD-86B4-A100FB22EDBE}"/>
+												<CustomState Name="" ID="{5DF9A12F-41B6-4DE0-9150-DC6BE42817B0}" ShortID="743254577"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{9B0E887C-4D33-4DEF-AED7-C347B642AD5C}"/>
+												<CustomState Name="" ID="{BEF11F9D-D99F-4B9C-BE77-490027D5911F}" ShortID="28724237">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Pitch" Type="int32" Value="-400"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{14D4E293-EE81-4E1F-BFFA-5012E993C759}" ShortID="675600284">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2326C6EB-C0E0-4B88-B63C-DB4B51364C91}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>2.99999999999997</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{3AE10BF0-215D-4CC2-ACDF-ED79D0B715B1}" ShortID="206428810">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1EC884EC-EAA6-4651-B8F7-D49242449000}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>7.5</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1.38462</XPos>
+																<YPos>7.5</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.30407846153846</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="BypassEffect0" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{D0E5F2F9-4BAB-4F3B-8A08-4B5A97DC5038}" ShortID="912004760">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5D72A974-3F45-458D-9688-BFAFD04DE2D3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{87C84606-01FC-4A8A-B141-ED747E4B0A90}" ShortID="662485586">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B2A2DA57-DBC9-4425-8AF2-9DD27163B7D7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>45</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_alteration_03" ID="{87085300-A4D6-4C8A-A8BD-918906EC81F7}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_Alteration_pitch_03" ID="{996E2574-CDFE-4B11-BB22-8FF82BD4341E}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Ww_Status_Ocarina_03" ID="{8CF3F2F4-E850-4A89-AF31-431AC2D421AB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{3AD4797B-D8C1-4473-9B3F-B8534649B33D}"/>
+												<CustomState Name="" ID="{FF373404-BC5B-4E9C-99AE-5D66AB07163F}" ShortID="854412805">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Pitch" Type="int32" Value="-400"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Intact" ID="{9B572416-6718-4B1E-BAF4-58EEF60A52B3}"/>
+												<CustomState Name="" ID="{470CC2E2-B191-4F7E-975F-35E259B5CE59}" ShortID="220842171"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{6B469B66-8DC3-4EDF-B604-F444FA92A3EA}" ShortID="615771364">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{95FAB0D5-9CE3-43D8-99E5-ABC42EC865E2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>7.5</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1.38462</XPos>
+																<YPos>7.5</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.30407846153846</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{2A1E5B8E-852C-414C-ABE3-89331E265672}" ShortID="1013913028">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FE42AA43-7792-4D17-9347-876E232F58C2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>2.99999999999997</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="BypassEffect0" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{3C109257-13EB-4AF6-A133-04BD76309E19}" ShortID="252975233">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E3C7F4C5-B4A5-4E20-B21F-7D0F97B806E1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{DDBB5F18-EAF0-418F-A86B-253B2EF1081D}" ShortID="577881147">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BCA25FE4-6F02-4230-9515-3CE42A32090B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>45</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_alteration_04" ID="{C469F08D-F76B-426F-9AA0-2287DE89E8D4}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_Alteration_pitch_04" ID="{F1E50D47-C534-49EE-BBF7-371D15AD0F2F}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Ww_Status_Ocarina_04" ID="{4274C3B7-BBAF-4E53-BE76-DAE7364CB78B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Intact" ID="{32EED343-C301-43F0-9FEA-F5ED780DC6C7}"/>
+												<CustomState Name="" ID="{7CDFC1C2-D0CA-44DC-88FF-78A7D58FBD57}" ShortID="762857843"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{F3BBC8FE-BE3E-45B2-BF29-F64BEF0E68F9}"/>
+												<CustomState Name="" ID="{1B41435E-F753-4057-ABE1-DED240F03ABB}" ShortID="469776269">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-400"/>
+														<Property Name="Pitch" Type="int32" Value="-400"/>
+														<Property Name="Volume" Type="Real64" Value="-400"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="Muisc_track_BATTLE" ID="{E028C154-1505-4220-B1DC-70C65ADA07FF}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1C56D855-7733-46CF-89A0-E09FC28538D6}" ShortID="1006271024">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A7BD3C03-52A3-45E2-9EC2-7E1CC6B65FDA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>2.99999999999997</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{9757CC81-A9E2-4445-B4A5-05E3F6D97630}" ShortID="143331251">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2BA4BD7B-CE3A-42F3-B36C-51D749F2C69D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>4.5</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1.38462</XPos>
+																<YPos>4.5</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.30407846153846</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="BypassEffect0" Type="bool">
+											<RTPCList>
+												<RTPC Name="" ID="{65F4F35A-9FD5-4551-8801-D32FFFED2237}" ShortID="674266371">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3881EF0C-CAB6-496A-8E99-BD785940FC6D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{C1ACB72D-3ABD-4270-9F12-73D4B20D05D4}" ShortID="371535653">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1E216F18-25BB-442F-991D-47AD0A2091D4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>45</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Music_alteration_05" ID="{965AC69F-18E0-4723-9CA2-025E839EF0E0}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+										<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Music_Alteration_pitch_05" ID="{B9B1FD17-5000-433F-993C-F55546599B1C}" WorkUnitID="{992D330E-613D-4D59-AF0A-B15A0CF07F73}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Ww_Status_Ocarina_05" ID="{4138D3A1-6012-48F5-B762-36D72F9D9027}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Intact" ID="{2BDF835F-0CC3-42B0-BCE7-C5CF4202B809}"/>
+												<CustomState Name="" ID="{F32CD984-9DF0-4A22-8A75-EAA4F8FCF418}" ShortID="172275448"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Destroyed" ID="{67E6878E-F379-479D-81BF-94DEFB3AD15C}"/>
+												<CustomState Name="" ID="{A6B5F332-14D9-4F01-93F1-5832A15CDF60}" ShortID="781517973">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="Pitch" Type="int32" Value="-400"/>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}">

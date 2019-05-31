@@ -1,47 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C4F9A93F-2F8F-4FCB-A0BE-315AAA791701}" SchemaVersion="94">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{C4F9A93F-2F8F-4FCB-A0BE-315AAA791701}" PersistMode="Standalone">
-			<ChildrenList>
-				<Effect Name="Music_Alteration_pitch" ID="{6B607746-7628-450A-ADB9-D89A2D3E2D38}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
-					<PropertyList>
-						<Property Name="Pitch" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{0CCDD714-B238-41FD-8455-5A16992BABC2}" ShortID="224986828">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{471174AC-A038-4C92-ABC3-64D9C185842F}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>5</XPos>
-												<YPos>0</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Log2</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>10</XPos>
-												<YPos>300</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-					</PropertyList>
-				</Effect>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{C4F9A93F-2F8F-4FCB-A0BE-315AAA791701}" PersistMode="Standalone"/>
 	</Effects>
 </WwiseDocument>

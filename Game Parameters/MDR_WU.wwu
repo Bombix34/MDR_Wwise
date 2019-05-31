@@ -76,8 +76,9 @@
 				</GameParameter>
 				<GameParameter Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="40"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+						<Property Name="Min" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 				<Folder Name="MUSIC" ID="{0780BF5C-EE44-4750-8BB7-AFD43305E731}" ShortID="1048639852">
@@ -152,6 +153,14 @@
 										<Property Name="SlewRateUp" Type="Real64" Value="30"/>
 									</PropertyList>
 								</GameParameter>
+								<GameParameter Name="Ww_Trem_BATTLE" ID="{736BE02A-A7A1-4D45-9FE5-997FE1A14BD3}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="10"/>
+										<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+										<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+									</PropertyList>
+								</GameParameter>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Distance" ID="{E91F6F0C-0473-4751-85B1-204B5C1EC60B}" ShortID="226009316">
@@ -163,6 +172,30 @@
 									</PropertyList>
 								</GameParameter>
 								<GameParameter Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="18"/>
+										<Property Name="Max" Type="Real64" Value="18"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="18"/>
+										<Property Name="Max" Type="Real64" Value="18"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="18"/>
+										<Property Name="Max" Type="Real64" Value="18"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="18"/>
+										<Property Name="Max" Type="Real64" Value="18"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}">
 									<PropertyList>
 										<Property Name="InitialValue" Type="Real64" Value="18"/>
 										<Property Name="Max" Type="Real64" Value="18"/>

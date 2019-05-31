@@ -45,6 +45,7 @@
 								<Action Name="" ID="{9F178D5E-C111-4085-9504-E4B43429805F}" ShortID="405344431">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -52,74 +53,69 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{4B868B67-95D6-4531-95E8-BD7D613B61AF}" ShortID="185014881">
+								<Action Name="" ID="{F22CA2D7-D045-45F8-8D5A-3DDDD69672D7}" ShortID="212143843">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="9"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{A9901972-1F07-4087-A5D4-65F83D03941F}" ShortID="570381989">
+								<Action Name="" ID="{379E7FEF-4197-4DC6-8AF8-99A70B55D902}" ShortID="711582956">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="village_karma" ID="{0ED61506-EC4A-4F9A-A2C8-75C0ADCDCBC1}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{910DE33C-6251-4562-946D-E24E6514AF6E}" ShortID="1005461002">
+								<Action Name="" ID="{59584C2E-BA2F-4B00-9688-69346DD77899}" ShortID="342075840">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{6B319C5C-A607-4FF1-BBFF-50255085A2E7}" ShortID="838118787">
+								<Action Name="" ID="{742A018B-081D-4363-B098-9A224C635FF1}" ShortID="969517331">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{648801D3-042D-434C-9E67-467CA705F13B}" ShortID="196669373">
+								<Action Name="" ID="{EDCCC351-A51E-48D8-864C-D7A99E99B4FD}" ShortID="1003637678">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_07" ID="{C9A5C07E-3BF2-4B5A-8511-D1690E8F1E83}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{8BF14C70-81F4-4853-ACF3-BC7C9C5544F1}" ShortID="334977355">
+								<Action Name="" ID="{305EB2F0-A455-4E10-8556-9149D0DD1B37}" ShortID="854409587">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_06" ID="{169644DE-AFA1-40DF-BDBF-948EA142241B}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{F00D12F0-9731-4C2D-8118-A537C502C5E9}" ShortID="758946947">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -143,13 +139,83 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{8BDD4740-AA0B-41A6-912B-4E4EFC9D00EA}" ShortID="119712691">
+								<Action Name="" ID="{F00D12F0-9731-4C2D-8118-A537C502C5E9}" ShortID="758946947">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_08" ID="{D537A067-33E6-4F60-8DC7-B4BC6671CC82}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+											<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{910DE33C-6251-4562-946D-E24E6514AF6E}" ShortID="1005461002">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6B319C5C-A607-4FF1-BBFF-50255085A2E7}" ShortID="838118787">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2C105E23-12A9-43FE-AB5B-0C0B9A416246}" ShortID="931460063">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1500C493-F091-488A-9758-D0EECD7A35C2}" ShortID="895231890">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muisc_track_BATTLE" ID="{E028C154-1505-4220-B1DC-70C65ADA07FF}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DBC85C0B-90DE-4F30-BCCA-B52C39440D3E}" ShortID="345640169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6C3AA361-7212-4802-BEE0-5C69B6205FBB}" ShortID="324565224">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B21C616D-0BBD-49E0-8DDE-B6AA2665B261}" ShortID="345606137">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -476,21 +542,14 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ocarina_02_Damaged_RYTHMIC" ID="{5CD9039D-C64A-4B32-A103-18DC7E7A473C}"/>
-						<Event Name="Ocarina_03_Damaged_PERCUS" ID="{1FC05E03-3129-4FB3-8CFA-2C9D3EB2B9E3}"/>
-						<Event Name="Ocarina_04_Damaged_WIND1" ID="{32B64E99-B778-4026-8C25-3BC219CE34DD}"/>
-						<Event Name="Ocarina_05_Damaged_WIND2" ID="{280130E0-4683-4346-AD53-87DD3B7912D2}"/>
-						<Event Name="Ocarina_06_Damaged_BRASS1" ID="{6870441C-AC18-4C98-BE71-B22860A098E6}"/>
-						<Event Name="Ocarina_07_Damaged_BRASS2" ID="{6CE9D3F0-873F-4CA4-8DF8-ED34E0A87451}"/>
-						<Event Name="Ocarina_08_Damaged" ID="{7FDED19E-53C2-431F-96B1-F4B4F42EA7C4}"/>
 						<Event Name="Ocarina_01_Destroyed" ID="{A7E50EE1-C4F9-4C1C-87F1-DCFE46118476}">
 							<ChildrenList>
-								<Action Name="" ID="{BC3ADC82-9AA1-4644-9886-C75086A9B1A6}" ShortID="84574356">
+								<Action Name="" ID="{04954FA1-F644-4999-A2B7-CE58FDF08EAB}" ShortID="245140356">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
-										<Property Name="Volume" Type="Real64" Value="-142"/>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -498,14 +557,179 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{04954FA1-F644-4999-A2B7-CE58FDF08EAB}" ShortID="245140356">
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_02_Damaged" ID="{F33F8E62-3299-44EA-91AF-82A6998520A5}">
+							<ChildrenList>
+								<Action Name="" ID="{BE270D2A-BBFB-46EA-BC47-13FDFC2E4A04}" ShortID="710754109">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A03A26C7-40C1-416E-B889-EC33E931F75E}" ShortID="652072271">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_02_Destroyed" ID="{32B45085-BD99-4DC9-AACD-BB70DE54AA7B}">
+							<ChildrenList>
+								<Action Name="" ID="{57E711B0-6903-4016-9542-40188B9E0A79}" ShortID="949256021">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
 										<Property Name="Volume" Type="Real64" Value="-96"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+											<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_03_Damaged" ID="{5D56CDDD-5DAF-4E2F-B122-2A525A74785A}">
+							<ChildrenList>
+								<Action Name="" ID="{A0E3A957-828D-4BF5-BEE3-1A4803FDB14F}" ShortID="403497965">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D75EF9D-E626-4FB0-993B-3F5664C1D4BA}" ShortID="745173627">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_03_Destroyed" ID="{718A3B24-4FBE-4C5A-A424-EA69AB4F609F}">
+							<ChildrenList>
+								<Action Name="" ID="{F408C54C-494A-44EA-9494-869A81710C63}" ShortID="465636511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_04_Damaged" ID="{86F6DFEC-BD9F-4E25-BEF2-FA3A8CAE8196}">
+							<ChildrenList>
+								<Action Name="" ID="{3A991457-52B6-453E-ACF6-43BC6361C330}" ShortID="161232524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9418128F-7219-4B30-BF8E-F373DE4318C1}" ShortID="58460937">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_04_Destroyed" ID="{162E5A19-10D3-4803-B4B1-622616D925FB}">
+							<ChildrenList>
+								<Action Name="" ID="{04843A1D-E92A-4024-B377-DD496CE837B0}" ShortID="19139288">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_05_Damaged" ID="{CF9F4DBE-08B6-468E-862B-D5E1D21D87F8}">
+							<ChildrenList>
+								<Action Name="" ID="{B4962D3A-434F-452B-A8EF-0F08A5C4FFD4}" ShortID="321171247">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="GameParameterValue" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_BATTLE" ID="{736BE02A-A7A1-4D45-9FE5-997FE1A14BD3}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F91AF2EB-485C-43E8-A73C-8AAFFD0F7665}" ShortID="68630591">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ww_Trem_BATTLE" ID="{736BE02A-A7A1-4D45-9FE5-997FE1A14BD3}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ocarina_05_Destroyed" ID="{89E3C49B-FDDD-4EFE-A61A-34BE9E50F937}">
+							<ChildrenList>
+								<Action Name="" ID="{14020A28-389D-48C2-9EF5-5F7701DBB03F}" ShortID="477908940">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muisc_track_BATTLE" ID="{E028C154-1505-4220-B1DC-70C65ADA07FF}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

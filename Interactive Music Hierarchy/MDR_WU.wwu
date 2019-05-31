@@ -24,12 +24,12 @@
 										</PropertyList>
 										<PointList>
 											<Point>
-												<XPos>0</XPos>
+												<XPos>1</XPos>
 												<YPos>1</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>40</XPos>
+												<XPos>4</XPos>
 												<YPos>4</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -57,11 +57,6 @@
 						<MusicPlaylistContainer Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" ShortID="914613095">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="105"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -189,12 +184,15 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste1" ID="{6C9D79F4-64EC-4E36-9098-777F8A5F08BE}" ShortID="487032366">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -291,12 +289,15 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste3" ID="{11EB4939-34F6-4913-B7EE-2F1B460EAD49}" ShortID="367170735">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -393,12 +394,15 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste5" ID="{B5920DD2-0144-40BC-94E8-5AFF1CFDAADC}" ShortID="1041389814">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -495,12 +499,15 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste6" ID="{5C9A80EB-6F77-4C89-B6ED-5D4674BA4A2D}" ShortID="591019340">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -597,12 +604,15 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste2" ID="{8C47FB16-EA5A-4C4C-A2DD-F5DB7BC18534}" ShortID="966833151">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -699,12 +709,15 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste4" ID="{27A50702-DCFC-4459-91D5-AD6434E7259E}" ShortID="228681003">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -931,9 +944,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste1" ID="{FB531FB9-C854-401D-9D3D-4C4F36AB813E}" ShortID="542750149">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1025,9 +1041,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste2" ID="{42E30CA1-23B6-45F9-B8A9-3B452515517B}" ShortID="83422191">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1119,9 +1138,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste3" ID="{85BB98FA-2827-464F-92DA-E7DF163B7527}" ShortID="72705977">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1213,9 +1235,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste4" ID="{5CB5CB57-DB0C-4C64-B945-4F9081F3E184}" ShortID="1031502139">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1307,9 +1332,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste5" ID="{A51A98E5-4083-4164-AA27-F2A2205C4E60}" ShortID="1002042575">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1401,9 +1429,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="musvillagepiste6" ID="{DC04D716-3D54-4475-948B-613DF027A9EE}" ShortID="34944887">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1669,9 +1700,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villagemortpiste1" ID="{5E5F4C87-4CA8-4D41-B240-5E2686A621E1}" ShortID="176479006">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1704,9 +1738,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villagemortpiste2" ID="{D81C9944-A2E1-4DE7-9079-9809B994FE25}" ShortID="644935586">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1739,9 +1776,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villagemortpiste3" ID="{36C33798-52FB-4606-B6A1-39DB7D4FCA85}" ShortID="941629576">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1774,9 +1814,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villagemortpiste4" ID="{35F0B956-624A-4390-BD47-E5E693D32FB3}" ShortID="649072247">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1809,9 +1852,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villagemortpiste5" ID="{BC15A961-965A-4233-9C8C-AE719885EA45}" ShortID="680679006">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2128,7 +2174,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_04_WIND_1" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2273,7 +2319,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_06_BRASS_1" ID="{BF6CE8A8-7E59-41D6-9AE8-7596AE1C3020}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2574,6 +2620,7 @@
 						<MusicPlaylistContainer Name="Battle" ID="{CE2756D8-A25D-4B33-B68C-5953DE2D6DEA}" ShortID="371777468">
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="175"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2581,7 +2628,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+									<ObjectRef Name="Muisc_track_BATTLE" ID="{E028C154-1505-4220-B1DC-70C65ADA07FF}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3043,7 +3090,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_04_WIND_1" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3149,7 +3196,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Music_track_06_BRASS_1" ID="{BF6CE8A8-7E59-41D6-9AE8-7596AE1C3020}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3436,9 +3483,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="villlagenightcordes_v1-glued" ID="{2A5F0EE9-F827-40C2-8234-C9B45BC60ACD}" ShortID="883762521">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3532,9 +3582,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villlagenightdrums_v1-glued" ID="{B0C1F89D-EB43-4F40-85A6-1913525CFF4E}" ShortID="922785915">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3628,9 +3681,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villlagenightflutes_v1-glued" ID="{1A1133EA-FAAA-439A-975B-872901665093}" ShortID="128832801">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3724,9 +3780,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villlagenightkalimb_v1_1-glued" ID="{3B09F114-CE9B-4C65-8621-11464AB1B6A3}" ShortID="751410776">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3820,17 +3879,18 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="villlagenighttuba_v1-glued" ID="{D1694D33-ABFA-4324-AA4D-BE6126967CB2}" ShortID="628562976">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="villlagenighttuba_v1-glued" ID="{4070121E-A398-404B-9F1F-B3D7804EDEB0}" ShortID="884900909">
-													<Language>SFX</Language>
-													<AudioFile>villlagenighttuba_v1-glued.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{56D25B1C-0E66-4D7F-9B3C-86D220E19EA5}">
 													<PropertyList>
@@ -3840,79 +3900,7 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{6A4E60FA-D5D8-4EB7-A1B1-499867AFF42D}">
-													<ClipList>
-														<MusicClip Name="villlagenighttuba_v1-glued" ID="{765FE604-365F-4E8B-815E-05C768BCD95A}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="54857.1428571428"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="70857.1428571429"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="-54857.1428571428"/>
-															</PropertyList>
-															<AudioSourceRef Name="villlagenighttuba_v1-glued" ID="{4070121E-A398-404B-9F1F-B3D7804EDEB0}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{39F16D45-D71D-4382-ACD0-CA79A481BA70}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>54.85714</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>70.8571428571429</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{585BCEF8-7280-4C3E-840B-4FC3C3D3B55E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>54.85714</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>70.8571428571429</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{8AB4F14D-38C1-442A-A474-CA41E6251E4B}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>54.85714</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>70.8571428571429</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{6A4E60FA-D5D8-4EB7-A1B1-499867AFF42D}"/>
 											</SequenceList>
 										</MusicTrack>
 									</ChildrenList>
@@ -3982,14 +3970,17 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="outsidevillagepiste1" ID="{B0056C47-FF12-4ACF-AC4C-BBF0E5E062FD}" ShortID="877730839">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4022,9 +4013,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="outsidevillagepiste2" ID="{C3389840-125C-4366-989A-FBA8E26913AA}" ShortID="59163258">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4057,9 +4051,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="outsidevillagepiste3" ID="{2A3A63F2-17DC-4A07-BE6F-491C65E9E05E}" ShortID="230790481">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4092,9 +4089,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="outsidevillagepiste4" ID="{6A327CD7-B8AD-42ED-B80B-03A0A84A028E}" ShortID="3417392">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4127,9 +4127,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="outsidevillagepiste5" ID="{973A5785-BAE9-4D99-80D6-D9336808F616}" ShortID="875247199">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -4162,9 +4165,12 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="outsidevillagepiste6" ID="{6C3236C2-8024-491D-A777-C05FE60D1C9F}" ShortID="837177100">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>

@@ -51,31 +51,48 @@ State	ID	Name	State Group			Notes
 	3094168564	Intact	Ww_Status_Ocarina_02			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	28724237	Destroyed	Ww_Status_Ocarina_02	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_02_RYTHMIC		
 	275451651	Destroyed	Ww_Status_Ocarina_01	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_MAIN		
+	469776269	Destroyed	Ww_Status_Ocarina_04	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_04_WIND		
+	781517973	Destroyed	Ww_Status_Ocarina_05	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Muisc_track_BATTLE		
+	854412805	Destroyed	Ww_Status_Ocarina_03	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC\Music_track_03_PERC		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1432175674	Distance_MS_04			\MDR_WU\MUSIC\Distance\Distance_MS_04	
+	1432175675	Distance_MS_05			\MDR_WU\MUSIC\Distance\Distance_MS_05	
+	1432175676	Distance_MS_02			\MDR_WU\MUSIC\Distance\Distance_MS_02	
+	1432175677	Distance_MS_03			\MDR_WU\MUSIC\Distance\Distance_MS_03	
 	1432175679	Distance_MS_01			\MDR_WU\MUSIC\Distance\Distance_MS_01	
+	2090554906	Ww_Trem_Ocarina_05			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_05	
+	2090554907	Ww_Trem_Ocarina_04			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_04	
+	2090554908	Ww_Trem_Ocarina_03			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_03	
+	2090554909	Ww_Trem_Ocarina_02			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_02	
 	2090554910	Ww_Trem_Ocarina_01			\MDR_WU\MUSIC\Music_degradation\Ww_Trem_Ocarina_01	
 	3692238424	Distance_MS_Gen			\MDR_WU\MUSIC\Distance\Distance_MS_Gen	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	306302681	Music_track_08			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_08	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	470304688	Music_track_01_MAIN			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_01_MAIN	
 	891825369	Music_track_03_PERC			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_03_PERC	
-	1905708082	Music_track_04_WIND_1			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_04_WIND_1	
+	1862867194	Music_track_04_WIND			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_04_WIND	
 	2052289070	Music_track_02_RYTHMIC			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_02_RYTHMIC	
-	2645850543	Music_track_07_BRASS_2			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_07_BRASS_2	
 	2981377429	AMBIANCE			\Default Work Unit\Master Audio Bus\AMBIANCE	
-	3059150873	Music_track_06_BRASS_1			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_06_BRASS_1	
 	3313685232	VOICES			\Default Work Unit\Master Audio Bus\VOICES	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
-	4185999270	Music_track_05_WIND_2			\Default Work Unit\Master Audio Bus\MUSIC\Music_track_05_WIND_2	
+	4125289671	Muisc_track_BATTLE			\Default Work Unit\Master Audio Bus\MUSIC\Muisc_track_BATTLE	
 
 Effect plug-ins	ID	Name	Type				Notes
-	178973410	Music_alteration	Wwise Tremolo			
-	997855773	Music_Alteration_pitch	Wwise Pitch Shifter			
+	172242873	Music_Alteration_pitch_01	Wwise Pitch Shifter			
+	172242874	Music_Alteration_pitch_02	Wwise Pitch Shifter			
+	172242875	Music_Alteration_pitch_03	Wwise Pitch Shifter			
+	172242876	Music_Alteration_pitch_04	Wwise Pitch Shifter			
+	172242877	Music_Alteration_pitch_05	Wwise Pitch Shifter			
+	3337317056	Music_alteration_01	Wwise Tremolo			
+	3337317058	Music_alteration_03	Wwise Tremolo			
+	3337317059	Music_alteration_02	Wwise Tremolo			
+	3337317060	Music_alteration_05	Wwise Tremolo			
+	3337317061	Music_alteration_04	Wwise Tremolo			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
