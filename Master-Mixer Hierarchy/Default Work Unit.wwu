@@ -31,12 +31,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-4.5</YPos>
+														<YPos>-3</YPos>
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>1.38461538461538</XPos>
-														<YPos>-4.5</YPos>
+														<XPos>1.38462</XPos>
+														<YPos>-3</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
@@ -57,6 +57,40 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{F261CEC6-B7BD-47E4-9F7D-0D0E80FFBA6B}" ShortID="63029362">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D6042C8E-854F-4C30-B09B-513EA8E620F1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>60</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>8.5</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>18</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
@@ -102,12 +136,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -163,6 +197,36 @@
 										<Property Name="Color" Type="int16" Value="19"/>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
+												<RTPC Name="" ID="{90DD834A-8227-47DF-90E7-6B08608CE3E4}" ShortID="820701229">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F9EF25F9-5939-456E-982E-614417A073E2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
 												<RTPC Name="" ID="{C74AB8C7-C097-41BB-B5A6-4BC2D4E92FB4}" ShortID="612238718">
 													<ReferenceList>
 														<Reference Name="ControlInput">
@@ -265,12 +329,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -345,6 +409,36 @@
 															<Point>
 																<XPos>10</XPos>
 																<YPos>45</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{90043FE7-2893-48E4-A4B5-3D397A3244F2}" ShortID="498659856">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{08DF12BA-D84E-4195-9F1A-707CA7D85DED}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -427,12 +521,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -512,6 +606,36 @@
 														</PointList>
 													</Curve>
 												</RTPC>
+												<RTPC Name="" ID="{934DF5CD-D8DE-45CC-AD31-0463385D8925}" ShortID="659981209">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{AEF06189-5A88-4F0D-B201-28CC868D535B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
 											</RTPCList>
 										</Property>
 									</PropertyList>
@@ -564,12 +688,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>7.5</YPos>
+																<YPos>4.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -674,6 +798,36 @@
 														</PointList>
 													</Curve>
 												</RTPC>
+												<RTPC Name="" ID="{ADE9FDFF-8168-4DFC-972A-4B04B9873AEF}" ShortID="23114598">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6913A44F-5E60-4BE1-B78E-BF070E50A054}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
 											</RTPCList>
 										</Property>
 									</PropertyList>
@@ -751,12 +905,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>4.5</YPos>
+																<YPos>3</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>4.5</YPos>
+																<YPos>3</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -811,6 +965,36 @@
 										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<RTPCList>
+												<RTPC Name="" ID="{37BAE419-FAF1-415F-94D8-5F9F83CA593A}" ShortID="741087902">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FDA3D1CF-7DD1-44A8-9AF3-81E0174B6D3C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>8.5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>18</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
 												<RTPC Name="" ID="{C1ACB72D-3ABD-4270-9F12-73D4B20D05D4}" ShortID="371535653">
 													<ReferenceList>
 														<Reference Name="ControlInput">
