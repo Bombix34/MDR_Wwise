@@ -1597,11 +1597,11 @@
 						</Folder>
 						<Effect Name="Vibrato" ID="{D9586A30-FF0D-4DCC-89C5-04CDC4716ED6}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 							<PropertyList>
-								<Property Name="DelayTime" Type="Real32" Value="8.5"/>
-								<Property Name="DryLevel" Type="Real32" Value="0.3"/>
-								<Property Name="FeedBackLevel" Type="Real32" Value="0.9"/>
+								<Property Name="DelayTime" Type="Real32" Value="37.5"/>
+								<Property Name="FeedBackLevel" Type="Real32" Value="0.2"/>
+								<Property Name="FeedForwardLevel" Type="Real32" Value="-0.2"/>
 								<Property Name="ModDepth" Type="Real32" Value="10"/>
-								<Property Name="ModFrequency" Type="Real32" Value="5.5"/>
+								<Property Name="ModFrequency" Type="Real32" Value="9.2"/>
 								<Property Name="ModPWM" Type="Real32" Value="0"/>
 							</PropertyList>
 						</Effect>
@@ -1609,8 +1609,9 @@
 							<PropertyList>
 								<Property Name="DelayTime" Type="Real32" Value="10"/>
 								<Property Name="DryLevel" Type="Real32" Value="0"/>
+								<Property Name="FeedForwardLevel" Type="Real32" Value="0"/>
 								<Property Name="ModDepth" Type="Real32" Value="80"/>
-								<Property Name="ModFrequency" Type="Real32" Value="2"/>
+								<Property Name="ModFrequency" Type="Real32" Value="0.42"/>
 								<Property Name="ModPWM" Type="Real32" Value="0"/>
 							</PropertyList>
 						</Effect>
@@ -1678,10 +1679,10 @@
 					<ChildrenList>
 						<Effect Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
 							<PropertyList>
-								<Property Name="DryLevel" Type="Real32" Value="-3"/>
-								<Property Name="Voice1Pitch" Type="Real32" Value="-100"/>
-								<Property Name="Voice2Enable" Type="bool" Value="True"/>
+								<Property Name="Voice1Pitch" Type="Real32" Value="400"/>
 								<Property Name="Voice2Pitch" Type="Real32" Value="100"/>
+								<Property Name="WetLevel" Type="Real32" Value="-9"/>
+								<Property Name="WindowSize" Type="int32" Value="256"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Secret_message" ID="{2F5DE612-1AAD-4A84-8FB4-3E66521C920E}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">

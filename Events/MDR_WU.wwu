@@ -271,10 +271,10 @@
 						</Event>
 						<Event Name="MC_pick_item_play" ID="{FBCE5DF5-7F44-49D3-BCD9-7132AC1F5944}">
 							<ChildrenList>
-								<Action Name="" ID="{5CAA0A59-054E-432D-B7B8-209D476F7FEE}" ShortID="802860794">
+								<Action Name="" ID="{B135258A-09F1-47C0-B450-E1FE30B36E31}" ShortID="892125364">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_pick_item" ID="{C0689C97-A2B6-4DA2-9E4D-750D950C6394}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="Item_pickup" ID="{796D269D-2635-48F1-A585-F30439D0B7E6}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -285,7 +285,7 @@
 								<Action Name="" ID="{18D5F0FE-3742-4075-A9DE-C72B27262AA6}" ShortID="670387902">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_MC_pick_item" ID="{C0689C97-A2B6-4DA2-9E4D-750D950C6394}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="Item_pickup" ID="{796D269D-2635-48F1-A585-F30439D0B7E6}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -324,6 +324,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MC_pick_patoune" ID="{F8B8D582-9606-4FF3-B976-7A815FEB8C20}">
+							<ChildrenList>
+								<Action Name="" ID="{1C9DBB6F-DEBF-4E62-BA69-BAF0652F2DEB}" ShortID="694663332">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pattounes_Pickup" ID="{5D7FD181-9F1F-4482-94A9-B5085961204D}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ENVIRONMENT" ID="{340E7459-6B46-418C-8EF7-4C6C7299F154}" ShortID="924562410">
@@ -336,14 +347,14 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{06162FC6-2D7E-4B13-A44C-89F4095DA301}" ShortID="841631387">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -357,14 +368,14 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{E05F4EF8-97EB-437E-9B63-4C5F413504B1}" ShortID="683437402">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+											<ObjectRef Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -381,17 +392,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="ENV_pot_put_down_play" ID="{9B4E9C16-81C3-4FE7-B2B1-AB670DE143A2}">
-							<ChildrenList>
-								<Action Name="" ID="{63969C27-25E6-4C15-B9B9-EE3E2C7A676A}" ShortID="104186820">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="ENV_crate_break_play" ID="{3963D196-BA61-456C-861D-BB0987A967E7}">
 							<ChildrenList>
 								<Action Name="" ID="{DC1E8592-AAF6-450C-A383-A3C2F1C60D6F}" ShortID="385029080">
@@ -403,23 +403,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="ENV_tree_leaf_play" ID="{FD68CAF2-AE91-47F9-8A85-C222256638A1}">
-							<ChildrenList>
-								<Action Name="" ID="{CB8077FC-8618-406F-B404-6B2821CA2B71}" ShortID="745701632">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Trees" ID="{9A7FAEE6-8CA2-4A10-99CB-E7E14675FF79}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="ENV_lake_water_play" ID="{630DE425-6920-43D8-88F7-F1F28AD28592}">
 							<ChildrenList>
 								<Action Name="" ID="{6A2ADF9A-AB3C-4300-99F1-8E9A8AB460C0}" ShortID="200864490">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AMB_lake_base_v1" ID="{3502AD73-A247-4CAB-A4EA-1AD016BF2A58}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_door_locked_play" ID="{2D82D3EB-5FA6-4613-BACE-A8F647E102D7}">
+							<ChildrenList>
+								<Action Name="" ID="{5F2C5CC4-C6E8-4715-BEA9-A6A72B65BA56}" ShortID="1047610226">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_locked" ID="{493AE926-4B18-4E1C-85F4-4C08477B8E03}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_orb_activated_play" ID="{409E00B1-2F23-432F-B708-4B1A2BC068B6}">
+							<ChildrenList>
+								<Action Name="" ID="{90ABE1E7-FB50-45B3-BBBE-469668B79987}" ShortID="339858613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Orb_Hover" ID="{C72FD581-DA50-4BEF-B1DF-DDF8CA0BD9E9}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -453,7 +464,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="NPC_Discussion_start" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}"/>
+								<Event Name="NPC_Discussion_start" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}">
+									<ChildrenList>
+										<Action Name="" ID="{9D1962A2-6005-4C81-9ECF-F1B0848B4810}" ShortID="897442087">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Conversation_start" ID="{6BAD0785-B986-457D-A9E3-2451F353AC50}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -493,9 +514,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="UI_pause_menu_play" ID="{C93431B9-A12E-4BA4-9038-0A213015E826}"/>
-						<Event Name="UI_camera_zoom_play" ID="{D0194909-4DBB-45E8-8563-C67EA773F051}"/>
-						<Event Name="UI_camera_dezoom_play" ID="{42DA8E4D-EB6E-42C9-A44E-EFE920FA23B3}"/>
 						<Event Name="UI_item_highlight_play" ID="{B49851B9-BE2A-4548-AEBB-D265E074BFA0}">
 							<ChildrenList>
 								<Action Name="" ID="{644A53EC-14BC-49AB-A6D5-263DB9C5F07A}" ShortID="631350339">
@@ -737,6 +755,28 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="ENV_spawn_patoune_play" ID="{93B604D4-E54C-4371-BC49-7F875FB4DD98}">
+					<ChildrenList>
+						<Action Name="" ID="{25992A65-155A-47C1-BDDD-AB59F6D0F43B}" ShortID="259784346">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Patoune_spawn" ID="{7FCC6E58-6C23-4C00-9019-A2D926FE2FE6}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ENV_tree_leaf_play" ID="{FD68CAF2-AE91-47F9-8A85-C222256638A1}">
+					<ChildrenList>
+						<Action Name="" ID="{CB8077FC-8618-406F-B404-6B2821CA2B71}" ShortID="745701632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trees" ID="{9A7FAEE6-8CA2-4A10-99CB-E7E14675FF79}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

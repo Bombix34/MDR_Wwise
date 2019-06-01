@@ -7,18 +7,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	733168346	GAME_start			\MDR_WU\GAME\GAME_start	
 	787023996	NPC_talk_play			\MDR_WU\NPC\GENERIC NPC\NPC_talk_play	
 	885771810	Ocarina_01_Destroyed			\MDR_WU\MUSIC\Ocarina_01_Destroyed	
+	993937570	MC_pick_patoune			\MDR_WU\MAIN CHARACTER\MC_pick_patoune	
 	1011903932	MC_walk_play			\MDR_WU\MAIN CHARACTER\MC_walk_play	
 	1100552122	GAME_fake_fight			\MDR_WU\GAME\GAME_fake_fight	
 	1148858136	Ocarina_03_Destroyed			\MDR_WU\MUSIC\Ocarina_03_Destroyed	
 	1221486157	ENV_lake_water_play			\MDR_WU\ENVIRONMENT\ENV_lake_water_play	
 	1277176383	UI_item_highlight_play			\MDR_WU\UI\UI_item_highlight_play	
 	1432716332	GAME_over			\MDR_WU\GAME\GAME_over	
-	1616179565	ENV_tree_leaf_play			\MDR_WU\ENVIRONMENT\ENV_tree_leaf_play	
+	1616179565	ENV_tree_leaf_play			\MDR_WU\ENV_tree_leaf_play	
 	1796000097	MC_throw_play			\MDR_WU\MAIN CHARACTER\MC_throw_play	
 	1837728142	Ocarina_05_Damaged			\MDR_WU\MUSIC\Ocarina_05_Damaged	
 	1881369153	ENV_door_open_play			\MDR_WU\ENVIRONMENT\ENV_door_open_play	
 	2021786508	NPC_Discussion_start			\MDR_WU\NPC\GENERIC NPC\NPC_Discussion_start	
-	2038710544	UI_camera_zoom_play			\MDR_WU\UI\UI_camera_zoom_play	
 	2075303558	Ocarina_05_Destroyed			\MDR_WU\MUSIC\Ocarina_05_Destroyed	
 	2137237168	Ocarina_03_Damaged			\MDR_WU\MUSIC\Ocarina_03_Damaged	
 	2141874203	ENV_pot_break_play			\MDR_WU\ENVIRONMENT\ENV_pot_break_play	
@@ -26,14 +26,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	2246829044	MC_pick_item_play			\MDR_WU\MAIN CHARACTER\MC_pick_item_play	
 	2287292191	MC_pick_big_item_play			\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play	
 	2380170457	Ocarina_02_Destroyed			\MDR_WU\MUSIC\Ocarina_02_Destroyed	
+	2441092968	ENV_spawn_patoune_play			\MDR_WU\ENV_spawn_patoune_play	
 	2518024811	ENV_crate_break_play			\MDR_WU\ENVIRONMENT\ENV_crate_break_play	
-	2578355359	UI_pause_menu_play			\MDR_WU\UI\UI_pause_menu_play	
 	2580564741	Ocarina_02_Damaged			\MDR_WU\MUSIC\Ocarina_02_Damaged	
+	2641498353	ENV_orb_activated_play			\MDR_WU\ENVIRONMENT\ENV_orb_activated_play	
 	2732978883	GAME_launch			\MDR_WU\GAME\GAME_launch	
-	2760972584	ENV_pot_put_down_play			\MDR_WU\ENVIRONMENT\ENV_pot_put_down_play	
 	2826582739	MC_talk_play			\MDR_WU\MAIN CHARACTER\MC_talk_play	
+	3621253291	ENV_door_locked_play			\MDR_WU\ENVIRONMENT\ENV_door_locked_play	
 	3976206479	Ocarina_04_Destroyed			\MDR_WU\MUSIC\Ocarina_04_Destroyed	
-	4008763347	UI_camera_dezoom_play			\MDR_WU\UI\UI_camera_dezoom_play	
 	4033886834	UI_select_hover_play			\MDR_WU\UI\UI_select_hover_play	
 	4151404395	Ocarina_04_Damaged			\MDR_WU\MUSIC\Ocarina_04_Damaged	
 
@@ -71,6 +71,10 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2882100565	grass_height			\MDR_WU\grass_height	
 	3200455562	village_karma			\MDR_WU\village_karma	
 
+Effect plug-ins	ID	Name	Type				Notes
+	109045632	Vibrato	Wwise Flanger			
+	819943492	Fear_no_Evil	Wwise Harmonizer			
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	408243704	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\Silence\Wwise Silence	
 	795834203	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopees\Wwise Tone Generator	
@@ -78,6 +82,8 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23475721	Footsteps_dirt_low-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\dirt\low\Footsteps_dirt_low-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\low\Footsteps_dirt_low-006		8119
 	44934473	villlagenightflutes_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Nuit_v1\villlagenightflutes_v1_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT_fixed\Nuit_v1\villlagenightflutes_v1		593581
+	50402495	Patoune_Pickup_RIGHT-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_Pickup_RIGHT-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_R\Patoune_Pickup_RIGHT-002		15403
+	60132411	Orb_Hover_Shards_MN-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Orb_Hover_Shards_MN-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Orb_Hover\Shards_MN\Orb_Hover_Shards_MN-001		83189
 	72006230	Wood_slide-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\slide\Wood_slide-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\slide\Wood_slide-003		4626
 	86216309	AMB_lake_base_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\AMB_lake_base_v1_DBC91770.wem		\Actor-Mixer Hierarchy\MDR_WU\Ambiance\AMB_lake_base_v1		6414020
 	88723217	455062__audioninja001__footsteps-wet-sand-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\sand\455062__audioninja001__footsteps-wet-sand-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-002		6635
@@ -86,7 +92,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	109965199	CRATE_Destroy_DEBRIS-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-002		24224
 	114844203	POT_Destroy_shards-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Pot_Destroy\Shards\POT_Destroy_shards-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Pot_Destroy\Shards\POT_Destroy_shards-003		15812
 	116571814	CRATE_Destroy	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\CRATE_Destroy_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\Blast\Main\CRATE_Destroy		57203
-	119927025	ENV_pot_put_down	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_772B6534.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\ENV_pot_put_down		8684
 	133245509	musvillagepiste1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\musvillagepiste1_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\Village_P2\musvillagepiste1		1973787
 	136985139	Footsteps_Dirt_moist-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\dirt\moist\Footsteps_Dirt_moist-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\moist\Footsteps_Dirt_moist-002		8307
 	141410568	AMB_base_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\AMB_base_v1_78072B9C.wem		\Actor-Mixer Hierarchy\MDR_WU\Ambiance\AMB\AMB_base_v1		1120630
@@ -110,11 +115,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	244678200	Wood_peak-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\peak\Wood_peak-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\peak\Wood_peak-001		1982
 	250066383	bushes-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\bushes\bushes-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-005		22288
 	264192908	CRATE_Destroy_RIP-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-002_530070DC.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\Blast\Rip\CRATE_Destroy_RIP-002		24900
+	264262383	Patoune_Pickup_RIGHT-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_Pickup_RIGHT-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_R\Patoune_Pickup_RIGHT-003		13908
+	280043283	Orb_Hover_Shards_MN-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Orb_Hover_Shards_MN-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Orb_Hover\Shards_MN\Orb_Hover_Shards_MN-002		106628
 	280874668	Wood_soft-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\soft\Wood_soft-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\soft\Wood_soft-004		6315
+	284173215	Item_pickup	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Item_pickup_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Item_pickup		7026
 	295253982	villlagenightcordes_v1-glued	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\villlagenightcordes_v1-glued_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT_fixed\Nuit_transition\villlagenightcordes_v1-glued		1000823
 	306457144	footsteps_water-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\wet_sand\water\footsteps_water-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\wet_sand\water\footsteps_water-004		8185
 	311049527	455062__audioninja001__footsteps-wet-sand-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\sand\455062__audioninja001__footsteps-wet-sand-007_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-007		7417
-	313480055	[PH]_-_ENV_Door_Close	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\SFX_Door_Close_-_190206_2312-01_34D806F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_ENV_Door_Close		89192
+	313480055	[PH]_-_ENV_Door_Close	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\SFX_Door_Close_-_190206_2312-01_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Portal\[PH]_-_ENV_Door_Close		89192
 	316460121	AMB_trees_v1-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\AMB_trees_v1-003_6FA62E0E.wem		\Actor-Mixer Hierarchy\MDR_WU\Ambiance\Trees\AMB_trees_v1-003		475178
 	323117386	musvillagepiste4	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\musvillagepiste4_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\Village_P2\musvillagepiste4		1961243
 	330623046	footsteps_grass-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\base\footsteps_grass-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\base\footsteps_grass-005		6518
@@ -146,7 +154,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	503034905	CRATE_Destroy_DEBRIS-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-005		17249
 	503234270	musvillagepiste2	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\musvillagepiste2_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\Village_P2\musvillagepiste2		2326507
 	506380188	footsteps_long_grass-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\long\footsteps_long_grass-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-006		14998
-	507283049	[PH]_-_MC_pick_item	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19_34D806F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_MC_pick_item		58223
 	512845283	Wood_peak-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\peak\Wood_peak-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\peak\Wood_peak-005		2451
 	516162670	footsteps_Stone-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\stone\footsteps_Stone-004_6C89ABF1.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Stone\stone\footsteps_Stone-004		4247
 	516241765	Footsteps_dirt_low-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\dirt\low\Footsteps_dirt_low-007_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\low\Footsteps_dirt_low-007		4904
@@ -158,7 +165,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	548151664	455062__audioninja001__footsteps-wet-sand-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\sand\455062__audioninja001__footsteps-wet-sand-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-004		5667
 	548488606	footsteps_Stone-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\stone\footsteps_Stone-007_82FCBF1C.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Stone\stone\footsteps_Stone-007		3512
 	553383512	POT_Destroy_shards-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Pot_Destroy\Shards\POT_Destroy_shards-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Pot_Destroy\Shards\POT_Destroy_shards-002		20333
-	555624764	[PH]_-_ENV_Door_Open	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\SFX_Door_Open_-_190206_2312_34D806F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\_-PLACEHOLDER-_\[PH]_-_ENV_Door_Open		85269
+	555624764	ENV_Door_Open	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\SFX_Door_Open_-_190206_2312_6A800C80.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Portal\ENV_Door_Open		67313
 	556660881	CRATE_Destroy_DEBRIS-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-007_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-007		11259
 	561703191	455062__audioninja001__footsteps-wet-sand-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\sand\455062__audioninja001__footsteps-wet-sand-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-003		4938
 	566632568	CRATE_Destroy_DEBRIS-009	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-009_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-009		16431
@@ -177,8 +184,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	664197647	POT_Destroy_shards-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Pot_Destroy\Shards\POT_Destroy_shards-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Pot_Destroy\Shards\POT_Destroy_shards-005		7936
 	666145547	Wood_soft-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\soft\Wood_soft-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\soft\Wood_soft-002		4521
 	668890117	footsteps_water-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\wet_sand\water\footsteps_water-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\wet_sand\water\footsteps_water-005		9444
+	670390438	Patoune_Pickup_RIGHT-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_Pickup_RIGHT-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_R\Patoune_Pickup_RIGHT-001		14462
 	670593209	CRATE_Destroy_DEBRIS-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-004		20343
 	670798494	bushes-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\bushes\bushes-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-006		18857
+	672434346	Patoune_Pickup_LEFT-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_Pickup_LEFT-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_L\Patoune_Pickup_LEFT-001		13974
 	672502621	villagemortpiste4	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\villagemortpiste4_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\villagemortpiste4		846613
 	672958016	footsteps_long_grass-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\long\footsteps_long_grass-002_C2F8DC83.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-002		14431
 	679674946	455062__audioninja001__footsteps-wet-sand-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\sand\455062__audioninja001__footsteps-wet-sand-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-005		6684
@@ -187,6 +196,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	685880964	Footsteps_Dirt_moist-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\dirt\moist\Footsteps_Dirt_moist-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\moist\Footsteps_Dirt_moist-001		9766
 	687645138	Footsteps_dirt_low-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\dirt\low\Footsteps_dirt_low-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\low\Footsteps_dirt_low-005		5614
 	689418557	footsteps_long_grass-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\long\footsteps_long_grass-007_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-007		14885
+	693613157	Patoune_pickup_BASE	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_pickup_BASE_D3AFAD8D.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\Patoune_pickup_BASE		12299
 	696665378	footsteps_long_grass-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\long\footsteps_long_grass-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-003		12640
 	700743731	Footsteps_dirt_low-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\dirt\low\Footsteps_dirt_low-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\low\Footsteps_dirt_low-003		6652
 	730619784	bushes-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\bushes\bushes-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-001		16121
@@ -198,16 +208,21 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	756655636	footsteps_grass-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\base\footsteps_grass-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\base\footsteps_grass-001		5871
 	758969145	CRATE_Destroy_DEBRIS-017	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-017_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-017		15179
 	771111333	CRATE_Destroy_DEBRIS-015	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-015_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-015		12563
+	773205943	Orb_Hover_Shards_ST-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Orb_Hover_Shards_ST-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Orb_Hover\Shards_ST\Orb_Hover_Shards_ST-002		109376
+	803979829	Patoune_Pickup_LEFT-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_Pickup_LEFT-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_L\Patoune_Pickup_LEFT-003		14942
 	807481473	Wood_soft-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\soft\Wood_soft-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\soft\Wood_soft-006		4766
 	813631278	AMB_trees_v1-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\AMB_trees_v1-001_9AB145E6.wem		\Actor-Mixer Hierarchy\MDR_WU\Ambiance\Trees\AMB_trees_v1-001		621101
 	821277346	POT_Destroy_shards-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Pot_Destroy\Shards\POT_Destroy_shards-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Pot_Destroy\Shards\POT_Destroy_shards-006		5721
+	829128012	Door_locked	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Door_locked_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Portal\Door_locked		49062
 	833869800	Item_use	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Item_use_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Item_use		11866
 	836367673	footsteps_grass-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\base\footsteps_grass-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\base\footsteps_grass-006		5652
 	851304383	footsteps_long_grass-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\long\footsteps_long_grass-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-001		15568
 	855119377	CRATE_Destroy_DEBRIS-014	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-014_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-014		12297
+	856365934	Orb_Hover_Shards_ST-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Orb_Hover_Shards_ST-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Orb_Hover\Shards_ST\Orb_Hover_Shards_ST-001		110671
 	873930017	CRATE_Destroy_DEBRIS-008	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-008_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-008		8590
 	880349303	POT_Destroy_Add-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Pot_Destroy\Add\POT_Destroy_Add-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Pot_Destroy\Main\Add\POT_Destroy_Add-002		93574
 	882872756	CRATE_Destroy_RIP-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-005_E29067CB.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\Blast\Main\variante\CRATE_Destroy_RIP-005		21174
+	888556396	Patoune_Pickup_LEFT-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Patoune_Pickup_LEFT-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_L\Patoune_Pickup_LEFT-002		13792
 	889427946	villlagenightkalimb_v1_1-glued	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\villlagenightkalimb_v1.1-glued_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT_fixed\Nuit_transition\villlagenightkalimb_v1_1-glued		2270168
 	890998793	Wood_soft-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\soft\Wood_soft-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\soft\Wood_soft-003		6779
 	893192217	footsteps_long_grass-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\long\footsteps_long_grass-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_NPC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-004		18942
@@ -221,6 +236,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	972712054	Wood_peak-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\peak\Wood_peak-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\peak\Wood_peak-006		2535
 	973542936	Wood_slide-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\slide\Wood_slide-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\slide\Wood_slide-005		5755
 	986934884	musvillagepiste6	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\musvillagepiste6_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\Village_P2\musvillagepiste6		1505197
+	987383407	Orb_Hover_BASE	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Orb_Hover_BASE_D898A558.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Orb_Hover\Orb_Hover_BASE		97149
+	1010183359	Conversation_start	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Conversation_start_F8ACB1AC.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Conversation_start		20474
 	1021894829	footsteps_grass-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\grass\base\footsteps_grass-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\base\footsteps_grass-004		6403
 	1027998380	CRATE_Destroy_RIP-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-004_43BA40DB.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\Blast\Rip\CRATE_Destroy_RIP-004		32490
 	1036551968	CRATE_Destroy_DEBRIS-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Linux\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-003		20017

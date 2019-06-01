@@ -5888,6 +5888,11 @@
 						</ActorMixer>
 						<RandomSequenceContainer Name="Box_Destroy" ID="{BF5B4A77-042D-4446-9F2C-ECCDB053C610}" ShortID="168478040">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1">
@@ -5944,6 +5949,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>25</Value>
@@ -5959,6 +5965,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -5988,6 +5999,11 @@
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -6385,6 +6401,16 @@
 												<Value>20</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -6754,49 +6780,6 @@
 								<ItemRef Name="debris" ID="{6B88E0C5-539C-402F-8D57-545147B60333}"/>
 							</Playlist>
 						</RandomSequenceContainer>
-						<Sound Name="ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" ShortID="969164085">
-							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>75</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-400</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_-_E3_ShieldGrab_-_V0_1_-_19-01-19" ID="{1F66CC69-C5F6-4672-B163-CB5D635F38B2}" ShortID="119927025">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="3.84959630911188E-02"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.126486735870819"/>
-										<Property Name="FadeOutShape" Type="int16" Value="2"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.15838339100346"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX_-_E3_ShieldGrab_-_V0.1_-_19-01-19.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_-_E3_ShieldGrab_-_V0_1_-_19-01-19" ID="{1F66CC69-C5F6-4672-B163-CB5D635F38B2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<RandomSequenceContainer Name="Pot_Destroy" ID="{09FF29E6-A4B7-4DB8-8AC4-4B3ADECAD159}" ShortID="309181631">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
@@ -7293,8 +7276,941 @@
 										<ActiveSource Name="Item_use" ID="{B09C2853-C525-4D3A-9CAF-C01E2C57FEAA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Item_pickup" ID="{796D269D-2635-48F1-A585-F30439D0B7E6}" ShortID="327692024">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Item_pickup" ID="{D11102A1-339B-464E-849F-73FA35571C5D}" ShortID="284173215">
+											<Language>SFX</Language>
+											<AudioFile>Item_pickup.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Item_pickup" ID="{D11102A1-339B-464E-849F-73FA35571C5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="Pattounes_Pickup" ID="{5D7FD181-9F1F-4482-94A9-B5085961204D}" ShortID="1034932179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="rnd_L" ID="{5582F55F-231B-4898-97D0-8C179BD9E921}" ShortID="654220081">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EA93A0C5-BEFE-456D-885B-93254DF81ADA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Patoune_Pickup_LEFT-001" ID="{822FB834-765E-4AFC-BAB4-078994F2CE0B}" ShortID="412075066">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_LEFT-001" ID="{5087BD13-29CE-4988-AA18-8C5E42FAFD1E}" ShortID="672434346">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_LEFT-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_LEFT-001" ID="{5087BD13-29CE-4988-AA18-8C5E42FAFD1E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_LEFT-002" ID="{7584F55D-6FBD-453B-B3DF-77F50E5010A1}" ShortID="552041148">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_LEFT-002" ID="{09003D29-2FA2-483D-9CCE-B8B3A6593D11}" ShortID="888556396">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_LEFT-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_LEFT-002" ID="{09003D29-2FA2-483D-9CCE-B8B3A6593D11}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_LEFT-003" ID="{65AAF0B1-F6FC-4C71-94D4-8C4B765E582C}" ShortID="22132973">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_LEFT-003" ID="{C4B3A127-D775-4251-853C-BB3E476C966D}" ShortID="803979829">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_LEFT-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_LEFT-003" ID="{C4B3A127-D775-4251-853C-BB3E476C966D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D2A91D98-EE38-40AC-AE26-128D49E25FB7}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-75"/>
+														<Property Name="PanY" Type="Real64" Value="100"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="rnd_R" ID="{7EB9C0E6-33B3-44C5-8D52-75FE5EFD360E}" ShortID="949062172">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{92401C7B-EA62-4B75-B6DE-91F00AB5444D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Patoune_Pickup_RIGHT-001" ID="{3FEB4795-2CA4-4C37-A5CC-116C955DBED8}" ShortID="370805792">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_RIGHT-001" ID="{D89181C4-F89A-4B6A-8A13-D6E5BF42697C}" ShortID="670390438">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_RIGHT-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_RIGHT-001" ID="{D89181C4-F89A-4B6A-8A13-D6E5BF42697C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_RIGHT-002" ID="{630D36C3-3DD3-49E1-B53D-6B05BB6026A0}" ShortID="144880854">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_RIGHT-002" ID="{3FB8877E-BE77-4B29-A070-BD4D69829A9E}" ShortID="50402495">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_RIGHT-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_RIGHT-002" ID="{3FB8877E-BE77-4B29-A070-BD4D69829A9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_RIGHT-003" ID="{32CA1F0A-33C3-4906-90A6-53A1912B9081}" ShortID="963290495">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_RIGHT-003" ID="{E289CB8A-ECC2-45B6-B55F-4197730705C5}" ShortID="264262383">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_RIGHT-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_RIGHT-003" ID="{E289CB8A-ECC2-45B6-B55F-4197730705C5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{B7D34C29-8923-493E-A46D-2429364048C8}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="75"/>
+														<Property Name="PanY" Type="Real64" Value="100"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<Sound Name="Patoune_pickup_BASE" ID="{62A0249B-1D2E-4AB8-B847-C519FE28E350}" ShortID="316471908">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>37</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7F035EF3-570E-447C-A8B2-9EAFC118CDF2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Patoune_pickup_BASE" ID="{303CF8BB-5FB9-4081-A397-2EAD9E248B1E}" ShortID="693613157">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.01726461590905E-02"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.317941952506596"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.08662356699376E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Patoune_pickup_BASE.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Patoune_pickup_BASE" ID="{303CF8BB-5FB9-4081-A397-2EAD9E248B1E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<ActorMixer Name="_Chests_" ID="{3F0AA3B9-92BC-4CCC-87B4-C71FEA8331F5}" ShortID="487023958">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Patoune_spawn" ID="{7FCC6E58-6C23-4C00-9019-A2D926FE2FE6}" ShortID="208824">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{93BF505C-05BD-4482-9D22-7682A1DD932C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Patoune_Pickup_LEFT-001" ID="{7446C00D-C13D-4299-A81A-865ABA304BD5}" ShortID="158475655">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_LEFT-001" ID="{4DEFA0F1-9EE7-4DE0-A3FF-789075FA5100}" ShortID="83601322">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_LEFT-001.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="672434346"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_LEFT-001" ID="{4DEFA0F1-9EE7-4DE0-A3FF-789075FA5100}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_LEFT-002" ID="{01CC388C-27D0-4C78-B5E9-B6509AE0930C}" ShortID="549381763">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_LEFT-002" ID="{0FDEF538-EF02-4B83-9B15-BEFA80709FBA}" ShortID="366980155">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_LEFT-002.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="888556396"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_LEFT-002" ID="{0FDEF538-EF02-4B83-9B15-BEFA80709FBA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_LEFT-003" ID="{5DAEEFD3-A435-4788-989F-866DD89D08E6}" ShortID="41811880">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_LEFT-003" ID="{646FAFC3-1BEC-4D62-BFF9-65CF7C1203A1}" ShortID="785832037">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_LEFT-003.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="803979829"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_LEFT-003" ID="{646FAFC3-1BEC-4D62-BFF9-65CF7C1203A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_RIGHT-001" ID="{A84517C4-8693-4733-9BA4-9E4B4304EBE1}" ShortID="738547327">
+													<PropertyList>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_RIGHT-001" ID="{690CAD71-0417-46E1-B470-65A23F8747A4}" ShortID="11554569">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_RIGHT-001.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="670390438"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{9DD7A9A1-DEAE-4F1D-A411-16863970E743}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="75"/>
+																<Property Name="PanY" Type="Real64" Value="100"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_RIGHT-001" ID="{690CAD71-0417-46E1-B470-65A23F8747A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_RIGHT-002" ID="{90A5B50D-B810-41E3-96E3-690B46E23EE5}" ShortID="99377788">
+													<PropertyList>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_RIGHT-002" ID="{3E17B7EF-6A12-4D7A-83BD-AF59FFBB1018}" ShortID="176555047">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_RIGHT-002.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="50402495"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{FBBD2493-EB7D-4403-92C0-DECE3BD0158D}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="75"/>
+																<Property Name="PanY" Type="Real64" Value="100"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_RIGHT-002" ID="{3E17B7EF-6A12-4D7A-83BD-AF59FFBB1018}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Patoune_Pickup_RIGHT-003" ID="{5A653C2C-CE1F-41B9-93F2-8BF59D37B7CE}" ShortID="251354060">
+													<PropertyList>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Patoune_Pickup_RIGHT-003" ID="{C6B97A70-3A7D-4BB6-B3DE-F4B74653499D}" ShortID="447316227">
+															<Language>SFX</Language>
+															<AudioFile>Patoune_Pickup_RIGHT-003.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="264262383"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{8135BC87-C22B-45B9-9EFC-C1423723CF86}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="75"/>
+																<Property Name="PanY" Type="Real64" Value="100"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Patoune_Pickup_RIGHT-003" ID="{C6B97A70-3A7D-4BB6-B3DE-F4B74653499D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9A8DE6FD-FE96-46C7-8D00-A7551D0DA224}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-75"/>
+														<Property Name="PanY" Type="Real64" Value="100"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<Sound Name="Chest_Open" ID="{F1A13BC2-825E-4E6B-A093-6425877C86C8}" ShortID="32282979">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chest_Open" ID="{B1AA423B-B055-4D97-80BA-D9A8273EA4EE}" ShortID="830388729">
+													<Comment> </Comment>
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="8.17941952506596E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.43007915567282E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Chest_Open.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chest_Open" ID="{B1AA423B-B055-4D97-80BA-D9A8273EA4EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="Conversation_start" ID="{6BAD0785-B986-457D-A9E3-2451F353AC50}" ShortID="775873833">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>600</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{46EC3C4F-22E0-49B2-A8AE-84A0679DF643}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Conversation_start" ID="{5D326C19-4C85-4A38-9C39-91D14162CEBD}" ShortID="1010183359">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.358839050131926"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.593667546174143"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Conversation_start.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Conversation_start" ID="{5D326C19-4C85-4A38-9C39-91D14162CEBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<ActorMixer Name="Portal" ID="{EC9929FE-6FB1-452D-AF08-1AA3151DB6FC}" ShortID="794405355">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Door_locked" ID="{493AE926-4B18-4E1C-85F4-4C08477B8E03}" ShortID="49146284">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Door_locked" ID="{F2043135-0EDC-4E1C-AD88-D747713DAF84}" ShortID="829128012">
+											<Language>SFX</Language>
+											<AudioFile>Door_locked.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Door_locked" ID="{F2043135-0EDC-4E1C-AD88-D747713DAF84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" ShortID="508721492">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Door_Open_-_190206_2312" ID="{FDE3DA3D-EFA7-4851-9E2D-F1002319D4B8}" ShortID="555624764">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.14811923010189E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.513548782749688"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.408669101765596"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Door_Open_-_190206_2312.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Door_Open_-_190206_2312" ID="{FDE3DA3D-EFA7-4851-9E2D-F1002319D4B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" ShortID="409457934">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Door_Close_-_190206_2312-01" ID="{A61F7BDC-DE13-4602-B03C-7D6B198998C6}" ShortID="313480055">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Door_Close_-_190206_2312-01" ID="{A61F7BDC-DE13-4602-B03C-7D6B198998C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<BlendContainer Name="Orb_Hover" ID="{C72FD581-DA50-4BEF-B1DF-DDF8CA0BD9E9}" ShortID="430770932">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Orb_Hover_BASE" ID="{C04E8E36-F13C-45C7-A08A-09190BB1AF1C}" ShortID="40264546">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+											<ObjectRef Name="Vibrato" ID="{D9586A30-FF0D-4DCC-89C5-04CDC4716ED6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+											<ObjectRef Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Orb_Hover_BASE" ID="{273089F6-24CD-4EAD-BDA7-B9A5E517BA13}" ShortID="987383407">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="500"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.356200527704486"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.299370345686001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.07145009175485"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Orb_Hover_BASE.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Orb_Hover_BASE" ID="{273089F6-24CD-4EAD-BDA7-B9A5E517BA13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Shards_MN" ID="{802C6E53-A098-41E0-89D7-D383CF3BF806}" ShortID="168401407">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1F332954-9405-4ED5-8B6B-23B6304A46DD}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C171A57C-BC6B-4F9D-9B23-6DFF706868AA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.75"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Orb_Hover_Shards_MN-002" ID="{E9CBFC98-2AA0-47F7-A3DF-89BCDF2A5010}" ShortID="688559067">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Orb_Hover_Shards_MN-002" ID="{F0505341-8E6A-47E1-ACC8-3FF34427F1BF}" ShortID="280043283">
+													<Language>SFX</Language>
+													<AudioFile>Orb_Hover_Shards_MN-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Orb_Hover_Shards_MN-002" ID="{F0505341-8E6A-47E1-ACC8-3FF34427F1BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Orb_Hover_Shards_MN-001" ID="{4951B698-341B-479E-9847-42D948F4774D}" ShortID="566103783">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Orb_Hover_Shards_MN-001" ID="{4E1359C0-5448-4414-849B-532F2A229D4A}" ShortID="60132411">
+													<Language>SFX</Language>
+													<AudioFile>Orb_Hover_Shards_MN-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Orb_Hover_Shards_MN-001" ID="{4E1359C0-5448-4414-849B-532F2A229D4A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Shards_ST" ID="{BDD399C0-3F36-4644-8D8A-8E3B279A95D0}" ShortID="390452598">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C0FCF0AC-2D18-44DB-8CFF-17B398B65B68}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DBDAD270-1ED3-4671-B5DC-F2DB6A37287D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.75"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Orb_Hover_Shards_ST-002" ID="{1FCE8E2C-2CC2-47C1-8A44-0EA1D99CC38F}" ShortID="105181329">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Orb_Hover_Shards_ST-002" ID="{CB2085E5-053F-4E36-AD0D-259E59B8441A}" ShortID="773205943">
+													<Language>SFX</Language>
+													<AudioFile>Orb_Hover_Shards_ST-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Orb_Hover_Shards_ST-002" ID="{CB2085E5-053F-4E36-AD0D-259E59B8441A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Orb_Hover_Shards_ST-001" ID="{C8D46E5D-2F4F-4C1A-AAED-DBE024894C76}" ShortID="1055379405">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Orb_Hover_Shards_ST-001" ID="{B746CC5A-54A3-49D5-B793-284FAF602652}" ShortID="856365934">
+													<Language>SFX</Language>
+													<AudioFile>Orb_Hover_Shards_ST-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Orb_Hover_Shards_ST-001" ID="{B746CC5A-54A3-49D5-B793-284FAF602652}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Voice" ID="{C603F34F-8AF5-49D9-9109-172A9166EC8B}" ShortID="311223512">

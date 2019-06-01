@@ -90,6 +90,27 @@
 				<Event Name="ENV_fire_stop" ID="{DCE67EF8-1E38-464C-81B2-671335509F91}"/>
 				<Event Name="ENV_fire_play" ID="{01BBBBDF-D35C-4E05-898F-8108D429E4FC}"/>
 				<Event Name="MC_idle_anim_play" ID="{38C91668-F368-4234-95FE-0468E5E23ED7}"/>
+				<Event Name="ENV_pot_put_down_play" ID="{9B4E9C16-81C3-4FE7-B2B1-AB670DE143A2}">
+					<ChildrenList>
+						<Action Name="" ID="{63969C27-25E6-4C15-B9B9-EE3E2C7A676A}" ShortID="104186820">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_pot_put_down" ID="{605A63F3-CAD7-46DB-A94B-A4210EF4AB8F}" WorkUnitID="{FC4C2D5A-E1D4-41A2-9E72-64F905B53857}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_camera_zoom_play" ID="{D0194909-4DBB-45E8-8563-C67EA773F051}"/>
+				<Event Name="UI_camera_dezoom_play" ID="{42DA8E4D-EB6E-42C9-A44E-EFE920FA23B3}"/>
+				<Event Name="UI_pause_menu_play" ID="{C93431B9-A12E-4BA4-9038-0A213015E826}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
