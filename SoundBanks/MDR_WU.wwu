@@ -6,7 +6,6 @@
 				<SoundBank Name="Main" ID="{603797AE-5D4A-44E0-9DF0-0235E12D5976}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MDR_WU" ID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="NPC_walk_play" ID="{8499C163-7460-4C70-B334-EAA1EAE89A36}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}" Filter="3" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

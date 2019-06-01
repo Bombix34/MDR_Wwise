@@ -22,23 +22,33 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{ACBAAEF3-19C8-4EC1-86A4-89AF5B2A5E93}" ShortID="121872086">
+								<Action Name="" ID="{93D9C974-3FE4-45B7-9F00-E040AD84021F}" ShortID="240556807">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
+										<Property Name="ActionType" Type="int16" Value="41"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+											<ObjectRef Name="Reset_Music_BUSSES" ID="{0955C17D-A8C8-472E-AF57-B076BB05C4FF}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{A311444B-1517-4DC0-9A5E-3D4297AC7ABD}" ShortID="496821332">
+								<Action Name="" ID="{845BA35F-9881-45BF-8A73-52D04C1DEE8D}" ShortID="502044017">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
+										<Property Name="ActionType" Type="int16" Value="41"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+											<ObjectRef Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9F5F8D23-7FE1-4638-AA4F-09198E20B788}" ShortID="57614728">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -53,169 +63,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{F22CA2D7-D045-45F8-8D5A-3DDDD69672D7}" ShortID="212143843">
+								<Action Name="" ID="{A311444B-1517-4DC0-9A5E-3D4297AC7ABD}" ShortID="496821332">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+										<Property Name="ActionType" Type="int16" Value="23"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{379E7FEF-4197-4DC6-8AF8-99A70B55D902}" ShortID="711582956">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{59584C2E-BA2F-4B00-9688-69346DD77899}" ShortID="342075840">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{742A018B-081D-4363-B098-9A224C635FF1}" ShortID="969517331">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{EDCCC351-A51E-48D8-864C-D7A99E99B4FD}" ShortID="1003637678">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{305EB2F0-A455-4E10-8556-9149D0DD1B37}" ShortID="854409587">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-										<Property Name="GameParameterValue" Type="Real64" Value="18"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{7926100F-74A8-45A7-8DB7-19A06BC009A6}" ShortID="255997912">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{68AD4A8E-0452-462E-AF43-553231AB31E8}" ShortID="25868314">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{F00D12F0-9731-4C2D-8118-A537C502C5E9}" ShortID="758946947">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{910DE33C-6251-4562-946D-E24E6514AF6E}" ShortID="1005461002">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{6B319C5C-A607-4FF1-BBFF-50255085A2E7}" ShortID="838118787">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="38"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{2C105E23-12A9-43FE-AB5B-0C0B9A416246}" ShortID="931460063">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{1500C493-F091-488A-9758-D0EECD7A35C2}" ShortID="895231890">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Muisc_track_BATTLE" ID="{E028C154-1505-4220-B1DC-70C65ADA07FF}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{DBC85C0B-90DE-4F30-BCCA-B52C39440D3E}" ShortID="345640169">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{6C3AA361-7212-4802-BEE0-5C69B6205FBB}" ShortID="324565224">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{B21C616D-0BBD-49E0-8DDE-B6AA2665B261}" ShortID="345606137">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="11"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+											<ObjectRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -307,7 +161,7 @@
 								<Action Name="" ID="{61129C72-C613-4907-A9FE-529EF93A2E49}" ShortID="318051240">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="Dialogue" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -335,9 +189,45 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="MC_pick_ORB" ID="{7CCE4739-0D02-4FCD-B5D0-52A18970641F}">
+							<ChildrenList>
+								<Action Name="" ID="{88702749-2386-455B-B622-A2D71C33EEB3}" ShortID="581821211">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Orb_Hold" ID="{33EE9C1D-E756-41A3-A97E-C9E984EFD4F4}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MC_putdown_ORB" ID="{229C5CF5-09D2-4B73-8E3F-AD84BF9203B2}">
+							<ChildrenList>
+								<Action Name="" ID="{DCD646DB-17EB-4A2A-8C80-A5AAE911B435}" ShortID="676115523">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Orb_Hold" ID="{33EE9C1D-E756-41A3-A97E-C9E984EFD4F4}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ENVIRONMENT" ID="{340E7459-6B46-418C-8EF7-4C6C7299F154}" ShortID="924562410">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="ENV_door_open_play" ID="{DF2AE871-CF77-4B2D-9E54-A2E2E70DAA9D}">
 							<ChildrenList>
@@ -436,6 +326,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="ENV_spawn_patoune_play" ID="{93B604D4-E54C-4371-BC49-7F875FB4DD98}">
+							<ChildrenList>
+								<Action Name="" ID="{25992A65-155A-47C1-BDDD-AB59F6D0F43B}" ShortID="259784346">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Patoune_spawn" ID="{7FCC6E58-6C23-4C00-9019-A2D926FE2FE6}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_chest_open_play" ID="{1A4F24FB-A6AF-438B-AAF7-61EB10A36A1F}">
+							<ChildrenList>
+								<Action Name="" ID="{528728F7-D8F0-46B9-8A33-2CE4F593D038}" ShortID="487724315">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chest_Open" ID="{F1A13BC2-825E-4E6B-A093-6425877C86C8}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="NPC" ID="{7429C964-49CE-4ED2-BC87-EB5E229DE8CD}" ShortID="900010652">
@@ -447,7 +359,7 @@
 										<Action Name="" ID="{D64B6AA1-42D6-4880-8007-0E0AC46FD49E}" ShortID="421946086">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+													<ObjectRef Name="Dialogue" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -467,9 +379,12 @@
 								<Event Name="NPC_Discussion_start" ID="{FDBE8488-EB07-41B7-A89C-F22D0B0FB8E9}">
 									<ChildrenList>
 										<Action Name="" ID="{9D1962A2-6005-4C81-9ECF-F1B0848B4810}" ShortID="897442087">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Conversation_start" ID="{6BAD0785-B986-457D-A9E3-2451F353AC50}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+													<ObjectRef Name="Onomatopées_DIALOGUE_STARTER" ID="{528BA15E-4345-4EC6-BD75-00E48C838E0A}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -525,6 +440,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="UI_quest_success" ID="{506F1C69-F45E-48EF-9525-B82CB517B0F0}">
+							<ChildrenList>
+								<Action Name="" ID="{221118D0-C040-499C-9245-76A498ADA2DE}" ShortID="771329775">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Quest_Reward" ID="{6BAD0785-B986-457D-A9E3-2451F353AC50}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MUSIC" ID="{C310AE86-459E-4FE7-B1A4-E6B4C19DC652}" ShortID="524173507">
@@ -575,6 +501,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{96EFA257-3523-4730-8878-13141179371E}" ShortID="446283919">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EF3C30EA-AFBD-4437-94E6-5083758E2565}" ShortID="716822323">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ocarina_02_Damaged" ID="{F33F8E62-3299-44EA-91AF-82A6998520A5}">
@@ -616,6 +562,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2BEF6D4-FFFA-4486-9374-0100E537AE9A}" ShortID="1067185372">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DEE597A8-6266-4469-AD56-EFAE013C02BA}" ShortID="231232334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -663,6 +629,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{4B0F2DDF-3A59-43BF-96FA-173D0E1C63EB}" ShortID="119769672">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DF218EE0-47A3-4BE1-940C-BDC447805687}" ShortID="518720580">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ocarina_04_Damaged" ID="{86F6DFEC-BD9F-4E25-BEF2-FA3A8CAE8196}">
@@ -704,6 +690,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DAB02559-1CD5-48FF-813F-65B2CEB590A3}" ShortID="855117238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1D19C656-34B8-41BD-A146-21BCCEF3778B}" ShortID="63619677">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -751,21 +757,212 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{C8D30550-AD97-4C49-9B5B-A11188E30A66}" ShortID="927791505">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7AA2024E-3595-456F-BBC6-C643D5F0709B}" ShortID="368184488">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="INIT_Music" ID="{21587DAD-0B3A-40D5-8427-D747E89FE0C7}" ShortID="342684188">
+							<ChildrenList>
+								<Event Name="Reset_Music_DISTANCE" ID="{34D20ADC-5DDC-4CAB-92CE-613E32CBBA93}">
+									<ChildrenList>
+										<Action Name="" ID="{9B30F65B-948B-4E96-905E-8AD4D7EA5AC3}" ShortID="60323465">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance_MS_02" ID="{E113F6FD-A597-44B5-9E1D-9FD5AA57C8E2}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{35DBDA43-EFAE-4146-BD24-282D246D172D}" ShortID="1025832038">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{439B45C7-6FF2-42DA-8FAF-23EA08DF76BE}" ShortID="800627915">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance_MS_03" ID="{CD85AFBD-9551-4344-9FED-C2045F149601}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E4DB8267-1EF9-4F45-93F7-281DC637D334}" ShortID="264079906">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{946A7D98-A817-4771-B744-A80D8AB6CA47}" ShortID="178755076">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance_MS_04" ID="{28F5B49D-C3B7-47C3-BF13-E227B88E0DB9}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{86EAC4FF-9DB2-49F5-B6FE-423B76D14FF0}" ShortID="599901600">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+												<Property Name="GameParameterValue" Type="Real64" Value="18"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Reset_Music_TREMOLO" ID="{4E8CC301-9952-4F8A-B760-11329F22F184}">
+									<ChildrenList>
+										<Action Name="" ID="{6B319C5C-A607-4FF1-BBFF-50255085A2E7}" ShortID="838118787">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7926100F-74A8-45A7-8DB7-19A06BC009A6}" ShortID="255997912">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ww_Trem_Ocarina_01" ID="{CDAA7A13-85E7-44AD-AA78-C5777B5C79A8}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{68AD4A8E-0452-462E-AF43-553231AB31E8}" ShortID="25868314">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ww_Trem_Ocarina_02" ID="{1EAD98FC-741F-441B-BCD3-F7BC564C1D96}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F00D12F0-9731-4C2D-8118-A537C502C5E9}" ShortID="758946947">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ww_Trem_Ocarina_03" ID="{FB4E6839-CF83-4527-88AD-151B8B7208B6}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{910DE33C-6251-4562-946D-E24E6514AF6E}" ShortID="1005461002">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="38"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ww_Trem_Ocarina_04" ID="{22765A49-1A9A-47E8-A126-6EF94C01141A}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Reset_Music_BUSSES" ID="{0955C17D-A8C8-472E-AF57-B076BB05C4FF}">
+									<ChildrenList>
+										<Action Name="" ID="{1500C493-F091-488A-9758-D0EECD7A35C2}" ShortID="895231890">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="11"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Muisc_track_BATTLE" ID="{E028C154-1505-4220-B1DC-70C65ADA07FF}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DBC85C0B-90DE-4F30-BCCA-B52C39440D3E}" ShortID="345640169">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="11"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B21C616D-0BBD-49E0-8DDE-B6AA2665B261}" ShortID="345606137">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="11"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6C3AA361-7212-4802-BEE0-5C69B6205FBB}" ShortID="324565224">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="11"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{ACBAAEF3-19C8-4EC1-86A4-89AF5B2A5E93}" ShortID="121872086">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="11"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
-				<Event Name="ENV_spawn_patoune_play" ID="{93B604D4-E54C-4371-BC49-7F875FB4DD98}">
-					<ChildrenList>
-						<Action Name="" ID="{25992A65-155A-47C1-BDDD-AB59F6D0F43B}" ShortID="259784346">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Patoune_spawn" ID="{7FCC6E58-6C23-4C00-9019-A2D926FE2FE6}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="ENV_tree_leaf_play" ID="{FD68CAF2-AE91-47F9-8A85-C222256638A1}">
 					<ChildrenList>
 						<Action Name="" ID="{CB8077FC-8618-406F-B404-6B2821CA2B71}" ShortID="745701632">

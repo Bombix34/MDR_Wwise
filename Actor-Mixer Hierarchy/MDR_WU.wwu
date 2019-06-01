@@ -14,7 +14,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -41,7 +41,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -64,7 +64,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="DefaultSwitchOrState">
 													<ObjectRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
@@ -2679,7 +2679,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -2918,7 +2918,7 @@
 											<ObjectRef Name="NPC footsteps" ID="{7DC9DF06-E512-4082-A7D4-B94307FF3901}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
 										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -2945,7 +2945,7 @@
 													<ObjectRef Name="NPC footsteps" ID="{7DC9DF06-E512-4082-A7D4-B94307FF3901}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
 												</Reference>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="DefaultSwitchOrState">
 													<ObjectRef Name="grass" ID="{B79D184E-2BBB-4D91-B206-BF8743521A6C}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
@@ -5659,7 +5659,7 @@
 													<ObjectRef Name="NPC footsteps" ID="{7DC9DF06-E512-4082-A7D4-B94307FF3901}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
 												</Reference>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6012,7 +6012,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6453,7 +6453,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6477,7 +6477,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
-															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6540,7 +6540,7 @@
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
-																	<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																	<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6580,7 +6580,7 @@
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
-																	<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																	<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6619,7 +6619,7 @@
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
-																	<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+																	<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6663,7 +6663,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -6811,7 +6811,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7051,7 +7051,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7099,7 +7099,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7224,7 +7224,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7260,7 +7260,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7285,13 +7285,13 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7327,13 +7327,16 @@
 												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{EA93A0C5-BEFE-456D-885B-93254DF81ADA}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="50"/>
-																	<Property Name="Min" Type="Real64" Value="-50"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -7416,7 +7419,7 @@
 											<PositioningInfo>
 												<Panner Name="" ID="{D2A91D98-EE38-40AC-AE26-128D49E25FB7}">
 													<PropertyList>
-														<Property Name="PanX" Type="Real64" Value="-75"/>
+														<Property Name="PanX" Type="Real64" Value="-40"/>
 														<Property Name="PanY" Type="Real64" Value="100"/>
 													</PropertyList>
 												</Panner>
@@ -7432,13 +7435,16 @@
 												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{92401C7B-EA62-4B75-B6DE-91F00AB5444D}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="50"/>
-																	<Property Name="Min" Type="Real64" Value="-50"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -7453,7 +7459,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7521,7 +7527,7 @@
 											<PositioningInfo>
 												<Panner Name="" ID="{B7D34C29-8923-493E-A46D-2429364048C8}">
 													<PropertyList>
-														<Property Name="PanX" Type="Real64" Value="75"/>
+														<Property Name="PanX" Type="Real64" Value="40"/>
 														<Property Name="PanY" Type="Real64" Value="100"/>
 													</PropertyList>
 												</Panner>
@@ -7546,8 +7552,8 @@
 															<Modifier Name="" ID="{7F035EF3-570E-447C-A8B2-9EAFC118CDF2}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="100"/>
-																	<Property Name="Min" Type="Real64" Value="-100"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -7588,7 +7594,14 @@
 									</ChildrenList>
 								</BlendContainer>
 								<ActorMixer Name="_Chests_" ID="{3F0AA3B9-92BC-4CCC-87B4-C71FEA8331F5}" ShortID="487023958">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Items_attenuation" ID="{F9D67F73-7294-484C-B4AC-CABF3EDD7B2D}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 										</Reference>
@@ -7606,13 +7619,16 @@
 													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{93BF505C-05BD-4482-9D22-7682A1DD932C}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="50"/>
-																	<Property Name="Min" Type="Real64" Value="-50"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -7627,7 +7643,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7706,7 +7722,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
-															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7739,7 +7755,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
-															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7772,7 +7788,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
-															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7827,11 +7843,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Chest_Open" ID="{B1AA423B-B055-4D97-80BA-D9A8273EA4EE}" ShortID="830388729">
-													<Comment> </Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="8.17941952506596E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.079155672823219"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.43007915567282E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.74934036939314E-02"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Chest_Open.wav</AudioFile>
@@ -7845,28 +7862,33 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
-						<Sound Name="Conversation_start" ID="{6BAD0785-B986-457D-A9E3-2451F353AC50}" ShortID="775873833">
+						<Sound Name="Quest_Reward" ID="{6BAD0785-B986-457D-A9E3-2451F353AC50}" ShortID="775873833">
 							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>28</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>600</Value>
+										<Value>300</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{46EC3C4F-22E0-49B2-A8AE-84A0679DF643}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="150"/>
-													<Property Name="Min" Type="Real64" Value="-150"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -7887,7 +7909,7 @@
 									<PropertyList>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.358839050131926"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.593667546174143"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.527704485488127"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Conversation_start.wav</AudioFile>
@@ -7936,7 +7958,7 @@
 								<Sound Name="ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" ShortID="508721492">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7945,11 +7967,12 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Door_Open_-_190206_2312" ID="{FDE3DA3D-EFA7-4851-9E2D-F1002319D4B8}" ShortID="555624764">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="6.14811923010189E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.213375902691771"/>
+												<Property Name="FadeInShape" Type="int16" Value="7"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.513548782749688"/>
 												<Property Name="FadeOutShape" Type="int16" Value="2"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.408669101765596"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.622045004457367"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_Door_Open_-_190206_2312.wav</AudioFile>
@@ -7962,7 +7985,7 @@
 								<Sound Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" ShortID="409457934">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7980,10 +8003,7 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
-						<BlendContainer Name="Orb_Hover" ID="{C72FD581-DA50-4BEF-B1DF-DDF8CA0BD9E9}" ShortID="430770932">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-							</PropertyList>
+						<ActorMixer Name="Orb" ID="{2A4340C4-7CF1-4A13-8180-8F815BBECC55}" ShortID="976836791">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -7993,224 +8013,305 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Orb_Hover_BASE" ID="{C04E8E36-F13C-45C7-A08A-09190BB1AF1C}" ShortID="40264546">
+								<BlendContainer Name="Orb_Hover" ID="{C72FD581-DA50-4BEF-B1DF-DDF8CA0BD9E9}" ShortID="430770932">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Orb_Hover" ID="{250CAA5A-285E-4EC4-B9E9-F5A74449C69E}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
+										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-										</Reference>
-										<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
-											<ObjectRef Name="Vibrato" ID="{D9586A30-FF0D-4DCC-89C5-04CDC4716ED6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-										<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
-											<ObjectRef Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Orb_Hover_BASE" ID="{273089F6-24CD-4EAD-BDA7-B9A5E517BA13}" ShortID="987383407">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="500"/>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.356200527704486"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.299370345686001"/>
-												<Property Name="LoopEnd" Type="Real64" Value="3.07145009175485"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Orb_Hover_BASE.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Orb_Hover_BASE" ID="{273089F6-24CD-4EAD-BDA7-B9A5E517BA13}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<RandomSequenceContainer Name="Shards_MN" ID="{802C6E53-A098-41E0-89D7-D383CF3BF806}" ShortID="168401407">
-									<PropertyList>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>28</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{1F332954-9405-4ED5-8B6B-23B6304A46DD}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{C171A57C-BC6B-4F9D-9B23-6DFF706868AA}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.75"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Orb_Hover_Shards_MN-002" ID="{E9CBFC98-2AA0-47F7-A3DF-89BCDF2A5010}" ShortID="688559067">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Orb_Hover_Shards_MN-002" ID="{F0505341-8E6A-47E1-ACC8-3FF34427F1BF}" ShortID="280043283">
-													<Language>SFX</Language>
-													<AudioFile>Orb_Hover_Shards_MN-002.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Orb_Hover_Shards_MN-002" ID="{F0505341-8E6A-47E1-ACC8-3FF34427F1BF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Orb_Hover_Shards_MN-001" ID="{4951B698-341B-479E-9847-42D948F4774D}" ShortID="566103783">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Orb_Hover_Shards_MN-001" ID="{4E1359C0-5448-4414-849B-532F2A229D4A}" ShortID="60132411">
-													<Language>SFX</Language>
-													<AudioFile>Orb_Hover_Shards_MN-001.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Orb_Hover_Shards_MN-001" ID="{4E1359C0-5448-4414-849B-532F2A229D4A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Shards_ST" ID="{BDD399C0-3F36-4644-8D8A-8E3B279A95D0}" ShortID="390452598">
-									<PropertyList>
-										<Property Name="InitialDelay" Type="Real64">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>28</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{C0FCF0AC-2D18-44DB-8CFF-17B398B65B68}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{DBDAD270-1ED3-4671-B5DC-F2DB6A37287D}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.75"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Orb_Hover_Shards_ST-002" ID="{1FCE8E2C-2CC2-47C1-8A44-0EA1D99CC38F}" ShortID="105181329">
+										<Sound Name="Orb_Hover_BASE" ID="{C04E8E36-F13C-45C7-A08A-09190BB1AF1C}" ShortID="40264546">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+													<ObjectRef Name="Vibrato" ID="{D9586A30-FF0D-4DCC-89C5-04CDC4716ED6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+													<ObjectRef Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Orb_Hover_Shards_ST-002" ID="{CB2085E5-053F-4E36-AD0D-259E59B8441A}" ShortID="773205943">
+												<AudioFileSource Name="Orb_Hover_BASE" ID="{273089F6-24CD-4EAD-BDA7-B9A5E517BA13}" ShortID="987383407">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="500"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.356200527704486"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.299370345686001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="3.07145009175485"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Orb_Hover_Shards_ST-002.wav</AudioFile>
+													<AudioFile>Orb_Hover_BASE.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Orb_Hover_Shards_ST-002" ID="{CB2085E5-053F-4E36-AD0D-259E59B8441A}" Platform="Linked"/>
+												<ActiveSource Name="Orb_Hover_BASE" ID="{273089F6-24CD-4EAD-BDA7-B9A5E517BA13}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Orb_Hover_Shards_ST-001" ID="{C8D46E5D-2F4F-4C1A-AAED-DBE024894C76}" ShortID="1055379405">
+										<RandomSequenceContainer Name="Shards_MN" ID="{802C6E53-A098-41E0-89D7-D383CF3BF806}" ShortID="168401407">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>28</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1F332954-9405-4ED5-8B6B-23B6304A46DD}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C171A57C-BC6B-4F9D-9B23-6DFF706868AA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.75"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-18</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Orb_Hover_Shards_MN-002" ID="{E9CBFC98-2AA0-47F7-A3DF-89BCDF2A5010}" ShortID="688559067">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orb_Hover_Shards_MN-002" ID="{F0505341-8E6A-47E1-ACC8-3FF34427F1BF}" ShortID="280043283">
+															<Language>SFX</Language>
+															<AudioFile>Orb_Hover_Shards_MN-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Orb_Hover_Shards_MN-002" ID="{F0505341-8E6A-47E1-ACC8-3FF34427F1BF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Orb_Hover_Shards_MN-001" ID="{4951B698-341B-479E-9847-42D948F4774D}" ShortID="566103783">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orb_Hover_Shards_MN-001" ID="{4E1359C0-5448-4414-849B-532F2A229D4A}" ShortID="60132411">
+															<Language>SFX</Language>
+															<AudioFile>Orb_Hover_Shards_MN-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Orb_Hover_Shards_MN-001" ID="{4E1359C0-5448-4414-849B-532F2A229D4A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Shards_ST" ID="{BDD399C0-3F36-4644-8D8A-8E3B279A95D0}" ShortID="390452598">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>28</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C0FCF0AC-2D18-44DB-8CFF-17B398B65B68}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DBDAD270-1ED3-4671-B5DC-F2DB6A37287D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.75"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-18</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Orb_Hover_Shards_ST-001" ID="{B746CC5A-54A3-49D5-B793-284FAF602652}" ShortID="856365934">
+												<Sound Name="Orb_Hover_Shards_ST-002" ID="{1FCE8E2C-2CC2-47C1-8A44-0EA1D99CC38F}" ShortID="105181329">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orb_Hover_Shards_ST-002" ID="{CB2085E5-053F-4E36-AD0D-259E59B8441A}" ShortID="773205943">
+															<Language>SFX</Language>
+															<AudioFile>Orb_Hover_Shards_ST-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Orb_Hover_Shards_ST-002" ID="{CB2085E5-053F-4E36-AD0D-259E59B8441A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Orb_Hover_Shards_ST-001" ID="{C8D46E5D-2F4F-4C1A-AAED-DBE024894C76}" ShortID="1055379405">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orb_Hover_Shards_ST-001" ID="{B746CC5A-54A3-49D5-B793-284FAF602652}" ShortID="856365934">
+															<Language>SFX</Language>
+															<AudioFile>Orb_Hover_Shards_ST-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Orb_Hover_Shards_ST-001" ID="{B746CC5A-54A3-49D5-B793-284FAF602652}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Orb_Hold" ID="{33EE9C1D-E756-41A3-A97E-C9E984EFD4F4}" ShortID="772199949">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Orbe - Bass" ID="{A8430A37-7389-4C1E-A6E7-5E701CA88BDF}" ShortID="514825848">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Orbe - Bass" ID="{3ABDA0B0-0662-4C33-850E-D07BC708D62F}" ShortID="783014368">
 													<Language>SFX</Language>
-													<AudioFile>Orb_Hover_Shards_ST-001.wav</AudioFile>
+													<AudioFile>Orbe - Bass.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Orb_Hover_Shards_ST-001" ID="{B746CC5A-54A3-49D5-B793-284FAF602652}" Platform="Linked"/>
+												<ActiveSource Name="Orbe - Bass" ID="{3ABDA0B0-0662-4C33-850E-D07BC708D62F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Orbe - Sifflement" ID="{FD337223-ACBE-49F1-B823-1C03738594F8}" ShortID="604063009">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Orbe - Sifflement" ID="{51308595-D53B-4E64-B858-8FAF4CAAFBE5}" ShortID="106939578">
+													<Language>SFX</Language>
+													<AudioFile>Orbe - Sifflement.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Orbe - Sifflement" ID="{51308595-D53B-4E64-B858-8FAF4CAAFBE5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-								</RandomSequenceContainer>
+								</BlendContainer>
 							</ChildrenList>
-						</BlendContainer>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Voice" ID="{C603F34F-8AF5-49D9-9109-172A9166EC8B}" ShortID="311223512">
@@ -8220,14 +8321,14 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Onomatopees" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" ShortID="762750569">
+						<Sound Name="Dialogue" ID="{D2E8B6A7-47EE-49E2-A0B1-0EAEDEADF0D3}" ShortID="762750569">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -8265,6 +8366,1559 @@
 								<ActiveSource Name="Wwise Tone Generator" ID="{BD6C4266-64BC-4F70-A9DE-E6C9AAA9DCC6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<SwitchContainer Name="Onomatopées_DIALOGUE_STARTER" ID="{528BA15E-4345-4EC6-BD75-00E48C838E0A}" ShortID="899205179">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="MDR_Vorbis_voice" ID="{07B74A08-1B61-452D-AA50-F4FDC809D35B}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Sage" ID="{1663D8C3-DB1D-4BCE-99BD-B86CCA3E1B52}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="NPC_pick" ID="{52AE80BD-269E-4BE4-96CA-EB0E639ACC0D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="ARTISAN" ID="{A8C52A9F-DCE8-4C25-A061-9BB51608F93E}" ShortID="118960543">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Happy" ID="{F92B23CA-5875-4798-B174-97B7D957919F}" ShortID="483054476">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Artisan_Content_01_Os" ID="{BE6C818E-A9DE-42E8-A07F-56ED05D9E5EB}" ShortID="100303878">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_Content_01_Os" ID="{7B3F521F-C072-4BB6-95D0-98D33BC95B37}" ShortID="937259564">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_Content_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_Content_01_Os" ID="{7B3F521F-C072-4BB6-95D0-98D33BC95B37}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Artisan_Content_02_Os" ID="{970F7057-3845-4374-B98E-AC074F96BEBF}" ShortID="314084822">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_Content_02_Os" ID="{0F6A80CC-D24A-4E5A-BB10-AE088646BB28}" ShortID="82733464">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_Content_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_Content_02_Os" ID="{0F6A80CC-D24A-4E5A-BB10-AE088646BB28}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Artisan_Content_03_Os" ID="{5B023D20-16D3-40D0-B71E-0AFDEA02353E}" ShortID="805953801">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_Content_03_Os" ID="{831ACD12-4593-4E9E-A371-557ED5C6DAB6}" ShortID="410312443">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_Content_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_Content_03_Os" ID="{831ACD12-4593-4E9E-A371-557ED5C6DAB6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Artisan_Content_04_Os" ID="{F820E1E3-E340-48F0-8496-6DA68FFB6EC9}" ShortID="264549094">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_Content_04_Os" ID="{9EEFFF1B-5A02-4087-BE70-453CBCEAC5EE}" ShortID="957215504">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_Content_04_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_Content_04_Os" ID="{9EEFFF1B-5A02-4087-BE70-453CBCEAC5EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Upset" ID="{8CFCDD43-D5BE-4B99-A968-FD4F7B65BC96}" ShortID="985705680">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Artisan_PasContent_01_Os" ID="{5BCD939B-AD10-4E3D-ADA0-FC3B79D3D97F}" ShortID="307712037">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_PasContent_01_Os" ID="{55F5D29D-EBB4-4FA6-B281-DFD78A8A16F1}" ShortID="889749382">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_PasContent_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_PasContent_01_Os" ID="{55F5D29D-EBB4-4FA6-B281-DFD78A8A16F1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Artisan_PasContent_02_Os" ID="{8FC18C88-5C4F-4046-B080-17262DDDE48D}" ShortID="772395656">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_PasContent_02_Os" ID="{23417758-41E8-45D0-B985-E89E7145D337}" ShortID="982400698">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_PasContent_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_PasContent_02_Os" ID="{23417758-41E8-45D0-B985-E89E7145D337}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Artisan_PasContent_03_Os" ID="{DFEFEC96-D8CD-41F4-AD21-FA26517C1C3F}" ShortID="360102054">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Artisan_PasContent_03_Os" ID="{A42FA73F-9550-4366-A0FE-67524C0FC0C6}" ShortID="142716620">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Artisan_PasContent_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Artisan_PasContent_03_Os" ID="{A42FA73F-9550-4366-A0FE-67524C0FC0C6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Pnj_Artisan_FinQuete_Os" ID="{CF8C47E4-BC4D-4308-87B1-723B181857CC}" ShortID="832234941">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Artisan_FinQuete_Os" ID="{BAFED77E-B7F4-4916-BAD7-4F88EEDC34B8}" ShortID="72934566">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Artisan_FinQuete_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Artisan_FinQuete_Os" ID="{BAFED77E-B7F4-4916-BAD7-4F88EEDC34B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Upset" ID="{8CFCDD43-D5BE-4B99-A968-FD4F7B65BC96}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Happy" ID="{F92B23CA-5875-4798-B174-97B7D957919F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Pnj_Artisan_FinQuete_Os" ID="{CF8C47E4-BC4D-4308-87B1-723B181857CC}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+												<ItemList>
+													<ItemRef Name="Upset" ID="{8CFCDD43-D5BE-4B99-A968-FD4F7B65BC96}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Quest_end" ID="{8FA59747-E5CC-43A8-957E-D94A771F6FCD}"/>
+												<ItemList>
+													<ItemRef Name="Pnj_Artisan_FinQuete_Os" ID="{CF8C47E4-BC4D-4308-87B1-723B181857CC}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+												<ItemList>
+													<ItemRef Name="Happy" ID="{F92B23CA-5875-4798-B174-97B7D957919F}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="CHAMAN" ID="{EA0288B8-DA9D-4E3E-BFE6-F754CD8654E7}" ShortID="699930920">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Happy" ID="{F6B68FE2-B4AA-41D3-91C3-6C9BD0FBDE51}" ShortID="415755330">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Chaman_Content_01_Os" ID="{F79681F1-F0B2-4985-9662-BF6AA3E42080}" ShortID="541329311">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Chaman_Content_01_Os" ID="{57D59F93-0127-4E95-8177-616602E79010}" ShortID="719028140">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Chaman_Content_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Chaman_Content_01_Os" ID="{57D59F93-0127-4E95-8177-616602E79010}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Chaman_Content_02_Os" ID="{CD5403AF-03D1-4C2D-83FA-701D7EF09CF8}" ShortID="78707566">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Chaman_Content_02_Os" ID="{61D336F7-3D63-4A58-A426-161274FA3C95}" ShortID="516276029">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Chaman_Content_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Chaman_Content_02_Os" ID="{61D336F7-3D63-4A58-A426-161274FA3C95}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Chaman_Content_03_Os" ID="{0F6080F8-B18C-480C-B2D8-50DDAB4E74F6}" ShortID="86625449">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Chaman_Content_03_Os" ID="{D3D37CA6-92D6-4C0A-B6A6-3B08F387A80A}" ShortID="888972877">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Chaman_Content_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Chaman_Content_03_Os" ID="{D3D37CA6-92D6-4C0A-B6A6-3B08F387A80A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Upset" ID="{9585FA63-C051-41D8-98EE-410F42EB8498}" ShortID="132249712">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Chaman_PasContent_01_Os" ID="{05CCD70A-ADE4-4492-BC15-2CC66D973940}" ShortID="849262425">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Chaman_PasContent_01_Os" ID="{A9CEC190-72DA-4354-BD53-E1130893DA6C}" ShortID="54911489">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Chaman_PasContent_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Chaman_PasContent_01_Os" ID="{A9CEC190-72DA-4354-BD53-E1130893DA6C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Chaman_PasContent_02_Os" ID="{351EF896-D00E-4D75-A816-B1A73AA5A3E2}" ShortID="599592481">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Chaman_PasContent_02_Os" ID="{7FDA72D4-BC31-4205-8A98-9254C02C4984}" ShortID="968209737">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Chaman_PasContent_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Chaman_PasContent_02_Os" ID="{7FDA72D4-BC31-4205-8A98-9254C02C4984}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Chaman_PasContent_03_Os" ID="{45A05E81-DD61-4D10-8DD3-142DA8386E87}" ShortID="811053463">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Chaman_PasContent_03_Os" ID="{7F4CC01B-5C56-408D-97D0-88C5785ED88F}" ShortID="911868859">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Chaman_PasContent_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Chaman_PasContent_03_Os" ID="{7F4CC01B-5C56-408D-97D0-88C5785ED88F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Pnj_Chaman_Finquete_Os" ID="{B5053C99-7437-442E-B34C-7B1D3969DBF8}" ShortID="607522204">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Chaman_Finquete_Os" ID="{66BD7888-F4B3-4561-A97E-70247D4D09F2}" ShortID="481638089">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Chaman_Finquete_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Chaman_Finquete_Os" ID="{66BD7888-F4B3-4561-A97E-70247D4D09F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Upset" ID="{9585FA63-C051-41D8-98EE-410F42EB8498}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Pnj_Chaman_Finquete_Os" ID="{B5053C99-7437-442E-B34C-7B1D3969DBF8}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Happy" ID="{F6B68FE2-B4AA-41D3-91C3-6C9BD0FBDE51}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+												<ItemList>
+													<ItemRef Name="Upset" ID="{9585FA63-C051-41D8-98EE-410F42EB8498}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Quest_end" ID="{8FA59747-E5CC-43A8-957E-D94A771F6FCD}"/>
+												<ItemList>
+													<ItemRef Name="Pnj_Chaman_Finquete_Os" ID="{B5053C99-7437-442E-B34C-7B1D3969DBF8}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+												<ItemList>
+													<ItemRef Name="Happy" ID="{F6B68FE2-B4AA-41D3-91C3-6C9BD0FBDE51}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="PAYSAN" ID="{A5EF9B6B-AF5C-41B2-992D-D43101627875}" ShortID="863916162">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Happy" ID="{52EA0B5D-BDF4-425A-BD9B-3E8A4D985227}" ShortID="1013955605">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Paysan_Content_01_Os" ID="{DBD6B08F-E9BB-4476-B7D0-6FAD0CE75611}" ShortID="30475643">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_Content_01_Os" ID="{F7F19CAB-A0C6-42CD-BB83-DC5A4DF838F3}" ShortID="972710369">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_Content_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_Content_01_Os" ID="{F7F19CAB-A0C6-42CD-BB83-DC5A4DF838F3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_Content_02_Os" ID="{8F617330-740C-4775-9DF7-E5F7CD78893C}" ShortID="554581304">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_Content_02_Os" ID="{0F422291-8783-43B3-9221-C7B565BBFF59}" ShortID="96110037">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_Content_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_Content_02_Os" ID="{0F422291-8783-43B3-9221-C7B565BBFF59}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_Content_03_Os" ID="{D0232913-580A-4CB3-977B-CDFBDE10F68D}" ShortID="799589221">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_Content_03_Os" ID="{379529DF-0593-4DE7-A952-0A04ACC85C16}" ShortID="877012329">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_Content_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_Content_03_Os" ID="{379529DF-0593-4DE7-A952-0A04ACC85C16}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Upset" ID="{9B666B48-08DD-4499-884B-86DE12046B54}" ShortID="690828795">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Paysan_PasContent_01_Os" ID="{D2A28391-020A-4BAB-9890-E1672914BFEE}" ShortID="303083785">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_PasContent_01_Os" ID="{00B0291E-7971-44DD-A8F5-C137CFBA8134}" ShortID="604579250">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_PasContent_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_PasContent_01_Os" ID="{00B0291E-7971-44DD-A8F5-C137CFBA8134}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_PasContent_02_Os" ID="{121A9032-F13D-47A3-B865-B3AFA932207F}" ShortID="498287213">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_PasContent_02_Os" ID="{CF2974DA-99A4-46E1-9715-380D6AE838E1}" ShortID="457199086">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_PasContent_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_PasContent_02_Os" ID="{CF2974DA-99A4-46E1-9715-380D6AE838E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_PasContent_03_Os" ID="{66105D03-D67C-4682-B0FB-A9F6FF72FE8D}" ShortID="29790662">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_PasContent_03_Os" ID="{2B1A69A0-7EC9-4DC3-B98D-6B46806A4DD3}" ShortID="425031943">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_PasContent_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_PasContent_03_Os" ID="{2B1A69A0-7EC9-4DC3-B98D-6B46806A4DD3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_PasContent_04_Os" ID="{3EBED97E-77E5-4E3D-AAC0-5E363DD7623E}" ShortID="603435735">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_PasContent_04_Os" ID="{AF420EA0-2F7D-48BC-8701-52424357727E}" ShortID="178727777">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_PasContent_04_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_PasContent_04_Os" ID="{AF420EA0-2F7D-48BC-8701-52424357727E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_PasContent_05_Os" ID="{8B024F9C-CBB0-41DC-9918-6B1123F2831C}" ShortID="634807580">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_PasContent_05_Os" ID="{C0EEACDC-8091-4818-8D28-0BBC0B56A842}" ShortID="943816031">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_PasContent_05_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_PasContent_05_Os" ID="{C0EEACDC-8091-4818-8D28-0BBC0B56A842}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Paysan_PasContent_06_Os" ID="{2BBFB56F-0CDF-4D69-8512-D135D3038405}" ShortID="108822924">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Paysan_PasContent_06_Os" ID="{367D5C46-BAEF-4126-9DB9-BF92A9C5F90C}" ShortID="618820443">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Paysan_PasContent_06_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Paysan_PasContent_06_Os" ID="{367D5C46-BAEF-4126-9DB9-BF92A9C5F90C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Pnj_Paysan_FinQuete_01_Os" ID="{68435FAE-CB04-404D-B3CD-0C71B49F826D}" ShortID="957061663">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Paysan_FinQuete_01_Os" ID="{048670A7-BCDE-418B-95BD-DADF89674672}" ShortID="440518322">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Paysan_FinQuete_01_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Paysan_FinQuete_01_Os" ID="{048670A7-BCDE-418B-95BD-DADF89674672}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Upset" ID="{9B666B48-08DD-4499-884B-86DE12046B54}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Happy" ID="{52EA0B5D-BDF4-425A-BD9B-3E8A4D985227}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Pnj_Paysan_FinQuete_01_Os" ID="{68435FAE-CB04-404D-B3CD-0C71B49F826D}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+												<ItemList>
+													<ItemRef Name="Upset" ID="{9B666B48-08DD-4499-884B-86DE12046B54}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Quest_end" ID="{8FA59747-E5CC-43A8-957E-D94A771F6FCD}"/>
+												<ItemList>
+													<ItemRef Name="Pnj_Paysan_FinQuete_01_Os" ID="{68435FAE-CB04-404D-B3CD-0C71B49F826D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+												<ItemList>
+													<ItemRef Name="Happy" ID="{52EA0B5D-BDF4-425A-BD9B-3E8A4D985227}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="PECHEUR" ID="{5821C39B-5EAE-49AD-8D21-C44C5D532FA8}" ShortID="711806437">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Happy" ID="{E396361A-0A7C-4AB2-AD89-6F04604A0580}" ShortID="338386528">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Pecheur_Content_01_Os" ID="{6D36E203-638C-4B8C-93D8-C6EC6FB03354}" ShortID="769322687">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_Content_01_Os" ID="{5CED132F-BDB5-4046-84E9-6FDBF570746A}" ShortID="500948984">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_Content_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_Content_01_Os" ID="{5CED132F-BDB5-4046-84E9-6FDBF570746A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Pecheur_Content_02_Os" ID="{5555E7E4-808F-4AA6-82A1-3CC2A890F5DA}" ShortID="746338442">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_Content_02_Os" ID="{D045389A-09C0-4233-9904-5FE77D357B69}" ShortID="951970489">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_Content_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_Content_02_Os" ID="{D045389A-09C0-4233-9904-5FE77D357B69}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Pecheur_Content_03_Os" ID="{CFD32293-417E-4CC9-B6FD-33E843D3BF30}" ShortID="309132513">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_Content_03_Os" ID="{5F69331B-6D50-41CC-B77C-AF8A1167D85C}" ShortID="691080273">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_Content_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_Content_03_Os" ID="{5F69331B-6D50-41CC-B77C-AF8A1167D85C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Pecheur_Content_04_Os" ID="{6F371E08-DED6-4F80-B50B-92A72389376A}" ShortID="898054188">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_Content_04_Os" ID="{D1526BD5-CF64-4CC4-9814-5E5481E76AFD}" ShortID="857068968">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_Content_04_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_Content_04_Os" ID="{D1526BD5-CF64-4CC4-9814-5E5481E76AFD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Upset" ID="{D9C6AA72-12F2-432E-B94B-D8E5ACA46FEB}" ShortID="700356210">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Pecheur_PasContent_01_Os" ID="{968F3CCB-93D4-4C8E-8EC7-3BAE293156B8}" ShortID="689669796">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_PasContent_01_Os" ID="{0B7FD820-859B-4D7C-AA3B-21F09F10380B}" ShortID="831154986">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_PasContent_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_PasContent_01_Os" ID="{0B7FD820-859B-4D7C-AA3B-21F09F10380B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Pecheur_PasContent_02_Os" ID="{8CB1EF82-E8EF-4EA8-B3C8-90BDAFD70414}" ShortID="360352206">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_PasContent_02_Os" ID="{B9C7DF1D-B61A-4912-9525-70AB2A13F78A}" ShortID="574135750">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_PasContent_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_PasContent_02_Os" ID="{B9C7DF1D-B61A-4912-9525-70AB2A13F78A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Pecheur_PasContent_03_Os" ID="{B092436D-5C4F-4713-8952-CC48BECF25EF}" ShortID="569070732">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Pecheur_PasContent_03_Os" ID="{B62163D5-B8EA-485B-AD84-5432E0F704F2}" ShortID="810860881">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Pecheur_PasContent_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Pecheur_PasContent_03_Os" ID="{B62163D5-B8EA-485B-AD84-5432E0F704F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Pnj_Pecheur_FinQuete_Os" ID="{448DC838-ABC7-4D83-9309-F1662E1F0382}" ShortID="1071551569">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Pecheur_FinQuete_Os" ID="{B484B4D4-0AAF-4D4A-82B9-AABF44622E48}" ShortID="641773897">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Pecheur_FinQuete_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Pecheur_FinQuete_Os" ID="{B484B4D4-0AAF-4D4A-82B9-AABF44622E48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Happy" ID="{E396361A-0A7C-4AB2-AD89-6F04604A0580}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Pnj_Pecheur_FinQuete_Os" ID="{448DC838-ABC7-4D83-9309-F1662E1F0382}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Upset" ID="{D9C6AA72-12F2-432E-B94B-D8E5ACA46FEB}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+												<ItemList>
+													<ItemRef Name="Upset" ID="{D9C6AA72-12F2-432E-B94B-D8E5ACA46FEB}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Quest_end" ID="{8FA59747-E5CC-43A8-957E-D94A771F6FCD}"/>
+												<ItemList>
+													<ItemRef Name="Pnj_Pecheur_FinQuete_Os" ID="{448DC838-ABC7-4D83-9309-F1662E1F0382}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+												<ItemList>
+													<ItemRef Name="Happy" ID="{E396361A-0A7C-4AB2-AD89-6F04604A0580}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="SAGE" ID="{A5F5BDFF-0EEA-4F4D-8F7F-20F12AA2756C}" ShortID="741423479">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Happy" ID="{22C382B2-AB41-4A0A-8ED6-46427D70DC00}" ShortID="520378439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Sage_Content_01_Os" ID="{0BE9859F-EF2B-4E19-B160-AEA527312878}" ShortID="1018035388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_Content_01_Os" ID="{DCEC0F72-DDB6-417D-A86B-23BD7D5F244F}" ShortID="478773820">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_Content_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_Content_01_Os" ID="{DCEC0F72-DDB6-417D-A86B-23BD7D5F244F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Sage_Content_02_Os" ID="{E1FBF37C-415B-4BC8-9914-2DA4ABD4445B}" ShortID="735667653">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_Content_02_Os" ID="{F8909C85-8F66-4542-9D48-C9EF000997B7}" ShortID="36501141">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_Content_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_Content_02_Os" ID="{F8909C85-8F66-4542-9D48-C9EF000997B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Sage_Content_03_Os" ID="{702CD70A-4EFD-476A-9DCB-CB9167A24B25}" ShortID="591138881">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_Content_03_Os" ID="{A78BA838-9FA9-4BD1-8EF3-020C78174BDA}" ShortID="627103600">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_Content_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_Content_03_Os" ID="{A78BA838-9FA9-4BD1-8EF3-020C78174BDA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Sage_Content_04_Os" ID="{B3FB616B-1CF5-467A-B754-6311ABCAE875}" ShortID="1033953376">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_Content_04_Os" ID="{4D926AB5-7F1A-45BA-9A36-35B18CF2A451}" ShortID="917652221">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_Content_04_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_Content_04_Os" ID="{4D926AB5-7F1A-45BA-9A36-35B18CF2A451}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Upset" ID="{1DD884A4-E04F-46DB-A5D7-8E85D93B3CDF}" ShortID="623207623">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Sage_pasContent_01_Os" ID="{B6B2A6A4-FA7B-4CD9-95A9-6F9B937AF015}" ShortID="872210794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_pasContent_01_Os" ID="{D8E5DEF6-9B89-4426-A672-653CE2396257}" ShortID="915446695">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_pasContent_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_pasContent_01_Os" ID="{D8E5DEF6-9B89-4426-A672-653CE2396257}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Sage_pasContent_02_Os" ID="{C97CDD9B-B52C-45ED-8C57-D0A4D4EBDD9E}" ShortID="913293963">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_pasContent_02_Os" ID="{1B0CDDC5-C404-40CE-9092-17843FC5F2F6}" ShortID="1051629832">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_pasContent_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_pasContent_02_Os" ID="{1B0CDDC5-C404-40CE-9092-17843FC5F2F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Sage_pasContent_03_Os" ID="{B7F6A6D5-AE62-40AB-B1EE-91937AAC0EB7}" ShortID="546682638">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Sage_pasContent_03_Os" ID="{05B6CF3A-15D9-4630-93ED-61BA83DE7D82}" ShortID="467696191">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Sage_pasContent_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Sage_pasContent_03_Os" ID="{05B6CF3A-15D9-4630-93ED-61BA83DE7D82}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Upset" ID="{1DD884A4-E04F-46DB-A5D7-8E85D93B3CDF}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Happy" ID="{22C382B2-AB41-4A0A-8ED6-46427D70DC00}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+												<ItemList>
+													<ItemRef Name="Upset" ID="{1DD884A4-E04F-46DB-A5D7-8E85D93B3CDF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+												<ItemList>
+													<ItemRef Name="Happy" ID="{22C382B2-AB41-4A0A-8ED6-46427D70DC00}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="TROUBADOUR" ID="{A0857A48-4D75-4461-8722-813045FE83D4}" ShortID="128987355">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Happy" ID="{7EE343B9-3C75-448F-A361-38613DAFA8A4}" ShortID="481776595">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Troub_Content_01_Os" ID="{3D32C85A-5245-4083-8BB3-E23765F8B5F1}" ShortID="446295637">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_Content_01_Os" ID="{D80E365A-5D43-4D5D-A045-388122C18F2D}" ShortID="927041855">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_Content_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_Content_01_Os" ID="{D80E365A-5D43-4D5D-A045-388122C18F2D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Troub_Content_02_Os" ID="{7F1C858F-44D1-4A8A-8162-96F3AC7F2A22}" ShortID="587015492">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_Content_02_Os" ID="{468ECEC7-F900-44CB-9FA3-B3418BAE9505}" ShortID="1023695797">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_Content_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_Content_02_Os" ID="{468ECEC7-F900-44CB-9FA3-B3418BAE9505}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Troub_Content_03_Os" ID="{6580BF7C-3F6E-48E2-BC39-A8996FB3A3C2}" ShortID="339920259">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_Content_03_Os" ID="{605C7470-5900-4A6C-BBF7-274D867C6462}" ShortID="369342859">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_Content_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_Content_03_Os" ID="{605C7470-5900-4A6C-BBF7-274D867C6462}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Troub_Content_04_Os" ID="{13444C1E-7398-41BE-A262-905A9115F279}" ShortID="77386543">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_Content_04_Os" ID="{F163AC60-0B2A-404A-AF1B-B4506497F4B6}" ShortID="592089808">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_Content_04_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_Content_04_Os" ID="{F163AC60-0B2A-404A-AF1B-B4506497F4B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Upset" ID="{F68FA68D-F26C-4EC8-B879-1C4B3F77C2C2}" ShortID="692212406">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pnj_Troub_PasContent_01_Os" ID="{278D656A-E44F-4A0A-A18A-F97A4A84F0B0}" ShortID="706399784">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_PasContent_01_Os" ID="{B3F90DB7-E5D2-4E13-AF9C-CB240459B334}" ShortID="893198592">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_PasContent_01_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_PasContent_01_Os" ID="{B3F90DB7-E5D2-4E13-AF9C-CB240459B334}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Troub_PasContent_02_Os" ID="{4F238CC0-F1D4-4803-86A9-624033A8E42D}" ShortID="739410713">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_PasContent_02_Os" ID="{759A6F02-13CF-4BFD-8123-C8BC69A70A4E}" ShortID="371779270">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_PasContent_02_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_PasContent_02_Os" ID="{759A6F02-13CF-4BFD-8123-C8BC69A70A4E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Troub_PasContent_03_Os" ID="{D4004A1E-77A0-4C1D-B09A-1ABDBDCFD1EA}" ShortID="699990624">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_PasContent_03_Os" ID="{3D296CC4-22AD-4B6A-8F7F-C0D8B94997AC}" ShortID="494598650">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_PasContent_03_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_PasContent_03_Os" ID="{3D296CC4-22AD-4B6A-8F7F-C0D8B94997AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pnj_Troub_PasContent_04_Os" ID="{63237A2F-9866-4D29-88DA-D21A25BCFA56}" ShortID="88366952">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pnj_Troub_PasContent_04_Os" ID="{5CD05B85-A300-4B98-8AF6-1B3EF2476881}" ShortID="37323865">
+															<Language>SFX</Language>
+															<AudioFile>Pnj_Troub_PasContent_04_Os.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pnj_Troub_PasContent_04_Os" ID="{5CD05B85-A300-4B98-8AF6-1B3EF2476881}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Pnj_Troub_FinQuete_Os" ID="{901B0E41-0F8E-44FF-862F-0FCF2B6EDC1E}" ShortID="541730919">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Troub_FinQuete_Os" ID="{555FA399-6037-4B07-A714-2C82AB6DD385}" ShortID="305243995">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Troub_FinQuete_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Troub_FinQuete_Os" ID="{555FA399-6037-4B07-A714-2C82AB6DD385}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Pnj_Troub_FinQuete_Os" ID="{901B0E41-0F8E-44FF-862F-0FCF2B6EDC1E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Upset" ID="{F68FA68D-F26C-4EC8-B879-1C4B3F77C2C2}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Happy" ID="{7EE343B9-3C75-448F-A361-38613DAFA8A4}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+												<ItemList>
+													<ItemRef Name="Upset" ID="{F68FA68D-F26C-4EC8-B879-1C4B3F77C2C2}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Quest_end" ID="{8FA59747-E5CC-43A8-957E-D94A771F6FCD}"/>
+												<ItemList>
+													<ItemRef Name="Pnj_Troub_FinQuete_Os" ID="{901B0E41-0F8E-44FF-862F-0FCF2B6EDC1E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+												<ItemList>
+													<ItemRef Name="Happy" ID="{7EE343B9-3C75-448F-A361-38613DAFA8A4}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="ETRANGER" ID="{FD70F603-0EBB-4AFA-9A3E-34CA549ABB9C}" ShortID="787283956">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="VOICES" ID="{559CF439-5ABE-4A98-B5E5-1262E9A26E25}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Pnj_Etranger_Neutre_01_Os" ID="{3AA0F514-5089-4B14-8DED-4ED984580163}" ShortID="131060421">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Etranger_Neutre_01_Os" ID="{A6083405-E6B2-4601-A45E-9956415DD8DD}" ShortID="645920755">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Etranger_Neutre_01_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Etranger_Neutre_01_Os" ID="{A6083405-E6B2-4601-A45E-9956415DD8DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pnj_Etranger_Neutre_02_Os" ID="{8D9B822D-7AC0-47CE-A86D-BF4D8BFF8A5A}" ShortID="542791067">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Etranger_Neutre_02_Os" ID="{5BE7205B-45A3-4D22-9652-CBDD78706167}" ShortID="809850627">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Etranger_Neutre_02_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Etranger_Neutre_02_Os" ID="{5BE7205B-45A3-4D22-9652-CBDD78706167}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pnj_Etranger_Neutre_03_Os" ID="{8A3C4398-86E0-4CF0-98EA-ADA0E45CDBD8}" ShortID="813266193">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pnj_Etranger_Neutre_03_Os" ID="{01FF96DD-76DF-4DE3-971F-CD60B483EA30}" ShortID="796884645">
+													<Language>SFX</Language>
+													<AudioFile>Pnj_Etranger_Neutre_03_Os.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pnj_Etranger_Neutre_03_Os" ID="{01FF96DD-76DF-4DE3-971F-CD60B483EA30}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="ETRANGER" ID="{FD70F603-0EBB-4AFA-9A3E-34CA549ABB9C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="TROUBADOUR" ID="{A0857A48-4D75-4461-8722-813045FE83D4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="PAYSAN" ID="{A5EF9B6B-AF5C-41B2-992D-D43101627875}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="PECHEUR" ID="{5821C39B-5EAE-49AD-8D21-C44C5D532FA8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="ARTISAN" ID="{A8C52A9F-DCE8-4C25-A061-9BB51608F93E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CHAMAN" ID="{EA0288B8-DA9D-4E3E-BFE6-F754CD8654E7}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SAGE" ID="{A5F5BDFF-0EEA-4F4D-8F7F-20F12AA2756C}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Troubadour" ID="{00ED5270-36C9-4F14-975D-CB5AAEC45D1D}"/>
+										<ItemList>
+											<ItemRef Name="TROUBADOUR" ID="{A0857A48-4D75-4461-8722-813045FE83D4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Pecheur" ID="{7A15AD96-C8FE-4D4B-BC7D-1D7021AE7998}"/>
+										<ItemList>
+											<ItemRef Name="PECHEUR" ID="{5821C39B-5EAE-49AD-8D21-C44C5D532FA8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Artisant" ID="{1209259D-04D3-4416-A16F-06616FC01B18}"/>
+										<ItemList>
+											<ItemRef Name="ARTISAN" ID="{A8C52A9F-DCE8-4C25-A061-9BB51608F93E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Sage" ID="{1663D8C3-DB1D-4BCE-99BD-B86CCA3E1B52}"/>
+										<ItemList>
+											<ItemRef Name="SAGE" ID="{A5F5BDFF-0EEA-4F4D-8F7F-20F12AA2756C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Paysan" ID="{E1F4CCC6-3B1F-471B-9ECE-5BE2A58F5155}"/>
+										<ItemList>
+											<ItemRef Name="PAYSAN" ID="{A5EF9B6B-AF5C-41B2-992D-D43101627875}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Etranger" ID="{43D388CE-67D3-4306-BB02-8F91D50D1442}"/>
+										<ItemList>
+											<ItemRef Name="ETRANGER" ID="{FD70F603-0EBB-4AFA-9A3E-34CA549ABB9C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chaman" ID="{A566CAEB-8EF5-4C1E-A6D8-8FE222AFCEDB}"/>
+										<ItemList>
+											<ItemRef Name="CHAMAN" ID="{EA0288B8-DA9D-4E3E-BFE6-F754CD8654E7}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{D39385B1-48F7-459F-9EE6-B308F659D521}" ShortID="456162900">
@@ -8274,7 +9928,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -8290,7 +9944,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-18</Value>
+										<Value>-24</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -8352,7 +10006,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="AMBIANCE" ID="{6427CEA5-EFD4-4B13-BE28-FCFA57146138}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>

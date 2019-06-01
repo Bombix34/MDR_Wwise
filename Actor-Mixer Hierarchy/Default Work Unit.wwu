@@ -50,7 +50,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+							<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -516,7 +516,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="SFX" ID="{400C9897-7B26-481F-BBF8-3BE264A0F717}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>

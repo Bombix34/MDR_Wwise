@@ -47,7 +47,7 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>8</XPos>
+									<XPos>6</XPos>
 									<YPos>1</YPos>
 									<Flags>0</Flags>
 								</Point>
@@ -148,6 +148,24 @@
 							</PointList>
 						</Curve>
 					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="NPC_mood" ID="{0DC4A579-BF73-4BD9-9D87-0E178B93E45F}">
+					<ChildrenList>
+						<Switch Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+						<Switch Name="Upset" ID="{F9B0032F-69B3-401E-921C-73395134044C}"/>
+						<Switch Name="Quest_end" ID="{8FA59747-E5CC-43A8-957E-D94A771F6FCD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="NPC_pick" ID="{52AE80BD-269E-4BE4-96CA-EB0E639ACC0D}">
+					<ChildrenList>
+						<Switch Name="Etranger" ID="{43D388CE-67D3-4306-BB02-8F91D50D1442}"/>
+						<Switch Name="Paysan" ID="{E1F4CCC6-3B1F-471B-9ECE-5BE2A58F5155}"/>
+						<Switch Name="Sage" ID="{1663D8C3-DB1D-4BCE-99BD-B86CCA3E1B52}"/>
+						<Switch Name="Artisant" ID="{1209259D-04D3-4416-A16F-06616FC01B18}"/>
+						<Switch Name="Pecheur" ID="{7A15AD96-C8FE-4D4B-BC7D-1D7021AE7998}"/>
+						<Switch Name="Chaman" ID="{A566CAEB-8EF5-4C1E-A6D8-8FE222AFCEDB}"/>
+						<Switch Name="Troubadour" ID="{00ED5270-36C9-4F14-975D-CB5AAEC45D1D}"/>
+					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>

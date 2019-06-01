@@ -49,7 +49,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}"/>
-							<Value>0</Value>
+							<Value>12.5680819912152</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="volume_voices" ID="{672292FC-2E33-41B0-A3B3-5D0C05DD2E8B}"/>
@@ -85,7 +85,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_MS_01" ID="{F14861D1-2D1C-452F-A7D6-C3D8D476178E}"/>
-							<Value>18</Value>
+							<Value>15.5851569933397</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
@@ -93,7 +93,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}"/>
-							<Value>18</Value>
+							<Value>12.1769743101808</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_MS_05" ID="{D5F2D4B0-848A-4731-912F-B4DBEDDD4EB8}"/>
@@ -120,6 +120,10 @@
 							<Value>9.1590200665273E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Ww_Trem_BATTLE" ID="{736BE02A-A7A1-4D45-9FE5-997FE1A14BD3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ww_Trem_Ocarina_05" ID="{234CB681-C8A9-4E5C-B0B0-27093EA674CD}"/>
 							<Value>9.15902007814773E-312</Value>
 						</RTPCValue>
@@ -141,9 +145,11 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
+						<CurrentSwitchRef Name="Happy" ID="{5D54C35A-295F-411A-80FC-BA61B6C5C09D}"/>
+						<CurrentSwitchRef Name="Artisant" ID="{1209259D-04D3-4416-A16F-06616FC01B18}"/>
 						<CurrentSwitchRef Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<CurrentSwitchRef Name="bush" ID="{D881B1D0-8743-4861-AEBB-85F3F94E3B22}"/>
-						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+						<CurrentSwitchRef Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
 						<CurrentSwitchRef Name="night" ID="{113BF0F0-0AF8-4538-9072-81AFF33ADE68}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

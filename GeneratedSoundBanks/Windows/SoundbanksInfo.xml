@@ -21,14 +21,15 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3200869512" Name="ENV_chest_open_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_chest_open_play" MaxAttenuation="20.000000"/>
 				<Event Id="2518024811" Name="ENV_crate_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_crate_break_play"/>
 				<Event Id="96362093" Name="ENV_door_close_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_close_play"/>
 				<Event Id="3621253291" Name="ENV_door_locked_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_locked_play"/>
 				<Event Id="1881369153" Name="ENV_door_open_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_door_open_play"/>
 				<Event Id="1221486157" Name="ENV_lake_water_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_lake_water_play" MaxAttenuation="120.000000"/>
-				<Event Id="2641498353" Name="ENV_orb_activated_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_orb_activated_play"/>
+				<Event Id="2641498353" Name="ENV_orb_activated_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_orb_activated_play" MaxAttenuation="150.000000"/>
 				<Event Id="2141874203" Name="ENV_pot_break_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_pot_break_play"/>
-				<Event Id="2441092968" Name="ENV_spawn_patoune_play" ObjectPath="\Events\MDR_WU\ENV_spawn_patoune_play"/>
+				<Event Id="2441092968" Name="ENV_spawn_patoune_play" ObjectPath="\Events\MDR_WU\ENVIRONMENT\ENV_spawn_patoune_play" MaxAttenuation="20.000000"/>
 				<Event Id="1616179565" Name="ENV_tree_leaf_play" ObjectPath="\Events\MDR_WU\ENV_tree_leaf_play"/>
 				<Event Id="1100552122" Name="GAME_fake_fight" ObjectPath="\Events\MDR_WU\GAME\GAME_fake_fight" MaxAttenuation="0.000000"/>
 				<Event Id="2732978883" Name="GAME_launch" ObjectPath="\Events\MDR_WU\GAME\GAME_launch" MaxAttenuation="0.000000"/>
@@ -37,7 +38,9 @@
 				<Event Id="538908709" Name="MC_attack_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_attack_play"/>
 				<Event Id="2287292191" Name="MC_pick_big_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play"/>
 				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
+				<Event Id="1776872349" Name="MC_pick_ORB" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_ORB"/>
 				<Event Id="993937570" Name="MC_pick_patoune" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_patoune"/>
+				<Event Id="1530932789" Name="MC_putdown_ORB" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_putdown_ORB" MaxAttenuation="0.000000"/>
 				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play"/>
 				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
 				<Event Id="1011903932" Name="MC_walk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_walk_play"/>
@@ -54,8 +57,12 @@
 				<Event Id="3976206479" Name="Ocarina_04_Destroyed" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_04_Destroyed" MaxAttenuation="0.000000"/>
 				<Event Id="1837728142" Name="Ocarina_05_Damaged" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_05_Damaged" MaxAttenuation="0.000000"/>
 				<Event Id="2075303558" Name="Ocarina_05_Destroyed" ObjectPath="\Events\MDR_WU\MUSIC\Ocarina_05_Destroyed" MaxAttenuation="0.000000"/>
+				<Event Id="599188252" Name="Reset_Music_BUSSES" ObjectPath="\Events\MDR_WU\MUSIC\INIT_Music\Reset_Music_BUSSES" MaxAttenuation="0.000000"/>
+				<Event Id="3906850436" Name="Reset_Music_DISTANCE" ObjectPath="\Events\MDR_WU\MUSIC\INIT_Music\Reset_Music_DISTANCE" MaxAttenuation="0.000000"/>
+				<Event Id="161461875" Name="Reset_Music_TREMOLO" ObjectPath="\Events\MDR_WU\MUSIC\INIT_Music\Reset_Music_TREMOLO" MaxAttenuation="0.000000"/>
 				<Event Id="658987741" Name="UI_cancel_play" ObjectPath="\Events\MDR_WU\UI\UI_cancel_play"/>
 				<Event Id="1277176383" Name="UI_item_highlight_play" ObjectPath="\Events\MDR_WU\UI\UI_item_highlight_play"/>
+				<Event Id="3836449328" Name="UI_quest_success" ObjectPath="\Events\MDR_WU\UI\UI_quest_success"/>
 				<Event Id="401277688" Name="UI_select_confirm_play" ObjectPath="\Events\MDR_WU\UI\UI_select_confirm_play"/>
 				<Event Id="4033886834" Name="UI_select_hover_play" ObjectPath="\Events\MDR_WU\UI\UI_select_hover_play"/>
 			</IncludedEvents>
@@ -63,6 +70,14 @@
 				<File Id="23475721" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-006.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-006_34D806F2.wem</Path>
+				</File>
+				<File Id="36501141" Language="SFX">
+					<ShortName>Pnj_Sage_Content_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_Content_02_Os_0B585075.wem</Path>
+				</File>
+				<File Id="37323865" Language="SFX">
+					<ShortName>Pnj_Troub_PasContent_04_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_PasContent_04_Os_0B585075.wem</Path>
 				</File>
 				<File Id="44934473" Language="SFX">
 					<ShortName>Nuit_v1\villlagenightflutes_v1.wav</ShortName>
@@ -72,6 +87,10 @@
 					<ShortName>Patoune_Pickup_RIGHT-002.wav</ShortName>
 					<Path>SFX\Patoune_Pickup_RIGHT-002_34D806F2.wem</Path>
 				</File>
+				<File Id="54911489" Language="SFX">
+					<ShortName>Pnj_Chaman_PasContent_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_PasContent_01_Os_0B585075.wem</Path>
+				</File>
 				<File Id="60132411" Language="SFX">
 					<ShortName>Orb_Hover_Shards_MN-001.wav</ShortName>
 					<Path>SFX\Orb_Hover_Shards_MN-001_34D806F2.wem</Path>
@@ -79,6 +98,14 @@
 				<File Id="72006230" Language="SFX">
 					<ShortName>slide\Wood_slide-003.wav</ShortName>
 					<Path>SFX\slide\Wood_slide-003_34D806F2.wem</Path>
+				</File>
+				<File Id="72934566" Language="SFX">
+					<ShortName>Pnj_Artisan_FinQuete_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_FinQuete_Os_0B585075.wem</Path>
+				</File>
+				<File Id="82733464" Language="SFX">
+					<ShortName>Pnj_Artisan_Content_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_Content_02_Os_0B585075.wem</Path>
 				</File>
 				<File Id="86216309" Language="SFX">
 					<ShortName>AMB_lake_base_v1.wav</ShortName>
@@ -92,9 +119,17 @@
 					<ShortName>dirt\low\Footsteps_dirt_low-004.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-004_34D806F2.wem</Path>
 				</File>
+				<File Id="96110037" Language="SFX">
+					<ShortName>Pnj_Paysan_Content_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_Content_02_Os_0B585075.wem</Path>
+				</File>
 				<File Id="100095999" Language="SFX">
 					<ShortName>slide\Wood_slide-001.wav</ShortName>
 					<Path>SFX\slide\Wood_slide-001_34D806F2.wem</Path>
+				</File>
+				<File Id="106939578" Language="SFX">
+					<ShortName>Orbe - Sifflement.wav</ShortName>
+					<Path>SFX\Orbe - Sifflement_34D806F2.wem</Path>
 				</File>
 				<File Id="109965199" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-002.wav</ShortName>
@@ -119,6 +154,10 @@
 				<File Id="141410568" Language="SFX">
 					<ShortName>AMB_base_v1.wav</ShortName>
 					<Path>SFX\AMB_base_v1_78072B9C.wem</Path>
+				</File>
+				<File Id="142716620" Language="SFX">
+					<ShortName>Pnj_Artisan_PasContent_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_PasContent_03_Os_0B585075.wem</Path>
 				</File>
 				<File Id="152354924" Language="SFX">
 					<ShortName>stone\footsteps_Stone-006.wav</ShortName>
@@ -151,6 +190,10 @@
 				<File Id="178051527" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-003.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-003_34D806F2.wem</Path>
+				</File>
+				<File Id="178727777" Language="SFX">
+					<ShortName>Pnj_Paysan_PasContent_04_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_PasContent_04_Os_0B585075.wem</Path>
 				</File>
 				<File Id="185020888" Language="SFX">
 					<ShortName>stone\footsteps_Stone-001.wav</ShortName>
@@ -220,6 +263,10 @@
 					<ShortName>villlagenightcordes_v1-glued.wav</ShortName>
 					<Path>SFX\villlagenightcordes_v1-glued_78072B9C.wem</Path>
 				</File>
+				<File Id="305243995" Language="SFX">
+					<ShortName>Pnj_Troub_FinQuete_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_FinQuete_Os_0B585075.wem</Path>
+				</File>
 				<File Id="306457144" Language="SFX">
 					<ShortName>wet_sand\water\footsteps_water-004.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-004_34D806F2.wem</Path>
@@ -268,9 +315,17 @@
 					<ShortName>grass\base\footsteps_grass-009.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-009_34D806F2.wem</Path>
 				</File>
+				<File Id="369342859" Language="SFX">
+					<ShortName>Pnj_Troub_Content_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_Content_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="371585331" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-006.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-006_34D806F2.wem</Path>
+				</File>
+				<File Id="371779270" Language="SFX">
+					<ShortName>Pnj_Troub_PasContent_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_PasContent_02_Os_0B585075.wem</Path>
 				</File>
 				<File Id="401915125" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-006.wav</ShortName>
@@ -280,6 +335,10 @@
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-005.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-005_34D806F2.wem</Path>
 				</File>
+				<File Id="410312443" Language="SFX">
+					<ShortName>Pnj_Artisan_Content_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_Content_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="414079670" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-013.wav</ShortName>
 					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-013_34D806F2.wem</Path>
@@ -288,6 +347,10 @@
 					<ShortName>dirt\base\Foosteps_dirt_BASE-002.wav</ShortName>
 					<Path>SFX\dirt\base\Foosteps_dirt_BASE-002_34D806F2.wem</Path>
 				</File>
+				<File Id="425031943" Language="SFX">
+					<ShortName>Pnj_Paysan_PasContent_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_PasContent_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="427894164" Language="SFX">
 					<ShortName>Item_throw.wav</ShortName>
 					<Path>SFX\Item_throw_34D806F2.wem</Path>
@@ -295,6 +358,10 @@
 				<File Id="437672389" Language="SFX">
 					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-001.wav</ShortName>
 					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-001_38FD1448.wem</Path>
+				</File>
+				<File Id="440518322" Language="SFX">
+					<ShortName>Pnj_Paysan_FinQuete_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_FinQuete_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="441295371" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-008.wav</ShortName>
@@ -308,9 +375,17 @@
 					<ShortName>grass\long\footsteps_long_grass-005.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-005_34D806F2.wem</Path>
 				</File>
+				<File Id="457199086" Language="SFX">
+					<ShortName>Pnj_Paysan_PasContent_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_PasContent_02_Os_0B585075.wem</Path>
+				</File>
 				<File Id="466126796" Language="SFX">
 					<ShortName>musvillagepiste5.wav</ShortName>
 					<Path>SFX\musvillagepiste5_78072B9C.wem</Path>
+				</File>
+				<File Id="467696191" Language="SFX">
+					<ShortName>Pnj_Sage_pasContent_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_pasContent_03_Os_0B585075.wem</Path>
 				</File>
 				<File Id="468290503" Language="SFX">
 					<ShortName>villagemortpiste1.wav</ShortName>
@@ -328,6 +403,14 @@
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-001.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-001_34D806F2.wem</Path>
 				</File>
+				<File Id="478773820" Language="SFX">
+					<ShortName>Pnj_Sage_Content_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_Content_01_Os_0B585075.wem</Path>
+				</File>
+				<File Id="481638089" Language="SFX">
+					<ShortName>Pnj_Chaman_Finquete_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_Finquete_Os_0B585075.wem</Path>
+				</File>
 				<File Id="484375454" Language="SFX">
 					<ShortName>villagemortpiste5.wav</ShortName>
 					<Path>SFX\villagemortpiste5_78072B9C.wem</Path>
@@ -336,6 +419,10 @@
 					<ShortName>grass\bushes\bushes-004.wav</ShortName>
 					<Path>SFX\grass\bushes\bushes-004_34D806F2.wem</Path>
 				</File>
+				<File Id="494598650" Language="SFX">
+					<ShortName>Pnj_Troub_PasContent_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_PasContent_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="495327061" Language="SFX">
 					<ShortName>villlagenightdrums_v1-glued.wav</ShortName>
 					<Path>SFX\villlagenightdrums_v1-glued_78072B9C.wem</Path>
@@ -343,6 +430,10 @@
 				<File Id="499704075" Language="SFX">
 					<ShortName>stone\footsteps_Stone-003.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-003_855EA042.wem</Path>
+				</File>
+				<File Id="500948984" Language="SFX">
+					<ShortName>Pnj_Pecheur_Content_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_Content_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="503034905" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-005.wav</ShortName>
@@ -367,6 +458,10 @@
 				<File Id="516241765" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-007.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-007_34D806F2.wem</Path>
+				</File>
+				<File Id="516276029" Language="SFX">
+					<ShortName>Pnj_Chaman_Content_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_Content_02_Os_0B585075.wem</Path>
 				</File>
 				<File Id="522917517" Language="SFX">
 					<ShortName>AMB_sea_v1.wav</ShortName>
@@ -402,7 +497,7 @@
 				</File>
 				<File Id="555624764" Language="SFX">
 					<ShortName>SFX_Door_Open_-_190206_2312.wav</ShortName>
-					<Path>SFX\SFX_Door_Open_-_190206_2312_6A800C80.wem</Path>
+					<Path>SFX\SFX_Door_Open_-_190206_2312_78AF5C61.wem</Path>
 				</File>
 				<File Id="556660881" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-007.wav</ShortName>
@@ -416,6 +511,10 @@
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-009.wav</ShortName>
 					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-009_34D806F2.wem</Path>
 				</File>
+				<File Id="574135750" Language="SFX">
+					<ShortName>Pnj_Pecheur_PasContent_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_PasContent_02_Os_0B585075.wem</Path>
+				</File>
 				<File Id="577666406" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-002.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-002_34D806F2.wem</Path>
@@ -423,6 +522,14 @@
 				<File Id="579242598" Language="SFX">
 					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-005.wav</ShortName>
 					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-005_DFDE2435.wem</Path>
+				</File>
+				<File Id="592089808" Language="SFX">
+					<ShortName>Pnj_Troub_Content_04_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_Content_04_Os_0B585075.wem</Path>
+				</File>
+				<File Id="604579250" Language="SFX">
+					<ShortName>Pnj_Paysan_PasContent_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_PasContent_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="604589010" Language="SFX">
 					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-003.wav</ShortName>
@@ -436,6 +543,10 @@
 					<ShortName>dirt\low\Footsteps_dirt_low-001.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-001_34D806F2.wem</Path>
 				</File>
+				<File Id="618820443" Language="SFX">
+					<ShortName>Pnj_Paysan_PasContent_06_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_PasContent_06_Os_0B585075.wem</Path>
+				</File>
 				<File Id="622402654" Language="SFX">
 					<ShortName>SFX_-_S_HitShield_-_V0.1_-_19-01-11.wav</ShortName>
 					<Path>SFX\SFX_-_S_HitShield_-_V0.1_-_19-01-11_34D806F2.wem</Path>
@@ -444,6 +555,10 @@
 					<ShortName>wet_sand\water\footsteps_water-002.wav</ShortName>
 					<Path>SFX\wet_sand\water\footsteps_water-002_34D806F2.wem</Path>
 				</File>
+				<File Id="627103600" Language="SFX">
+					<ShortName>Pnj_Sage_Content_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_Content_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="628319451" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-008.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-008_34D806F2.wem</Path>
@@ -451,6 +566,14 @@
 				<File Id="632974870" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-002.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-002_34D806F2.wem</Path>
+				</File>
+				<File Id="641773897" Language="SFX">
+					<ShortName>Pnj_Pecheur_FinQuete_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_FinQuete_Os_0B585075.wem</Path>
+				</File>
+				<File Id="645920755" Language="SFX">
+					<ShortName>Pnj_Etranger_Neutre_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Etranger_Neutre_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="648806118" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-009.wav</ShortName>
@@ -524,9 +647,13 @@
 					<ShortName>grass\long\footsteps_long_grass-007.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-007_34D806F2.wem</Path>
 				</File>
+				<File Id="691080273" Language="SFX">
+					<ShortName>Pnj_Pecheur_Content_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_Content_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="693613157" Language="SFX">
 					<ShortName>Patoune_pickup_BASE.wav</ShortName>
-					<Path>SFX\Patoune_pickup_BASE_D3AFAD8D.wem</Path>
+					<Path>SFX\Patoune_pickup_BASE_C8233F3F.wem</Path>
 				</File>
 				<File Id="696665378" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-003.wav</ShortName>
@@ -535,6 +662,10 @@
 				<File Id="700743731" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-003.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-003_34D806F2.wem</Path>
+				</File>
+				<File Id="719028140" Language="SFX">
+					<ShortName>Pnj_Chaman_Content_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_Content_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="730619784" Language="SFX">
 					<ShortName>grass\bushes\bushes-001.wav</ShortName>
@@ -576,6 +707,14 @@
 					<ShortName>Orb_Hover_Shards_ST-002.wav</ShortName>
 					<Path>SFX\Orb_Hover_Shards_ST-002_34D806F2.wem</Path>
 				</File>
+				<File Id="783014368" Language="SFX">
+					<ShortName>Orbe - Bass.wav</ShortName>
+					<Path>SFX\Orbe - Bass_34D806F2.wem</Path>
+				</File>
+				<File Id="796884645" Language="SFX">
+					<ShortName>Pnj_Etranger_Neutre_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Etranger_Neutre_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="803979829" Language="SFX">
 					<ShortName>Patoune_Pickup_LEFT-003.wav</ShortName>
 					<Path>SFX\Patoune_Pickup_LEFT-003_34D806F2.wem</Path>
@@ -583,6 +722,14 @@
 				<File Id="807481473" Language="SFX">
 					<ShortName>soft\Wood_soft-006.wav</ShortName>
 					<Path>SFX\soft\Wood_soft-006_34D806F2.wem</Path>
+				</File>
+				<File Id="809850627" Language="SFX">
+					<ShortName>Pnj_Etranger_Neutre_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Etranger_Neutre_02_Os_0B585075.wem</Path>
+				</File>
+				<File Id="810860881" Language="SFX">
+					<ShortName>Pnj_Pecheur_PasContent_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_PasContent_03_Os_0B585075.wem</Path>
 				</File>
 				<File Id="813631278" Language="SFX">
 					<ShortName>AMB_trees_v1-001.wav</ShortName>
@@ -595,6 +742,14 @@
 				<File Id="829128012" Language="SFX">
 					<ShortName>Door_locked.wav</ShortName>
 					<Path>SFX\Door_locked_34D806F2.wem</Path>
+				</File>
+				<File Id="830388729" Language="SFX">
+					<ShortName>Chest_Open.wav</ShortName>
+					<Path>SFX\Chest_Open_7B64A49E.wem</Path>
+				</File>
+				<File Id="831154986" Language="SFX">
+					<ShortName>Pnj_Pecheur_PasContent_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_PasContent_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="833869800" Language="SFX">
 					<ShortName>Item_use.wav</ShortName>
@@ -616,9 +771,17 @@
 					<ShortName>Orb_Hover_Shards_ST-001.wav</ShortName>
 					<Path>SFX\Orb_Hover_Shards_ST-001_34D806F2.wem</Path>
 				</File>
+				<File Id="857068968" Language="SFX">
+					<ShortName>Pnj_Pecheur_Content_04_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_Content_04_Os_0B585075.wem</Path>
+				</File>
 				<File Id="873930017" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-008.wav</ShortName>
 					<Path>SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-008_34D806F2.wem</Path>
+				</File>
+				<File Id="877012329" Language="SFX">
+					<ShortName>Pnj_Paysan_Content_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_Content_03_Os_0B585075.wem</Path>
 				</File>
 				<File Id="880349303" Language="SFX">
 					<ShortName>Pot_Destroy\Add\POT_Destroy_Add-002.wav</ShortName>
@@ -632,9 +795,17 @@
 					<ShortName>Patoune_Pickup_LEFT-002.wav</ShortName>
 					<Path>SFX\Patoune_Pickup_LEFT-002_34D806F2.wem</Path>
 				</File>
+				<File Id="888972877" Language="SFX">
+					<ShortName>Pnj_Chaman_Content_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_Content_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="889427946" Language="SFX">
 					<ShortName>villlagenightkalimb_v1.1-glued.wav</ShortName>
 					<Path>SFX\villlagenightkalimb_v1.1-glued_78072B9C.wem</Path>
+				</File>
+				<File Id="889749382" Language="SFX">
+					<ShortName>Pnj_Artisan_PasContent_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_PasContent_01_Os_0B585075.wem</Path>
 				</File>
 				<File Id="890998793" Language="SFX">
 					<ShortName>soft\Wood_soft-003.wav</ShortName>
@@ -644,6 +815,10 @@
 					<ShortName>grass\long\footsteps_long_grass-004.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-004_34D806F2.wem</Path>
 				</File>
+				<File Id="893198592" Language="SFX">
+					<ShortName>Pnj_Troub_PasContent_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_PasContent_01_Os_0B585075.wem</Path>
+				</File>
 				<File Id="897958807" Language="SFX">
 					<ShortName>UI_Interact.wav</ShortName>
 					<Path>SFX\UI_Interact_9D70AC95.wem</Path>
@@ -652,17 +827,41 @@
 					<ShortName>Pot_Destroy\Add\POT_Destroy_Add-001.wav</ShortName>
 					<Path>SFX\Pot_Destroy\Add\POT_Destroy_Add-001_34D806F2.wem</Path>
 				</File>
+				<File Id="911868859" Language="SFX">
+					<ShortName>Pnj_Chaman_PasContent_03_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_PasContent_03_Os_0B585075.wem</Path>
+				</File>
 				<File Id="913037368" Language="SFX">
 					<ShortName>POT_Destroy_Add-003.wav</ShortName>
 					<Path>SFX\POT_Destroy_Add-003_6E1019F3.wem</Path>
+				</File>
+				<File Id="915446695" Language="SFX">
+					<ShortName>Pnj_Sage_pasContent_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_pasContent_01_Os_0B585075.wem</Path>
+				</File>
+				<File Id="917652221" Language="SFX">
+					<ShortName>Pnj_Sage_Content_04_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_Content_04_Os_0B585075.wem</Path>
 				</File>
 				<File Id="924019741" Language="SFX">
 					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-005.wav</ShortName>
 					<Path>SFX\Crate_Destroy\Rip\CRATE_Destroy_RIP-005_9BCCDFFE.wem</Path>
 				</File>
+				<File Id="927041855" Language="SFX">
+					<ShortName>Pnj_Troub_Content_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_Content_01_Os_0B585075.wem</Path>
+				</File>
 				<File Id="930995499" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-007.wav</ShortName>
 					<Path>SFX\dirt\moist\Footsteps_Dirt_moist-007_34D806F2.wem</Path>
+				</File>
+				<File Id="937259564" Language="SFX">
+					<ShortName>Pnj_Artisan_Content_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_Content_01_Os_0B585075.wem</Path>
+				</File>
+				<File Id="943816031" Language="SFX">
+					<ShortName>Pnj_Paysan_PasContent_05_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_PasContent_05_Os_0B585075.wem</Path>
 				</File>
 				<File Id="944652431" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-004.wav</ShortName>
@@ -672,6 +871,22 @@
 					<ShortName>Nuit_v1\villlagenightdrums_v1.wav</ShortName>
 					<Path>SFX\Nuit_v1\villlagenightdrums_v1_78072B9C.wem</Path>
 				</File>
+				<File Id="951970489" Language="SFX">
+					<ShortName>Pnj_Pecheur_Content_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Pecheur_Content_02_Os_0B585075.wem</Path>
+				</File>
+				<File Id="957215504" Language="SFX">
+					<ShortName>Pnj_Artisan_Content_04_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_Content_04_Os_0B585075.wem</Path>
+				</File>
+				<File Id="968209737" Language="SFX">
+					<ShortName>Pnj_Chaman_PasContent_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Chaman_PasContent_02_Os_0B585075.wem</Path>
+				</File>
+				<File Id="972710369" Language="SFX">
+					<ShortName>Pnj_Paysan_Content_01_Os.wav</ShortName>
+					<Path>SFX\Pnj_Paysan_Content_01_Os_0B585075.wem</Path>
+				</File>
 				<File Id="972712054" Language="SFX">
 					<ShortName>peak\Wood_peak-006.wav</ShortName>
 					<Path>SFX\peak\Wood_peak-006_34D806F2.wem</Path>
@@ -680,21 +895,29 @@
 					<ShortName>slide\Wood_slide-005.wav</ShortName>
 					<Path>SFX\slide\Wood_slide-005_34D806F2.wem</Path>
 				</File>
+				<File Id="982400698" Language="SFX">
+					<ShortName>Pnj_Artisan_PasContent_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Artisan_PasContent_02_Os_0B585075.wem</Path>
+				</File>
 				<File Id="986934884" Language="SFX">
 					<ShortName>musvillagepiste6.wav</ShortName>
 					<Path>SFX\musvillagepiste6_78072B9C.wem</Path>
 				</File>
 				<File Id="987383407" Language="SFX">
 					<ShortName>Orb_Hover_BASE.wav</ShortName>
-					<Path>SFX\Orb_Hover_BASE_D898A558.wem</Path>
+					<Path>SFX\Orb_Hover_BASE_C11BF6CF.wem</Path>
 				</File>
 				<File Id="1010183359" Language="SFX">
 					<ShortName>Conversation_start.wav</ShortName>
-					<Path>SFX\Conversation_start_F8ACB1AC.wem</Path>
+					<Path>SFX\Conversation_start_C37078CB.wem</Path>
 				</File>
 				<File Id="1021894829" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-004.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-004_34D806F2.wem</Path>
+				</File>
+				<File Id="1023695797" Language="SFX">
+					<ShortName>Pnj_Troub_Content_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Troub_Content_02_Os_0B585075.wem</Path>
 				</File>
 				<File Id="1027998380" Language="SFX">
 					<ShortName>Crate_Destroy\Rip\CRATE_Destroy_RIP-004.wav</ShortName>
@@ -711,6 +934,10 @@
 				<File Id="1047168550" Language="SFX">
 					<ShortName>stone\footsteps_Stone-002.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-002_405B1052.wem</Path>
+				</File>
+				<File Id="1051629832" Language="SFX">
+					<ShortName>Pnj_Sage_pasContent_02_Os.wav</ShortName>
+					<Path>SFX\Pnj_Sage_pasContent_02_Os_0B585075.wem</Path>
 				</File>
 				<File Id="1055570632" Language="SFX">
 					<ShortName>Nuit_v1\villlagenighttuba_v1.wav</ShortName>
