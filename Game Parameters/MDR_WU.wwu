@@ -10,7 +10,7 @@
 				<GameParameter Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="8"/>
-						<Property Name="Max" Type="Real64" Value="24"/>
+						<Property Name="Max" Type="Real64" Value="48"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}">

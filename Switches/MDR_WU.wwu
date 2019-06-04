@@ -49,12 +49,12 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>6</XPos>
+									<XPos>2</XPos>
 									<YPos>1</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>12</XPos>
+									<XPos>11</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>
@@ -64,12 +64,37 @@
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>21</XPos>
+									<XPos>22</XPos>
 									<YPos>4</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
 									<XPos>24</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>26</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>35</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>41</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>46</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>48</XPos>
 									<YPos>4</YPos>
 									<Flags>37</Flags>
 								</Point>
