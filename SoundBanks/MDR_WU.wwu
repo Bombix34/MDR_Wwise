@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{5B33224C-DDAC-47A0-A47C-33864F4F5C6D}" SchemaVersion="94">
 	<SoundBanks>
 		<WorkUnit Name="MDR_WU" ID="{5B33224C-DDAC-47A0-A47C-33864F4F5C6D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="16"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{603797AE-5D4A-44E0-9DF0-0235E12D5976}">
 					<ObjectInclusionList>

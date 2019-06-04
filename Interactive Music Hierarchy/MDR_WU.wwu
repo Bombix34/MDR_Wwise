@@ -3951,7 +3951,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="_Indecis" ID="{B43916D7-5581-4095-8C24-50ED960378AF}" ShortID="350539926">
+						<MusicPlaylistContainer Name="_Indecis_MENU" ID="{B43916D7-5581-4095-8C24-50ED960378AF}" ShortID="350539926">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -3963,7 +3963,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Indecis" ID="{E0417906-3524-4046-AF0A-49B040955CF3}" ShortID="764382824">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="77720.2267573696"/>
+										<Property Name="EndPosition" Type="Real64" Value="18593.6409502522"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4002,11 +4002,70 @@
 													<ClipList>
 														<MusicClip Name="outsidevillagepiste1" ID="{563113C8-C667-4183-BDC0-CE295C1CBD31}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18285.7142857144"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="outsidevillagepiste1" ID="{FB81CC45-0B28-4D86-868C-C589E4F99C8B}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{E7F8979C-9AFF-4EA9-983D-B58F9220D52E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{129976FC-CDDA-41FF-979F-2477C2138C06}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{DE2D4E11-4E9A-47CA-827E-715EE0130DCE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -4040,11 +4099,70 @@
 													<ClipList>
 														<MusicClip Name="outsidevillagepiste2" ID="{653AD474-B8B3-4641-8059-5F3B7D7FE567}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18285.7142857144"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="outsidevillagepiste2" ID="{9497143A-D7F0-4CE4-8464-70A619852B4A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{BD6A448E-007F-4512-8FCD-325EC0DF8B52}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{2F38586D-3986-446C-8D3A-27A2DA299666}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{94280F36-013F-4A8D-B48D-3380E4513314}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -4078,11 +4196,70 @@
 													<ClipList>
 														<MusicClip Name="outsidevillagepiste3" ID="{317B95CF-2A1F-4287-94CA-35BC5F803EFC}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18285.7142857144"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="outsidevillagepiste3" ID="{A35937A1-302D-4EBF-934F-5BB4B4C29F75}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{8323D2BE-C6BC-4B6F-B429-0978F8E6E42D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{5F7E5141-2143-4E45-98FE-12620B3998DF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{C685862A-D4EE-46A8-AB95-56D55864D667}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -4116,11 +4293,70 @@
 													<ClipList>
 														<MusicClip Name="outsidevillagepiste4" ID="{172B67A7-A33E-4FDD-A41B-4860F68D9FCF}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18285.7142857144"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="outsidevillagepiste4" ID="{6134E9A9-B273-474A-A58B-BCEFC691384B}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{C53454E3-C9F4-4F81-9318-A980B44B66C4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E7769C25-143D-4412-B830-5A470389487D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{82C6360B-8A95-4C11-89D0-81D13F03C684}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -4154,11 +4390,70 @@
 													<ClipList>
 														<MusicClip Name="outsidevillagepiste5" ID="{4C81FE96-C573-4047-A426-4F3090DFDB94}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18285.7142857144"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="outsidevillagepiste5" ID="{3082358F-1072-4137-BC47-D52A40939D7E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{EAF8D66E-8806-4319-8E0C-6DB5865F59B7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{0B392EFF-BA4E-4997-BF88-172E4263E49F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AF14C642-6C40-4AAD-8E8A-163C937ABCAF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -4192,11 +4487,69 @@
 													<ClipList>
 														<MusicClip Name="outsidevillagepiste6" ID="{DCA4C6FE-89BE-491F-BC7E-34538340E46F}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18285.7142857144"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="outsidevillagepiste6" ID="{51A2E93E-DD86-49E5-A2F5-D55BEB99DABD}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FBA8F976-FBE7-41DF-AEE3-11B4357FBC43}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{6B21FD16-33A9-4D39-AF72-06F8B1A297AD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{151544B3-9254-4BA0-A7B6-6FE5F21529B3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -4208,7 +4561,7 @@
 										<MusicCue Name="Exit Cue" ID="{8D4690F2-5E91-4B6C-9986-D8A930ACCB1E}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												<Property Name="TimeMs" Type="Real64" Value="18285.7142857143"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -4229,12 +4582,1068 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{628F1D28-B406-417D-8E5F-9D08B0CC3D68}" ShortID="33744657">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{4179691D-389F-4F66-9775-DBD9EDEF866D}" ShortID="1033998299">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Indecis" ID="{E0417906-3524-4046-AF0A-49B040955CF3}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="_Indecis_BEGINNING" ID="{68F5DF32-4685-4A9E-BBF1-1E5D75CFF8D0}" ShortID="913674330">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Tempo" Type="Real64" Value="105"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Indecis" ID="{B453D67E-BF27-439D-9FFA-5332030A2751}" ShortID="480505953">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="18688.1274040959"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="outsidevillagepiste1" ID="{DCEFD7B1-6E4A-4E44-B016-625EA2E0179B}" ShortID="813696759">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste1" ID="{45F582CB-8277-40E0-AC3A-9EE6B2B21E51}" ShortID="969806343">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1012527029"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3777F0E2-CFF1-4C30-851A-D69AB8CA7C45}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{418D38B3-35D4-4D3D-85E5-5E2B8AC45ABF}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste1" ID="{F686946D-24D4-4D02-9A5D-CB23F85F83BA}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="18285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-18285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste1" ID="{45F582CB-8277-40E0-AC3A-9EE6B2B21E51}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{5CBB2176-A80D-47E8-BACE-5337E6DE4308}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{6DE05F5D-58F2-40C1-B2C7-8DBC9CE76758}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FD8AFB79-4576-4165-BE26-8AD13703D1D8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste2" ID="{E2D3CEF6-2FFB-40B5-9122-BCA638F0F99F}" ShortID="598459014">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste2" ID="{D0F9C5E0-54EC-4C80-A474-6EEFC682C315}" ShortID="278248029">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste2.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="207620002"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0282C1FB-AEEF-4934-B3A9-D733F6F635AA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{CC02F2F6-79CA-4151-A252-071019404E9A}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste2" ID="{4425BC8C-718D-4A02-9E8A-92ABCB10BAA5}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="18285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-18285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste2" ID="{D0F9C5E0-54EC-4C80-A474-6EEFC682C315}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{EE9E620B-A2F6-40E3-819D-13ADCBEA4A1C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D0F7CD13-27B3-4C0F-918B-D011C5E34133}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{E38200F1-E569-4747-A6D3-1B95D6CBE29E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste3" ID="{2E27C4E8-F033-485B-B4D0-F7C763EDEA01}" ShortID="1045032546">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste3" ID="{818CAE49-AC1D-4976-9574-6BD124984A7D}" ShortID="151341536">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste3.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="190598037"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9B8A80BE-A40C-477E-AB90-942C8AB81AE3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4D6E82A5-3576-473F-83FE-2DA189AAFD3A}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste3" ID="{93FBFC63-C644-43BB-9EC1-9DAD4C6959F3}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="18285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-18285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste3" ID="{818CAE49-AC1D-4976-9574-6BD124984A7D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{05E48DD6-C4F2-4B16-B80A-81C0A173AC3D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{FE715027-CE4E-46BF-8F6C-7F5B66426D0B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{36FA46D9-E311-4902-A02F-4E3E66547415}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste4" ID="{7F37F15C-5C60-4265-A97B-8D9F40FCCF87}" ShortID="142903159">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste4" ID="{5B69B9CE-2958-44C7-A91A-254469273B71}" ShortID="313241280">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste4.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="356174693"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6617DAE8-5C44-4D1C-9CC3-621F56D16BA5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{56BEB4EC-6522-43CC-8278-E821E27BDD1C}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste4" ID="{62265C55-40E3-41AF-B353-81DAC98D67AB}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="18285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-18285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste4" ID="{5B69B9CE-2958-44C7-A91A-254469273B71}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{86E04E22-F877-4D90-A5B4-699AAD33F431}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{2FBD6892-F4CE-4FE9-BBB7-D5D9E35BA546}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{9B99F614-1972-4D84-80E0-24A5601E4C7F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste5" ID="{2DAAB499-ECEE-404E-978B-E87ADD14BE7D}" ShortID="238499462">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste5" ID="{003D8EC9-2454-4969-AA42-AECFBA9FD1F3}" ShortID="373768196">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste5.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="473236146"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{84D20886-50FA-4A24-8061-0044F1D02F3C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{79A9ED67-85FD-412D-A76B-35010467522C}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste5" ID="{F178C16B-CA94-47AD-B8C5-9956CF9280A3}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="18285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-18285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste5" ID="{003D8EC9-2454-4969-AA42-AECFBA9FD1F3}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{CA701124-82A1-4675-8671-C010E34BD59B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{14241F9C-C9BB-4E6B-841C-44B114F67889}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{C50AE0FF-422C-4CF2-8019-20BB2199A822}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste6" ID="{598262CC-245A-429F-9887-B2B09853B5F2}" ShortID="763396559">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste6" ID="{8234D75B-1B3C-44D6-A738-7CB4883583BD}" ShortID="417800618">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste6.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="284595939"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{56B29EC9-3DCF-4776-B873-F0CB638A2D67}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5CFD9C07-9439-4917-9FE2-26DA7BD78F2C}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste6" ID="{451436D5-F0BF-42F8-A0CF-E05850109847}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="18285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="36571.4285714286"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-18285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste6" ID="{8234D75B-1B3C-44D6-A738-7CB4883583BD}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{132805DA-54B3-4C0A-9B31-363115D47092}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{96087D31-1415-4222-BBA3-345C58F86FB5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{C8C404B2-AFB4-4574-8DC2-51D45A8C7DA9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>18.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>36.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{31CC8132-5964-4FDC-84AB-CBBA7DB944FB}"/>
+										<MusicCue Name="Exit Cue" ID="{0D87D4E3-71EF-4A5F-AF76-3EE9ECC3928A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="18285.7142857143"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{60D84689-5782-43EC-B424-734F56424B18}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{99AD36BE-9ED3-4EB2-AF88-51A5B2CC5708}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{92A11E85-F088-4419-BAB3-B09BC8FD30CD}" ShortID="782353919">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{67D0F613-BEBB-4D68-87EF-F5BDADB44E35}" ShortID="777906059">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Indecis" ID="{B453D67E-BF27-439D-9FFA-5332030A2751}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="_Indecis_MENU_02" ID="{769D1343-9EB1-4E4B-99F1-5BC12A865472}" ShortID="112468204">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Tempo" Type="Real64" Value="105"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Indecis" ID="{8389890A-A6F0-4FFF-B078-6A841AD873AE}" ShortID="542143002">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="77720.2267573696"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="outsidevillagepiste1" ID="{E2EA6E99-1966-4BA2-AC54-97956D88AD62}" ShortID="147153015">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_01_MAIN" ID="{5CA468D7-2B5A-44FE-9A2D-60EA66EB21ED}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste1" ID="{E9B1D0EA-9F4E-4EDE-B916-CD36612DE6C6}" ShortID="387806705">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1012527029"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{98D24DBB-B42C-4BDE-8E46-089BA8B91D69}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AB58D2B5-4269-4017-B4AF-43DDF2BD9F19}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste1" ID="{035F7456-E8E7-49CB-A9B7-9049E25B17EA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste1" ID="{E9B1D0EA-9F4E-4EDE-B916-CD36612DE6C6}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste2" ID="{7185ECB9-8E89-4321-A0D0-6A5EBCB44F76}" ShortID="15175129">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_03_PERC" ID="{789115FF-B239-4072-AD7C-8544070511F7}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste2" ID="{835DA5AE-BC0D-496E-93A6-E70749614054}" ShortID="380618515">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste2.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="207620002"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E56D3D2F-0C0A-4230-9368-00454164B4B1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2818ECAE-F015-4A79-8982-E0D328077238}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste2" ID="{62F7A06C-2074-4541-B08D-5858D073D6E0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste2" ID="{835DA5AE-BC0D-496E-93A6-E70749614054}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste3" ID="{4C2A0D8B-6E3F-431F-9C09-3A25F528E135}" ShortID="198412511">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste3" ID="{A828F245-F8D8-44F9-BE29-7D5A39DD9BE2}" ShortID="467031830">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste3.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="190598037"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BBFF4AD3-F555-49A0-B27A-38C7500F6537}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{25CAC705-8D93-4500-82D5-9AE71A3D1D7C}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste3" ID="{B55B8045-1581-4EDE-BFD7-EB570FB80E82}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste3" ID="{A828F245-F8D8-44F9-BE29-7D5A39DD9BE2}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste4" ID="{E94A9289-0876-4994-B31D-2D613368BAB0}" ShortID="630301880">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_02_RYTHMIC" ID="{51A9311E-EB47-458B-AAE7-B273C5CD1B1D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste4" ID="{CD26AA4B-3518-4D38-B739-320AFE3D019E}" ShortID="535030709">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste4.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="356174693"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{06B76069-F307-44A8-95E5-BA560171AC4C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A988D6B0-9865-46FE-A1C4-98BA6EBBB47B}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste4" ID="{9D8B530F-8F4B-4E76-80B7-8B842CBA4F4E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste4" ID="{CD26AA4B-3518-4D38-B739-320AFE3D019E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste5" ID="{5B8F4FA7-B707-46A0-AB2E-042019457214}" ShortID="446318808">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste5" ID="{08CDDA00-BB9F-4DCA-89E2-3E253A605F09}" ShortID="510501833">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste5.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="473236146"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C2AE8E02-2BBC-48B7-8298-7D4A69DA81E4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C1C94B30-585D-4854-911A-6F6D1919D5F8}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste5" ID="{77BC3EC6-1990-4515-869F-9B816888C653}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste5" ID="{08CDDA00-BB9F-4DCA-89E2-3E253A605F09}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="outsidevillagepiste6" ID="{369086AF-4F0C-4161-BEB9-A38698CA8D11}" ShortID="332756651">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Music_track_04_WIND" ID="{AD274095-3D2B-4484-A007-4AB9D949544F}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="outsidevillagepiste6" ID="{D6D331E7-5EDA-4358-A0A5-1A54D358241E}" ShortID="351040799">
+													<Language>SFX</Language>
+													<AudioFile>outsidevillagepiste6.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="284595939"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{56FC1DF9-CD11-4289-A7C6-EE28A51DAB7B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{11E3E95D-9BD6-417E-9383-DBF2E910C7EC}">
+													<ClipList>
+														<MusicClip Name="outsidevillagepiste6" ID="{68346EE3-6C7F-499B-B4CE-0BE710992929}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="77720.2267573696"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="outsidevillagepiste6" ID="{D6D331E7-5EDA-4358-A0A5-1A54D358241E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{61529FC7-F3A7-41D8-8925-2454BDFB1DD3}"/>
+										<MusicCue Name="Exit Cue" ID="{E4F7DE14-0986-4C0A-BAF7-C17930C1F9A9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="1000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3CDA4657-B640-46A3-B63E-4DD4A3E2EC18}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{8B04EAF8-EE09-42D2-9DEF-13288D874C2B}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{8F0DD571-F43C-4535-8AA0-32DED090515F}" ShortID="692163804">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{AD8F84E1-22A8-4AAD-B87B-40A397BDBB45}" ShortID="565985200">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Indecis" ID="{8389890A-A6F0-4FFF-B078-6A841AD873AE}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="SILENCE" ID="{6EED0862-A6AF-4CFC-A3B2-1ADEF6E98CAB}" ShortID="965808831">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Silence" ID="{5D5ADC67-9CE0-4134-9FB4-01F761DCC700}" ShortID="660248933">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="1330.86190917516"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6210EE68-7A4C-44E0-9231-30141FB9A7C9}"/>
+										<MusicCue Name="Exit Cue" ID="{CC891A2E-A110-4D29-A85A-F495712993EF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="1000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{5C7879E3-7107-426D-A841-4D50E16B8174}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CB1DECF3-A6F7-4A09-9B0D-3AC7D1E2ADF1}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{D1C0F33D-1C4D-4D8F-8234-26F880D6D9A1}" ShortID="102311739">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{C310AA98-9FE8-4A8C-8AC2-065D9F2C28AD}" ShortID="757603999">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence" ID="{5D5ADC67-9CE0-4134-9FB4-01F761DCC700}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -4711,6 +6120,26 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}"/>
+								<PathElementRef Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}"/>
+								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="_Indecis_MENU" ID="{B43916D7-5581-4095-8C24-50ED960378AF}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="silence" ID="{9535F4C8-838D-4422-829A-F33CC949E7B4}"/>
+								<PathElementRef Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}"/>
+								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="SILENCE" ID="{6EED0862-A6AF-4CFC-A3B2-1ADEF6E98CAB}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

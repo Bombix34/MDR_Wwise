@@ -9,19 +9,8 @@
 			<ChildrenList>
 				<Folder Name="GAME" ID="{E04646C6-ADAA-4CA6-BEF8-C48C310FD3C0}" ShortID="224433350">
 					<ChildrenList>
-						<Event Name="GAME_launch" ID="{607BDAE5-1FFD-42DD-8E7B-2DED3040D700}"/>
-						<Event Name="GAME_start" ID="{A6D8D0F8-2538-47EC-A95F-7476CA16EC0E}">
+						<Event Name="GAME_launch" ID="{607BDAE5-1FFD-42DD-8E7B-2DED3040D700}">
 							<ChildrenList>
-								<Action Name="" ID="{EB9DF320-99EE-43DB-8958-4C713A7E67E3}" ShortID="152840282">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{93D9C974-3FE4-45B7-9F00-E040AD84021F}" ShortID="240556807">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="41"/>
@@ -60,6 +49,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}" WorkUnitID="{7C4D07C5-8218-4FB0-8E71-32F183B4DFB2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GAME_start" ID="{A6D8D0F8-2538-47EC-A95F-7476CA16EC0E}">
+							<ChildrenList>
+								<Action Name="" ID="{EB9DF320-99EE-43DB-8958-4C713A7E67E3}" ShortID="152840282">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -104,6 +107,8 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="GAME_festival" ID="{2BAF9349-BF7A-47B3-AD93-3B00295A0EE9}"/>
+						<Event Name="GAME_end" ID="{00BA69A4-0B68-4A32-B529-21BA140A9128}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MAIN CHARACTER" ID="{CAC61A7F-DE8B-45F0-A76B-AA2FC6FC3F28}" ShortID="238987790">
@@ -237,7 +242,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="ENV_Door_Close" ID="{F50454CD-9071-44CB-81B0-634A0100DC36}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -265,7 +270,7 @@
 								<Action Name="" ID="{E05F4EF8-97EB-437E-9B63-4C5F413504B1}" ShortID="683437402">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="[PH]_-_ENV_Door_Close" ID="{CA165822-6B74-4E8E-9EF6-7971AE6D5EF9}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+											<ObjectRef Name="ENV_Door_Close" ID="{F50454CD-9071-44CB-81B0-634A0100DC36}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -317,7 +322,23 @@
 						</Event>
 						<Event Name="ENV_orb_activated_play" ID="{409E00B1-2F23-432F-B708-4B1A2BC068B6}">
 							<ChildrenList>
+								<Action Name="" ID="{998D4F63-C83F-4D93-A5D3-B9A5EE9FE8A7}" ShortID="836744253">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{90ABE1E7-FB50-45B3-BBBE-469668B79987}" ShortID="339858613">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Orb_Hover" ID="{C72FD581-DA50-4BEF-B1DF-DDF8CA0BD9E9}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>

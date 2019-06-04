@@ -22,6 +22,8 @@
 					<ChildrenList>
 						<Switch Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
 						<Switch Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+						<Switch Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}"/>
+						<Switch Name="silence" ID="{9535F4C8-838D-4422-829A-F33CC949E7B4}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}">
