@@ -102,12 +102,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -385,12 +385,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -667,12 +667,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -924,12 +924,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>4.5</YPos>
+																<YPos>7.5</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
@@ -1231,12 +1231,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>3</YPos>
+																<YPos>6</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>1.38462</XPos>
-																<YPos>3</YPos>
+																<YPos>6</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>

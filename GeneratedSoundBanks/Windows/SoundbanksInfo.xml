@@ -41,7 +41,7 @@
 				<Event Id="2287292191" Name="MC_pick_big_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play"/>
 				<Event Id="2246829044" Name="MC_pick_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_item_play"/>
 				<Event Id="1776872349" Name="MC_pick_ORB" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_ORB"/>
-				<Event Id="993937570" Name="MC_pick_patoune" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_patoune"/>
+				<Event Id="993937570" Name="MC_pick_patoune" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_patoune" MaxAttenuation="20.000000"/>
 				<Event Id="1530932789" Name="MC_putdown_ORB" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_putdown_ORB" MaxAttenuation="0.000000"/>
 				<Event Id="2826582739" Name="MC_talk_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_talk_play"/>
 				<Event Id="1796000097" Name="MC_throw_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_throw_play"/>
@@ -405,10 +405,6 @@
 					<ShortName>Pnj_Sage_pasContent_03_Os.wav</ShortName>
 					<Path>SFX\Pnj_Sage_pasContent_03_Os_0B585075.wem</Path>
 				</File>
-				<File Id="468290503" Language="SFX">
-					<ShortName>villagemortpiste1.wav</ShortName>
-					<Path>SFX\villagemortpiste1_78072B9C.wem</Path>
-				</File>
 				<File Id="470893024" Language="SFX">
 					<ShortName>dirt\low\Footsteps_dirt_low-002.wav</ShortName>
 					<Path>SFX\dirt\low\Footsteps_dirt_low-002_34D806F2.wem</Path>
@@ -432,10 +428,6 @@
 				<File Id="481638089" Language="SFX">
 					<ShortName>Pnj_Chaman_Finquete_Os.wav</ShortName>
 					<Path>SFX\Pnj_Chaman_Finquete_Os_0B585075.wem</Path>
-				</File>
-				<File Id="484375454" Language="SFX">
-					<ShortName>villagemortpiste5.wav</ShortName>
-					<Path>SFX\villagemortpiste5_78072B9C.wem</Path>
 				</File>
 				<File Id="490523639" Language="SFX">
 					<ShortName>grass\bushes\bushes-004.wav</ShortName>
@@ -488,10 +480,6 @@
 				<File Id="522917517" Language="SFX">
 					<ShortName>AMB_sea_v1.wav</ShortName>
 					<Path>SFX\AMB_sea_v1_78072B9C.wem</Path>
-				</File>
-				<File Id="523902337" Language="SFX">
-					<ShortName>villagemortpiste2.wav</ShortName>
-					<Path>SFX\villagemortpiste2_78072B9C.wem</Path>
 				</File>
 				<File Id="524695818" Language="SFX">
 					<ShortName>grass\base\footsteps_grass-003.wav</ShortName>
@@ -637,10 +625,6 @@
 					<ShortName>Patoune_Pickup_LEFT-001.wav</ShortName>
 					<Path>SFX\Patoune_Pickup_LEFT-001_34D806F2.wem</Path>
 				</File>
-				<File Id="672502621" Language="SFX">
-					<ShortName>villagemortpiste4.wav</ShortName>
-					<Path>SFX\villagemortpiste4_78072B9C.wem</Path>
-				</File>
 				<File Id="672958016" Language="SFX">
 					<ShortName>grass\long\footsteps_long_grass-002.wav</ShortName>
 					<Path>SFX\grass\long\footsteps_long_grass-002_C2F8DC83.wem</Path>
@@ -700,10 +684,6 @@
 				<File Id="751077039" Language="SFX">
 					<ShortName>Nuit_v1\villlagenightcordes_v1.wav</ShortName>
 					<Path>SFX\Nuit_v1\villlagenightcordes_v1_78072B9C.wem</Path>
-				</File>
-				<File Id="751474565" Language="SFX">
-					<ShortName>villagemortpiste3.wav</ShortName>
-					<Path>SFX\villagemortpiste3_78072B9C.wem</Path>
 				</File>
 				<File Id="752214485" Language="SFX">
 					<ShortName>dirt\moist\Footsteps_Dirt_moist-006.wav</ShortName>

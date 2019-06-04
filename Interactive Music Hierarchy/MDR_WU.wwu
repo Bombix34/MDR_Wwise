@@ -41,7 +41,7 @@
 						<Property Name="Tempo" Type="Real64" Value="105"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4.5</Value>
+								<Value>-1.5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -57,6 +57,11 @@
 						<MusicPlaylistContainer Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" ShortID="914613095">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="105"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4.5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5069,7 +5074,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="_Indecis_MENU_02" ID="{769D1343-9EB1-4E4B-99F1-5BC12A865472}" ShortID="112468204">
+						<MusicPlaylistContainer Name="_Indecis_Whatev" ID="{769D1343-9EB1-4E4B-99F1-5BC12A865472}" ShortID="112468204">
 							<PropertyList>
 								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
 								<Property Name="Tempo" Type="Real64" Value="105"/>
@@ -5442,6 +5447,33 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicSwitchContainer Name="_Ceremonie_100BPM" ID="{A6DC3196-5622-4F0A-B30A-430719EF4EE4}" ShortID="1040765570">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1F57925E-E926-4A71-8EBE-1049F62FCC11}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2918655C-ED62-4384-99B2-F34BD8320B3F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{4A04A434-A1AC-408B-9B55-F942EE99A999}">
@@ -5467,7 +5499,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="NUIT" ID="{02392E31-DF5C-4F81-B431-40CF4EF7D090}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+											<ObjectRef Name="NUIT_fixed" ID="{49B435F6-82EA-45CA-A8B2-04DFCE7D2DB4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
 											<ObjectRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
@@ -5478,7 +5510,7 @@
 											<MusicFade Name="Source Fade-out" ID="{430C1822-0F1F-474F-AD1F-05392CCB263C}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -5486,9 +5518,9 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{9FD14547-4B33-4B87-9410-9922B75EBE07}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-2.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -5509,7 +5541,7 @@
 											<ObjectRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
-											<ObjectRef Name="NUIT" ID="{02392E31-DF5C-4F81-B431-40CF4EF7D090}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+											<ObjectRef Name="NUIT_fixed" ID="{49B435F6-82EA-45CA-A8B2-04DFCE7D2DB4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
@@ -5517,7 +5549,7 @@
 											<MusicFade Name="Source Fade-out" ID="{5C50864C-8FF2-40C1-BBED-BB8F1D94762A}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -5526,8 +5558,8 @@
 											<MusicFade Name="Destination Fade-in" ID="{E6B5EF32-0506-4B7B-8412-F36BE00255A8}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-2.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -5556,7 +5588,7 @@
 											<MusicFade Name="Source Fade-out" ID="{44A0C39B-ED51-4C1F-82B0-ED26AAD92861}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -5565,8 +5597,8 @@
 											<MusicFade Name="Destination Fade-in" ID="{3CC4D10F-03E5-479E-B960-85DB0E89A59A}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -5597,7 +5629,7 @@
 											<MusicFade Name="Source Fade-out" ID="{C99EA05A-C246-48E3-B604-6F0D44A9F734}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -5606,47 +5638,8 @@
 											<MusicFade Name="Destination Fade-in" ID="{53B16125-0EFF-4E2D-92CD-D27DCB6F7A37}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
-												</PropertyList>
-											</MusicFade>
-										</DestinationFadeIn>
-									</TransitionInfo>
-								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{E9744AF3-AAD9-4468-9240-876F9E4299CA}">
-									<PropertyList>
-										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
-										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
-										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
-										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
-										<Property Name="SourceContextType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
-										</Reference>
-										<Reference Name="SourceContextObject">
-											<ObjectRef Name="NUIT_fixed" ID="{49B435F6-82EA-45CA-A8B2-04DFCE7D2DB4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
-										</Reference>
-									</ReferenceList>
-									<TransitionInfo>
-										<SourceFadeOut>
-											<MusicFade Name="Source Fade-out" ID="{21171306-62F2-4C87-B6BF-36B6D82269A9}">
-												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
-													<Property Name="FadeType" Type="int16" Value="1"/>
-												</PropertyList>
-											</MusicFade>
-										</SourceFadeOut>
-										<DestinationFadeIn>
-											<MusicFade Name="Destination Fade-in" ID="{0D0A53BD-DDC6-4427-90BD-C87C6AA8B230}">
-												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -5745,7 +5738,7 @@
 											<ObjectRef Name="Morbide" ID="{1E1CFFD1-6449-42E3-A261-0619EA34C820}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
-											<ObjectRef Name="NUIT" ID="{02392E31-DF5C-4F81-B431-40CF4EF7D090}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+											<ObjectRef Name="NUIT_fixed" ID="{49B435F6-82EA-45CA-A8B2-04DFCE7D2DB4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
@@ -5781,7 +5774,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="NUIT" ID="{02392E31-DF5C-4F81-B431-40CF4EF7D090}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+											<ObjectRef Name="NUIT_fixed" ID="{49B435F6-82EA-45CA-A8B2-04DFCE7D2DB4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
 											<ObjectRef Name="Morbide" ID="{1E1CFFD1-6449-42E3-A261-0619EA34C820}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
@@ -5871,14 +5864,12 @@
 					</TransitionList>
 					<ArgumentList>
 						<ArgumentRef Name="music_switch" ID="{D629360F-D48A-4DE7-8AE9-73743830880E}"/>
-						<ArgumentRef Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}"/>
 						<ArgumentRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
 								<PathElementRef Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
-								<PathElementRef Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}"/>
 								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -5887,8 +5878,34 @@
 						</Entry>
 						<Entry>
 							<Path>
+								<PathElementRef Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}"/>
+								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="_Ceremonie_100BPM" ID="{A6DC3196-5622-4F0A-B30A-430719EF4EE4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="silence" ID="{9535F4C8-838D-4422-829A-F33CC949E7B4}"/>
+								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="SILENCE" ID="{6EED0862-A6AF-4CFC-A3B2-1ADEF6E98CAB}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="menu" ID="{0B0044D6-9379-46D4-8261-89098AB1BEF5}"/>
+								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="_Indecis_MENU" ID="{B43916D7-5581-4095-8C24-50ED960378AF}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
 								<PathElementRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
-								<PathElementRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
 								<PathElementRef Name="night" ID="{113BF0F0-0AF8-4538-9072-81AFF33ADE68}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -5898,18 +5915,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
-								<PathElementRef Name="bad" ID="{250C1D68-A12E-4E98-B311-F7906BC3628D}"/>
-								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="Morbide" ID="{1E1CFFD1-6449-42E3-A261-0619EA34C820}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
-								<PathElementRef Name="good" ID="{346A9699-745C-459A-93FA-22C62AEABB4A}"/>
-								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+								<PathElementRef Name="evening" ID="{DCF21C54-B4DE-4FCC-930F-3D4935883FAD}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
@@ -5917,22 +5923,20 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}"/>
-								<PathElementRef Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}"/>
-								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+								<PathElementRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+								<PathElementRef Name="noon" ID="{CF2FC638-AA63-4DDA-9CD4-FA950CD5605C}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="_Indecis_MENU" ID="{B43916D7-5581-4095-8C24-50ED960378AF}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+								<AudioNodeRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="silence" ID="{9535F4C8-838D-4422-829A-F33CC949E7B4}"/>
-								<PathElementRef Name="RTPC_CTRL_village_karma_switch" ID="{24BA4E2F-0A31-425E-9075-C7E8DB2D088C}"/>
-								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
+								<PathElementRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+								<PathElementRef Name="morning" ID="{1EE6E405-A0C1-48B5-AF5D-7AF09FD5CA0A}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="SILENCE" ID="{6EED0862-A6AF-4CFC-A3B2-1ADEF6E98CAB}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+								<AudioNodeRef Name="Village" ID="{878E3830-5BB4-4AC6-9F5A-8EBD417B189F}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

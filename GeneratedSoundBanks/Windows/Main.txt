@@ -47,7 +47,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	4151404395	Ocarina_04_Damaged			\MDR_WU\MUSIC\Ocarina_04_Damaged	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	53185091	RTPC_CTRL_village_karma_switch			\MDR_WU\RTPC_CTRL_village_karma_switch	
 	622529476	NPC_mood			\MDR_WU\NPC_mood	
 	1655898020	RTPC_CTRL_day_cycle			\MDR_WU\RTPC_CTRL_day_cycle	
 	1669145510	RTPC_CTRL_grass_type			\MDR_WU\RTPC_CTRL_grass_type	
@@ -56,8 +55,6 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	4168292868	floor_type			\MDR_WU\floor_type	
 
 Switch	ID	Name	Switch Group			Notes
-	513390134	bad	RTPC_CTRL_village_karma_switch			
-	668632890	good	RTPC_CTRL_village_karma_switch			
 	1427264549	Happy	NPC_mood			
 	2684142446	Upset	NPC_mood			
 	2795369287	Quest_end	NPC_mood			
@@ -69,6 +66,7 @@ Switch	ID	Name	Switch Group			Notes
 	1427625975	bush	RTPC_CTRL_grass_type			
 	2585211341	short	RTPC_CTRL_grass_type			
 	2412970801	festival	music_switch			
+	2607556080	menu	music_switch			
 	2937832959	battle	music_switch			
 	3041563226	silence	music_switch			
 	3945572659	village	music_switch			
@@ -92,7 +90,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1642165204	water_distance			\MDR_WU\water_distance	
 	1870090125	game_time			\MDR_WU\game_time	
 	2882100565	grass_height			\MDR_WU\grass_height	
-	3200455562	village_karma			\MDR_WU\village_karma	
 
 Effect plug-ins	ID	Name	Type				Notes
 	109045632	Vibrato	Wwise Flanger			
@@ -187,14 +184,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	457199086	Pnj_Paysan_PasContent_02_Os	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Pnj_Paysan_PasContent_02_Os_0B585075.wem		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopées_DIALOGUE_STARTER\PAYSAN\Upset\Pnj_Paysan_PasContent_02_Os		21852
 	466126796	musvillagepiste5	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\musvillagepiste5_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\Village_P2\musvillagepiste5		1338337
 	467696191	Pnj_Sage_pasContent_03_Os	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Pnj_Sage_pasContent_03_Os_0B585075.wem		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopées_DIALOGUE_STARTER\SAGE\Upset\Pnj_Sage_pasContent_03_Os		14817
-	468290503	villagemortpiste1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\villagemortpiste1_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\villagemortpiste1		1140091
 	470893024	Footsteps_dirt_low-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\dirt\low\Footsteps_dirt_low-002_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\low\Footsteps_dirt_low-002		6396
 	473236146	outsidevillagepiste5	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\outsidevillagepiste5_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\_Indecis_MENU\Indecis\outsidevillagepiste5		1236283
 	477235133	musvillagepiste3	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\musvillagepiste3_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Village\Village_P2\musvillagepiste3		862766
 	478720960	455062__audioninja001__footsteps-wet-sand-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\sand\455062__audioninja001__footsteps-wet-sand-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-001		7148
 	478773820	Pnj_Sage_Content_01_Os	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Pnj_Sage_Content_01_Os_0B585075.wem		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopées_DIALOGUE_STARTER\SAGE\Happy\Pnj_Sage_Content_01_Os		9950
 	481638089	Pnj_Chaman_Finquete_Os	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Pnj_Chaman_Finquete_Os_0B585075.wem		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopées_DIALOGUE_STARTER\CHAMAN\Pnj_Chaman_Finquete_Os		19460
-	484375454	villagemortpiste5	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\villagemortpiste5_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\villagemortpiste5		565594
 	490523639	bushes-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\bushes\bushes-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-004		19102
 	494598650	Pnj_Troub_PasContent_03_Os	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Pnj_Troub_PasContent_03_Os_0B585075.wem		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopées_DIALOGUE_STARTER\TROUBADOUR\Upset\Pnj_Troub_PasContent_03_Os		19338
 	495327061	villlagenightdrums_v1-glued	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\villlagenightdrums_v1-glued_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT_fixed\Nuit_transition\villlagenightdrums_v1-glued		625635
@@ -208,7 +203,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	516241765	Footsteps_dirt_low-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\dirt\low\Footsteps_dirt_low-007_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\low\Footsteps_dirt_low-007		4904
 	516276029	Pnj_Chaman_Content_02_Os	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Pnj_Chaman_Content_02_Os_0B585075.wem		\Actor-Mixer Hierarchy\MDR_WU\Voice\Onomatopées_DIALOGUE_STARTER\CHAMAN\Happy\Pnj_Chaman_Content_02_Os		13518
 	522917517	AMB_sea_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\AMB_sea_v1_78072B9C.wem		\Actor-Mixer Hierarchy\MDR_WU\Ambiance\AMB\AMB_sea_v1		2056364
-	523902337	villagemortpiste2	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\villagemortpiste2_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\villagemortpiste2		1183733
 	524695818	footsteps_grass-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\base\footsteps_grass-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\base\footsteps_grass-003		7531
 	532901103	footsteps_water-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\wet_sand\water\footsteps_water-003_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\wet_sand\water\footsteps_water-003		9533
 	546107066	AMB_lake_sea_base_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\AMB_lake_sea_base_v1_78072B9C.wem		\Actor-Mixer Hierarchy\MDR_WU\Ambiance\AMB\AMB_lake_sea_base_v1		2019740
@@ -245,7 +239,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	670593209	CRATE_Destroy_DEBRIS-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Crate_Destroy\debris\CRATE_Destroy_DEBRIS-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Box_Destroy\debris\CRATE_Destroy_DEBRIS-004		20343
 	670798494	bushes-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\bushes\bushes-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-006		18857
 	672434346	Patoune_Pickup_LEFT-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Patoune_Pickup_LEFT-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Items\Pattounes_Pickup\rnd_L\Patoune_Pickup_LEFT-001		13974
-	672502621	villagemortpiste4	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\villagemortpiste4_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\villagemortpiste4		846613
 	672958016	footsteps_long_grass-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\long\footsteps_long_grass-002_C2F8DC83.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\long_grass_sw\long\footsteps_long_grass-002		14431
 	679674946	455062__audioninja001__footsteps-wet-sand-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\sand\455062__audioninja001__footsteps-wet-sand-005_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\sand\455062__audioninja001__footsteps-wet-sand-005		6684
 	682606857	Footsteps_Dirt_moist-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\dirt\moist\Footsteps_Dirt_moist-004_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\moist\Footsteps_Dirt_moist-004		9855
@@ -261,7 +254,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	730619784	bushes-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\bushes\bushes-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-001		16121
 	732420796	bushes-007	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\bushes\bushes-007_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\bushes_sw\bushes\bushes-007		19021
 	751077039	villlagenightcordes_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\Nuit_v1\villlagenightcordes_v1_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\NUIT_fixed\Nuit_v1\villlagenightcordes_v1		751333
-	751474565	villagemortpiste3	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\villagemortpiste3_78072B9C.wem		\Interactive Music Hierarchy\MDR_WU\Main_Music\Morbide\village_morbide_v0_1\villagemortpiste3		1298237
 	752214485	Footsteps_Dirt_moist-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\dirt\moist\Footsteps_Dirt_moist-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\dirt\moist\Footsteps_Dirt_moist-006		8949
 	753629261	Wood_slide-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\slide\Wood_slide-006_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\Wood\slide\Wood_slide-006		5874
 	756655636	footsteps_grass-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-03-17_[Projet_M1_-_MDR]\_MDR-Wwise\.cache\Windows\SFX\grass\base\footsteps_grass-001_34D806F2.wem		\Actor-Mixer Hierarchy\MDR_WU\SFX\Footsteps\Footsteps_MC\Surfaces\grass\base\footsteps_grass-001		5871

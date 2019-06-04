@@ -6006,7 +6006,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-4.5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6398,7 +6398,7 @@
 										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>20</Value>
+												<Value>23</Value>
 											</ValueList>
 										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
@@ -6409,6 +6409,11 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7350,6 +7355,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Items_attenuation" ID="{F9D67F73-7294-484C-B4AC-CABF3EDD7B2D}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
 												</Reference>
@@ -7458,6 +7466,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Items_attenuation" ID="{F9D67F73-7294-484C-B4AC-CABF3EDD7B2D}" WorkUnitID="{950B0E61-6ACD-4EFF-9B12-80BDC38116EC}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
 												</Reference>
@@ -10112,6 +10123,11 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="18"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -10164,7 +10180,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-4.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -10345,7 +10361,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-9</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{BF43B1F7-1522-440E-A11E-DFC052E0F887}" ShortID="321879967">

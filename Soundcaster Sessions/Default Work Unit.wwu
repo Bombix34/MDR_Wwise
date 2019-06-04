@@ -41,6 +41,14 @@
 							<ObjectRef Name="ENV_orb_activated_play" ID="{409E00B1-2F23-432F-B708-4B1A2BC068B6}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="3" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Box_Destroy" ID="{BF5B4A77-042D-4446-9F2C-ECCDB053C610}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pot_Destroy" ID="{09FF29E6-A4B7-4DB8-8AC4-4B3ADECAD159}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+							<Position X="3" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -53,7 +61,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}"/>
-							<Value>36.3923865300146</Value>
+							<Value>16.2</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="volume_voices" ID="{672292FC-2E33-41B0-A3B3-5D0C05DD2E8B}"/>
@@ -113,7 +121,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ww_DEBUG_zik_speed" ID="{17022FD5-72D6-4A5B-A625-2706C8AD93D3}"/>
-							<Value>1.33256379737279E-311</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="grass_height" ID="{4F48CB99-0137-4B30-BB8E-9EFE5E39A1B1}"/>
@@ -153,8 +161,8 @@
 						<CurrentSwitchRef Name="Artisant" ID="{1209259D-04D3-4416-A16F-06616FC01B18}"/>
 						<CurrentSwitchRef Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<CurrentSwitchRef Name="bush" ID="{D881B1D0-8743-4861-AEBB-85F3F94E3B22}"/>
-						<CurrentSwitchRef Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
-						<CurrentSwitchRef Name="noon" ID="{CF2FC638-AA63-4DDA-9CD4-FA950CD5605C}"/>
+						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+						<CurrentSwitchRef Name="night" ID="{113BF0F0-0AF8-4538-9072-81AFF33ADE68}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="SFX_testing" ID="{51A59C9B-F21F-4095-9BF9-6CE7615B8172}">
