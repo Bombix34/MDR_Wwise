@@ -111,6 +111,7 @@
 				<Event Name="UI_camera_zoom_play" ID="{D0194909-4DBB-45E8-8563-C67EA773F051}"/>
 				<Event Name="UI_camera_dezoom_play" ID="{42DA8E4D-EB6E-42C9-A44E-EFE920FA23B3}"/>
 				<Event Name="UI_pause_menu_play" ID="{C93431B9-A12E-4BA4-9038-0A213015E826}"/>
+				<Event Name="GAME_over" ID="{25D05C53-274A-4D74-B492-28A5AA702897}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

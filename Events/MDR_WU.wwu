@@ -45,6 +45,7 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="38"/>
 										<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -59,6 +60,7 @@
 								<Action Name="" ID="{EB9DF320-99EE-43DB-8958-4C713A7E67E3}" ShortID="152840282">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -92,7 +94,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="GAME_over" ID="{25D05C53-274A-4D74-B492-28A5AA702897}"/>
 						<Event Name="GAME_fake_fight" ID="{E3EB4B9A-A078-4542-9EF4-6A7D191DA27E}">
 							<ChildrenList>
 								<Action Name="" ID="{12BD3130-BD78-4898-94A4-6A1FF125EC66}" ShortID="582540468">
@@ -107,8 +108,110 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="GAME_festival" ID="{2BAF9349-BF7A-47B3-AD93-3B00295A0EE9}"/>
-						<Event Name="GAME_end" ID="{00BA69A4-0B68-4A32-B529-21BA140A9128}"/>
+						<Event Name="GAME_festival" ID="{2BAF9349-BF7A-47B3-AD93-3B00295A0EE9}">
+							<ChildrenList>
+								<Action Name="" ID="{C5C4BFBE-D18D-4142-9528-E277708C5B9E}" ShortID="308291169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{793AB4D5-9E7C-43D9-B03E-5FC5B70353E9}" ShortID="795925299">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ED859BEA-C7FC-496D-B87F-5EBA88CB436B}" ShortID="780797454">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GAME_end" ID="{00BA69A4-0B68-4A32-B529-21BA140A9128}">
+							<ChildrenList>
+								<Action Name="" ID="{8F9C6284-71D2-4DF5-8D8A-FDD33512C142}" ShortID="28804224">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GAME_menu" ID="{CE923E1B-12AC-4AC2-A6C0-B40168B70C9E}">
+							<ChildrenList>
+								<Action Name="" ID="{E84D5E88-264E-4753-80F9-E7D3CE2BE823}" ShortID="325590922">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4230EE59-38D2-4B6F-9CA9-4611532D63EF}" ShortID="146763022">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="menu" ID="{0B0044D6-9379-46D4-8261-89098AB1BEF5}" WorkUnitID="{C2AC60C7-A3F3-4A02-B705-DCBB1EE2A765}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{36F0760E-4A9F-4C89-ABA8-FBDA89B28620}" ShortID="911068697">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GAME_silence" ID="{2689B9AA-E583-43E9-83E2-C53DE7B23F90}">
+							<ChildrenList>
+								<Action Name="" ID="{D2988E55-1E71-4E39-A2FC-96573BE2E84C}" ShortID="735478628">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB" ID="{12FEFD51-0D2B-4376-B25D-DE8EE5029769}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{54650B6D-EA7C-4FD0-822F-5BB15D4321F2}" ShortID="1025449727">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MAIN CHARACTER" ID="{CAC61A7F-DE8B-45F0-A76B-AA2FC6FC3F28}" ShortID="238987790">
@@ -326,7 +429,7 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.75"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -335,9 +438,22 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{14C1E126-FA6B-4C7A-9B20-D9A21E932B9E}" ShortID="319694424">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB" ID="{12FEFD51-0D2B-4376-B25D-DE8EE5029769}" WorkUnitID="{D0194AFF-1D15-4537-A735-E6191FD80290}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{90ABE1E7-FB50-45B3-BBBE-469668B79987}" ShortID="339858613">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

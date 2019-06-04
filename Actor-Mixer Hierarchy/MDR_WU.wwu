@@ -6396,6 +6396,7 @@
 												<Value>5</Value>
 											</ValueList>
 										</Property>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>23</Value>
@@ -6403,12 +6404,7 @@
 										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -6433,9 +6429,15 @@
 														<Value>5</Value>
 													</ValueList>
 												</Property>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 												<Property Name="Lowpass" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>3</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
@@ -6449,6 +6451,11 @@
 															</Modifier>
 														</ModifierInfo>
 													</ModifierList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -6652,6 +6659,12 @@
 										</BlendContainer>
 										<RandomSequenceContainer Name="Rip" ID="{D2784106-045C-485F-81D8-4DCBD070DF12}" ShortID="706876450">
 											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -6665,6 +6678,11 @@
 													</ModifierList>
 												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -8136,6 +8154,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -8222,7 +8245,7 @@
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-18</Value>
+														<Value>-12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -8368,6 +8391,13 @@
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="Orb_Hold" ID="{33EE9C1D-E756-41A3-A97E-C9E984EFD4F4}" ShortID="772199949">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
@@ -10125,7 +10155,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>1.5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

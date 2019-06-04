@@ -143,11 +143,6 @@
 						</Sound>
 						<Sound Name="[PH]_-_UI_confirm" ID="{5D76826C-E893-46DA-8107-B1261C2F3939}" ShortID="422167654">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -160,6 +155,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_Player_Comfort_Create_-_190126_21h17" ID="{580B8334-6123-4492-B28A-0FAB435699AE}" ShortID="108842407">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.150957320811089"/>
+										<Property Name="FadeInShape" Type="int16" Value="7"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.21237598276406"/>
+										<Property Name="FadeOutShape" Type="int16" Value="2"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.24567464781188E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.33974622219842"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_Player_Comfort_Create_-_190126_21h17.wav</AudioFile>
 								</AudioFileSource>

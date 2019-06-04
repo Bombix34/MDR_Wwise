@@ -5447,7 +5447,7 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
-						<MusicSwitchContainer Name="_Ceremonie_100BPM" ID="{A6DC3196-5622-4F0A-B30A-430719EF4EE4}" ShortID="1040765570">
+						<MusicPlaylistContainer Name="_Ceremonie" ID="{F2A50D9B-4598-4205-82D5-294E85AAF271}" ShortID="389973619">
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="100"/>
@@ -5460,20 +5460,1726 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Ceremonie_INTRO" ID="{3BBD271E-539A-47C7-8F1F-A4547FBF26E5}" ShortID="721621529">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="53142.8571428571"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{25F49544-071F-43AF-AA04-C314B494ED74}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="festival22piste1_TRUMPET1" ID="{36E40E68-EABD-470E-9FAC-07D2C3E2DCDC}" ShortID="19817246">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste1" ID="{F1B435FC-2FD5-400D-92A5-1DFFC06CE34D}" ShortID="502120395">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6BCA8ED4-33CF-43BA-AA0A-466980B1B4C1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3E833F3C-8973-4460-8E96-7A19DD4179E8}">
+													<ClipList>
+														<MusicClip Name="festival22piste1" ID="{6BE5B8F9-27EF-4664-B4A3-871784B7082D}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste1" ID="{F1B435FC-2FD5-400D-92A5-1DFFC06CE34D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{978A4111-3377-4BFA-9BE2-2EED469EA193}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{55135D63-2BE6-4FE4-8F1B-22D47AAB637B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{24DC4018-1AA2-4D8E-8F1F-4553AD4BD05A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste2" ID="{75A0B702-C087-4F03-A989-189FD8EDEFC7}" ShortID="281921253">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste2" ID="{5A0693FE-BAE8-41DF-8195-8F3134E85064}" ShortID="122277102">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EF732CEF-8F1E-4055-9CE6-A18B4C99C403}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{60E89094-C4BC-4A10-A3A1-B054BB6E2EB0}">
+													<ClipList>
+														<MusicClip Name="festival22piste2" ID="{0CB7728B-5BE3-4EA6-9E4A-4CFDF4690ED7}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste2" ID="{5A0693FE-BAE8-41DF-8195-8F3134E85064}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{F42B0E7A-2986-4A80-9F42-4C6E93E80C04}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{DDB040E4-CAF8-48D8-B603-5852CEC60DB0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FF190B3B-DC3B-41C2-B16B-B65B8BE4C8AE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste3" ID="{24FDACCA-B579-4D6B-BE7F-883AAEF5BC28}" ShortID="666621460">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste3" ID="{2857AE1F-7150-427A-802B-5D8604CB8724}" ShortID="964748613">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{38E21A11-43EB-4007-BE4F-E372B31176FE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C838A7C0-594B-4FB6-AB9C-2EDD296B1DE5}">
+													<ClipList>
+														<MusicClip Name="festival22piste3" ID="{7175F828-9E43-451E-9E81-443B55B50147}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste3" ID="{2857AE1F-7150-427A-802B-5D8604CB8724}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{F75D7C8A-A715-40AE-B446-58E61BD3203C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{170DA064-AE1A-483E-810F-49F92A2E6EBB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{D6DD006E-1725-4A67-A00E-9C7294ED4E81}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste4" ID="{F14CA4FB-B1E3-4928-88ED-2D4F20C14E4D}" ShortID="516627875">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste4" ID="{6A1B97FF-C858-4017-AD63-298D4ECB8E93}" ShortID="1064901289">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F9D57D9A-E2BA-4107-9AC4-FA228CAA2E3A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{9C223D9B-2CD6-4515-8DC6-46D6117AF89B}">
+													<ClipList>
+														<MusicClip Name="festival22piste4" ID="{E91C1244-EF5C-46C3-842E-0395C6D2AAAA}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste4" ID="{6A1B97FF-C858-4017-AD63-298D4ECB8E93}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{551FED03-7B2F-4E82-8DB9-33A71B7BA606}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{54D1061D-F79B-4BC7-8F87-544F2DF75B71}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{4EFB946A-D99C-451A-820A-38B5439EF029}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste5" ID="{047CA229-ACB8-4264-AC32-EDF3BD6D047A}" ShortID="313994004">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste5" ID="{8AB677FA-C8A4-444C-80F0-088A7C045938}" ShortID="366305666">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DC35DB94-3898-46C2-A157-F5E3161083BE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{87D4FF0B-8D85-45AB-A95F-970456FA318D}">
+													<ClipList>
+														<MusicClip Name="festival22piste5" ID="{4ECC5655-DAE2-487E-8B91-78986441A6CE}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste5" ID="{8AB677FA-C8A4-444C-80F0-088A7C045938}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{C01070B9-64B1-40E9-BC75-F086EFBC5556}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{29322712-FCCD-4B7B-A326-4B8C42777F2E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{666B8613-6F0D-4D8E-BB2C-37D8F923CEE9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste6" ID="{5693AA70-01D0-4EFE-9DF9-3F7CF6CCFFC1}" ShortID="937544512">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste6" ID="{DA8C778B-19A8-46D8-A7E0-927064D01703}" ShortID="562238624">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{058F2E8B-ED37-4561-85DD-2EDA8268A6E8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4A8E03F5-6B45-4132-A447-E15FBF0895F5}">
+													<ClipList>
+														<MusicClip Name="festival22piste6" ID="{5FF2E757-DCDD-48ED-908E-8BA371FB48E8}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste6" ID="{DA8C778B-19A8-46D8-A7E0-927064D01703}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D4660B1C-7423-49D1-ACCA-99A81B6B0578}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{FA20B208-8545-40EE-A674-C684E1CB0073}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AE891B48-4DE1-4189-ACF4-28B68D88FE90}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste7" ID="{89FD19BE-5CA9-46E4-8515-7E964F7E69D9}" ShortID="994393349">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste7" ID="{70EC14C5-CF10-42BA-B0B9-C07493BA44D1}" ShortID="457441264">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{854BE077-33E9-4C58-86A3-6688A97ED559}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{CE6E4369-63C9-4449-A4E2-8540D74CB3B4}">
+													<ClipList>
+														<MusicClip Name="festival22piste7" ID="{F1CB7E63-21B9-4542-8E9D-A558869AC00E}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste7" ID="{70EC14C5-CF10-42BA-B0B9-C07493BA44D1}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{70905239-84A6-4BEB-BF43-DCBBC4184F35}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{34AE2FB5-9739-4185-AB26-74C67E42676D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{30C07FED-09AF-4E87-B50F-84A2E20C9C0C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste8" ID="{2B47A9C7-C67A-420F-A0FB-42B880975348}" ShortID="632300345">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste8" ID="{D74BBF1E-BDCA-4C41-B78C-627CF68C30F7}" ShortID="161537991">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{11894569-17EF-409E-A7DE-6A03665767FF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{27572E9D-0703-4D98-8B98-7B985890A627}">
+													<ClipList>
+														<MusicClip Name="festival22piste8" ID="{C29AA154-78FF-4486-9DD5-C6F1F5A7F1CD}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2400"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-2400"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste8" ID="{D74BBF1E-BDCA-4C41-B78C-627CF68C30F7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{543D16D0-491D-4E0C-BACD-70E71E667543}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A564D3D7-62DF-470F-83E2-1DB94C5D9A63}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{C0DAD410-5E09-4D02-BB30-611A9F1A31D2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.4</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste1_TRUMPET2" ID="{EF9D8070-4235-42BB-9A61-206E6C5521C0}" ShortID="755157495">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3DA60EF1-3555-4278-A322-952FB35A7410}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{CA7BA6A8-3922-446E-93AF-A257192A48DD}"/>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B8F90537-CDDE-44AC-B775-33254A45321C}"/>
+										<MusicCue Name="Exit Cue" ID="{5C440FFA-5BE7-42BE-AA72-A844A93E0FDA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="49800"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Ceremonie" ID="{77059754-F8DC-4877-B8E1-2977238C8F85}" ShortID="15824803">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="53142.8571428571"/>
+										<Property Name="Tempo" Type="Real64" Value="100"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="festival22piste2" ID="{20EA7B5D-779C-4C77-BBC0-44DFF573FCB5}" ShortID="896229152">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste2" ID="{6E300A71-D7DF-476B-B790-66A5C89900C2}" ShortID="443749831">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste2.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="122277102"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{482B47BD-B30E-4709-B28C-C930D88F7506}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4BB3604D-3867-4093-89B1-0647761A2668}">
+													<ClipList>
+														<MusicClip Name="festival22piste2" ID="{6430BB7D-6940-4DE9-BD56-0CBDA67676E5}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste2" ID="{6E300A71-D7DF-476B-B790-66A5C89900C2}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{ED378886-CCC8-4A13-B7A7-5E40AF4D41BA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E0495C87-AC28-495E-A279-66A668ABAEB6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{320A5D31-AA91-434C-9979-87AABEABBC52}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste3" ID="{D8A0758A-8EB2-4A2C-A0F5-DF9DA8885DD6}" ShortID="377096510">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste3" ID="{800C9D5C-DB78-4A28-B562-D85B03620BD7}" ShortID="535506451">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste3.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="964748613"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BBFFE19D-9F63-4446-8028-91CAA4EDF27D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B0F845C0-40E6-4354-90A3-250CFA6BFD00}">
+													<ClipList>
+														<MusicClip Name="festival22piste3" ID="{410518CA-0ECD-46B7-B2F3-01FAB9638485}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste3" ID="{800C9D5C-DB78-4A28-B562-D85B03620BD7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{846EF94F-BB7E-4AF6-B779-3243456D8D43}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D0B13767-E0D8-4C05-84A5-ECFC66BDDEF6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{F7A0D50B-5D63-4E48-9978-70921C704D22}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste4" ID="{C595A116-539E-434E-B24B-41FCA66E1CCA}" ShortID="235026303">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste4" ID="{2AEE8C9D-CDD1-494C-8CC7-133DC9AC0390}" ShortID="548304820">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste4.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1064901289"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{46CB679B-A6F7-4181-A50F-801778F1B3DA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6AE55E99-6BD7-4650-BB0D-B323009B3441}">
+													<ClipList>
+														<MusicClip Name="festival22piste4" ID="{72E0B1DB-DE1F-4E50-90C7-DCACF23CF54A}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste4" ID="{2AEE8C9D-CDD1-494C-8CC7-133DC9AC0390}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{B0455758-193A-4ED8-8638-CD9CEFF40C62}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{2D9362BE-7BED-4CE0-9CB1-52BBDCBB8328}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{ADA8FD03-0600-4AB5-A537-6682CF5301D5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste5" ID="{4737095B-C2C0-4F87-9F93-9C091D47CE6B}" ShortID="1013397608">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste5" ID="{C6CB4E65-201B-44D5-99E1-631CBC3DA605}" ShortID="516456745">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste5.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="366305666"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F39984BE-F966-48E9-A929-07764EF2756E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1798384B-156C-4443-8F79-D4498E3A8515}">
+													<ClipList>
+														<MusicClip Name="festival22piste5" ID="{295BE411-ADCB-4F50-958B-BC1300F61F15}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste5" ID="{C6CB4E65-201B-44D5-99E1-631CBC3DA605}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{35B0158D-FEAE-42CD-8476-5E2A60597D20}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E78A96EB-E157-40EF-85B5-64A2559906AB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{B5614906-43F7-4D12-82F2-863EFC42B021}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste6" ID="{41B3A7B0-1B22-4849-AC2F-749787EB238B}" ShortID="98695080">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste6" ID="{EEB86AE8-6A5E-4717-83C3-0C3FA48274F7}" ShortID="901729486">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste6.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="562238624"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8D198C39-595D-4AA0-B310-3F41448614BF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{08AAB182-1FB1-40B4-AF29-A8DDFC7F414C}">
+													<ClipList>
+														<MusicClip Name="festival22piste6" ID="{A8066D2A-8BD5-46FB-9B00-C59C4507428B}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste6" ID="{EEB86AE8-6A5E-4717-83C3-0C3FA48274F7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{A7616C13-78DB-48B0-8998-D98162A9A49D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{E0C699D9-C388-4EB8-98FF-572958119171}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{598C57BA-BE90-42DF-A0D9-62A57C65F1F0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste7" ID="{75835483-3F1D-40CD-B799-3A2AB3CCF089}" ShortID="751185640">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste7" ID="{28385D07-2837-4398-9C80-C0EF8C7F7364}" ShortID="509241976">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste7.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="457441264"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DB3AF8A8-1FEB-492C-84B9-8AB43B27C3F9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{76F466A0-73AC-48CC-BE9E-68C10CB01CEF}">
+													<ClipList>
+														<MusicClip Name="festival22piste7" ID="{339304B1-C933-4AD7-AFC0-997AB02BB301}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste7" ID="{28385D07-2837-4398-9C80-C0EF8C7F7364}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{ECCC38B5-9063-4B27-9FF6-9D1780486F9A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{DB3A1A28-5957-4717-A56F-A3D4E6D06CC9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FA5DD670-BD2E-49C7-AEF4-B0718CA79632}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste8" ID="{F5CEBBEF-2462-4E2D-845D-7DE1BA961538}" ShortID="742030579">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste8" ID="{5FB4EBC0-72E5-4C51-9373-A3E903C31645}" ShortID="490239204">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste8.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="161537991"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{56CA96D8-1089-4F40-9B7D-3E29AEAEEA17}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{463B5996-A087-49F6-920E-FFD372B26754}">
+													<ClipList>
+														<MusicClip Name="festival22piste8" ID="{44150E96-32BB-4350-985A-82C4D86D5FBF}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste8" ID="{5FB4EBC0-72E5-4C51-9373-A3E903C31645}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{359E50B5-BA57-4C8E-BA83-F52DC5C10E42}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{474F6A0C-B8DB-446B-954A-2AB94EE44765}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{601186EB-7DEA-4309-A451-BFAFC53C760A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="festival22piste1_TRUMPET2" ID="{AF852D81-8CD3-422D-B9F9-0008D09F326B}" ShortID="1014252278">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="MUSIC" ID="{A2B40838-0CEE-4DE3-BEB8-70C354F0A75D}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="festival22piste1" ID="{53BB5FC3-CCC9-42BA-9029-85C195273D9E}" ShortID="659612958">
+													<Language>SFX</Language>
+													<AudioFile>festival22piste1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="502120395"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{94E60AB0-A28D-41D7-B6BC-853CEC2B4C9D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3F35D769-C227-4E18-95E4-73C14A41A5F8}">
+													<ClipList>
+														<MusicClip Name="festival22piste1" ID="{58B615A1-E19D-4634-A449-466516BA5773}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="52806.2585034014"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-12000"/>
+															</PropertyList>
+															<AudioSourceRef Name="festival22piste1" ID="{53BB5FC3-CCC9-42BA-9029-85C195273D9E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{ED45CC69-21D5-4309-88EC-189862613609}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{AC9682B5-DA71-496A-BD47-CA13C5FAC3FF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FE86F154-CF09-4918-9912-BCC8A23AE0ED}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>52.8062585034014</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5BFB8C74-E998-4314-AD38-9AE9CB68E713}"/>
+										<MusicCue Name="Exit Cue" ID="{26BFAE93-A8C3-4586-883B-C94BB064354C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="49800"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
 							<TransitionList>
-								<MusicTransition Name="Root" ID="{1F57925E-E926-4A71-8EBE-1049F62FCC11}">
+								<MusicTransition Name="Root" ID="{DA89BEA2-5279-4E5A-BD9E-86E62A0C3BCD}">
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicTransition Name="Transition" ID="{2918655C-ED62-4384-99B2-F34BD8320B3F}">
+										<MusicTransition Name="Transition" ID="{CBADC113-FF17-46AF-88B6-CC92FB868A24}">
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-						</MusicSwitchContainer>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2BA8E75B-B8D8-45E1-85DD-4ECEFBABA9C6}" ShortID="858915031">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{DD30133A-45A9-4F98-97CA-D80F0136ED20}" ShortID="206067963">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Ceremonie" ID="{77059754-F8DC-4877-B8E1-2977238C8F85}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{4A04A434-A1AC-408B-9B55-F942EE99A999}">
@@ -5882,7 +7588,7 @@
 								<PathElementRef Name="RTPC_CTRL_day_cycle" ID="{A11830FF-EFC4-4EF9-BBC1-873076F9D3F3}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="_Ceremonie_100BPM" ID="{A6DC3196-5622-4F0A-B30A-430719EF4EE4}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
+								<AudioNodeRef Name="_Ceremonie" ID="{F2A50D9B-4598-4205-82D5-294E85AAF271}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>

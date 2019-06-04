@@ -14,28 +14,12 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Ocarina_02_Damaged" ID="{F33F8E62-3299-44EA-91AF-82A6998520A5}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<ObjectRef Name="GAME_end" ID="{00BA69A4-0B68-4A32-B529-21BA140A9128}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Ocarina_03_Damaged" ID="{5D56CDDD-5DAF-4E2F-B122-2A525A74785A}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
+							<ObjectRef Name="GAME_festival" ID="{2BAF9349-BF7A-47B3-AD93-3B00295A0EE9}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
 							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Ocarina_04_Damaged" ID="{86F6DFEC-BD9F-4E25-BEF2-FA3A8CAE8196}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
-							<Position X="1" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Ocarina_02_Destroyed" ID="{32B45085-BD99-4DC9-AACD-BB70DE54AA7B}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Ocarina_03_Destroyed" ID="{718A3B24-4FBE-4C5A-A424-EA69AB4F609F}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Ocarina_04_Destroyed" ID="{162E5A19-10D3-4803-B4B1-622616D925FB}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
-							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="ENV_orb_activated_play" ID="{409E00B1-2F23-432F-B708-4B1A2BC068B6}" WorkUnitID="{A987E2F6-EE64-408F-BDD1-0F41BDFEBFF6}"/>
@@ -61,7 +45,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="game_time" ID="{EB4EC6A7-712B-4151-8E70-2020AC98EC94}"/>
-							<Value>16.2</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="volume_voices" ID="{672292FC-2E33-41B0-A3B3-5D0C05DD2E8B}"/>
@@ -101,7 +85,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="water_distance" ID="{CBC3FAF1-358C-4699-A51F-3413841EEF41}"/>
-							<Value>0</Value>
+							<Value>30</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_MS_Gen" ID="{92AF9D43-118B-46B3-9900-A9EBC379E16A}"/>
@@ -161,7 +145,7 @@
 						<CurrentSwitchRef Name="Artisant" ID="{1209259D-04D3-4416-A16F-06616FC01B18}"/>
 						<CurrentSwitchRef Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<CurrentSwitchRef Name="bush" ID="{D881B1D0-8743-4861-AEBB-85F3F94E3B22}"/>
-						<CurrentSwitchRef Name="village" ID="{18B7A5AA-ED74-4441-9625-5E13B9B0C7A2}"/>
+						<CurrentSwitchRef Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}"/>
 						<CurrentSwitchRef Name="night" ID="{113BF0F0-0AF8-4538-9072-81AFF33ADE68}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

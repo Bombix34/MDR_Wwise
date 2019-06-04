@@ -1680,8 +1680,43 @@
 						<Effect Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
 							<PropertyList>
 								<Property Name="Voice1Pitch" Type="Real32" Value="400"/>
-								<Property Name="Voice2Pitch" Type="Real32" Value="100"/>
-								<Property Name="WetLevel" Type="Real32" Value="-9"/>
+								<Property Name="Voice2Enable" Type="bool" Value="True"/>
+								<Property Name="Voice2Gain" Type="Real32" Value="-4.5"/>
+								<Property Name="Voice2Pitch" Type="Real32" Value="700"/>
+								<Property Name="WetLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{DF2D2F69-F783-4A09-BA2F-06FA24B05BF5}" ShortID="710827588">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{C8E4054D-948B-4C3D-889F-8D2EBECE5741}" ShortID="474591961">
+															<PropertyList>
+																<Property Name="LfoFrequency" Type="Real64" Value="7.04"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5B689506-2F36-423E-B673-574127118FA9}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6.51846</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="WindowSize" Type="int32" Value="256"/>
 							</PropertyList>
 						</Effect>

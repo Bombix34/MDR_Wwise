@@ -33,9 +33,10 @@
 				<Event Id="1616179565" Name="ENV_tree_leaf_play" ObjectPath="\Events\MDR_WU\ENV_tree_leaf_play"/>
 				<Event Id="3271665593" Name="GAME_end" ObjectPath="\Events\MDR_WU\GAME\GAME_end" MaxAttenuation="0.000000"/>
 				<Event Id="1100552122" Name="GAME_fake_fight" ObjectPath="\Events\MDR_WU\GAME\GAME_fake_fight" MaxAttenuation="0.000000"/>
-				<Event Id="3061180182" Name="GAME_festival" ObjectPath="\Events\MDR_WU\GAME\GAME_festival" MaxAttenuation="0.000000"/>
+				<Event Id="3061180182" Name="GAME_festival" ObjectPath="\Events\MDR_WU\GAME\GAME_festival"/>
 				<Event Id="2732978883" Name="GAME_launch" ObjectPath="\Events\MDR_WU\GAME\GAME_launch" MaxAttenuation="0.000000"/>
-				<Event Id="1432716332" Name="GAME_over" ObjectPath="\Events\MDR_WU\GAME\GAME_over" MaxAttenuation="0.000000"/>
+				<Event Id="636067499" Name="GAME_menu" ObjectPath="\Events\MDR_WU\GAME\GAME_menu"/>
+				<Event Id="3290273171" Name="GAME_silence" ObjectPath="\Events\MDR_WU\GAME\GAME_silence" MaxAttenuation="0.000000"/>
 				<Event Id="733168346" Name="GAME_start" ObjectPath="\Events\MDR_WU\GAME\GAME_start"/>
 				<Event Id="538908709" Name="MC_attack_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_attack_play"/>
 				<Event Id="2287292191" Name="MC_pick_big_item_play" ObjectPath="\Events\MDR_WU\MAIN CHARACTER\MC_pick_big_item_play"/>
@@ -145,6 +146,10 @@
 					<ShortName>Crate_Destroy\CRATE_Destroy.wav</ShortName>
 					<Path>SFX\Crate_Destroy\CRATE_Destroy_34D806F2.wem</Path>
 				</File>
+				<File Id="122277102" Language="SFX">
+					<ShortName>festival22piste2.wav</ShortName>
+					<Path>SFX\festival22piste2_78072B9C.wem</Path>
+				</File>
 				<File Id="133245509" Language="SFX">
 					<ShortName>musvillagepiste1.wav</ShortName>
 					<Path>SFX\musvillagepiste1_78072B9C.wem</Path>
@@ -172,6 +177,10 @@
 				<File Id="159705370" Language="SFX">
 					<ShortName>villlagenightkalimb_v1.1.wav</ShortName>
 					<Path>SFX\villlagenightkalimb_v1.1_78072B9C.wem</Path>
+				</File>
+				<File Id="161537991" Language="SFX">
+					<ShortName>festival22piste8.wav</ShortName>
+					<Path>SFX\festival22piste8_78072B9C.wem</Path>
 				</File>
 				<File Id="162769574" Language="SFX">
 					<ShortName>peak\Wood_peak-004.wav</ShortName>
@@ -333,6 +342,10 @@
 					<ShortName>grass\base\footsteps_grass-009.wav</ShortName>
 					<Path>SFX\grass\base\footsteps_grass-009_34D806F2.wem</Path>
 				</File>
+				<File Id="366305666" Language="SFX">
+					<ShortName>festival22piste5.wav</ShortName>
+					<Path>SFX\festival22piste5_78072B9C.wem</Path>
+				</File>
 				<File Id="369342859" Language="SFX">
 					<ShortName>Pnj_Troub_Content_03_Os.wav</ShortName>
 					<Path>SFX\Pnj_Troub_Content_03_Os_0B585075.wem</Path>
@@ -397,6 +410,10 @@
 					<ShortName>Pnj_Paysan_PasContent_02_Os.wav</ShortName>
 					<Path>SFX\Pnj_Paysan_PasContent_02_Os_0B585075.wem</Path>
 				</File>
+				<File Id="457441264" Language="SFX">
+					<ShortName>festival22piste7.wav</ShortName>
+					<Path>SFX\festival22piste7_78072B9C.wem</Path>
+				</File>
 				<File Id="466126796" Language="SFX">
 					<ShortName>musvillagepiste5.wav</ShortName>
 					<Path>SFX\musvillagepiste5_78072B9C.wem</Path>
@@ -448,6 +465,10 @@
 				<File Id="500948984" Language="SFX">
 					<ShortName>Pnj_Pecheur_Content_01_Os.wav</ShortName>
 					<Path>SFX\Pnj_Pecheur_Content_01_Os_0B585075.wem</Path>
+				</File>
+				<File Id="502120395" Language="SFX">
+					<ShortName>festival22piste1.wav</ShortName>
+					<Path>SFX\festival22piste1_78072B9C.wem</Path>
 				</File>
 				<File Id="503034905" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-005.wav</ShortName>
@@ -516,6 +537,10 @@
 				<File Id="561703191" Language="SFX">
 					<ShortName>sand\455062__audioninja001__footsteps-wet-sand-003.wav</ShortName>
 					<Path>SFX\sand\455062__audioninja001__footsteps-wet-sand-003_34D806F2.wem</Path>
+				</File>
+				<File Id="562238624" Language="SFX">
+					<ShortName>festival22piste6.wav</ShortName>
+					<Path>SFX\festival22piste6_78072B9C.wem</Path>
 				</File>
 				<File Id="566632568" Language="SFX">
 					<ShortName>Crate_Destroy\debris\CRATE_Destroy_DEBRIS-009.wav</ShortName>
@@ -885,6 +910,10 @@
 					<ShortName>Pnj_Artisan_Content_04_Os.wav</ShortName>
 					<Path>SFX\Pnj_Artisan_Content_04_Os_0B585075.wem</Path>
 				</File>
+				<File Id="964748613" Language="SFX">
+					<ShortName>festival22piste3.wav</ShortName>
+					<Path>SFX\festival22piste3_78072B9C.wem</Path>
+				</File>
 				<File Id="968209737" Language="SFX">
 					<ShortName>Pnj_Chaman_PasContent_02_Os.wav</ShortName>
 					<Path>SFX\Pnj_Chaman_PasContent_02_Os_0B585075.wem</Path>
@@ -968,6 +997,10 @@
 				<File Id="1062571956" Language="SFX">
 					<ShortName>stone\footsteps_Stone-005.wav</ShortName>
 					<Path>SFX\stone\footsteps_Stone-005_F3BE2A76.wem</Path>
+				</File>
+				<File Id="1064901289" Language="SFX">
+					<ShortName>festival22piste4.wav</ShortName>
+					<Path>SFX\festival22piste4_78072B9C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
