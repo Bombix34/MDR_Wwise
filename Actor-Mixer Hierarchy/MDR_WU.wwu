@@ -7933,7 +7933,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4.5</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7956,9 +7956,36 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="ENV_Door_Open" ID="{464B1A90-CB7F-4D73-B57A-A63EC80736E2}" ShortID="508721492">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>600</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RenderEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="MDR_Vorbis" ID="{88998A7A-6FC4-40BC-BDBD-740CF5B2D925}" WorkUnitID="{61B95092-13E7-4B40-86B9-7BA6B3E0C089}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_Pitch_Shifter_(Custom)" ID="{07919924-3348-46D0-998B-AA52FDDA52D4}" ShortID="890820005" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+													<PropertyList>
+														<Property Name="Pitch" Type="Real32" Value="-600"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A4CF06C-D812-46A2-858F-BBDDACC42630}"/>
@@ -7972,8 +7999,8 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.297695407278765"/>
 												<Property Name="FadeOutShape" Type="int16" Value="7"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.711983910903585"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.82755857898715"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.747959473482072"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.79877812892436"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_Door_Open_-_190206_2312.wav</AudioFile>
@@ -7996,7 +8023,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>7.5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
