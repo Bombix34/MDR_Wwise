@@ -145,7 +145,7 @@
 						<CurrentSwitchRef Name="Artisant" ID="{1209259D-04D3-4416-A16F-06616FC01B18}"/>
 						<CurrentSwitchRef Name="_gravel" ID="{42A27B5F-6377-4732-B589-967115E16623}"/>
 						<CurrentSwitchRef Name="bush" ID="{D881B1D0-8743-4861-AEBB-85F3F94E3B22}"/>
-						<CurrentSwitchRef Name="festival" ID="{CDDDDF44-4426-47D8-B4AF-09E7666A4F67}"/>
+						<CurrentSwitchRef Name="battle" ID="{B16C5808-1DB2-4D1C-92FB-044B1DE3F64B}"/>
 						<CurrentSwitchRef Name="night" ID="{113BF0F0-0AF8-4538-9072-81AFF33ADE68}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

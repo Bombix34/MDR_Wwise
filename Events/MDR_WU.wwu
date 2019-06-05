@@ -132,6 +132,10 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{ED859BEA-C7FC-496D-B87F-5EBA88CB436B}" ShortID="780797454">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Main_Music" ID="{71A702AB-5D37-47B9-BB49-A7C5B90F1DBD}" WorkUnitID="{154CD039-6579-4B05-B4C1-994F29AC482C}"/>
@@ -145,7 +149,7 @@
 								<Action Name="" ID="{8F9C6284-71D2-4DF5-8D8A-FDD33512C142}" ShortID="28804224">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="3"/>
-										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList/>
